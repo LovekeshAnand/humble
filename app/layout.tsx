@@ -30,7 +30,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${geist.variable} ${geistMono.variable}`}>
       <body className="flex min-h-dvh flex-col">
         {/* Inside <body>, as Clerk requires with cache components. Sign in is optional everywhere. */}
-        <ClerkProvider appearance={{ theme: dark, variables: { colorPrimary: "#b5f23d", colorPrimaryForeground: "#000000", colorBackground: "#181818", fontFamily: "var(--font-geist)" } }}>
+        <ClerkProvider appearance={{ theme: dark, variables: { colorPrimary: "#b5f23d", colorPrimaryForeground: "#000000", colorBackground: "#181818", fontFamily: "var(--font-geist)" },
+          // Clerk is on its development instance until a production domain is set up; hide its "Development mode" badge meanwhile.
+          options: { unsafe_disableDevelopmentModeWarnings: true } }}>
         <AccountSync />
         <a href="#main" className="skip-link">Skip to content</a>
         <Nav />
