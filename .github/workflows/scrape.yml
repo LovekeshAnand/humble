@@ -15,14 +15,15 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 24 }
-      - run: node scripts/scrape.mjs --test && node scripts/match-check.mjs
+      - run: node scripts/scrape.mjs --test && node scripts/match-check.mjs && node scripts/recommend-check.mjs
       - run: node scripts/scrape.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STACKEXCHANGE_KEY: ${{ secrets.STACKEXCHANGE_KEY }}
           HN_PAGES: ${{ inputs.hn_pages || '1' }}
       - name: commit
         run: |
-          git config user.name "hackfree-bot"
-          git config user.email "hackfree-bot@users.noreply.github.com"
+          git config user.name "humble-bot"
+          git config user.email "humble-bot@users.noreply.github.com"
           git add data
           git diff --cached --quiet || (git commit -m "data: scrape $(date -u +%F)" && git push)

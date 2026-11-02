@@ -1,0 +1,3 @@
+# Repos to keep out of the directory, one owner/repo per line.
+# Add reported listings here; the next scrape drops them.
+laylavish/uBlockOrigin-HUGE-AI-Blocklist

@@ -1,17 +1,20 @@
 "use client";
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { MagnifyingGlassIcon } from "@phosphor-icons/react";
 import { rank } from "@/lib/match";
 import { CATEGORIES } from "@/lib/categories";
-import type { LeanTool } from "@/lib/data";
-import ToolRow from "./tool-row";
+import { SOURCE_NAMES, platformOf, toolPath, type LeanTool } from "@/lib/format";
+import Avatar from "./avatar";
+import CategoryIcon from "./category-icon";
+import ToolCard from "./tool-card";
 
 const EXAMPLES = [
   "back up my photos without Google",
-  "block ads on my whole network",
   "replace Notion for my notes",
-  "self-host my own password manager",
-  "stream my movies at home",
+  "run a local LLM",
+  "self host a git server",
+  "monitor my servers",
 ];
 
 const SORTS = {
@@ -20,12 +23,13 @@ const SORTS = {
   stars: (a: LeanTool, b: LeanTool) => b.stars - a.stars,
 };
 type Sort = keyof typeof SORTS;
-const PAGE = 40;
+const PAGE = 24;
 
-export default function Directory({ tools }: { tools: LeanTool[] }) {
+export default function Directory({ tools, children }: { tools: LeanTool[]; children?: React.ReactNode }) {
   const [q, setQ] = useState("");
   const [cat, setCat] = useState("");
   const [lang, setLang] = useState("");
+  const [src, setSrc] = useState("");
   const [sort, setSort] = useState<Sort>("mentions");
   const [limit, setLimit] = useState(PAGE);
   const query = useDeferredValue(q);
@@ -37,18 +41,31 @@ export default function Directory({ tools }: { tools: LeanTool[] }) {
     setQ(p.get("q") ?? "");
     setCat(p.get("c") ?? "");
     setLang(p.get("lang") ?? "");
+    setSrc(p.get("from") ?? "");
     const s = p.get("sort");
     if (s && s in SORTS) setSort(s as Sort);
     /* eslint-enable react-hooks/set-state-in-effect */
+  }, []);
+  // "/" jumps to the search box, as on GitHub.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const el = e.target as HTMLElement;
+      if (e.key !== "/" || e.metaKey || e.ctrlKey || el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName)) return;
+      e.preventDefault();
+      document.getElementById("problem")?.focus();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
   }, []);
   useEffect(() => {
     const p = new URLSearchParams();
     if (q.trim()) p.set("q", q.trim());
     if (cat) p.set("c", cat);
     if (lang) p.set("lang", lang);
+    if (src) p.set("from", src);
     if (sort !== "mentions") p.set("sort", sort);
     window.history.replaceState(null, "", p.size ? `?${p}` : window.location.pathname);
-  }, [q, cat, lang, sort]);
+  }, [q, cat, lang, src, sort]);
 
   const langs = useMemo(() => [...new Set(tools.map((t) => t.language).filter(Boolean))].sort() as string[], [tools]);
   const rising = useMemo(
@@ -59,48 +76,54 @@ export default function Directory({ tools }: { tools: LeanTool[] }) {
   const searching = query.trim().length > 0;
   const shown = useMemo(() => {
     const pool = tools
-      .filter((t) => !cat || (t.categories as string[]).includes(cat))
-      .filter((t) => !lang || t.language === lang);
+      .filter((t) => !cat || (t.categories as readonly string[]).includes(cat))
+      .filter((t) => !lang || t.language === lang)
+      .filter((t) => !src || t.sources.some((s) => platformOf(s) === src));
     return searching ? rank(pool, query) : [...pool].sort(SORTS[sort]);
-  }, [tools, cat, lang, sort, query, searching]);
+  }, [tools, cat, lang, src, sort, query, searching]);
 
   const reset = (fn: () => void) => { fn(); setLimit(PAGE); };
   const catName = CATEGORIES.find((c) => c.slug === cat)?.name;
 
   return (
     <>
-      <form role="search" className="mt-8" onSubmit={(e) => e.preventDefault()}>
-        <label htmlFor="problem" className="label">What are you trying to do?</label>
-        <input
-          id="problem"
-          type="search"
-          value={q}
-          onChange={(e) => reset(() => setQ(e.target.value))}
-          placeholder="e.g. back up my photos without Google"
-          autoComplete="off"
-          className="field mt-2"
-        />
+      <form role="search" className="mx-auto mt-10 max-w-3xl" onSubmit={(e) => e.preventDefault()}>
+        <label htmlFor="problem" className="visually-hidden">What are you trying to do?</label>
+        <div className="relative">
+          <MagnifyingGlassIcon size={24} className="pointer-events-none absolute top-1/2 left-4 -translate-y-1/2 text-fg-subtle" aria-hidden="true" />
+          <input
+            id="problem"
+            type="search"
+            value={q}
+            onChange={(e) => reset(() => setQ(e.target.value))}
+            placeholder="What are you trying to do?"
+            autoComplete="off"
+            className="field py-4 pr-16 pl-12"
+          />
+          <span className="kbd absolute top-1/2 right-4 -translate-y-1/2 max-sm:hidden" aria-hidden="true">/</span>
+        </div>
+        <div className="-mx-4 mt-4 flex gap-2 overflow-x-auto px-4 pb-2 sm:mx-0 sm:flex-wrap sm:justify-center sm:px-0">
+          {EXAMPLES.map((ex) => (
+            <button key={ex} type="button" className="chip shrink-0" onClick={() => reset(() => setQ(ex))}>
+              {ex}
+            </button>
+          ))}
+        </div>
       </form>
-      <div className="-mx-(--gutter) mt-3 flex items-center gap-2 overflow-x-auto px-(--gutter) pb-2 sm:mx-0 sm:flex-wrap sm:px-0">
-        <span className="label shrink-0">Try</span>
-        {EXAMPLES.map((ex) => (
-          <button key={ex} type="button" className="key key--sm shrink-0" onClick={() => reset(() => setQ(ex))}>
-            {ex}
-          </button>
-        ))}
-      </div>
 
       {!searching && !cat && rising.length > 0 && (
-        <section className="mt-14" aria-labelledby="rising">
-          <h2 id="rising" className="text-xl">Rising this month</h2>
-          <ol className="mt-4 grid gap-px overflow-hidden rounded-card border border-rule bg-rule sm:grid-cols-2 lg:grid-cols-4">
+        <section className="mt-16" aria-labelledby="rising">
+          <h2 id="rising" className="text-2xl font-semibold tracking-tight">Rising this month</h2>
+          <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {rising.map((t) => (
-              <li key={t.fullName} className="flex min-w-0 flex-col bg-paper p-5">
-                <Link href={`/tool/${t.fullName}`} className="link font-display font-medium break-words">{t.name}</Link>
-                <p className="mt-1 text-sm text-ink-2">{t.description.length > 80 ? `${t.description.slice(0, 78).trimEnd()}…` : t.description}</p>
-                <p className="mt-auto flex items-baseline gap-2 pt-4 text-sm">
-                  <span className="figure text-xl">{t.recentCount}</span>{" "}
-                  <span className="text-muted">people in the last 30 days</span>
+              <li key={t.fullName} className="relative flex flex-col gap-4 rounded-3xl border border-line bg-surface p-6 transition-colors duration-300 ease-(--ease-soft) hover:border-line-strong">
+                <Avatar fullName={t.fullName} />
+                <Link href={toolPath(t)} className="text-lg font-semibold after:absolute after:inset-0 after:rounded-3xl after:content-['']">
+                  {t.name}
+                </Link>
+                <p className="text-sm text-fg-muted">{t.description.length > 90 ? `${t.description.slice(0, 88).trimEnd()}…` : t.description}</p>
+                <p className="mt-auto text-sm text-fg-subtle">
+                  <span className="font-mono font-semibold text-save">{t.recentCount}</span> people this month
                 </p>
               </li>
             ))}
@@ -108,31 +131,32 @@ export default function Directory({ tools }: { tools: LeanTool[] }) {
         </section>
       )}
 
-      <section className="mt-14" aria-labelledby="results">
+      {!searching && !cat && children}
+
+      <section className="mt-16" aria-labelledby="results">
         <h2 id="results" className="visually-hidden">Tools</h2>
-        <div className="tray max-sm:flex-nowrap max-sm:overflow-x-auto" role="group" aria-label="Category">
-          <button type="button" className="key key--sm" aria-pressed={!cat} onClick={() => reset(() => setCat(""))}>
+        <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-2 sm:mx-0 sm:flex-wrap sm:px-0" role="group" aria-label="Category">
+          <button type="button" className="chip shrink-0" aria-pressed={!cat} onClick={() => reset(() => setCat(""))}>
             Everything
           </button>
           {CATEGORIES.map((c) => (
-            <button
-              key={c.slug}
-              type="button"
-              className="key key--sm"
-              aria-pressed={cat === c.slug}
-              onClick={() => reset(() => setCat(cat === c.slug ? "" : c.slug))}
-            >
+            <button key={c.slug} type="button" className="chip shrink-0" aria-pressed={cat === c.slug} onClick={() => reset(() => setCat(cat === c.slug ? "" : c.slug))}>
+              <CategoryIcon slug={c.slug} size={16} />
               {c.name}
             </button>
           ))}
         </div>
 
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-b border-rule pb-4">
-          <p className="text-sm text-muted" aria-live="polite">
-            <span className="num font-medium text-ink">{shown.length}</span>{" "}
+        <div className="mt-6 flex flex-wrap items-center justify-between gap-4">
+          <p className="text-sm text-fg-muted" aria-live="polite">
+            <span className="font-mono font-semibold text-fg">{shown.length}</span>{" "}
             {searching ? "tools match, best match first" : catName ? `tools in ${catName}` : "tools"}
           </p>
           <div className="flex flex-wrap gap-2">
+            <select value={src} onChange={(e) => reset(() => setSrc(e.target.value))} aria-label="Recommended on" className="select">
+              <option value="">Any community</option>
+              {SOURCE_NAMES.map((n) => <option key={n}>{n}</option>)}
+            </select>
             <select value={lang} onChange={(e) => reset(() => setLang(e.target.value))} aria-label="Language" className="select">
               <option value="">Any language</option>
               {langs.map((l) => <option key={l}>{l}</option>)}
@@ -148,21 +172,17 @@ export default function Directory({ tools }: { tools: LeanTool[] }) {
         </div>
 
         {shown.length > 0 ? (
-          <ul>
-            {shown.slice(0, limit).map((t) => <ToolRow key={t.fullName} tool={t} quote={t.quote} />)}
+          <ul className="mt-6 grid gap-4 md:grid-cols-2">
+            {shown.slice(0, limit).map((t) => <ToolCard key={t.fullName} tool={t} quote={t.quote} />)}
           </ul>
         ) : (
-          <div className="py-16">
-            <p className="font-display text-lg font-medium">
-              {tools.length === 0 ? "The directory is still filling up." : "Nothing matches that yet."}
-            </p>
-            <p className="mt-2 text-ink-2">
-              {tools.length === 0
-                ? "The scraper adds new tools every six hours."
-                : "Try other words for the same problem, or clear the filters."}
+          <div className="mt-6 rounded-3xl border border-line bg-surface p-12 text-center">
+            <p className="text-xl font-semibold">{tools.length === 0 ? "The directory is still filling up" : "Nothing matches that yet"}</p>
+            <p className="mt-2 text-fg-muted">
+              {tools.length === 0 ? "New tools arrive every six hours." : "Try other words for the same problem, or clear the filters."}
             </p>
             {tools.length > 0 && (
-              <button type="button" className="key mt-5" onClick={() => reset(() => { setQ(""); setCat(""); setLang(""); })}>
+              <button type="button" className="btn btn-secondary mt-6" onClick={() => reset(() => { setQ(""); setCat(""); setLang(""); setSrc(""); })}>
                 Clear search and filters
               </button>
             )}
@@ -171,7 +191,7 @@ export default function Directory({ tools }: { tools: LeanTool[] }) {
 
         {shown.length > limit && (
           <div className="mt-8 flex justify-center">
-            <button type="button" className="key" onClick={() => setLimit(limit + PAGE)}>
+            <button type="button" className="btn btn-secondary" onClick={() => setLimit(limit + PAGE)}>
               Show {Math.min(PAGE, shown.length - limit)} more
             </button>
           </div>

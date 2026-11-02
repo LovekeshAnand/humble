@@ -1,29 +1,9 @@
+// Server-only: imports the full dataset. Client components import from ./format instead.
 import raw from "@/data/directory.json";
-import { categoriesOf, type CategorySlug } from "./categories";
+import { categoriesOf } from "./categories";
+import { slugify, type LeanTool, type Mention, type Tool } from "./format";
 
-export type Mention = { source: string; author?: string; url: string; date: string; snippet: string };
-
-export type Tool = {
-  name: string;
-  fullName: string;
-  description: string;
-  homepage: string | null;
-  stars: number;
-  language: string | null;
-  topics: string[];
-  license: string;
-  pushedAt: string;
-  mentionCount: number;
-  recentCount?: number;
-  sources: string[];
-  lastMentioned: string;
-  listedAt?: string;
-  alternativeTo?: string[];
-  mentions: Mention[];
-};
-
-// What the home page ships to the browser: no full mention lists.
-export type LeanTool = Omit<Tool, "mentions"> & { quote: Mention | null; said: string; categories: CategorySlug[] };
+export * from "./format";
 
 const data = raw as unknown as { updatedAt: string; tools: Tool[] };
 export const updatedAt = data.updatedAt;
@@ -33,17 +13,21 @@ export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ??
   (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "http://localhost:3000");
 
-export const REPO_URL = "https://github.com/LovekeshAnand/hackfree";
-
-export const toolPath = (t: { fullName: string }) => `/tool/${t.fullName}`;
 export const findTool = (owner: string, repo: string) =>
   tools.find((t) => t.fullName.toLowerCase() === `${owner}/${repo}`.toLowerCase());
 
-export const slugify = (s: string) => s.toLowerCase().replace(/\+/g, "plus").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-
-// The quote that names the tool itself reads best; the scraper already sorts those first.
-export const quoteOf = (t: Tool, prefer?: string) =>
-  (prefer && t.mentions.find((m) => m.snippet.toLowerCase().includes(prefer.toLowerCase()))) || t.mentions[0] || null;
+// Comments read better than front-page headlines, and ones naming the tool (or the product it replaces) best.
+export const quoteOf = (t: Tool, prefer?: string) => {
+  const comments = t.mentions.filter((m) => m.source !== "HN front page");
+  const names = (m: Mention, w: string) => m.snippet.toLowerCase().includes(w.toLowerCase());
+  return (
+    (prefer && comments.find((m) => names(m, prefer))) ||
+    comments.find((m) => names(m, t.name)) ||
+    comments[0] ||
+    t.mentions[0] ||
+    null
+  );
+};
 
 export const toLean = (t: Tool): LeanTool => {
   const { mentions, ...rest } = t;
@@ -51,9 +35,11 @@ export const toLean = (t: Tool): LeanTool => {
     ...rest,
     quote: quoteOf(t),
     said: mentions.map((m) => m.snippet).join(" ").slice(0, 600),
-    categories: categoriesOf(t.topics),
+    categories: categoriesOf(t),
   };
 };
+
+export const leanTools = tools.map(toLean);
 
 export type Alternative = { slug: string; name: string; tools: Tool[] };
 
@@ -80,7 +66,3 @@ export const alternatives: Alternative[] = (() => {
 })();
 
 export const alternativesFor = (t: Tool) => alternatives.filter((a) => a.tools.includes(t));
-
-export const fmtCount = (n: number) => (n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n));
-export const fmtDate = (iso: string) =>
-  new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });

@@ -5,10 +5,16 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 
 const OUT = new URL("../data/tools.json", import.meta.url);
 const TOKEN = process.env.GITHUB_TOKEN;
-const UA = "hackfree-directory/1.0 (+https://github.com)";
+const UA = "humble-directory/1.0 (+https://github.com)";
 const MAX_ENRICH = TOKEN ? 800 : 50; // GitHub API budget per run
 const STALE_MS = 7 * 864e5; // re-fetch repo metadata weekly
 const MIN_STARS = 20; // ponytail: crude noise filter, swap for a smarter score if junk slips through
+
+// Reported junk: one "owner/repo" per line in data/blocklist.txt, "#" starts a comment.
+const BLOCKED = new Set(
+  (await readFile(new URL("../data/blocklist.txt", import.meta.url), "utf8").catch(() => ""))
+    .split(/\r?\n/).map((l) => l.replace(/#.*/, "").trim().toLowerCase()).filter(Boolean),
+);
 
 const HN_QUERIES = ["github.com", "open source alternative", "self-hosted", "I recommend"];
 // Ask HN threads where the whole thread is people recommending tools.
@@ -129,6 +135,81 @@ async function hnFrontPage() {
   return mentions;
 }
 
+const pause = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Stack Exchange "Software Recommendations": a Q&A site built for exactly this. Upvoted answers only.
+// Official API, no key needed (300 requests/day); set STACKEXCHANGE_KEY for 10,000.
+async function stackExchange() {
+  const mentions = [];
+  const key = process.env.STACKEXCHANGE_KEY ? `&key=${process.env.STACKEXCHANGE_KEY}` : "";
+  const pages = [["softwarerecs", "votes", 1], ["softwarerecs", "votes", 2], ["softwarerecs", "votes", 3], ["softwarerecs", "creation", 1], ["superuser", "votes", 1], ["superuser", "creation", 1]];
+  for (const [site, sort, page] of pages) {
+    const d = await getJSON(`https://api.stackexchange.com/2.3/answers?site=${site}&order=desc&sort=${sort}&page=${page}&filter=withbody&pagesize=100${key}`);
+    for (const a of d?.items ?? []) {
+      if (a.score < 1) continue;
+      for (const repo of extractRepos(a.body ?? "")) mentions.push({ repo, author: `se:${a.owner?.display_name ?? a.owner?.user_id}`, source: "Stack Exchange", url: `https://${site}.stackexchange.com/a/${a.answer_id}`.replace("superuser.stackexchange.com", "superuser.com"), text: strip(a.body), date: new Date(a.creation_date * 1000).toISOString() });
+    }
+    if (d?.backoff) await pause(d.backoff * 1000);
+  }
+  console.log(`Stack Exchange: ${mentions.length} mentions`);
+  return mentions;
+}
+
+// Lobsters: invite-only, HN-like. GitHub stories (a submission is an endorsement) plus comments on the hottest stories.
+async function lobsters() {
+  const mentions = [];
+  const stories = [...((await getJSON("https://lobste.rs/hottest.json")) ?? []), ...((await getJSON("https://lobste.rs/newest.json")) ?? [])];
+  for (const tag of ["show", "linux", "unix", "devops", "web", "programming"]) stories.push(...((await getJSON(`https://lobste.rs/t/${tag}.json`)) ?? []));
+  for (const s of stories) for (const repo of extractRepos(s.url ?? "")) mentions.push({ repo, author: `lobsters:${s.submitter_user}`, source: "Lobsters", url: s.short_id_url, text: s.title, date: s.created_at });
+  for (const s of stories.filter((x) => x.comment_count > 2).slice(0, 25)) {
+    const full = await getJSON(`https://lobste.rs/s/${s.short_id}.json`);
+    for (const c of full?.comments ?? []) {
+      if (c.is_deleted || !RECOMMEND.test(c.comment_plain ?? "")) continue;
+      for (const repo of extractRepos(c.comment ?? "")) mentions.push({ repo, author: `lobsters:${c.commenting_user}`, source: "Lobsters", url: c.short_id_url, text: c.comment_plain, date: c.created_at });
+    }
+    await pause(500); // small site, be gentle
+  }
+  console.log(`Lobsters: ${mentions.length} mentions`);
+  return mentions;
+}
+
+// Lemmy: federated Reddit alternative with active self-hosting and open source communities.
+const LEMMY = [["lemmy.world", "selfhosted"], ["lemmy.world", "opensource"], ["lemmy.ml", "linux"], ["lemmy.ml", "opensource"], ["programming.dev", "programming"]];
+async function lemmy() {
+  const mentions = [];
+  for (const [host, community] of LEMMY) {
+    // Newest comments for freshness, all-time top comments and posts for depth.
+    for (const sort of ["New", "Top"]) { // comments take "Top"; posts take "TopAll"
+      const d = await getJSON(`https://${host}/api/v3/comment/list?community_name=${community}&sort=${sort}&limit=50&type_=All`);
+      for (const { comment: c, creator } of d?.comments ?? []) {
+        if (c.removed || c.deleted || !RECOMMEND.test(c.content ?? "")) continue;
+        for (const repo of extractRepos(c.content)) mentions.push({ repo, author: `lemmy:${creator.actor_id ?? creator.name}`, source: "Lemmy", url: c.ap_id, text: c.content.replace(/\s+/g, " "), date: c.published });
+      }
+    }
+    const posts = await getJSON(`https://${host}/api/v3/post/list?community_name=${community}&sort=TopAll&limit=50&type_=All`);
+    for (const { post: p, creator, counts } of posts?.posts ?? []) {
+      if (p.removed || p.deleted || (counts?.score ?? 0) < 10) continue; // a shared repo the community upvoted
+      for (const repo of extractRepos(`${p.url ?? ""} ${p.body ?? ""}`)) mentions.push({ repo, author: `lemmy:${creator.actor_id ?? creator.name}`, source: "Lemmy", url: p.ap_id, text: `${p.name}${p.body ? `: ${p.body}` : ""}`.replace(/\s+/g, " "), date: p.published });
+    }
+  }
+  console.log(`Lemmy: ${mentions.length} mentions`);
+  return mentions;
+}
+
+// Fosstodon: the Mastodon server for free and open source software. Hashtag timelines, recommendation-filtered.
+async function fosstodon() {
+  const mentions = [];
+  for (const tag of ["opensource", "foss", "selfhosted", "selfhosting", "linux"]) {
+    for (const p of (await getJSON(`https://fosstodon.org/api/v1/timelines/tag/${tag}?limit=40`)) ?? []) {
+      const text = strip(p.content ?? "");
+      if (!RECOMMEND.test(text) || mentions.some((m) => m.url === p.url)) continue;
+      for (const repo of extractRepos(p.content)) mentions.push({ repo, author: `mastodon:${p.account?.acct}`, source: "Fosstodon", url: p.url, text, date: p.created_at });
+    }
+  }
+  console.log(`Fosstodon: ${mentions.length} mentions`);
+  return mentions;
+}
+
 async function enrich(fullName) {
   const headers = { Accept: "application/vnd.github+json", ...(TOKEN && { Authorization: `Bearer ${TOKEN}` }) };
   const res = await fetch(`https://api.github.com/repos/${fullName}`, { headers: { "User-Agent": UA, ...headers } }).catch(() => null);
@@ -154,13 +235,33 @@ async function main() {
   let db = { updatedAt: null, tools: {} };
   try { db = JSON.parse(await readFile(OUT, "utf8")); } catch { /* first run */ }
 
-  const mentions = [...(await hnComments()), ...(await hnAskThreads(db)), ...(await hnFrontPage())];
+  // Each source is independent: one being down never stops the others.
+  const safe = (name, fn) => fn().catch((e) => { console.warn(`${name} failed: ${e.message}`); return []; });
+  const mentions = [
+    ...(await safe("HN comments", hnComments)),
+    ...(await safe("Ask HN", () => hnAskThreads(db))),
+    ...(await safe("HN front page", hnFrontPage)),
+    ...(await safe("Stack Exchange", stackExchange)),
+    ...(await safe("Lobsters", lobsters)),
+    ...(await safe("Lemmy", lemmy)),
+    ...(await safe("Fosstodon", fosstodon)),
+  ];
 
   for (const m of mentions) {
     const t = (db.tools[m.repo] ??= { mentions: [] });
     if (t.mentions.some((x) => x.url === m.url)) continue;
     t.mentions.push({ source: m.source, author: m.author, url: m.url, date: m.date, snippet: m.text.slice(0, 280) });
   }
+
+  // Older mentions were stored before authors were; look them up, a few hundred per run.
+  const nameless = Object.values(db.tools).filter(isListed).flatMap((t) => t.mentions.filter((m) => !m.author)).slice(0, 300);
+  await Promise.all(Array.from({ length: 8 }, async () => {
+    for (let m; (m = nameless.pop()); ) {
+      const id = m.url.match(/item\?id=(\d+)/)?.[1];
+      const item = id && (await getJSON(`${HN}/items/${id}`));
+      if (item?.author) m.author = item.author;
+    }
+  }));
 
   // GitHub redirects renamed repos; key by canonical name so mentions merge.
   const queue = Object.entries(db.tools)
@@ -212,7 +313,13 @@ async function main() {
 }
 
 // Same rule the site uses: real OSS license, maintained-ish, some traction.
-export const isListed = (t) => t.meta && t.meta.license && !t.meta.archived && !t.meta.fork && t.meta.stars >= MIN_STARS;
+// Lists, guides and docs aren't software. ponytail: name/description heuristic, extend the patterns as junk shows up.
+export const isSoftware = (m) =>
+  !/^awesome/i.test(m.name) &&
+  !/curated list|awesome list|list of (awesome|resources)|blocklist/i.test(m.description ?? "") &&
+  !(!m.language && /\b(guide|documentation|norms|list|rules|index)\b/i.test(m.description ?? ""));
+
+export const isListed = (t) => t.meta && t.meta.license && !t.meta.archived && !t.meta.fork && t.meta.stars >= MIN_STARS && isSoftware(t.meta) && !BLOCKED.has(t.meta.fullName?.toLowerCase());
 
 if (process.argv[2] === "--test") {
   const assert = (await import("node:assert")).default;
@@ -220,6 +327,10 @@ if (process.argv[2] === "--test") {
   assert.deepEqual(extractRepos("https://github.com/foo/bar.git and github.com/orgs/x and github.com/a/b."), ["foo/bar", "a/b"]);
   assert.ok(RECOMMEND.test("I've been using Jellyfin for years"));
   assert.ok(!isListed({ meta: { license: null, stars: 999 } }));
+  assert.ok(!isSoftware({ name: "awesome-shell", description: "A curated list of shell tools", language: null }));
+  assert.ok(!isSoftware({ name: "YubiKey-Guide", description: "Community guide to using YubiKey", language: null }));
+  assert.ok(isSoftware({ name: "immich", description: "Self-hosted photo management", language: "TypeScript" }));
+  assert.ok(isSoftware({ name: "catj", description: "Displays JSON files in a flat format.", language: null }));
   assert.deepEqual(extractAlternatives("Immich is a great alternative to Google Photos. I switched from Dropbox to Syncthing"), ["Google Photos", "Dropbox"]);
   assert.deepEqual(extractAlternatives("I use it instead of The cloud, replacing Notion. It works"), ["Notion"]);
   console.log("ok");

@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { alternatives, quoteOf } from "@/lib/data";
-import ToolRow from "../../tool-row";
+import { ArrowLeftIcon } from "@phosphor-icons/react/dist/ssr";
+import ToolCard from "../../tool-card";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -17,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!a) return {};
   return {
     title: `Open source alternatives to ${a.name}`,
-    description: `${a.tools.length} free, open source alternatives to ${a.name} that Hacker News commenters recommend: ${a.tools
+    description: `${a.tools.length} free, open source alternatives to ${a.name} that people recommend: ${a.tools
       .slice(0, 4)
       .map((t) => t.name)
       .join(", ")}.`,
@@ -29,18 +30,22 @@ export default async function AlternativePage({ params }: Props) {
   const a = find((await params).slug);
   if (!a) notFound();
   return (
-    <main className="shell pt-10 sm:pt-14">
-      <nav aria-label="Breadcrumb" className="text-sm text-muted">
-        <Link href="/alternatives" className="link">Alternatives</Link>
-        <span aria-hidden="true"> / </span>
-        <span>{a.name}</span>
+    <main className="shell pt-8 sm:pt-12">
+      <nav aria-label="Breadcrumb">
+        <Link href="/alternatives" className="inline-flex items-center gap-2 text-sm text-fg-muted transition-colors duration-300 ease-(--ease-soft) hover:text-fg">
+          <ArrowLeftIcon size={16} aria-hidden="true" /> All alternatives
+        </Link>
       </nav>
-      <h1 className="mt-4 text-3xl sm:text-[2.5rem]">Open source alternatives to {a.name}</h1>
-      <p className="lead mt-3 text-ink-2">
-        {a.tools.length} tools Hacker News commenters use instead, most recommended first.
-      </p>
-      <ul className="mt-8 border-t border-rule">
-        {a.tools.map((t) => <ToolRow key={t.fullName} tool={t} quote={quoteOf(t, a.name)} />)}
+      <div className="mt-8 text-center">
+        <h1 className="text-hero mx-auto max-w-[680px] text-4xl font-semibold tracking-tight sm:text-5xl">
+          Open source alternatives
+          <br />
+          to {a.name}
+        </h1>
+        <p className="mx-auto mt-6 max-w-[680px] text-lg text-fg-muted">{a.tools.length} tools people switched to, most recommended first.</p>
+      </div>
+      <ul className="mt-12 grid gap-4 md:grid-cols-2">
+        {a.tools.map((t) => <ToolCard key={t.fullName} tool={t} quote={quoteOf(t, a.name)} />)}
       </ul>
     </main>
   );

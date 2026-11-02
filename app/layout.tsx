@@ -1,45 +1,52 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Familjen_Grotesk, IBM_Plex_Sans, JetBrains_Mono } from "next/font/google";
-import { REPO_URL, SITE_URL, fmtDate, updatedAt } from "@/lib/data";
+import { Geist, Geist_Mono } from "next/font/google";
+import { CONTACT, SITE_URL, SUGGEST_URL, fmtDate, updatedAt } from "@/lib/data";
+import ExtLink from "./ext-link";
+import Nav from "./nav";
 import "./globals.css";
 
-const familjen = Familjen_Grotesk({ variable: "--font-familjen", subsets: ["latin"], weight: ["500", "600"] });
-const plex = IBM_Plex_Sans({ variable: "--font-plex", subsets: ["latin"], weight: ["400", "500"] });
-const jetbrains = JetBrains_Mono({ variable: "--font-jetbrains", subsets: ["latin"], weight: ["400"] });
+const geist = Geist({ variable: "--font-geist", subsets: ["latin"] });
+const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "hackfree: open source tools Hacker News recommends", template: "%s | hackfree" },
+  title: { default: "humble: open source tools people actually use", template: "%s | humble" },
   description:
-    "Describe your problem and find the free, open source tools Hacker News commenters keep recommending, with their own words and links to every comment.",
+    "Swipe through free, open source tools recommended on Hacker News, Stack Exchange, Lobsters, Lemmy and Fosstodon. Save the ones you like and keep their links.",
   alternates: { types: { "application/rss+xml": "/feed.xml" } },
-  openGraph: { siteName: "hackfree", type: "website" },
+  openGraph: { siteName: "humble", type: "website" },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${familjen.variable} ${plex.variable} ${jetbrains.variable}`}>
+    <html lang="en" className={`${geist.variable} ${geistMono.variable}`}>
       <body className="flex min-h-dvh flex-col">
-        <header className="border-b border-rule">
-          <nav className="shell flex min-h-14 items-center justify-between gap-4" aria-label="Main">
-            <Link href="/" className="font-display text-lg font-semibold tracking-tight">
-              hackfree
-            </Link>
-            <div className="flex items-center gap-5 text-sm">
-              <Link href="/alternatives" className="link">Alternatives</Link>
-              <a href="/feed.xml" className="link">RSS</a>
+        <a href="#main" className="skip-link">Skip to content</a>
+        <Nav />
+        <div id="main" tabIndex={-1} className="flex-1 pt-24 outline-none">{children}</div>
+        <footer className="mt-24 border-t border-line">
+          <div className="shell grid gap-8 py-12 text-sm sm:grid-cols-[minmax(0,1fr)_auto]">
+            <div>
+              <p className="text-base font-semibold">humble</p>
+              <p className="mt-2 max-w-md text-fg-muted">
+                Built from public discussions on Hacker News, Stack Exchange, Lobsters, Lemmy and Fosstodon, through
+                their official APIs. Licences and stars from GitHub. Updated {fmtDate(updatedAt)}.
+              </p>
+              <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-fg-muted">
+                <li><a href={SUGGEST_URL} className="link hover:text-fg">Suggest a tool</a></li>
+                <li><Link href="/privacy" className="link hover:text-fg">Privacy</Link></li>
+              </ul>
             </div>
-          </nav>
-        </header>
-        <div className="flex-1">{children}</div>
-        <footer className="mt-24 border-t border-rule">
-          <div className="shell grid gap-2 py-8 text-sm text-muted sm:grid-cols-[1fr_auto]">
-            <p>
-              Built from public Hacker News comments through the HN Algolia API. Licences and stars from GitHub.
-              Updated {fmtDate(updatedAt)}.
-            </p>
-            <a href={REPO_URL} className="link">Source on GitHub</a>
+            <div>
+              <p className="font-semibold">Made by {CONTACT.name}</p>
+              <ul className="mt-2 flex flex-col gap-2 text-fg-muted" aria-label="Contact">
+                <li><a href={`mailto:${CONTACT.email}`} className="link hover:text-fg">{CONTACT.email}</a></li>
+                <li><ExtLink href={CONTACT.x} className="link hover:text-fg">X</ExtLink></li>
+                <li><ExtLink href={CONTACT.linkedin} className="link hover:text-fg">LinkedIn</ExtLink></li>
+              </ul>
+            </div>
           </div>
         </footer>
       </body>
