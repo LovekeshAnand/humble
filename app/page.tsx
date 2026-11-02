@@ -1,18 +1,14 @@
-import data from "@/data/directory.json";
-import Directory, { type Tool } from "./directory";
+import { tools, toLean } from "@/lib/data";
+import Directory from "./directory";
 
 export default function Home() {
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 py-10">
-      <h1 className="text-3xl font-bold tracking-tight">hackfree</h1>
-      <p className="mt-2 max-w-2xl opacity-70">
-        Free, open source software that real people recommend on Hacker News: in comments, in Ask HN threads and on the front page. Describe your problem and get the tools people vouch for. Collected
-        automatically and licence-checked against GitHub.
+    <main className="shell pt-12 sm:pt-16">
+      <h1 className="text-3xl sm:text-[2.5rem]">Software Hacker News keeps recommending</h1>
+      <p className="lead mt-3 text-ink-2">
+        Describe your problem. Get the open source tools commenters vouch for.
       </p>
-      <p className="mt-1 text-xs opacity-50">Last updated {new Date(data.updatedAt).toUTCString()}</p>
-      <div className="mt-6">
-        <Directory tools={data.tools as Tool[]} />
-      </div>
+      <Directory tools={tools.map(toLean)} />
     </main>
   );
 }

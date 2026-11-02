@@ -8,7 +8,7 @@ export type Searchable = {
   topics: string[];
   stars: number;
   mentionCount: number;
-  mentions: { snippet: string }[];
+  said: string; // what commenters wrote about it
 };
 
 const STOP = new Set("a an the and or but i im i'm me my we our you your to for of in on at by with from without is are was be been being it its this that these those need want looking way some any something tool app software program good best free open source alternative alternatives replace replacement instead can could should would how what which who do does like use using just also there their so not no".split(" "));
@@ -63,7 +63,7 @@ export function rank<T extends Searchable>(tools: T[], query: string): T[] {
     const name = bag(`${t.name} ${t.fullName.replace("/", " ")}`);
     const topics = bag(t.topics.join(" ").replace(/-/g, " ") + " " + t.topics.join(" "));
     const desc = bag(t.description);
-    const said = bag(t.mentions.map((m) => m.snippet).join(" "));
+    const said = bag(t.said);
     let score = 0, hits = 0;
     for (const w of q) {
       let s = 6 * +has(name, w) + 4 * +has(topics, w) + 3 * +has(desc, w) + 1 * +has(said, w);

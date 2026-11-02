@@ -12,6 +12,14 @@ Self-updating directory of free, open source software that people recommend on H
 
 No backend: the site is fully static Next.js.
 
+## Pages
+
+- `/`: describe a problem, get matching tools. Rising this month, categories, language filter. Searches live in the URL (`/?q=block+ads`), so they can be shared.
+- `/tool/<owner>/<repo>`: every tool gets a page with its HN quotes, facts and similar tools.
+- `/alternatives/<product>`: "open source alternatives to Notion" pages, built from comments like "I switched from Notion to X". A product gets a page once two tools are named.
+- `/feed.xml`: RSS of tools newly added to the directory.
+- `/sitemap.xml`, `/robots.txt` for search engines. Set `NEXT_PUBLIC_SITE_URL` once you have a domain; on Vercel it falls back to the production URL.
+
 ## Setup
 
 ```bash

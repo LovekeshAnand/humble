@@ -7,7 +7,7 @@ assert.equal(stem("shared"), stem("share"));
 assert.equal(stem("self-hosted"), stem("self-host"));
 assert.deepEqual(terms("I need a way to back up my photos"), ["back", "up", "photo"]);
 
-const tool = (name, description, topics, extra = {}) => ({ name, fullName: `x/${name}`, description, topics, stars: 100, mentionCount: 1, mentions: [], ...extra });
+const tool = (name, description, topics, extra = {}) => ({ name, fullName: `x/${name}`, description, topics, stars: 100, mentionCount: 1, said: "", ...extra });
 const tools = [
   tool("immich", "High performance self-hosted photo and video management", ["photos", "self-hosted", "google-photos-alternative"]),
   tool("jellyfin", "The Free Software Media System", ["media-server", "movies"]),

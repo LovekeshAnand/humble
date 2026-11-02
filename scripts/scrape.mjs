@@ -33,6 +33,21 @@ export function extractRepos(text) {
   return [...out];
 }
 
+// "an alternative to Google Photos", "switched from Notion" -> ["Google Photos", "Notion"].
+// ponytail: capitalised-name regex; misses lowercase names, an NER model would catch more.
+const NOT_NAMES = new Set("I The It It's This That These Those My Our Your Their His Her We You They A An Something Anything Everything Them Using Other Most Some All Any What Which There Here One Just Even When If So Then Also Both Each Many Much More Free Open Self Every".split(" "));
+export function extractAlternatives(text) {
+  const out = new Set();
+  for (const m of text.matchAll(/\b(?:alternatives? to|replacements? for|replaced|replacing|replace|instead of|switched (?:away )?from|moved (?:away )?from|migrated (?:away )?from|ditched|got rid of)\s+([A-Z][A-Za-z0-9.+&-]*(?: [A-Z][A-Za-z0-9.+&-]*)?)/g)) {
+    const [first, second] = m[1].split(" ");
+    const keepSecond = second && !NOT_NAMES.has(second) && !first.endsWith("."); // "Notion. It" is a sentence break
+    const name = (keepSecond ? `${first} ${second}` : first).replace(/[.]+$/, "");
+    if (NOT_NAMES.has(first) || name.length < 2) continue;
+    out.add(name);
+  }
+  return [...out];
+}
+
 const strip = (html) => html.replace(/<[^>]+>/g, " ").replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&gt;/g, ">").replace(/&lt;/g, "<").replace(/&#x2F;/g, "/").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
 
 async function getJSON(url, headers = {}) {
@@ -170,18 +185,28 @@ async function main() {
   for (const t of Object.values(db.tools)) {
     t.mentions.sort((a, b) => b.date.localeCompare(a.date));
     t.mentions = t.mentions.slice(0, 50);
+    if (isListed(t)) t.listedAt ??= new Date().toISOString();
   }
   db.updatedAt = new Date().toISOString();
   await mkdir(new URL("../data/", import.meta.url), { recursive: true });
   await writeFile(OUT, JSON.stringify(db, null, 1));
   // Public, trimmed list the site imports.
-  const listed = Object.values(db.tools).filter(isListed).map((t) => ({
-    ...t.meta,
-    mentionCount: new Set(t.mentions.map((m) => m.author ?? m.url)).size, // distinct people, not raw spam count
-    sources: [...new Set(t.mentions.map((m) => m.source))],
-    lastMentioned: t.mentions[0].date,
-    mentions: t.mentions.slice(0, 5),
-  }));
+  const people = (ms) => new Set(ms.map((m) => m.author ?? m.url)).size; // distinct people, not raw spam count
+  const monthAgo = new Date(Date.now() - 30 * 864e5).toISOString();
+  const listed = Object.values(db.tools).filter(isListed).map((t) => {
+    // Only trust an "alternative to X" claim when the comment names this tool itself.
+    const own = t.mentions.filter((m) => m.snippet.toLowerCase().includes(t.meta.name.toLowerCase()));
+    return {
+      ...t.meta,
+      mentionCount: people(t.mentions),
+      recentCount: people(t.mentions.filter((m) => m.date >= monthAgo)),
+      sources: [...new Set(t.mentions.map((m) => m.source))],
+      lastMentioned: t.mentions[0].date,
+      listedAt: t.listedAt,
+      alternativeTo: [...new Set(own.flatMap((m) => extractAlternatives(m.snippet)))],
+      mentions: [...own, ...t.mentions.filter((m) => !own.includes(m))].slice(0, 8),
+    };
+  });
   await writeFile(new URL("../data/directory.json", import.meta.url), JSON.stringify({ updatedAt: db.updatedAt, tools: listed }));
   console.log(`Saved. ${Object.keys(db.tools).length} repos tracked, ${listed.length} listed.`);
 }
@@ -195,5 +220,7 @@ if (process.argv[2] === "--test") {
   assert.deepEqual(extractRepos("https://github.com/foo/bar.git and github.com/orgs/x and github.com/a/b."), ["foo/bar", "a/b"]);
   assert.ok(RECOMMEND.test("I've been using Jellyfin for years"));
   assert.ok(!isListed({ meta: { license: null, stars: 999 } }));
+  assert.deepEqual(extractAlternatives("Immich is a great alternative to Google Photos. I switched from Dropbox to Syncthing"), ["Google Photos", "Dropbox"]);
+  assert.deepEqual(extractAlternatives("I use it instead of The cloud, replacing Notion. It works"), ["Notion"]);
   console.log("ok");
 } else await main();
