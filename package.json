@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/scrape.mjs --test && node scripts/match-check.mjs && node scripts/recommend-check.mjs",
+    "scrape": "node scripts/scrape.mjs"
   },
   "dependencies": {
     "@clerk/nextjs": "^7.9.23",

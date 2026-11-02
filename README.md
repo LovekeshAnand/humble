@@ -1,44 +1,154 @@
-# humble
+<p align="center">
+  <a href="https://humble.kelados.in">
+    <img src=".github/banner.png" alt="humble: swipe right on your next tool. Open source tools developers recommend on Hacker News, Stack Exchange, Lobsters, Lemmy and Fosstodon." width="100%">
+  </a>
+</p>
 
-Swipe right on your next tool. humble deals you free, open source tools that developers recommend in public, one card at a time. Save what you like, skip what you don't, and keep every link.
+<p align="center">
+  <a href="https://humble.kelados.in"><strong>humble.kelados.in</strong></a>
+  ·
+  <a href="https://github.com/LovekeshAnand/humble/issues/new?labels=bug">Report a bug</a>
+  ·
+  <a href="https://github.com/LovekeshAnand/humble/issues/new?labels=enhancement">Request a feature</a>
+  ·
+  <a href="CONTRIBUTING.md">Contribute</a>
+</p>
 
-## Where the tools come from
+<p align="center">
+  <img alt="Next.js 16" src="https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white">
+  <img alt="Tailwind CSS 4" src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white">
+  <img alt="Data refreshed every 6 hours" src="https://img.shields.io/badge/data-refreshed_every_6h-b5f23d">
+</p>
 
-`scripts/scrape.mjs` reads public discussions through each site's official API, no keys needed:
+---
 
-- **Hacker News** (Algolia API): recent comments, every comment in popular Ask HN threads, GitHub repos that reached the front page.
-- **Stack Exchange**: upvoted answers on Software Recommendations and Super User. Optional `STACKEXCHANGE_KEY` secret raises the daily quota.
-- **Lobsters**: GitHub stories plus comments on the hottest stories.
-- **Lemmy**: selfhosted, opensource, linux and programming communities.
-- **Fosstodon**: Mastodon hashtag timelines for open source and self hosting.
+The best tool recommendations are buried in comment threads. Someone on Hacker News writes *"I've been using X for three years, it's great"*, the thread scrolls away, and nobody finds X again.
 
-It keeps comments that read like a recommendation, pulls out `github.com/owner/repo` links and checks each repo on GitHub. A repo is listed only if it has an open source licence, isn't archived or a fork, has 20+ stars, and isn't a list, guide or on `data/blocklist.txt`. "Recommended by" counts distinct people.
+**humble** collects those recommendations from developer communities, keeps the ones that point at real open source projects, and deals them to you one card at a time. Swipe right to save, left to skip. The deck learns what you like.
 
-`.github/workflows/scrape.yml` runs every 6 hours and commits the data; Vercel redeploys on each push. No backend: the site is static Next.js, and saves live in the visitor's browser.
+## Features
 
-## Pages
+- **Swipe deck.** Drag, tap or use the arrow keys. A GitHub style star pops on every save, undo brings back the last card, and a short guided tour explains it all on the first visit.
+- **Recommendations that learn.** Every save and skip tunes the next card toward the categories, topics and languages you like, with a little exploration so the deck never collapses into one niche.
+- **Real quotes, real people.** Every card shows what someone actually said about the tool, with a link back to the original comment. "Recommended by" counts distinct people, so self promotion cannot inflate it.
+- **Search by problem.** Type *"back up my photos without Google"* and get Immich and Ente. Rare words count more than common ones, so results stay on topic.
+- **Saved list you can take with you.** Copy as Markdown, download a `.md` file, or share a link to the whole list.
+- **Optional accounts.** Works without signing in. Sign in and your saves sync across every device.
+- **Pages for everything.** A page per tool, 14 categories, and "open source alternatives to X" pages built from comments like *"I switched from Notion to…"*.
+- **Accessible.** Keyboard first, screen reader labels, visible focus, reduced motion respected throughout.
 
-- `/`: landing page with a preview of the deck.
-- `/swipe`: the deck. Drag or use ← → keys; Backspace undoes. A GitHub star pops on every save. The next card is picked by `lib/recommend.ts` from your saves and skips. First visit gets an interest picker and a short guided tour.
-- `/saved`: saved tools with GitHub and website links. Copy as Markdown, download, or share a link.
-- `/search`: describe a problem, get matching tools (`lib/match.ts`). Searches live in the URL.
-- `/categories` and `/categories/<slug>`: 14 categories from GitHub topics and descriptions (`lib/categories.ts`).
-- `/tool/<owner>/<repo>`, `/alternatives/<product>`: a page per tool, and "alternatives to X" pages.
-- `/feed.xml`, `/sitemap.xml`, `/robots.txt`. Set `NEXT_PUBLIC_SITE_URL` once you have a domain.
+## How it works
 
-## Setup
-
-```bash
-npm install
-npm run dev
-node scripts/scrape.mjs --test      # scraper self-check
-node scripts/match-check.mjs        # search matcher check
-node scripts/recommend-check.mjs    # swipe recommender check
-node scripts/scrape.mjs             # scrape (set GITHUB_TOKEN locally, otherwise 50 repos per run)
+```mermaid
+flowchart LR
+  A[Hacker News<br/>Stack Exchange<br/>Lobsters<br/>Lemmy<br/>Fosstodon] -->|official APIs| B[scripts/scrape.mjs]
+  B -->|recommendation filter<br/>GitHub link extraction| C[GitHub API check]
+  C -->|open source licence<br/>not archived, 20+ stars<br/>not a list or guide| D[(data/directory.json)]
+  D --> E[Next.js site]
+  F[GitHub Actions<br/>every 6 hours] --> B
+  D -->|commit| G[Vercel deploy]
 ```
 
-"Suggest a tool" and "Report this listing" open a pre-filled email to the maintainer; GitHub issues work too. To drop a reported listing, add its `owner/repo` to `data/blocklist.txt`; the next scrape removes it.
+1. **Collect.** `scripts/scrape.mjs` reads public discussions through each community's official API. No keys are required.
+2. **Filter.** It keeps comments that read like a recommendation and pulls out `github.com/owner/repo` links.
+3. **Verify.** Each repo is checked on GitHub. It is listed only if it has an open source licence, is not archived or a fork, has at least 20 stars, and is not a list, guide or reported listing (`data/blocklist.txt`).
+4. **Publish.** A GitHub Actions workflow runs the scraper every six hours and commits the data. Vercel redeploys on every commit.
 
-## Accounts (optional)
+| Source | What humble reads |
+|---|---|
+| Hacker News | Recent comments, every comment in popular Ask HN threads, GitHub repos that reached the front page |
+| Stack Exchange | Upvoted answers on Software Recommendations and Super User |
+| Lobsters | GitHub stories, plus comments on the hottest stories |
+| Lemmy | selfhosted, opensource, linux and programming communities |
+| Fosstodon | Hashtag timelines for open source and self hosting |
 
-Sign in is handled by Clerk; signed in users' saves live in Neon Postgres (`lib/db.ts`, table `saves`). Both were added through the Vercel Marketplace, which sets their environment variables on the project. Locally: `vercel env pull --yes`, then `node --env-file=.env.local scripts/db-setup.mjs` once (the API also creates the table on first use). Visitors who never sign in keep saves in their browser.
+## Tech stack
+
+| Layer | Choice |
+|---|---|
+| Framework | [Next.js 16](https://nextjs.org) (App Router, Cache Components), React 19, TypeScript |
+| Styling | [Tailwind CSS 4](https://tailwindcss.com), [Geist](https://vercel.com/font), [Phosphor Icons](https://phosphoricons.com) |
+| Accounts | [Clerk](https://clerk.com) (optional sign in) |
+| Database | [Neon](https://neon.tech) Postgres, for signed in users' saves |
+| Hosting | [Vercel](https://vercel.com) |
+| Data pipeline | Node.js script on GitHub Actions |
+
+## Getting started
+
+**Requirements:** Node.js 20.9 or newer (CI uses Node 24).
+
+```bash
+git clone https://github.com/LovekeshAnand/humble.git
+cd humble
+npm install
+npm run dev
+```
+
+Open http://localhost:3000. The repo ships with a recent dataset in `data/`, so the site works immediately. Swiping, search and browser saves need no configuration.
+
+### Environment variables
+
+All of these are optional. Without them the site runs with browser only saves and no analytics.
+
+| Variable | Used for |
+|---|---|
+| `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY` | Optional sign in |
+| `DATABASE_URL` | Neon Postgres connection for synced saves |
+| `NEXT_PUBLIC_SITE_URL` | Canonical site address for the sitemap, RSS and link previews |
+| `NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_CLARITY_ID` | Google Analytics and Microsoft Clarity (production only) |
+| `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | Google Search Console HTML tag |
+| `GITHUB_TOKEN` | Higher GitHub API limit when running the scraper |
+| `STACKEXCHANGE_KEY` | Higher Stack Exchange API quota |
+
+With a linked Vercel project, `vercel env pull --yes` writes them to `.env.local`. To create the saves table once, run `node --env-file=.env.local scripts/db-setup.mjs` (the API also creates it on first use).
+
+### Scripts
+
+| Command | What it does |
+|---|---|
+| `npm run dev` | Start the development server |
+| `npm run build` | Production build |
+| `npm run lint` | ESLint |
+| `npm run typecheck` | TypeScript, no output |
+| `npm test` | Self checks for the scraper, the search matcher and the recommender |
+| `npm run scrape` | Run the scraper locally and refresh `data/` |
+
+## Project structure
+
+```text
+app/                    Pages and UI (App Router)
+  deck.tsx              The swipe deck, star burst and guided tour
+  directory.tsx         Search by problem, filters and results
+  api/saves/route.ts    Signed in users' saves (Clerk + Neon)
+lib/
+  match.ts              Search ranking: rarity weighted, phrase aware
+  recommend.ts          Next card selection from saves and skips
+  categories.ts         Category keywords
+  saved.ts              Browser saves store
+  db.ts                 Neon queries
+scripts/
+  scrape.mjs            The data pipeline
+  *-check.mjs           Self checks run by npm test and CI
+data/
+  directory.json        What the site renders (written by the scraper)
+  tools.json            Full scraper state
+  blocklist.txt         Repos kept out of the directory
+.github/workflows/      Scheduled scrape
+```
+
+## Data and attribution
+
+Quotes belong to their authors and are shown with a link to the original post. Stack Exchange content is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Repository details come from the GitHub API, and avatars from GitHub's avatar service. To remove a listing, open an issue or email the maintainer; reported repos go into `data/blocklist.txt`.
+
+## Contributing
+
+Contributions are welcome, from a new category keyword to a whole new source. Read [CONTRIBUTING.md](CONTRIBUTING.md) to get set up.
+
+## License
+
+See [LICENSE](LICENSE).
+
+## Author
+
+Built by **Lovekesh Anand**. [X](https://x.com/LovekeshAnand07) · [LinkedIn](https://www.linkedin.com/in/lovekesh-anand-443138318/) · [lovekeshanand6@gmail.com](mailto:lovekeshanand6@gmail.com)
