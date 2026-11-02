@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Show, SignInButton, UserButton } from "@clerk/nextjs";
+import { GithubLogoIcon } from "@phosphor-icons/react";
+import { REPO_URL } from "@/lib/format";
 import { useSaved } from "@/lib/saved";
 
 const LINKS = [
@@ -74,6 +76,15 @@ export default function Nav() {
             <Show when="signed-in">
               <span className="hidden sm:inline-flex"><UserButton /></span>
             </Show>
+            <a
+              href={REPO_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="humble on GitHub (opens in a new tab)"
+              className="grid size-9 place-items-center rounded-full text-fg-muted transition-colors duration-300 ease-(--ease-soft) hover:bg-raised hover:text-fg"
+            >
+              <GithubLogoIcon size={20} aria-hidden="true" />
+            </a>
             {saved}
             <button
               type="button"
@@ -108,6 +119,11 @@ export default function Nav() {
               </Link>
             </li>
           ))}
+          <li className="menu-item" style={{ animationDelay: "240ms" }}>
+            <a href={REPO_URL} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="flex items-center gap-3 py-2 text-3xl font-semibold text-fg-muted">
+              <GithubLogoIcon size={28} aria-hidden="true" /> GitHub<span className="visually-hidden"> (opens in a new tab)</span>
+            </a>
+          </li>
           <li className="menu-item mt-6" style={{ animationDelay: "300ms" }}>
             <Show when="signed-out">
               <SignInButton mode="modal">

@@ -37,7 +37,7 @@ node scripts/recommend-check.mjs    # swipe recommender check
 node scripts/scrape.mjs             # scrape (set GITHUB_TOKEN locally, otherwise 50 repos per run)
 ```
 
-"Suggest a tool" and "Report this listing" open a pre-filled email to the maintainer (the repo is private, so visitors cannot open GitHub issues). To drop a reported listing, add its `owner/repo` to `data/blocklist.txt`; the next scrape removes it.
+"Suggest a tool" and "Report this listing" open a pre-filled email to the maintainer; GitHub issues work too. To drop a reported listing, add its `owner/repo` to `data/blocklist.txt`; the next scrape removes it.
 
 ## Accounts (optional)
 

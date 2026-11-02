@@ -26,6 +26,9 @@ export type Tool = {
 // What pages ship to the browser: one quote instead of every mention.
 export type LeanTool = Omit<Tool, "mentions"> & { quote: Mention | null; said: string; categories: CategorySlug[] };
 
+// humble is open source.
+export const REPO_URL = "https://github.com/LovekeshAnand/humble";
+
 export const CONTACT = {
   name: "Lovekesh Anand",
   email: "lovekeshanand6@gmail.com",
@@ -33,7 +36,7 @@ export const CONTACT = {
   linkedin: "https://www.linkedin.com/in/lovekesh-anand-443138318/",
 };
 
-// No backend and a private repo: suggestions and reports are pre-filled emails.
+// Suggestions and reports are pre-filled emails, so people without a GitHub account can send them too.
 const issue = (subject: string, body: string) =>
   `mailto:${CONTACT.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 export const SUGGEST_URL = issue(

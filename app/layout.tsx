@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
-import { CONTACT, SITE_URL, SUGGEST_URL, fmtDate, updatedAt } from "@/lib/data";
+import { CONTACT, REPO_URL, SITE_URL, SUGGEST_URL, fmtDate, updatedAt } from "@/lib/data";
 import ExtLink from "./ext-link";
 import AccountSync from "./account-sync";
 import Analytics from "./analytics";
@@ -47,6 +47,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </p>
               <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-fg-muted">
                 <li><a href={SUGGEST_URL} className="link hover:text-fg">Suggest a tool</a></li>
+                <li><ExtLink href={REPO_URL} className="link hover:text-fg">Open source on GitHub</ExtLink></li>
                 <li><Link href="/privacy" className="link hover:text-fg">Privacy</Link></li>
               </ul>
             </div>

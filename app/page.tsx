@@ -16,6 +16,7 @@ const FAQ = [
   { q: "What does \"recommended by\" count?", a: "Distinct people. If one person mentions a tool ten times, it counts once, so self promotion cannot push a tool up." },
   { q: "Do I need an account?", a: "No. Without an account, your saves stay in this browser. Sign in (email, Google or GitHub through Clerk) and they sync to every device you use." },
   { q: "How does the deck pick the next card?", a: "It scores every tool you have not seen by the categories, topics and language of tools you saved or skipped, plus how many people vouch for it. Now and then it shows a well loved tool from outside your taste." },
+  { q: "Is humble open source?", a: "Yes. The site, the scraper and the recommender are all on GitHub at github.com/LovekeshAnand/humble. Issues and pull requests are welcome." },
   { q: "Something is listed that should not be. What now?", a: "Open the tool's page and use Report this listing. Reported projects go on a blocklist and drop out on the next update." },
 ];
 
