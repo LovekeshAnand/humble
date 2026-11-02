@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import { CONTACT, SITE_URL, SUGGEST_URL, fmtDate, updatedAt } from "@/lib/data";
 import ExtLink from "./ext-link";
+import Analytics from "./analytics";
 import Nav from "./nav";
 import "./globals.css";
 
@@ -17,6 +18,8 @@ export const metadata: Metadata = {
   alternates: { types: { "application/rss+xml": "/feed.xml" } },
   openGraph: { siteName: "humble", type: "website" },
   twitter: { card: "summary_large_image" },
+  // Google Search Console: paste the HTML tag token into NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION on Vercel.
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } : undefined,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -49,6 +52,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
