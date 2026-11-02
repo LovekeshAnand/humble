@@ -38,3 +38,7 @@ node scripts/scrape.mjs             # scrape (set GITHUB_TOKEN locally, otherwis
 ```
 
 "Suggest a tool" and "Report this listing" open a pre-filled email to the maintainer (the repo is private, so visitors cannot open GitHub issues). To drop a reported listing, add its `owner/repo` to `data/blocklist.txt`; the next scrape removes it.
+
+## Accounts (optional)
+
+Sign in is handled by Clerk; signed in users' saves live in Neon Postgres (`lib/db.ts`, table `saves`). Both were added through the Vercel Marketplace, which sets their environment variables on the project. Locally: `vercel env pull --yes`, then `node --env-file=.env.local scripts/db-setup.mjs` once (the API also creates the table on first use). Visitors who never sign in keep saves in their browser.

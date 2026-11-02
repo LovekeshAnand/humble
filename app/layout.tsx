@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
+import { ClerkProvider } from "@clerk/nextjs";
+import { dark } from "@clerk/themes";
 import { CONTACT, SITE_URL, SUGGEST_URL, fmtDate, updatedAt } from "@/lib/data";
 import ExtLink from "./ext-link";
+import AccountSync from "./account-sync";
 import Analytics from "./analytics";
 import Nav from "./nav";
 import "./globals.css";
@@ -26,6 +29,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${geist.variable} ${geistMono.variable}`}>
       <body className="flex min-h-dvh flex-col">
+        {/* Inside <body>, as Clerk requires with cache components. Sign in is optional everywhere. */}
+        <ClerkProvider appearance={{ theme: dark, variables: { colorPrimary: "#b5f23d", colorPrimaryForeground: "#000000", colorBackground: "#181818", fontFamily: "var(--font-geist)" } }}>
+        <AccountSync />
         <a href="#main" className="skip-link">Skip to content</a>
         <Nav />
         <div id="main" tabIndex={-1} className="flex-1 pt-24 outline-none">{children}</div>
@@ -52,6 +58,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </div>
         </footer>
+        </ClerkProvider>
         <Analytics />
       </body>
     </html>

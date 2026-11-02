@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Show, SignInButton, UserButton } from "@clerk/nextjs";
 import { useSaved } from "@/lib/saved";
 
 const LINKS = [
@@ -62,6 +63,17 @@ export default function Nav() {
             ))}
           </ul>
           <div className="flex items-center gap-2">
+            {/* Optional account: keeps saves on every device. */}
+            <Show when="signed-out">
+              <SignInButton mode="modal">
+                <button type="button" className="hidden rounded-full px-3 py-1 text-sm font-medium text-fg-muted transition-colors duration-300 ease-(--ease-soft) hover:text-fg sm:inline-flex">
+                  Sign in
+                </button>
+              </SignInButton>
+            </Show>
+            <Show when="signed-in">
+              <span className="hidden sm:inline-flex"><UserButton /></span>
+            </Show>
             {saved}
             <button
               type="button"
@@ -96,6 +108,16 @@ export default function Nav() {
               </Link>
             </li>
           ))}
+          <li className="menu-item mt-6" style={{ animationDelay: "300ms" }}>
+            <Show when="signed-out">
+              <SignInButton mode="modal">
+                <button type="button" className="btn btn-secondary w-full" onClick={() => setOpen(false)}>Sign in to sync your saves</button>
+              </SignInButton>
+            </Show>
+            <Show when="signed-in">
+              <div className="flex items-center gap-3 text-fg-muted"><UserButton /> Your saves sync to your account</div>
+            </Show>
+          </li>
         </ul>
       </div>
     </>

@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^7.9.23",
+    "@clerk/themes": "^2.4.57",
+    "@neondatabase/serverless": "^1.2.0",
     "@phosphor-icons/react": "^2.1.10",
     "next": "16.4.3",
     "react": "19.3.0",

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowCounterClockwiseIcon, ArrowLeftIcon, ArrowRightIcon, BookmarkSimpleIcon, QuestionIcon, StarIcon, XIcon } from "@phosphor-icons/react";
 import { CATEGORIES } from "@/lib/categories";
 import { buildProfile, nextCard, reasonFor, seeded } from "@/lib/recommend";
+import { Show, SignInButton } from "@clerk/nextjs";
 import { saved, useSaved, type SavedState } from "@/lib/saved";
 import { authorName, cleanSnippet, fmtCount, githubUrl, platformOf, toolPath, type LeanTool } from "@/lib/format";
 import Avatar from "./avatar";
@@ -263,6 +264,15 @@ export default function Deck({ tools }: { tools: LeanTool[] }) {
         </span>
         <span className="sm:hidden">Drag the card, or tap the buttons.</span>
       </p>
+      <Show when="signed-out">
+        <p className="mt-2 text-sm text-fg-subtle">
+          Saves stay in this browser.{" "}
+          <SignInButton mode="modal">
+            <button type="button" className="link hover:text-fg-muted">Sign in</button>
+          </SignInButton>{" "}
+          to keep them on every device.
+        </p>
+      </Show>
 
       {tour !== null && <Tour step={tour} onNext={() => (tour < TOUR.length - 1 ? setTour(tour + 1) : closeTour())} onClose={closeTour} />}
     </section>

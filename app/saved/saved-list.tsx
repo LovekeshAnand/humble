@@ -6,6 +6,7 @@ import { saved, useSaved } from "@/lib/saved";
 import { fmtCount, githubUrl, toolPath, type LeanTool } from "@/lib/format";
 import Avatar from "../avatar";
 import ExtLink from "../ext-link";
+import AccountPanel from "./account-panel";
 
 const asMarkdown = (list: LeanTool[]) =>
   `# My open source tools\n\n${list
@@ -48,6 +49,8 @@ export default function SavedList({ tools }: { tools: LeanTool[] }) {
 
   if (!list.length) {
     return (
+      <>
+      {!shared && <AccountPanel />}
       <div className="mx-auto mt-12 max-w-xl rounded-3xl border border-line bg-surface p-12 text-center">
         <p className="text-xl font-semibold">{shared ? "This shared list is empty" : "Nothing saved yet"}</p>
         <p className="mt-2 text-fg-muted">Swipe right on a tool, or press Save on any tool, and it lands here with its links.</p>
@@ -56,11 +59,13 @@ export default function SavedList({ tools }: { tools: LeanTool[] }) {
           <Link href="/search" className="btn btn-secondary">Search by problem</Link>
         </div>
       </div>
+      </>
     );
   }
 
   return (
     <>
+      {!shared && <AccountPanel />}
       {shared && (
         <div className="mt-10 flex flex-wrap items-center justify-between gap-4 rounded-3xl border border-line-strong bg-raised p-6">
           <p className="font-semibold">Someone shared {list.length} tools with you.</p>
