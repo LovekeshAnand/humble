@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T21:42:43.422Z",
+ "updatedAt": "2026-11-03T06:46:05.698Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7517,9 +7517,9 @@
     "license": "GPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-02T18:50:49Z"
+    "pushedAt": "2026-11-03T03:57:45Z"
    },
-   "checkedAt": "2026-11-02T21:42:41.700Z"
+   "checkedAt": "2026-11-03T06:46:05.481Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -20822,6 +20822,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "amysox",
+     "url": "https://news.ycombinator.com/item?id=50345903",
+     "date": "2026-11-02T23:46:27Z",
+     "snippet": "Location: Aurora, CO, USA (Denver metro area) Remote: Yes Willing to relocate: No, but open to travel Technologies: Python, Java, Go, C/C++, SQL/MySQL/Oracle, Linux, network development, integrations, Developer Relations, online community Résumé/CV: https://erbosoft.com/~amy/resu"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49924673",
      "date": "2026-10-01T17:37:30Z",
      "snippet": "Location: Aurora, CO, USA (Denver metro area) Remote: Yes Willing to relocate: No, but open to travel Technologies: Python, Java, Go, C/C++, SQL/MySQL/Oracle, Linux, network development, integrations, Developer Relations, online community Résumé/CV: https://erbosoft.com/~amy/resu"
@@ -26440,6 +26447,13 @@
   },
   "mastra-ai/mastra": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "azterizm",
+     "url": "https://news.ycombinator.com/item?id=50347893",
+     "date": "2026-11-03T04:02:33.000Z",
+     "snippet": "Location: Hyderabad, Pakistan (UTC+5) Remote: Yes Willing to relocate: No Technologies: Python, TypeScript, Node.js, SGLang, PyTorch, OpenAI, Anthropic and Gemini APIs, RAG, Remix, Prisma, Redis, SQLite Résumé/CV: https://azterizm.com/Abdullah_Memon_CV.pdf Email: abdullah@azteriz"
+    },
     {
      "source": "Ask HN",
      "author": "RitaSand",
@@ -33568,7 +33582,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46485946",
      "date": "2026-01-04T08:01:28Z",
-     "snippet": "Calling Expo a paid tool with metered usage is just flat out misinformation. You can promote your preferred tech without lying about alternatives. Expo is a free open source framework that costs absolutely no money to use. You do not need to pay expo any money ever. Expo Applicat"
+     "snippet": "Calling Expo a paid tool with metered usage is just flat out misinformation. You can promote your preferred tech without lying about alternatives. Expo is a free open source framework that costs absolutely no money to use. You do not need to pay expo any money ever. Expo Applicat",
+     "author": "tcoff91"
     }
    ],
    "checkedAt": "2026-11-02T16:06:54.911Z",
@@ -33607,7 +33622,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46472600",
      "date": "2026-01-03T03:46:50Z",
-     "snippet": "I'm building Proteus, an open-source multimodal editor (think Figma meets Notion, but AI-native) where *AI writes most of the code* while I focus on architecture, technical decisions, and quality control. *Why this matters:* In 2025, tools like Cursor and Claude can write good en"
+     "snippet": "I'm building Proteus, an open-source multimodal editor (think Figma meets Notion, but AI-native) where *AI writes most of the code* while I focus on architecture, technical decisions, and quality control. *Why this matters:* In 2025, tools like Cursor and Claude can write good en",
+     "author": "gezilinll"
     }
    ],
    "checkedAt": "2026-11-02T16:06:55.257Z",
@@ -33640,7 +33656,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46469628",
      "date": "2026-01-02T21:31:59Z",
-     "snippet": "How does Buffer[0] operate then? Even an open-source alternative to Buffer, Postiz[1], offers Instagram. 0. https://buffer.com 1. https://github.com/gitroomhq/postiz-app"
+     "snippet": "How does Buffer[0] operate then? Even an open-source alternative to Buffer, Postiz[1], offers Instagram. 0. https://buffer.com 1. https://github.com/gitroomhq/postiz-app",
+     "author": "theturtletalks"
     }
    ],
    "checkedAt": "2026-11-02T16:06:55.558Z",
@@ -33676,7 +33693,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46415467",
      "date": "2025-12-28T23:12:33Z",
-     "snippet": "> Is there a point at which library maintainer feedback would meaningfully influence a by-default JVM change? Of course, but keep in mind that all these changes were and are being done in response to feedback from other users, and we need to balance the requirements of mocking fr"
+     "snippet": "> Is there a point at which library maintainer feedback would meaningfully influence a by-default JVM change? Of course, but keep in mind that all these changes were and are being done in response to feedback from other users, and we need to balance the requirements of mocking fr",
+     "author": "pron"
     },
     {
      "source": "HN front page",
@@ -33721,7 +33739,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46401856",
      "date": "2025-12-27T13:51:40Z",
-     "snippet": "This resonates with how I’ve been thinking about open source. I see the steps as: 1. Personally identify a pain in your own work, and it most likely will be a pain for many others. 2. Build a solution to solve for it. 3. Organically talk about it in forums — for me this is Reddit"
+     "snippet": "This resonates with how I’ve been thinking about open source. I see the steps as: 1. Personally identify a pain in your own work, and it most likely will be a pain for many others. 2. Build a solution to solve for it. 3. Organically talk about it in forums — for me this is Reddit",
+     "author": "d4rkp4ttern"
     },
     {
      "source": "Ask HN",
@@ -33772,7 +33791,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46401856",
      "date": "2025-12-27T13:51:40Z",
-     "snippet": "This resonates with how I’ve been thinking about open source. I see the steps as: 1. Personally identify a pain in your own work, and it most likely will be a pain for many others. 2. Build a solution to solve for it. 3. Organically talk about it in forums — for me this is Reddit"
+     "snippet": "This resonates with how I’ve been thinking about open source. I see the steps as: 1. Personally identify a pain in your own work, and it most likely will be a pain for many others. 2. Build a solution to solve for it. 3. Organically talk about it in forums — for me this is Reddit",
+     "author": "d4rkp4ttern"
     }
    ],
    "checkedAt": "2026-11-02T16:06:55.862Z",
@@ -33807,7 +33827,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46391059",
      "date": "2025-12-26T11:09:02Z",
-     "snippet": "> \"As part of the acquisition, we made an important decision: not only to keep PeerDB open source\" > \"Here goes the Open Source reference to our validation logic.\" > \"PeerDB Open Source Repository\" I hate to be that guy, but PeerDB seems to be governed by the Elastic License [1] "
+     "snippet": "> \"As part of the acquisition, we made an important decision: not only to keep PeerDB open source\" > \"Here goes the Open Source reference to our validation logic.\" > \"PeerDB Open Source Repository\" I hate to be that guy, but PeerDB seems to be governed by the Elastic License [1] ",
+     "author": "ahachete"
     }
    ],
    "checkedAt": "2026-11-02T16:06:56.137Z",
@@ -33918,7 +33939,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46337671",
      "date": "2025-12-20T17:11:52Z",
-     "snippet": "since this is on the front page (again?) I guess I'll chime in: learn kubernetes - it's worth it. It did take me 3 attempts at it to finally wrap my head around it I really suggest trying out many different things and see what works for you. And I really recommend starting with *"
+     "snippet": "since this is on the front page (again?) I guess I'll chime in: learn kubernetes - it's worth it. It did take me 3 attempts at it to finally wrap my head around it I really suggest trying out many different things and see what works for you. And I really recommend starting with *",
+     "author": "kachapopopow"
     }
    ],
    "checkedAt": "2026-11-02T16:06:57.448Z",
@@ -33964,7 +33986,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46337671",
      "date": "2025-12-20T17:11:52Z",
-     "snippet": "since this is on the front page (again?) I guess I'll chime in: learn kubernetes - it's worth it. It did take me 3 attempts at it to finally wrap my head around it I really suggest trying out many different things and see what works for you. And I really recommend starting with *"
+     "snippet": "since this is on the front page (again?) I guess I'll chime in: learn kubernetes - it's worth it. It did take me 3 attempts at it to finally wrap my head around it I really suggest trying out many different things and see what works for you. And I really recommend starting with *",
+     "author": "kachapopopow"
     }
    ],
    "checkedAt": "2026-11-02T16:06:57.766Z",
@@ -33997,7 +34020,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46284010",
      "date": "2025-12-16T02:28:56Z",
-     "snippet": "Advertise on Reddit Skip to Navigation Skip to Right Sidebar r/PydanticAI icon Go to PydanticAI r/PydanticAI • 10m ago VanillaOk4593 Pydantic-DeepAgents: Autonomous Agents with Planning, File Ops, and More in Python Excited to share a new open-source project I just released: Pyda"
+     "snippet": "Advertise on Reddit Skip to Navigation Skip to Right Sidebar r/PydanticAI icon Go to PydanticAI r/PydanticAI • 10m ago VanillaOk4593 Pydantic-DeepAgents: Autonomous Agents with Planning, File Ops, and More in Python Excited to share a new open-source project I just released: Pyda",
+     "author": "kacper-vstorm"
     }
    ],
    "checkedAt": "2026-11-02T16:06:58.093Z",
@@ -34040,7 +34064,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46278219",
      "date": "2025-12-15T18:17:55Z",
-     "snippet": "https://opaledx.com / https://github.com/rbbydotdev/opal open source browser first server-less markdown document workspace and publisher, contending to be a free obsidian alternative storage is done in indexeddb or it can utilize opfs to work on a local file directory comes with "
+     "snippet": "https://opaledx.com / https://github.com/rbbydotdev/opal open source browser first server-less markdown document workspace and publisher, contending to be a free obsidian alternative storage is done in indexeddb or it can utilize opfs to work on a local file directory comes with ",
+     "author": "rbbydotdev"
     }
    ],
    "checkedAt": "2026-11-02T16:06:58.343Z",
@@ -34103,7 +34128,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46271278",
      "date": "2025-12-15T07:05:33Z",
-     "snippet": "I have been working on a customizable AI voice dictation tool using Pipecat's framework to swap between many providers and models, including cloud or local. Started off as an open source alternative to Wispr Flow for myself as I wanted to have more control over the formatting rul"
+     "snippet": "I have been working on a customizable AI voice dictation tool using Pipecat's framework to swap between many providers and models, including cloud or local. Started off as an open source alternative to Wispr Flow for myself as I wanted to have more control over the formatting rul",
+     "author": "kstonekuan"
     }
    ],
    "checkedAt": "2026-11-02T16:06:58.997Z",
@@ -34142,7 +34168,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46266892",
      "date": "2025-12-14T21:06:29Z",
-     "snippet": "I am working (mostly vibecoded) a Git history explorer in Go+modernc.org/Tk9.0: https://github.com/thiagokokada/gitk-go . It is heavily inspired in gitk, this is why the name and usage of Tk for the interface. The reason for it was because after testing multiple Git history explo"
+     "snippet": "I am working (mostly vibecoded) a Git history explorer in Go+modernc.org/Tk9.0: https://github.com/thiagokokada/gitk-go . It is heavily inspired in gitk, this is why the name and usage of Tk for the interface. The reason for it was because after testing multiple Git history explo",
+     "author": "kokada"
     }
    ],
    "checkedAt": "2026-11-02T16:06:59.334Z",
@@ -34406,7 +34433,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46114849",
      "date": "2025-12-01T23:14:32Z",
-     "snippet": "ParadeDB | https://paradedb.com | SF Onsite + Remote | Full-Time | Rust Database Engineers ParadeDB is an alternative to Elasticsearch built on Postgres. We're building a Postgres extension in Rust that offers a new index type optimized for full-text search and aggregate/analytic"
+     "snippet": "ParadeDB | https://paradedb.com | SF Onsite + Remote | Full-Time | Rust Database Engineers ParadeDB is an alternative to Elasticsearch built on Postgres. We're building a Postgres extension in Rust that offers a new index type optimized for full-text search and aggregate/analytic",
+     "author": "philippemnoel"
     },
     {
      "source": "HN front page",
@@ -34486,7 +34514,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46075442",
      "date": "2025-11-28T04:12:05Z",
-     "snippet": "Free open-source alternative: RcloneBrowser https://github.com/kapitainsky/RcloneBrowser Speaking for myself, $9.90/year doesn't seem like good value for auto-remount on login. RcloneBrowser does everything the free RcloneView does. Meanwhile the RcloneView github is an empty rep"
+     "snippet": "Free open-source alternative: RcloneBrowser https://github.com/kapitainsky/RcloneBrowser Speaking for myself, $9.90/year doesn't seem like good value for auto-remount on login. RcloneBrowser does everything the free RcloneView does. Meanwhile the RcloneView github is an empty rep",
+     "author": "phs318u"
     }
    ],
    "checkedAt": "2026-11-02T16:07:02.438Z",
@@ -34604,7 +34633,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45881873",
      "date": "2025-11-10T22:33:29Z",
-     "snippet": "> Also think the time for a FOSS alternative is coming. Serverless without, virtually, cold starts is here to stay but being tied to only 1 vendor is problematic. Supabase Edge Functions runs on the same V8 isolate primitive as Cloudflare Workers and is fully open-source ( https:"
+     "snippet": "> Also think the time for a FOSS alternative is coming. Serverless without, virtually, cold starts is here to stay but being tied to only 1 vendor is problematic. Supabase Edge Functions runs on the same V8 isolate primitive as Cloudflare Workers and is fully open-source ( https:",
+     "author": "laktek"
     }
    ],
    "checkedAt": "2026-11-02T16:07:03.465Z",
@@ -34635,7 +34665,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45872977",
      "date": "2025-11-10T06:15:26Z",
-     "snippet": "Postbase Open source, drop-in replacement and self-hosted alternative for Firebase Using Node.js, Express.js, BetterAuth and PostgreSQL (JSONB) https://github.com/umrashrf/postbase"
+     "snippet": "Postbase Open source, drop-in replacement and self-hosted alternative for Firebase Using Node.js, Express.js, BetterAuth and PostgreSQL (JSONB) https://github.com/umrashrf/postbase",
+     "author": "umrashrf"
     }
    ],
    "checkedAt": "2026-11-02T16:07:03.760Z",
@@ -34660,7 +34691,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45788404",
      "date": "2025-11-02T07:07:51Z",
-     "snippet": "I've been looking at Atlas as an alternative to Alembic recently, it seems nice, but I'm wary of the non open source features. https://github.com/ariga/atlas"
+     "snippet": "I've been looking at Atlas as an alternative to Alembic recently, it seems nice, but I'm wary of the non open source features. https://github.com/ariga/atlas",
+     "author": "Hasnep"
     }
    ],
    "checkedAt": "2026-11-02T16:07:04.041Z",
@@ -34685,7 +34717,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45780649",
      "date": "2025-11-01T10:43:05Z",
-     "snippet": "Texo is a free and open-sourced alternative to Mathpix or SimpleTex. It uses a lite but comparable to SOTA model(only 20M parameters) I finetuned and distilled from open-source SOTA. Hope this would help the STEM/AI learners taking notes with LaTeX formula. Everything runs in you"
+     "snippet": "Texo is a free and open-sourced alternative to Mathpix or SimpleTex. It uses a lite but comparable to SOTA model(only 20M parameters) I finetuned and distilled from open-source SOTA. Hope this would help the STEM/AI learners taking notes with LaTeX formula. Everything runs in you",
+     "author": "alephpi"
     }
    ],
    "checkedAt": "2026-11-02T16:07:04.328Z",
@@ -34730,7 +34763,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45780649",
      "date": "2025-11-01T10:43:05Z",
-     "snippet": "Texo is a free and open-sourced alternative to Mathpix or SimpleTex. It uses a lite but comparable to SOTA model(only 20M parameters) I finetuned and distilled from open-source SOTA. Hope this would help the STEM/AI learners taking notes with LaTeX formula. Everything runs in you"
+     "snippet": "Texo is a free and open-sourced alternative to Mathpix or SimpleTex. It uses a lite but comparable to SOTA model(only 20M parameters) I finetuned and distilled from open-source SOTA. Hope this would help the STEM/AI learners taking notes with LaTeX formula. Everything runs in you",
+     "author": "alephpi"
     }
    ],
    "checkedAt": "2026-11-02T16:07:04.669Z",
@@ -34780,7 +34814,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45681431",
      "date": "2025-10-23T13:15:24Z",
-     "snippet": "I built chapar for the same reasons. It’s an open source postman alternative, currently supporting rest and grpc and scripting with python. Fully local and no hidden proxy. https://github.com/chapar-rest/chapar"
+     "snippet": "I built chapar for the same reasons. It’s an open source postman alternative, currently supporting rest and grpc and scripting with python. Fully local and no hidden proxy. https://github.com/chapar-rest/chapar",
+     "author": "mohsenmkh88"
     }
    ],
    "checkedAt": "2026-11-02T16:07:05.293Z",
@@ -34831,7 +34866,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45671286",
      "date": "2025-10-22T16:09:17Z",
-     "snippet": "Yet another alternative AI browser based on Electron, but this one is based on notebooks. https://github.com/deta/surf > Deta Surf is an AI notebook that brings all your files and the web directly into your stream of thought. > It’s meant for simultaneous research and thinking th"
+     "snippet": "Yet another alternative AI browser based on Electron, but this one is based on notebooks. https://github.com/deta/surf > Deta Surf is an AI notebook that brings all your files and the web directly into your stream of thought. > It’s meant for simultaneous research and thinking th",
+     "author": "timpera"
     }
    ],
    "checkedAt": "2026-11-02T08:41:36.678Z",
@@ -34871,7 +34907,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45663599",
      "date": "2025-10-22T00:34:07Z",
-     "snippet": "We built an open source version, chatgpt atlas alternative https://github.com/AIPexStudio/AIPex Compared to Chatgpt Atlas, we have 3 parts of advantages 1. fully open source 2. respect your privacy, support BYOK 3. no migration need"
+     "snippet": "We built an open source version, chatgpt atlas alternative https://github.com/AIPexStudio/AIPex Compared to Chatgpt Atlas, we have 3 parts of advantages 1. fully open source 2. respect your privacy, support BYOK 3. no migration need",
+     "author": "ropoz"
     }
    ],
    "checkedAt": "2026-11-02T16:07:05.572Z",
@@ -34909,13 +34946,15 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45659929",
      "date": "2025-10-21T18:48:24Z",
-     "snippet": "You should try us :) open-source and privacy-first alternative to Atlas -- https://github.com/browseros-ai/BrowserOS"
+     "snippet": "You should try us :) open-source and privacy-first alternative to Atlas -- https://github.com/browseros-ai/BrowserOS",
+     "author": "felarof"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45128221",
      "date": "2025-09-04T15:15:37Z",
-     "snippet": "I was a big fan of Arc too, they should at least open sourced it after abandoning. Anyways, now we are building BrowserOS, an open-source alternative to Dia -- https://github.com/browseros-ai/BrowserOS"
+     "snippet": "I was a big fan of Arc too, they should at least open sourced it after abandoning. Anyways, now we are building BrowserOS, an open-source alternative to Dia -- https://github.com/browseros-ai/BrowserOS",
+     "author": "felarof"
     }
    ],
    "checkedAt": "2026-11-02T08:41:37.043Z",
@@ -35031,7 +35070,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45565320",
      "date": "2025-10-13T06:30:15Z",
-     "snippet": "I help privacy and data sovereignty enthusiasts take back control of their data without needing to change their habits. I’ve been working for the past 3 years on SelfHostBlocks https://github.com/ibizaman/selfhostblocks , making self-hosting a viable and convenient alternative to"
+     "snippet": "I help privacy and data sovereignty enthusiasts take back control of their data without needing to change their habits. I’ve been working for the past 3 years on SelfHostBlocks https://github.com/ibizaman/selfhostblocks , making self-hosting a viable and convenient alternative to",
+     "author": "ibizaman"
     }
    ],
    "checkedAt": "2026-11-02T16:07:06.180Z",
@@ -35061,7 +35101,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45564467",
      "date": "2025-10-13T03:37:49Z",
-     "snippet": "I have been building OpenRun, a declarative web app deployment platform https://github.com/openrundev/openrun . It is an open source alternative to Google Cloud Run and AWS App Runner, running on your own hardware. OpenRun allows defining your web app configuration in a declarati"
+     "snippet": "I have been building OpenRun, a declarative web app deployment platform https://github.com/openrundev/openrun . It is an open source alternative to Google Cloud Run and AWS App Runner, running on your own hardware. OpenRun allows defining your web app configuration in a declarati",
+     "author": "ajayvk"
     }
    ],
    "checkedAt": "2026-11-02T16:07:06.485Z",
@@ -35100,7 +35141,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45560583",
      "date": "2025-10-12T18:37:04Z",
-     "snippet": "I've solved this long ago by disabling the app. Sadly, that means I can't view videos in the gallery, but I believe it's a fair compromise. I'd recommend taking a look at open source alternatives like Lavender Photos [1] or Fossify Gallery [2] [1]: https://github.com/kaii-lb/Lave"
+     "snippet": "I've solved this long ago by disabling the app. Sadly, that means I can't view videos in the gallery, but I believe it's a fair compromise. I'd recommend taking a look at open source alternatives like Lavender Photos [1] or Fossify Gallery [2] [1]: https://github.com/kaii-lb/Lave",
+     "author": "a022311"
     }
    ],
    "checkedAt": "2026-11-02T16:07:06.751Z",
@@ -35125,7 +35167,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45560583",
      "date": "2025-10-12T18:37:04Z",
-     "snippet": "I've solved this long ago by disabling the app. Sadly, that means I can't view videos in the gallery, but I believe it's a fair compromise. I'd recommend taking a look at open source alternatives like Lavender Photos [1] or Fossify Gallery [2] [1]: https://github.com/kaii-lb/Lave"
+     "snippet": "I've solved this long ago by disabling the app. Sadly, that means I can't view videos in the gallery, but I believe it's a fair compromise. I'd recommend taking a look at open source alternatives like Lavender Photos [1] or Fossify Gallery [2] [1]: https://github.com/kaii-lb/Lave",
+     "author": "a022311"
     }
    ],
    "checkedAt": "2026-11-02T16:07:06.978Z",
@@ -35168,7 +35211,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45532687",
      "date": "2025-10-09T20:27:53Z",
-     "snippet": "Within the Google codebase and in projects using Bazel, directory layout for Go code is different than it is in open source Go projects: you can have multiple go_library targets in a single directory. A good reason to give each package its own directory is if you expect to open s"
+     "snippet": "Within the Google codebase and in projects using Bazel, directory layout for Go code is different than it is in open source Go projects: you can have multiple go_library targets in a single directory. A good reason to give each package its own directory is if you expect to open s",
+     "author": "kiitos"
     }
    ],
    "checkedAt": "2026-11-02T16:07:07.588Z",
@@ -35199,7 +35243,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45417667",
      "date": "2025-09-29T19:20:05Z",
-     "snippet": "Hello Everyone, Once again sharing info on ClipBin, The Simplest and the most Secure Way of Sharing your Text or Code. This is a direct and most secure alternative to Pastebin and GitHub Gists. Give it a try at https://clipb.in Also this project open-source, feel free to contribu"
+     "snippet": "Hello Everyone, Once again sharing info on ClipBin, The Simplest and the most Secure Way of Sharing your Text or Code. This is a direct and most secure alternative to Pastebin and GitHub Gists. Give it a try at https://clipb.in Also this project open-source, feel free to contribu",
+     "author": "alight"
     }
    ],
    "checkedAt": "2026-11-02T16:07:07.895Z",
@@ -35235,7 +35280,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45388375",
      "date": "2025-09-26T16:34:38Z",
-     "snippet": "Hey guys, the Swetrix CE v4 is released, it's an open source and privacy-first Google Analytics alternative that I've been building since 2021. I've spent this year working on this release and overall it's one of our biggest releases ever! It includes complete UI redesign, custom"
+     "snippet": "Hey guys, the Swetrix CE v4 is released, it's an open source and privacy-first Google Analytics alternative that I've been building since 2021. I've spent this year working on this release and overall it's one of our biggest releases ever! It includes complete UI redesign, custom",
+     "author": "blaumaus"
     }
    ],
    "checkedAt": "2026-11-02T16:07:08.206Z",
@@ -35279,7 +35325,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45374513",
      "date": "2025-09-25T16:02:12Z",
-     "snippet": "Yes roblox could be interpreted in that way. Minecraft in a similar vein too. I was actually thinking of creating a roblox alternative or atleast proposing the idea of modifying luanti which is open source to have roblox esque graphics. So it would be the open source browser whic"
+     "snippet": "Yes roblox could be interpreted in that way. Minecraft in a similar vein too. I was actually thinking of creating a roblox alternative or atleast proposing the idea of modifying luanti which is open source to have roblox esque graphics. So it would be the open source browser whic",
+     "author": "Imustaskforhelp"
     }
    ],
    "checkedAt": "2026-11-02T16:07:08.498Z",
@@ -35322,7 +35369,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45367579",
      "date": "2025-09-25T00:09:03Z",
-     "snippet": "I think there's still space in the editor market for an open-source Sublime/Zed alternative. I've been working solo on a code editor with similar characteristics for a few years. It's still a work in progress, but it's already feature-rich (all the basics and some advanced featur"
+     "snippet": "I think there's still space in the editor market for an open-source Sublime/Zed alternative. I've been working solo on a code editor with similar characteristics for a few years. It's still a work in progress, but it's already feature-rich (all the basics and some advanced featur",
+     "author": "SpartanJ"
     }
    ],
    "checkedAt": "2026-11-02T16:07:08.826Z",
@@ -35366,7 +35414,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45362290",
      "date": "2025-09-24T16:05:51Z",
-     "snippet": "I built ChronoFrame as a modern alternative to clunky photo galleries. It’s a self-hosted app designed for smooth performance, metadata awareness, and clean architecture. Why? Most open-source galleries are either slow with large images, don’t support EXIF/geo properly, or feel o"
+     "snippet": "I built ChronoFrame as a modern alternative to clunky photo galleries. It’s a self-hosted app designed for smooth performance, metadata awareness, and clean architecture. Why? Most open-source galleries are either slow with large images, don’t support EXIF/geo properly, or feel o",
+     "author": "redneno"
     }
    ],
    "checkedAt": "2026-11-02T16:07:09.105Z",
@@ -35400,7 +35449,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45361875",
      "date": "2025-09-24T15:38:35Z",
-     "snippet": "Hi HN - one of the founders of Digger here, the company behind Project OpenTaco. Allow me to explain the initiative. Under per-run and resources-under-management pricing models many organizations have adopted workarounds and shortcuts that slow the growth of IaC adoption, and are"
+     "snippet": "Hi HN - one of the founders of Digger here, the company behind Project OpenTaco. Allow me to explain the initiative. Under per-run and resources-under-management pricing models many organizations have adopted workarounds and shortcuts that slow the growth of IaC adoption, and are",
+     "author": "igorzij"
     }
    ],
    "checkedAt": "2026-11-02T16:07:09.419Z",
@@ -35435,7 +35485,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45274531",
      "date": "2025-09-17T11:38:33Z",
-     "snippet": "It’s open source, else I wouldn’t recommended it https://github.com/LANDrop/LANDrop I used it along with another called Localsend, but the later one gave me a bit of headache and crashed while transferring some large files last time I used it, but still great as an alternative to"
+     "snippet": "It’s open source, else I wouldn’t recommended it https://github.com/LANDrop/LANDrop I used it along with another called Localsend, but the later one gave me a bit of headache and crashed while transferring some large files last time I used it, but still great as an alternative to",
+     "author": "tamimio"
     }
    ],
    "checkedAt": "2026-11-02T16:07:09.693Z",
@@ -35460,7 +35511,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45095250",
      "date": "2025-09-01T18:24:16Z",
-     "snippet": "> Now, no LLM is currently anywhere near doing that for ElasticSearch. You could probably feed all of ElasticSearch into an LLM and ask it to \"reimplement it\" successfully. But why would you even bother? There's already an existing open-source alternative called OpenSearch [1]. ["
+     "snippet": "> Now, no LLM is currently anywhere near doing that for ElasticSearch. You could probably feed all of ElasticSearch into an LLM and ask it to \"reimplement it\" successfully. But why would you even bother? There's already an existing open-source alternative called OpenSearch [1]. [",
+     "author": "gkbrk"
     }
    ],
    "checkedAt": "2026-11-02T16:07:10.763Z",
@@ -35492,7 +35544,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45048999",
      "date": "2025-08-28T06:14:33Z",
-     "snippet": "I've been doing exactly this for ten years, keeping the bookmarks file in Git. I added 70 bookmarks today, which is more than average. But rather than just a \"title\" I have whatever seems like I might want to search for later, including if the link rots. So it's more of a summmar"
+     "snippet": "I've been doing exactly this for ten years, keeping the bookmarks file in Git. I added 70 bookmarks today, which is more than average. But rather than just a \"title\" I have whatever seems like I might want to search for later, including if the link rots. So it's more of a summmar",
+     "author": "kragen"
     },
     {
      "source": "HN front page",
@@ -35587,7 +35640,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44831077",
      "date": "2025-08-07T22:18:21Z",
-     "snippet": "Sorry, you are slightly mistaken and mislead the colleagues present here. The OpenIPC project is completely open wherever possible, but it allows the use of various streamers Divinus/Majestic/Mini/Venc/other and various binary drivers and libraries if the chip manufacturer does n"
+     "snippet": "Sorry, you are slightly mistaken and mislead the colleagues present here. The OpenIPC project is completely open wherever possible, but it allows the use of various streamers Divinus/Majestic/Mini/Venc/other and various binary drivers and libraries if the chip manufacturer does n",
+     "author": "ZigFisher"
     }
    ],
    "checkedAt": "2026-11-02T16:07:11.595Z",
@@ -35640,7 +35694,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44709490",
      "date": "2025-07-28T10:53:35Z",
-     "snippet": "I'm working on Simple Observability[0], a platform for monitoring servers (metrics and logs). Think of it as a super simple alternative to the Prometheus + Grafana + Loki stack, designed for teams who just want to know “is my server healthy?” without setting up and maintaining a "
+     "snippet": "I'm working on Simple Observability[0], a platform for monitoring servers (metrics and logs). Think of it as a super simple alternative to the Prometheus + Grafana + Loki stack, designed for teams who just want to know “is my server healthy?” without setting up and maintaining a ",
+     "author": "khazit"
     }
    ],
    "checkedAt": "2026-11-02T16:07:12.750Z",
@@ -35670,7 +35725,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44705667",
      "date": "2025-07-27T23:29:29Z",
-     "snippet": "For the past two months, I have been working on Hyvor Relay [1], an open-source, self-hosted alternative to AWS SES, Mailgun. It's been an awesome ride learning SMTP and DNS in depth. And, we're pretty close to a beta release. [1] https://github.com/hyvor/relay"
+     "snippet": "For the past two months, I have been working on Hyvor Relay [1], an open-source, self-hosted alternative to AWS SES, Mailgun. It's been an awesome ride learning SMTP and DNS in depth. And, we're pretty close to a beta release. [1] https://github.com/hyvor/relay",
+     "author": "supz_k"
     }
    ],
    "checkedAt": "2026-11-02T16:07:13.051Z",
@@ -35698,7 +35754,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44704448",
      "date": "2025-07-27T20:33:40Z",
-     "snippet": "If anyone is interested i develop a free and open source alternative to komoot. I am currently using it for a 6 months trip in Europe : https://github.com/Akylas/alpimaps The idea of it is to be able to do everything offline, from map browsing to route computing, elevation profil"
+     "snippet": "If anyone is interested i develop a free and open source alternative to komoot. I am currently using it for a 6 months trip in Europe : https://github.com/Akylas/alpimaps The idea of it is to be able to do everything offline, from map browsing to route computing, elevation profil",
+     "author": "farfromrefuge"
     }
    ],
    "checkedAt": "2026-11-02T16:07:13.311Z",
@@ -35733,7 +35790,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44678781",
      "date": "2025-07-25T02:16:11Z",
-     "snippet": "I’ve open-sourced Timestone, a small Java library that lets you abstract time sources for testable, deterministic time-based logic. It provides an interfaces `Time` with two implementations `SystemTime` for real system clock, and `MutableTime` that can be advanced programmaticall"
+     "snippet": "I’ve open-sourced Timestone, a small Java library that lets you abstract time sources for testable, deterministic time-based logic. It provides an interfaces `Time` with two implementations `SystemTime` for real system clock, and `MutableTime` that can be advanced programmaticall",
+     "author": "zetaplusae"
     }
    ],
    "checkedAt": "2026-11-02T16:07:13.591Z",
@@ -35763,7 +35821,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44678781",
      "date": "2025-07-25T02:16:11Z",
-     "snippet": "I’ve open-sourced Timestone, a small Java library that lets you abstract time sources for testable, deterministic time-based logic. It provides an interfaces `Time` with two implementations `SystemTime` for real system clock, and `MutableTime` that can be advanced programmaticall"
+     "snippet": "I’ve open-sourced Timestone, a small Java library that lets you abstract time sources for testable, deterministic time-based logic. It provides an interfaces `Time` with two implementations `SystemTime` for real system clock, and `MutableTime` that can be advanced programmaticall",
+     "author": "zetaplusae"
     }
    ],
    "checkedAt": "2026-11-02T16:07:13.910Z",
@@ -35795,7 +35854,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44648290",
      "date": "2025-07-22T15:26:03Z",
-     "snippet": "BespokeSynth is also built on JUCE. BespokeSynth supports VST3, AudioUnit, LV2,: https://github.com/BespokeSynth/BespokeSynth/issues/1614 One day, I found a number of open source patch bay implementations. They may be useful for building a GUI with pedalboard: - https://github.co"
+     "snippet": "BespokeSynth is also built on JUCE. BespokeSynth supports VST3, AudioUnit, LV2,: https://github.com/BespokeSynth/BespokeSynth/issues/1614 One day, I found a number of open source patch bay implementations. They may be useful for building a GUI with pedalboard: - https://github.co",
+     "author": "westurner"
     },
     {
      "source": "Ask HN",
@@ -35851,7 +35911,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44648290",
      "date": "2025-07-22T15:26:03Z",
-     "snippet": "BespokeSynth is also built on JUCE. BespokeSynth supports VST3, AudioUnit, LV2,: https://github.com/BespokeSynth/BespokeSynth/issues/1614 One day, I found a number of open source patch bay implementations. They may be useful for building a GUI with pedalboard: - https://github.co"
+     "snippet": "BespokeSynth is also built on JUCE. BespokeSynth supports VST3, AudioUnit, LV2,: https://github.com/BespokeSynth/BespokeSynth/issues/1614 One day, I found a number of open source patch bay implementations. They may be useful for building a GUI with pedalboard: - https://github.co",
+     "author": "westurner"
     }
    ],
    "checkedAt": "2026-11-02T16:07:14.476Z",
@@ -35876,7 +35937,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44648290",
      "date": "2025-07-22T15:26:03Z",
-     "snippet": "BespokeSynth is also built on JUCE. BespokeSynth supports VST3, AudioUnit, LV2,: https://github.com/BespokeSynth/BespokeSynth/issues/1614 One day, I found a number of open source patch bay implementations. They may be useful for building a GUI with pedalboard: - https://github.co"
+     "snippet": "BespokeSynth is also built on JUCE. BespokeSynth supports VST3, AudioUnit, LV2,: https://github.com/BespokeSynth/BespokeSynth/issues/1614 One day, I found a number of open source patch bay implementations. They may be useful for building a GUI with pedalboard: - https://github.co",
+     "author": "westurner"
     }
    ],
    "checkedAt": "2026-11-02T16:07:14.737Z",
@@ -35901,7 +35963,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44648290",
      "date": "2025-07-22T15:26:03Z",
-     "snippet": "BespokeSynth is also built on JUCE. BespokeSynth supports VST3, AudioUnit, LV2,: https://github.com/BespokeSynth/BespokeSynth/issues/1614 One day, I found a number of open source patch bay implementations. They may be useful for building a GUI with pedalboard: - https://github.co"
+     "snippet": "BespokeSynth is also built on JUCE. BespokeSynth supports VST3, AudioUnit, LV2,: https://github.com/BespokeSynth/BespokeSynth/issues/1614 One day, I found a number of open source patch bay implementations. They may be useful for building a GUI with pedalboard: - https://github.co",
+     "author": "westurner"
     },
     {
      "source": "HN front page",
@@ -35981,7 +36044,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44606288",
      "date": "2025-07-18T16:03:16Z",
-     "snippet": "Hey HN! We built this after studying recent neuroscience research showing that dendrites perform significant nonlinear computation that current AI completely ignores. Traditional artificial neurons are basically weighted sums + activation functions. Real neurons have dendrites th"
+     "snippet": "Hey HN! We built this after studying recent neuroscience research showing that dendrites perform significant nonlinear computation that current AI completely ignores. Traditional artificial neurons are basically weighted sums + activation functions. Real neurons have dendrites th",
+     "author": "rorry-brenner"
     }
    ],
    "checkedAt": "2026-11-02T16:07:15.567Z",
@@ -36067,7 +36131,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44536560",
      "date": "2025-07-11T20:36:05Z",
-     "snippet": "How does it compare to frp, one of the most popular Open Source Cloudflare Tunnel alternative? https://github.com/fatedier/frp"
+     "snippet": "How does it compare to frp, one of the most popular Open Source Cloudflare Tunnel alternative? https://github.com/fatedier/frp",
+     "author": "kbumsik"
     },
     {
      "source": "Ask HN",
@@ -36110,7 +36175,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44521004",
      "date": "2025-07-10T13:44:00Z",
-     "snippet": "Every time I see people use flamegraphs it's the ancient Perl version. There's a much better version!!! Use the Go version of pprof: https://github.com/google/pprof Run it like `pprof -http : your_profile.out` and it will open a browser with a really nice interactive flamegraph ("
+     "snippet": "Every time I see people use flamegraphs it's the ancient Perl version. There's a much better version!!! Use the Go version of pprof: https://github.com/google/pprof Run it like `pprof -http : your_profile.out` and it will open a browser with a really nice interactive flamegraph (",
+     "author": "IshKebab"
     }
    ],
    "checkedAt": "2026-11-02T16:07:16.133Z",
@@ -36140,7 +36206,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44521004",
      "date": "2025-07-10T13:44:00Z",
-     "snippet": "Every time I see people use flamegraphs it's the ancient Perl version. There's a much better version!!! Use the Go version of pprof: https://github.com/google/pprof Run it like `pprof -http : your_profile.out` and it will open a browser with a really nice interactive flamegraph ("
+     "snippet": "Every time I see people use flamegraphs it's the ancient Perl version. There's a much better version!!! Use the Go version of pprof: https://github.com/google/pprof Run it like `pprof -http : your_profile.out` and it will open a browser with a really nice interactive flamegraph (",
+     "author": "IshKebab"
     }
    ],
    "checkedAt": "2026-11-02T16:07:16.389Z",
@@ -36165,7 +36232,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44519891",
      "date": "2025-07-10T11:44:03Z",
-     "snippet": "The reason Typeform free tier limits are so strict is likely because they have run the numbers based on real usage data. I am sure those limits are designed to capture just enough free users who are likely to convert, while minimizing the risk of churn. It is tricky. From my own "
+     "snippet": "The reason Typeform free tier limits are so strict is likely because they have run the numbers based on real usage data. I am sure those limits are designed to capture just enough free users who are likely to convert, while minimizing the risk of churn. It is tricky. From my own ",
+     "author": "_pdp_"
     }
    ],
    "checkedAt": "2026-11-02T16:07:16.664Z",
@@ -36242,7 +36310,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44462192",
      "date": "2025-07-04T07:50:07Z",
-     "snippet": "I like minimalist self-hosted websites, great choice making Postcard open-source! May I ask what were your biggest hurdles building the project and what's the most requested feature from your users? I myself have been building similar project called `Open Payment Host`[1] for cou"
+     "snippet": "I like minimalist self-hosted websites, great choice making Postcard open-source! May I ask what were your biggest hurdles building the project and what's the most requested feature from your users? I myself have been building similar project called `Open Payment Host`[1] for cou",
+     "author": "Abishek_Muthian"
     }
    ],
    "checkedAt": "2026-11-02T16:07:17.402Z",
@@ -36285,7 +36354,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44426592",
      "date": "2025-06-30T18:51:32Z",
-     "snippet": "Their frontend is amazing, their apps are not as performant, and the backend is (IMHO) the worst of them all. No hate here, I'm really grateful for what they've achieved so far, but I think there's a lot of room for improvement (e.g: proper R/W query split, native S3 integration,"
+     "snippet": "Their frontend is amazing, their apps are not as performant, and the backend is (IMHO) the worst of them all. No hate here, I'm really grateful for what they've achieved so far, but I think there's a lot of room for improvement (e.g: proper R/W query split, native S3 integration,",
+     "author": "denysvitali"
     }
    ],
    "checkedAt": "2026-11-02T16:07:17.670Z",
@@ -36310,7 +36380,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44422057",
      "date": "2025-06-30T11:41:11Z",
-     "snippet": "We created this from a fork of Placemark[0] to give water utilities an alternative choice to the big players, Autodesk and Bentley. The majority of commercial modeling software uses the U.S. EPA's engine and adds a nicer interface. They all fork the engine to add enhancements but"
+     "snippet": "We created this from a fork of Placemark[0] to give water utilities an alternative choice to the big players, Autodesk and Bentley. The majority of commercial modeling software uses the U.S. EPA's engine and adds a nicer interface. They all fork the engine to add enhancements but",
+     "author": "lbutler"
     },
     {
      "source": "HN front page",
@@ -36370,7 +36441,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44417155",
      "date": "2025-06-29T22:30:03Z",
-     "snippet": "Open source Apple’s hide my email alternative https://github.com/webmonch/hide-my-mail-cloudflare"
+     "snippet": "Open source Apple’s hide my email alternative https://github.com/webmonch/hide-my-mail-cloudflare",
+     "author": "risyachka"
     }
    ],
    "checkedAt": "2026-11-02T16:07:18.363Z",
@@ -36542,7 +36614,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44208393",
      "date": "2025-06-07T08:58:06Z",
-     "snippet": "This is the official website for FAIR: http://fair.pm/ . It currently redirects to https://github.com/fairpm . Here's a description: > The FAIR Package Manager is a decentralized alternative to the central WordPress.org plugin and theme ecosystem, designed to return control to Wo"
+     "snippet": "This is the official website for FAIR: http://fair.pm/ . It currently redirects to https://github.com/fairpm . Here's a description: > The FAIR Package Manager is a decentralized alternative to the central WordPress.org plugin and theme ecosystem, designed to return control to Wo",
+     "author": "Flimm"
     }
    ],
    "checkedAt": "2026-11-02T16:07:20.256Z",
@@ -36567,7 +36640,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44157178",
      "date": "2025-06-02T09:47:48Z",
-     "snippet": "Hey HN, I couldn’t find an open-source alternative to Trello that I liked so I built my own. It’s fast, free and fully-customisable. You can self host it, or use the cloud version if you don’t want to manage your own infra. Repo -> https://github.com/kanbn/kan Cloud -> https://ka"
+     "snippet": "Hey HN, I couldn’t find an open-source alternative to Trello that I liked so I built my own. It’s fast, free and fully-customisable. You can self host it, or use the cloud version if you don’t want to manage your own infra. Repo -> https://github.com/kanbn/kan Cloud -> https://ka",
+     "author": "henryball"
     },
     {
      "source": "HN front page",
@@ -36693,7 +36767,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44039289",
      "date": "2025-05-20T08:48:12Z",
-     "snippet": "This is great, I'll be returning to this tool often. Thanks. A few suggestions and ideas for futher projects. -allow for \"keyword\", -negate operators and \"mult word string\" searches, [Pubmed]( https://pubmed.ncbi.nlm.nih.gov/advanced ) is what I'd consider an Ideal search interfa"
+     "snippet": "This is great, I'll be returning to this tool often. Thanks. A few suggestions and ideas for futher projects. -allow for \"keyword\", -negate operators and \"mult word string\" searches, [Pubmed]( https://pubmed.ncbi.nlm.nih.gov/advanced ) is what I'd consider an Ideal search interfa",
+     "author": "id44037319"
     }
    ],
    "checkedAt": "2026-11-02T16:07:22.038Z",
@@ -36726,7 +36801,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44039289",
      "date": "2025-05-20T08:48:12Z",
-     "snippet": "This is great, I'll be returning to this tool often. Thanks. A few suggestions and ideas for futher projects. -allow for \"keyword\", -negate operators and \"mult word string\" searches, [Pubmed]( https://pubmed.ncbi.nlm.nih.gov/advanced ) is what I'd consider an Ideal search interfa"
+     "snippet": "This is great, I'll be returning to this tool often. Thanks. A few suggestions and ideas for futher projects. -allow for \"keyword\", -negate operators and \"mult word string\" searches, [Pubmed]( https://pubmed.ncbi.nlm.nih.gov/advanced ) is what I'd consider an Ideal search interfa",
+     "author": "id44037319"
     },
     {
      "source": "Ask HN",
@@ -36801,7 +36877,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43824817",
      "date": "2025-04-28T19:04:07Z",
-     "snippet": "(open source) Self-hostable, private social media alternative (like Facebook circa 2012). Functionally it is a private blog that speaks RSS with a built-in RSS aggregator. Self-hosting being the only way to actually have privacy in a social-media-type space. https://github.com/ha"
+     "snippet": "(open source) Self-hostable, private social media alternative (like Facebook circa 2012). Functionally it is a private blog that speaks RSS with a built-in RSS aggregator. Self-hosting being the only way to actually have privacy in a social-media-type space. https://github.com/ha",
+     "author": "mawise"
     }
    ],
    "checkedAt": "2026-11-02T16:07:22.640Z",
@@ -36833,7 +36910,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43819142",
      "date": "2025-04-28T09:06:43Z",
-     "snippet": "A pentagonal geospatial indexing system: https://a5geo.org/ If you’ve used H3 or S2 it should be familiar, the major difference (apart from the fact it uses pentagons) is that the cell areas are practically uniform, whereas alternative systems have a variance of around 2 between "
+     "snippet": "A pentagonal geospatial indexing system: https://a5geo.org/ If you’ve used H3 or S2 it should be familiar, the major difference (apart from the fact it uses pentagons) is that the cell areas are practically uniform, whereas alternative systems have a variance of around 2 between ",
+     "author": "pheelicks"
     }
    ],
    "checkedAt": "2026-11-02T16:07:22.911Z",
@@ -36928,7 +37006,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43768894",
      "date": "2025-04-23T05:28:23Z",
-     "snippet": "AmigaBASIC is still going, in some form. There's Cursor[0], a compiler with an editor from 1994, unfortunately proprietary and not further developed. Maybe someone could get a hold of the author to try and get them to open the source code for preservation and potential further de"
+     "snippet": "AmigaBASIC is still going, in some form. There's Cursor[0], a compiler with an editor from 1994, unfortunately proprietary and not further developed. Maybe someone could get a hold of the author to try and get them to open the source code for preservation and potential further de",
+     "author": "snvzz"
     }
    ],
    "checkedAt": "2026-11-02T16:07:25.025Z",
@@ -36968,7 +37047,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43709339",
      "date": "2025-04-16T19:24:42Z",
-     "snippet": "Cool to see more interesting terminal based options! Looking forward to trying this out. I've been working on something related—Plandex[1], an open source AI coding agent that is particularly focused on large projects and complex tasks. I launched the v2 a few weeks ago and it is"
+     "snippet": "Cool to see more interesting terminal based options! Looking forward to trying this out. I've been working on something related—Plandex[1], an open source AI coding agent that is particularly focused on large projects and complex tasks. I launched the v2 a few weeks ago and it is",
+     "author": "danenania"
     },
     {
      "source": "HN front page",
@@ -37017,7 +37097,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43645062",
      "date": "2025-04-10T15:43:32Z",
-     "snippet": "Show HN: Vexa v0.2 - Open Source API to send a bot into Google Meet for real-time transcription Hi HN, I'm excited to share Vexa v0.2 https://github.com/Vexa-ai/vexa , the next step for our Apache 2.0 licensed open-source project aimed at providing enterprise-grade, API-first tra"
+     "snippet": "Show HN: Vexa v0.2 - Open Source API to send a bot into Google Meet for real-time transcription Hi HN, I'm excited to share Vexa v0.2 https://github.com/Vexa-ai/vexa , the next step for our Apache 2.0 licensed open-source project aimed at providing enterprise-grade, API-first tra",
+     "author": "DmitryGrankin"
     }
    ],
    "checkedAt": "2026-11-02T16:07:25.307Z",
@@ -37059,7 +37140,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43629251",
      "date": "2025-04-09T05:49:03Z",
-     "snippet": "The Switch does have alternative Open Source firmware: https://github.com/Atmosphere-NX/Atmosphere"
+     "snippet": "The Switch does have alternative Open Source firmware: https://github.com/Atmosphere-NX/Atmosphere",
+     "author": "bigyabai"
     }
    ],
    "checkedAt": "2026-11-02T16:07:25.576Z",
@@ -37084,7 +37166,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43550114",
      "date": "2025-04-01T18:42:51Z",
-     "snippet": "Hey everyone! We're excited to announce the latest version of Rauversion after nearly 2 years of development. So much has happened since our last update! What is Rauversion? Rauversion is an open-source platform for music streaming that lets artists and communities create their o"
+     "snippet": "Hey everyone! We're excited to announce the latest version of Rauversion after nearly 2 years of development. So much has happened since our last update! What is Rauversion? Rauversion is an open-source platform for music streaming that lets artists and communities create their o",
+     "author": "miguelmichelson"
     }
    ],
    "checkedAt": "2026-11-02T16:07:25.892Z",
@@ -37115,7 +37198,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43532493",
      "date": "2025-03-31T08:15:09Z",
-     "snippet": "I am working on a FOSS google tasks alternative for android with unix-like aesthetics and my desire to take some inspiration from the windows mobile app designs. It's just 84kb apk at the with reproducible build system and also downloadable from IzzyOnDroid fdroid repo: https://a"
+     "snippet": "I am working on a FOSS google tasks alternative for android with unix-like aesthetics and my desire to take some inspiration from the windows mobile app designs. It's just 84kb apk at the with reproducible build system and also downloadable from IzzyOnDroid fdroid repo: https://a",
+     "author": "zenNeko"
     }
    ],
    "checkedAt": "2026-11-02T16:07:26.233Z",
@@ -37161,7 +37245,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43482516",
      "date": "2025-03-26T14:14:49Z",
-     "snippet": "I have been building a completely open-source platform for hosting your own complex web applications. And I just recently open-sourced the JS framework. It loads modules on-demand as you need them. It’s supposed to be an all-in-one alternative to React+Redux, Angular etc. https:/"
+     "snippet": "I have been building a completely open-source platform for hosting your own complex web applications. And I just recently open-sourced the JS framework. It loads modules on-demand as you need them. It’s supposed to be an all-in-one alternative to React+Redux, Angular etc. https:/",
+     "author": "EGreg"
     }
    ],
    "checkedAt": "2026-11-02T16:07:26.501Z",
@@ -37222,19 +37307,22 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43247328",
      "date": "2025-03-03T21:57:08Z",
-     "snippet": "A nice project—I hadn’t seen it before. I’m working on a similar concept but as an open-source project [1]. We see it as an alternative to K8s/Slurm and would be interested in hearing thoughts from other ML engineers. [1] https://github.com/dstackai/dstack"
+     "snippet": "A nice project—I hadn’t seen it before. I’m working on a similar concept but as an open-source project [1]. We see it as an alternative to K8s/Slurm and would be interested in hearing thoughts from other ML engineers. [1] https://github.com/dstackai/dstack",
+     "author": "cheptsov"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43092558",
      "date": "2025-02-18T17:32:46Z",
-     "snippet": "Hey HN, founder of dstack here. We've been working on this over three months and pretty excited about this release. Basically, the main point is that dstack is an open-source AI-native alternative to Kubernetes, designed to be more lightweight, and focusing just on AI workloads o"
+     "snippet": "Hey HN, founder of dstack here. We've been working on this over three months and pretty excited about this release. Basically, the main point is that dstack is an open-source AI-native alternative to Kubernetes, designed to be more lightweight, and focusing just on AI workloads o",
+     "author": "cheptsov"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42043705",
      "date": "2024-11-04T17:16:04Z",
-     "snippet": "I can completely relate to anyone abandoning K8s. I'm working with dstack, an open-source alternative to K8s for AI infra [1]. We talk to many people who are frustrated with K8s, especially for GPU and AI workloads. [1] https://github.com/dstackai/dstack"
+     "snippet": "I can completely relate to anyone abandoning K8s. I'm working with dstack, an open-source alternative to K8s for AI infra [1]. We talk to many people who are frustrated with K8s, especially for GPU and AI workloads. [1] https://github.com/dstackai/dstack",
+     "author": "cheptsov"
     }
    ],
    "checkedAt": "2026-11-02T08:40:21.190Z",
@@ -37278,7 +37366,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43233648",
      "date": "2025-03-02T18:53:18Z",
-     "snippet": "> There is no open-source browser based on it that you could use as an alternative to Firefox. here you go: https://github.com/duckduckgo/apple-browsers"
+     "snippet": "> There is no open-source browser based on it that you could use as an alternative to Firefox. here you go: https://github.com/duckduckgo/apple-browsers",
+     "author": "kmlx"
     }
    ],
    "checkedAt": "2026-11-02T16:07:27.367Z",
@@ -37369,7 +37458,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43157203",
      "date": "2025-02-24T08:48:48Z",
-     "snippet": "I've working on Colanode, an open-source & local-first Slack and Notion alternative that you can self host. You can use Colanode for real-time chat, as a knowledge center, project management or file storage. As a local-first application, Colanode offers full offline support, allo"
+     "snippet": "I've working on Colanode, an open-source & local-first Slack and Notion alternative that you can self host. You can use Colanode for real-time chat, as a knowledge center, project management or file storage. As a local-first application, Colanode offers full offline support, allo",
+     "author": "hakanshehu"
     }
    ],
    "checkedAt": "2026-11-02T08:41:40.644Z",
@@ -37468,7 +37558,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43047690",
      "date": "2025-02-14T12:27:31Z",
-     "snippet": "„OCR4all combines various open-source solutions to provide a fully automated workflow for automatic text recognition of historical printed (OCR) and handwritten (HTR) material.“ It seems to be based on OCR-D, which itself is based on - https://github.com/tesseract-ocr/tesseract -"
+     "snippet": "„OCR4all combines various open-source solutions to provide a fully automated workflow for automatic text recognition of historical printed (OCR) and handwritten (HTR) material.“ It seems to be based on OCR-D, which itself is based on - https://github.com/tesseract-ocr/tesseract -",
+     "author": "amai"
     },
     {
      "source": "Ask HN",
@@ -37553,7 +37644,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43047690",
      "date": "2025-02-14T12:27:31Z",
-     "snippet": "„OCR4all combines various open-source solutions to provide a fully automated workflow for automatic text recognition of historical printed (OCR) and handwritten (HTR) material.“ It seems to be based on OCR-D, which itself is based on - https://github.com/tesseract-ocr/tesseract -"
+     "snippet": "„OCR4all combines various open-source solutions to provide a fully automated workflow for automatic text recognition of historical printed (OCR) and handwritten (HTR) material.“ It seems to be based on OCR-D, which itself is based on - https://github.com/tesseract-ocr/tesseract -",
+     "author": "amai"
     }
    ],
    "checkedAt": "2026-11-02T16:07:29.143Z",
@@ -37629,7 +37721,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42935766",
      "date": "2025-02-04T17:36:39Z",
-     "snippet": "Instead of Cursor I would recommend two open source alternatives that you can combine: https://www.continue.dev/ and https://github.com/cline/cline"
+     "snippet": "Instead of Cursor I would recommend two open source alternatives that you can combine: https://www.continue.dev/ and https://github.com/cline/cline",
+     "author": "patrickaljord"
     }
    ],
    "checkedAt": "2026-11-02T16:07:29.419Z",
@@ -37654,7 +37747,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42935386",
      "date": "2025-02-04T17:12:18Z",
-     "snippet": "If anyone's looking for an open source alternative (and maybe wants to contribute to it) we're working on it here! [1] We actually started before this was announced, and initially it was developed for a somewhat different use case (more focusing on \"recurring invites\"), but since"
+     "snippet": "If anyone's looking for an open source alternative (and maybe wants to contribute to it) we're working on it here! [1] We actually started before this was announced, and initially it was developed for a somewhat different use case (more focusing on \"recurring invites\"), but since",
+     "author": "gioazzi"
     }
    ],
    "checkedAt": "2026-11-02T16:07:29.723Z",
@@ -37711,7 +37805,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42883562",
      "date": "2025-01-31T00:15:37Z",
-     "snippet": "shame they paywalled JWT authn behind their expensive PaaS offering :( forced us to use an alternative, and paywalling security features in an \"open source\" product didn't make us feel comfortable for a long-term investment like a db https://github.com/ClickHouse/ClickHouse/pull/"
+     "snippet": "shame they paywalled JWT authn behind their expensive PaaS offering :( forced us to use an alternative, and paywalling security features in an \"open source\" product didn't make us feel comfortable for a long-term investment like a db https://github.com/ClickHouse/ClickHouse/pull/",
+     "author": "pl4nty"
     },
     {
      "source": "Ask HN",
@@ -37768,7 +37863,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42823449",
      "date": "2025-01-25T18:25:18Z",
-     "snippet": "Thanks for your work on this! Unrelated but if you haven't tried the open-source photoshop alternative Krita you are missing out. It's basically GIMP but unburdened by 30 years of legacy code. https://github.com/KDE/krita"
+     "snippet": "Thanks for your work on this! Unrelated but if you haven't tried the open-source photoshop alternative Krita you are missing out. It's basically GIMP but unburdened by 30 years of legacy code. https://github.com/KDE/krita",
+     "author": "vunderba"
     }
    ],
    "checkedAt": "2026-11-02T16:07:30.321Z",
@@ -37793,7 +37889,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42723761",
      "date": "2025-01-16T10:51:18Z",
-     "snippet": "Hi everyone! I'd like to share that we've just released Centrifugo v6 - a major update of scalable WebSocket server. The release addresses some usability pain points and adds nice features and more observability. Centrifugo is an open-source standalone server written in Go – http"
+     "snippet": "Hi everyone! I'd like to share that we've just released Centrifugo v6 - a major update of scalable WebSocket server. The release addresses some usability pain points and adds nice features and more observability. Centrifugo is an open-source standalone server written in Go – http",
+     "author": "FZambia"
     }
    ],
    "checkedAt": "2026-11-02T16:07:31.166Z",
@@ -37839,7 +37936,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42723761",
      "date": "2025-01-16T10:51:18Z",
-     "snippet": "Hi everyone! I'd like to share that we've just released Centrifugo v6 - a major update of scalable WebSocket server. The release addresses some usability pain points and adds nice features and more observability. Centrifugo is an open-source standalone server written in Go – http"
+     "snippet": "Hi everyone! I'd like to share that we've just released Centrifugo v6 - a major update of scalable WebSocket server. The release addresses some usability pain points and adds nice features and more observability. Centrifugo is an open-source standalone server written in Go – http",
+     "author": "FZambia"
     }
    ],
    "checkedAt": "2026-11-02T16:07:31.463Z",
@@ -37901,7 +37999,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42706997",
      "date": "2025-01-15T03:29:31Z",
-     "snippet": "Here's an example I like to share, re: when LLMs can be better than doing the searching myself: https://topicalsource.dev/chat/023e7e54-947b-490d-bcd8-89cc2... I understand the concepts, it's not complex, but it's something I don't use or do daily. One of the other differences wi"
+     "snippet": "Here's an example I like to share, re: when LLMs can be better than doing the searching myself: https://topicalsource.dev/chat/023e7e54-947b-490d-bcd8-89cc2... I understand the concepts, it's not complex, but it's something I don't use or do daily. One of the other differences wi",
+     "author": "verdverm"
     },
     {
      "source": "HN front page",
@@ -37981,7 +38080,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42696672",
      "date": "2025-01-14T13:03:41Z",
-     "snippet": "Open source repo: https://github.com/zaidmukaddam/scira I am not associated with them, just found this interesting perplexity alternative?"
+     "snippet": "Open source repo: https://github.com/zaidmukaddam/scira I am not associated with them, just found this interesting perplexity alternative?",
+     "author": "mnmalst"
     }
    ],
    "checkedAt": "2026-11-02T16:07:32.056Z",
@@ -38069,7 +38169,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42525292",
      "date": "2024-12-27T19:33:06Z",
-     "snippet": "Edit: thanks for those links! I'm somewhat out of the loop academically, so have been relying on search engines whose quality seems to be in decline. - Combatting bots with the Cloudflare challenge screen is an X/Y problem. The central issue is that the web has been rolled out im"
+     "snippet": "Edit: thanks for those links! I'm somewhat out of the loop academically, so have been relying on search engines whose quality seems to be in decline. - Combatting bots with the Cloudflare challenge screen is an X/Y problem. The central issue is that the web has been rolled out im",
+     "author": "zackmorris"
     }
    ],
    "checkedAt": "2026-11-02T16:07:33.433Z",
@@ -38190,7 +38291,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42158501",
      "date": "2024-11-16T19:17:10Z",
-     "snippet": "CubeTrek An Open-Source Alternative to Strava (GPS Track Manager for Hiking, Running, Cycling, Mountaineering etc.) https://cubetrek.com https://github.com/r-follador/CubeTrek/ Java, Spring Boot, PostGis, JavaScript, Babylon.js Front end could use some help in design overhaul, ne"
+     "snippet": "CubeTrek An Open-Source Alternative to Strava (GPS Track Manager for Hiking, Running, Cycling, Mountaineering etc.) https://cubetrek.com https://github.com/r-follador/CubeTrek/ Java, Spring Boot, PostGis, JavaScript, Babylon.js Front end could use some help in design overhaul, ne",
+     "author": "folli"
     }
    ],
    "checkedAt": "2026-11-02T08:41:41.752Z",
@@ -38243,7 +38345,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42131363",
      "date": "2024-11-13T23:26:28Z",
-     "snippet": "Neat! I was looking to replace DataDog with an open source alternative. I'm collecting the logs and batch sending them to DataDog using their batch http-intake API. I'm looking for the quickest way to switch over - is there anything similar on HyperDX? Also, I'd like to improve m"
+     "snippet": "Neat! I was looking to replace DataDog with an open source alternative. I'm collecting the logs and batch sending them to DataDog using their batch http-intake API. I'm looking for the quickest way to switch over - is there anything similar on HyperDX? Also, I'd like to improve m",
+     "author": "lpammant"
     }
    ],
    "checkedAt": "2026-11-02T16:07:34.082Z",
@@ -38273,7 +38376,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42122751",
      "date": "2024-11-13T03:54:20Z",
-     "snippet": "I got in love with Zammad for this kind of things. It's a modern alternative to OTRS, but it's so light and easy to use that you can push it to any kind of business or personal project. Every time I build something long-term with at least 3 people, I check if we can use Zammad. I"
+     "snippet": "I got in love with Zammad for this kind of things. It's a modern alternative to OTRS, but it's so light and easy to use that you can push it to any kind of business or personal project. Every time I build something long-term with at least 3 people, I check if we can use Zammad. I",
+     "author": "tupolef"
     }
    ],
    "checkedAt": "2026-11-02T16:07:34.387Z",
@@ -38363,7 +38467,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42115282",
      "date": "2024-11-12T13:25:39Z",
-     "snippet": "I recently made the switch as well and used spotify_to_tidal [1] which is the free and open-source alternative to what Tidal recommends and it worked pretty fine! it couldn't find some specific tracks and I bet it does a somewhat similar name match as the one Tidal recommends, bu"
+     "snippet": "I recently made the switch as well and used spotify_to_tidal [1] which is the free and open-source alternative to what Tidal recommends and it worked pretty fine! it couldn't find some specific tracks and I bet it does a somewhat similar name match as the one Tidal recommends, bu",
+     "author": "etra0"
     }
    ],
    "checkedAt": "2026-11-02T16:07:34.669Z",
@@ -38392,7 +38497,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42071264",
      "date": "2024-11-06T23:35:15Z",
-     "snippet": "There is indeed a large gap in the market between outsourcing all your infrastructure to Hyperscalers vs. hosting it on DIY-bare-metal and/or VPC providers. An open source alternative to AWS would do much to fill that gap, and we are building just that at Ubicloud (I'm one of the"
+     "snippet": "There is indeed a large gap in the market between outsourcing all your infrastructure to Hyperscalers vs. hosting it on DIY-bare-metal and/or VPC providers. An open source alternative to AWS would do much to fill that gap, and we are building just that at Ubicloud (I'm one of the",
+     "author": "umur"
     },
     {
      "source": "HN front page",
@@ -38465,7 +38571,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42002249",
      "date": "2024-10-31T00:41:53Z",
-     "snippet": "I just updated my open-source Golang email magic link authentication project to include One-Time Password (OTP) support. https://github.com/MicahParks/magiclinksdev This has brought the API specification to v2: https://swaggerui.magiclinks.dev/ Magic link authentication is my fav"
+     "snippet": "I just updated my open-source Golang email magic link authentication project to include One-Time Password (OTP) support. https://github.com/MicahParks/magiclinksdev This has brought the API specification to v2: https://swaggerui.magiclinks.dev/ Magic link authentication is my fav",
+     "author": "MicahParks"
     }
    ],
    "checkedAt": "2026-11-02T16:07:35.256Z",
@@ -38535,7 +38642,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41978050",
      "date": "2024-10-29T00:18:25Z",
-     "snippet": "Could we replicate the NotebookLM's podcast feature as a customizable API? Live demo: https://huggingface.co/spaces/thatupiso/Podcastfy.ai_demo Open Source Python package: https://github.com/souzatharsis/podcastfy Apache-2.0 license Key Features: - Generates conversational conten"
+     "snippet": "Could we replicate the NotebookLM's podcast feature as a customizable API? Live demo: https://huggingface.co/spaces/thatupiso/Podcastfy.ai_demo Open Source Python package: https://github.com/souzatharsis/podcastfy Apache-2.0 license Key Features: - Generates conversational conten",
+     "author": "highlanderNJ"
     }
    ],
    "checkedAt": "2026-11-02T16:07:35.832Z",
@@ -38624,7 +38732,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41929431",
      "date": "2024-10-23T21:32:00Z",
-     "snippet": "\"You can think of us as an open source alternative to products like Auth0 or WorkOS.\" from SSOReady's README: https://github.com/ssoready Single dev in contributors graph: https://github.com/ssoready/ssoready/graphs/contributors Pre-pivot startup called Okapi (YC W24): https://ne"
+     "snippet": "\"You can think of us as an open source alternative to products like Auth0 or WorkOS.\" from SSOReady's README: https://github.com/ssoready Single dev in contributors graph: https://github.com/ssoready/ssoready/graphs/contributors Pre-pivot startup called Okapi (YC W24): https://ne",
+     "author": "grinich"
     },
     {
      "source": "HN front page",
@@ -38698,31 +38807,36 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41916747",
      "date": "2024-10-22T17:45:11Z",
-     "snippet": "See https://github.com/OpenAdaptAI/OpenAdapt for an open source alternative that runs segmentation locally."
+     "snippet": "See https://github.com/OpenAdaptAI/OpenAdapt for an open source alternative that runs segmentation locally.",
+     "author": "abrichr"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41916721",
      "date": "2024-10-22T17:42:46Z",
-     "snippet": "See https://github.com/OpenAdaptAI/OpenAdapt for an open source alternative that includes a desktop app."
+     "snippet": "See https://github.com/OpenAdaptAI/OpenAdapt for an open source alternative that includes a desktop app.",
+     "author": "abrichr"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41916682",
      "date": "2024-10-22T17:39:31Z",
-     "snippet": "See https://github.com/OpenAdaptAI/OpenAdapt for an open source alternative that includes operating system accessibility API data and DOM information (along with bitmaps) where available. We are also planning on extracting runtime information using COM/AppleScript: https://github"
+     "snippet": "See https://github.com/OpenAdaptAI/OpenAdapt for an open source alternative that includes operating system accessibility API data and DOM information (along with bitmaps) where available. We are also planning on extracting runtime information using COM/AppleScript: https://github",
+     "author": "abrichr"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40147128",
      "date": "2024-04-24T17:17:12Z",
-     "snippet": "For an open source alternative, check out https://github.com/OpenAdaptAI/OpenAdapt . We combine Segment Anything Model with GPT4-V to understand recordings of workflows in desktop user interfaces, then replay them according to the user's instructions."
+     "snippet": "For an open source alternative, check out https://github.com/OpenAdaptAI/OpenAdapt . We combine Segment Anything Model with GPT4-V to understand recordings of workflows in desktop user interfaces, then replay them according to the user's instructions.",
+     "author": "abrichr"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=39717759",
      "date": "2024-03-15T16:47:05Z",
-     "snippet": "Congratulations on shipping! Check out https://github.com/OpenAdaptAI/OpenAdapt for an open source (MIT license) alternative that also works on desktop (including Citrix!)"
+     "snippet": "Congratulations on shipping! Check out https://github.com/OpenAdaptAI/OpenAdapt for an open source (MIT license) alternative that also works on desktop (including Citrix!)",
+     "author": "abrichr"
     }
    ],
    "checkedAt": "2026-11-02T07:31:57.168Z",
@@ -38768,13 +38882,15 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41885489",
      "date": "2024-10-19T03:43:23Z",
-     "snippet": "Looking forward to adding Databend, the open-source alternative to Snowflake: https://github.com/databendlabs/databend/issues/13059"
+     "snippet": "Looking forward to adding Databend, the open-source alternative to Snowflake: https://github.com/databendlabs/databend/issues/13059",
+     "author": "BohuTANG"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41470782",
      "date": "2024-09-07T00:49:10Z",
-     "snippet": "Check out Databend, an open-source alternative to Snowflake with 90%+ product and syntax similarity (almost no migration cost). It’s cost-effective and powerful. GitHub: https://github.com/datafuselabs/databend/issues/13059 Comparison: https://www.databend.com/comparison"
+     "snippet": "Check out Databend, an open-source alternative to Snowflake with 90%+ product and syntax similarity (almost no migration cost). It’s cost-effective and powerful. GitHub: https://github.com/datafuselabs/databend/issues/13059 Comparison: https://www.databend.com/comparison",
+     "author": "BohuTANG"
     }
    ],
    "checkedAt": "2026-11-02T16:07:42.093Z",
@@ -38814,7 +38930,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41878914",
      "date": "2024-10-18T12:45:29Z",
-     "snippet": "Consider Hoop ( https://hoop.dev ) as an open source alternative. It's designed to be lightweight and developer-friendly. Key features that are free/open source: 1. SSH, K8s, database access 2. RBAC and just-in-time access 3. Session recording 4. IdP integration We monetize on ad"
+     "snippet": "Consider Hoop ( https://hoop.dev ) as an open source alternative. It's designed to be lightweight and developer-friendly. Key features that are free/open source: 1. SSH, K8s, database access 2. RBAC and just-in-time access 3. Session recording 4. IdP integration We monetize on ad",
+     "author": "andriosr"
     }
    ],
    "checkedAt": "2026-11-02T16:07:37.404Z",
@@ -38876,7 +38993,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41807387",
      "date": "2024-10-11T08:15:24Z",
-     "snippet": "That list isn't deep enough. These are CMS alternatives, not WordPress alternatives. I need a WordPress alternative to/with the following requirements: - self-hostable - opensource core (paid plugins are not a problem) - so it can be installed and intensively tested without shell"
+     "snippet": "That list isn't deep enough. These are CMS alternatives, not WordPress alternatives. I need a WordPress alternative to/with the following requirements: - self-hostable - opensource core (paid plugins are not a problem) - so it can be installed and intensively tested without shell",
+     "author": "johnchristopher"
     }
    ],
    "checkedAt": "2026-11-02T16:07:37.921Z",
@@ -38917,13 +39035,15 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41800954",
      "date": "2024-10-10T17:10:13Z",
-     "snippet": "Likewise we use typebox for everything in our project (open source customer.io alternative). https://github.com/dittofeed/dittofeed/blob/main/packages/is..."
+     "snippet": "Likewise we use typebox for everything in our project (open source customer.io alternative). https://github.com/dittofeed/dittofeed/blob/main/packages/is...",
+     "author": "maxthegeek1"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=39181011",
      "date": "2024-01-29T19:16:29Z",
-     "snippet": "I just wanted to share a piece I recently wrote on Dev.to about some of the work we've been doing at Dittofeed. Dittofeed is an open-source alternative to platforms like customer.io, Klaviyo, and Braze. If you're interested in how to segment users by processing semi-structured ev"
+     "snippet": "I just wanted to share a piece I recently wrote on Dev.to about some of the work we've been doing at Dittofeed. Dittofeed is an open-source alternative to platforms like customer.io, Klaviyo, and Braze. If you're interested in how to segment users by processing semi-structured ev",
+     "author": "maxthegeek1"
     },
     {
      "source": "HN front page",
@@ -39000,7 +39120,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41692132",
      "date": "2024-09-30T00:19:00Z",
-     "snippet": "Decided after all these years to start to create open source libraries around things I've worked with in the past. As worked a lot with Kubernetes in the past, I started with creating a Kubernetes Operator alternative to external-dns I call Phonebook: https://github.com/pier-oliv"
+     "snippet": "Decided after all these years to start to create open source libraries around things I've worked with in the past. As worked a lot with Kubernetes in the past, I started with creating a Kubernetes Operator alternative to external-dns I call Phonebook: https://github.com/pier-oliv",
+     "author": "p-o"
     }
    ],
    "checkedAt": "2026-11-02T16:07:38.606Z",
@@ -39035,7 +39156,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41657885",
      "date": "2024-09-26T12:58:49Z",
-     "snippet": "Dash is great. I use the free open-source alternative Zeal, works for Linux, Windows and macOS. https://github.com/zealdocs/zeal"
+     "snippet": "Dash is great. I use the free open-source alternative Zeal, works for Linux, Windows and macOS. https://github.com/zealdocs/zeal",
+     "author": "hu3"
     }
    ],
    "checkedAt": "2026-11-02T16:07:38.866Z",
@@ -39076,7 +39198,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41647666",
      "date": "2024-09-25T14:02:25Z",
-     "snippet": "Hello all, I lead the product and engineering for Harness Open Source ( https://www.harness.io/open-source ). With Harness Open Source, developers can configure their development environments, host code repositories, as well as build, test, deploy, and manage artifacts - all from"
+     "snippet": "Hello all, I lead the product and engineering for Harness Open Source ( https://www.harness.io/open-source ). With Harness Open Source, developers can configure their development environments, host code repositories, as well as build, test, deploy, and manage artifacts - all from",
+     "author": "rustd"
     }
    ],
    "checkedAt": "2026-11-02T16:07:39.178Z",
@@ -39114,7 +39237,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41639205",
      "date": "2024-09-24T17:58:15Z",
-     "snippet": "It's not. Base C# extension for VS Code is free and MIT[0], the closed component, that is a debugger, is free as well. There is an open-source alternative too, and what effectively all debugger implementations do is integrate with debugger API provided by .NET itself, which any n"
+     "snippet": "It's not. Base C# extension for VS Code is free and MIT[0], the closed component, that is a debugger, is free as well. There is an open-source alternative too, and what effectively all debugger implementations do is integrate with debugger API provided by .NET itself, which any n",
+     "author": "neonsunset"
     }
    ],
    "checkedAt": "2026-11-02T16:07:39.591Z",
@@ -39145,7 +39269,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41620351",
      "date": "2024-09-22T21:44:52Z",
-     "snippet": "In my opinion it’s not a good alternative if you or your team members expect exactly the same quality of service. When you switch to Nextcloud you’ll have to expect more bugs, less reliability, less performance and obviously more maintenance (since it's typically self-hosted) com"
+     "snippet": "In my opinion it’s not a good alternative if you or your team members expect exactly the same quality of service. When you switch to Nextcloud you’ll have to expect more bugs, less reliability, less performance and obviously more maintenance (since it's typically self-hosted) com",
+     "author": "preya2k"
     }
    ],
    "checkedAt": "2026-11-02T16:07:39.879Z",
@@ -39175,7 +39300,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41620351",
      "date": "2024-09-22T21:44:52Z",
-     "snippet": "In my opinion it’s not a good alternative if you or your team members expect exactly the same quality of service. When you switch to Nextcloud you’ll have to expect more bugs, less reliability, less performance and obviously more maintenance (since it's typically self-hosted) com"
+     "snippet": "In my opinion it’s not a good alternative if you or your team members expect exactly the same quality of service. When you switch to Nextcloud you’ll have to expect more bugs, less reliability, less performance and obviously more maintenance (since it's typically self-hosted) com",
+     "author": "preya2k"
     },
     {
      "source": "Ask HN",
@@ -39321,7 +39447,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41576251",
      "date": "2024-09-18T05:56:12Z",
-     "snippet": "I have been using LanguageTool[1] for years as \"an open source alternative to [old school] Grammarly\". It doesn't do that fancy \"make this text more professional\" AI stuff like this or Grammarly can now do, but they offer a self-hosted version so you don't need to send everything"
+     "snippet": "I have been using LanguageTool[1] for years as \"an open source alternative to [old school] Grammarly\". It doesn't do that fancy \"make this text more professional\" AI stuff like this or Grammarly can now do, but they offer a self-hosted version so you don't need to send everything",
+     "author": "slg"
     }
    ],
    "checkedAt": "2026-11-02T16:07:41.278Z",
@@ -39377,7 +39504,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41442831",
      "date": "2024-09-04T07:27:38Z",
-     "snippet": "that's a great point. i'm making my alternative https://rawl.rocks/ which does exactly that: a relative color-coding, starting from the tonic aside from that, I make a library of structures used in Western music (in the header). I've started saving structures a week ago, so there"
+     "snippet": "that's a great point. i'm making my alternative https://rawl.rocks/ which does exactly that: a relative color-coding, starting from the tonic aside from that, I make a library of structures used in Western music (in the header). I've started saving structures a week ago, so there",
+     "author": "vitaly-pavlenko"
     }
    ],
    "checkedAt": "2026-11-02T16:07:42.374Z",
@@ -39412,7 +39540,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41413848",
      "date": "2024-09-01T02:52:20Z",
-     "snippet": "https://github.com/mendel5/alternative-front-ends Some of these are open source and easy to run, like https://github.com/iv-org/invidious"
+     "snippet": "https://github.com/mendel5/alternative-front-ends Some of these are open source and easy to run, like https://github.com/iv-org/invidious",
+     "author": "ethanol-brain"
     }
    ],
    "checkedAt": "2026-11-02T16:07:43.156Z",
@@ -39470,7 +39599,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41359812",
      "date": "2024-08-26T17:55:52Z",
-     "snippet": "Related discussion on the front page today: \"Coolify’s rise to fame, and why it could be a big deal\" https://news.ycombinator.com/item?id=41356239 > Coolify can enable organizations of any size to host an arbitrary number of free, self-hosted software easier than ever. https://gi"
+     "snippet": "Related discussion on the front page today: \"Coolify’s rise to fame, and why it could be a big deal\" https://news.ycombinator.com/item?id=41356239 > Coolify can enable organizations of any size to host an arbitrary number of free, self-hosted software easier than ever. https://gi",
+     "author": "password4321"
     }
    ],
    "checkedAt": "2026-11-02T08:40:23.177Z",
@@ -39614,7 +39744,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41276594",
      "date": "2024-08-17T18:08:10Z",
-     "snippet": "If they're on the same network, cross platform, open source airdrop alternative https://github.com/localsend/localsend"
+     "snippet": "If they're on the same network, cross platform, open source airdrop alternative https://github.com/localsend/localsend",
+     "author": "elesiuta"
     },
     {
      "source": "HN front page",
@@ -39806,7 +39937,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40723650",
      "date": "2024-06-19T00:55:40Z",
-     "snippet": "It may be that lambdas (cloud functions, etc) have become more popular and supported on other platforms. When you enqueue something, you eventually need to dequeue and process it. A lambda just does that in a single call. It also removes the need to run or scale a worker. I think"
+     "snippet": "It may be that lambdas (cloud functions, etc) have become more popular and supported on other platforms. When you enqueue something, you eventually need to dequeue and process it. A lambda just does that in a single call. It also removes the need to run or scale a worker. I think",
+     "author": "memset"
     }
    ],
    "checkedAt": "2026-11-02T08:40:23.710Z",
@@ -39846,13 +39978,15 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40610795",
      "date": "2024-06-07T17:26:43Z",
-     "snippet": "Seems to be a nice option, but the way it handles the notch... I think the second bar that Bartender has and Ice will eventually have[0] works better. For now, I'll support Ice because it's open source. I'll donate more than the $10 Vanilla Pro costs just to have an open source a"
+     "snippet": "Seems to be a nice option, but the way it handles the notch... I think the second bar that Bartender has and Ice will eventually have[0] works better. For now, I'll support Ice because it's open source. I'll donate more than the $10 Vanilla Pro costs just to have an open source a",
+     "author": "luuurker"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40605924",
      "date": "2024-06-07T06:43:23Z",
-     "snippet": "No good one for someone with a notch. Ice [0] is pretty cool and actively developped, but items just overflow into the notch when you open it, making them unreachable. Seem iBar [1] is the only real alternative for mac with notches, but it's closed source. [0] https://github.com/"
+     "snippet": "No good one for someone with a notch. Ice [0] is pretty cool and actively developped, but items just overflow into the notch when you open it, making them unreachable. Seem iBar [1] is the only real alternative for mac with notches, but it's closed source. [0] https://github.com/",
+     "author": "illiac786"
     },
     {
      "source": "HN front page",
@@ -39895,25 +40029,29 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40594877",
      "date": "2024-06-06T08:17:34Z",
-     "snippet": "We've launched a FOSS alternative with OpenRecall https://github.com/openrecall/openrecall to (hopefully) work towards addressing some of the concerns people have with Windows Recall. We think it could be a useful feature but it must be (1) fully auditable/open source (2) using o"
+     "snippet": "We've launched a FOSS alternative with OpenRecall https://github.com/openrecall/openrecall to (hopefully) work towards addressing some of the concerns people have with Windows Recall. We think it could be a useful feature but it must be (1) fully auditable/open source (2) using o",
+     "author": "kvaneijk"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40587114",
      "date": "2024-06-05T16:40:19Z",
-     "snippet": "We've made an open source alternative OpenRecall to address some of the concerns https://github.com/openrecall/openrecall We want to make it fully auditable, privacy focused and aim to have a better security model. Everything runs and is stored locally and only analyzed using ope"
+     "snippet": "We've made an open source alternative OpenRecall to address some of the concerns https://github.com/openrecall/openrecall We want to make it fully auditable, privacy focused and aim to have a better security model. Everything runs and is stored locally and only analyzed using ope",
+     "author": "fossr"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40578308",
      "date": "2024-06-04T19:54:52Z",
-     "snippet": "This is cool. What would be a good way to prevent this type of extraction? We just launched OpenRecall https://github.com/openrecall/openrecall with which we want to offer a fully open source/auditable and privacy/security focused alternative."
+     "snippet": "This is cool. What would be a good way to prevent this type of extraction? We just launched OpenRecall https://github.com/openrecall/openrecall with which we want to offer a fully open source/auditable and privacy/security focused alternative.",
+     "author": "fossr"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40573825",
      "date": "2024-06-04T12:32:24Z",
-     "snippet": "For those who want to try out Recall as a tool but do not trust Windows (or have the specialised hardware required to run), there already is an open source alternative that covers the basics: https://github.com/openrecall/openrecall"
+     "snippet": "For those who want to try out Recall as a tool but do not trust Windows (or have the specialised hardware required to run), there already is an open source alternative that covers the basics: https://github.com/openrecall/openrecall",
+     "author": "tvt_123"
     }
    ],
    "checkedAt": "2026-11-02T08:39:59.324Z",
@@ -40023,13 +40161,15 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40466786",
      "date": "2024-05-24T14:45:33Z",
-     "snippet": "Here is another open-source alternative: https://github.com/rashadphz/farfalle (Disclaimer: I made it)"
+     "snippet": "Here is another open-source alternative: https://github.com/rashadphz/farfalle (Disclaimer: I made it)",
+     "author": "rashadphil"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40379079",
      "date": "2024-05-16T14:43:31Z",
-     "snippet": "Hey all! I built an open-source AI-powered answer engine called Farfalle. It’s a self-hostable alternative to Perplexity. Check out a live demo here: https://www.farfalle.dev/ . The code is fully open-source on Github ( https://github.com/rashadphz/farfalle/ ) The repository incl"
+     "snippet": "Hey all! I built an open-source AI-powered answer engine called Farfalle. It’s a self-hostable alternative to Perplexity. Check out a live demo here: https://www.farfalle.dev/ . The code is fully open-source on Github ( https://github.com/rashadphz/farfalle/ ) The repository incl",
+     "author": "rashadphil"
     }
    ],
    "checkedAt": "2026-11-02T08:41:44.060Z",
@@ -40125,7 +40265,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40336257",
      "date": "2024-05-12T18:02:37Z",
-     "snippet": "Not really open source, plus it does not scale beyond one VM! tau ( https://github.com/taubyte/tau ) is a real alternative, to cloudflare & vercel and others, that is open source and actually scales -> https://taubyte.com/blog/be-competitive-in-few-minutes/"
+     "snippet": "Not really open source, plus it does not scale beyond one VM! tau ( https://github.com/taubyte/tau ) is a real alternative, to cloudflare & vercel and others, that is open source and actually scales -> https://taubyte.com/blog/be-competitive-in-few-minutes/",
+     "author": "dsamy"
     }
    ],
    "checkedAt": "2026-11-02T08:41:44.361Z",
@@ -40311,7 +40452,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=39859860",
      "date": "2024-03-29T02:12:43Z",
-     "snippet": "From HN a few days ago: https://github.com/microsoft/Garnet A Microsoft Research, open source, performant, almost RESP compatible alternative (according to them)"
+     "snippet": "From HN a few days ago: https://github.com/microsoft/Garnet A Microsoft Research, open source, performant, almost RESP compatible alternative (according to them)",
+     "author": "s-ta"
     },
     {
      "source": "HN front page",
@@ -40436,7 +40578,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=39656680",
      "date": "2024-03-10T04:21:10Z",
-     "snippet": "Hey everyone, this is Anoop - creator of Bruno. Happy to see Bruno at the top of HN! I will try to address some common questions in this comment. > Well based on historical experience with Postman and Insomnia most probably Bruno will go the same way once they get enough users ho"
+     "snippet": "Hey everyone, this is Anoop - creator of Bruno. Happy to see Bruno at the top of HN! I will try to address some common questions in this comment. > Well based on historical experience with Postman and Insomnia most probably Bruno will go the same way once they get enough users ho",
+     "author": "helloanoop"
     },
     {
      "source": "Ask HN",
@@ -40605,7 +40748,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=39303565",
      "date": "2024-02-08T16:05:09Z",
-     "snippet": "there is another OpenSource - Cross-Platform (Windows, Linux, etc) - Notepad/Notepad++ Alternative: https://github.com/dail8859/NotepadNext"
+     "snippet": "there is another OpenSource - Cross-Platform (Windows, Linux, etc) - Notepad/Notepad++ Alternative: https://github.com/dail8859/NotepadNext",
+     "author": "maverick74"
     }
    ],
    "checkedAt": "2026-11-02T08:41:46.167Z",
@@ -40656,7 +40800,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=39265797",
      "date": "2024-02-05T19:27:39Z",
-     "snippet": "Open source alternative that does the same but in vanilla JS and completely in user's control https://github.com/SMUsamaShah/LookupChatGPT"
+     "snippet": "Open source alternative that does the same but in vanilla JS and completely in user's control https://github.com/SMUsamaShah/LookupChatGPT",
+     "author": "smusamashah"
     },
     {
      "source": "Ask HN",
@@ -40737,7 +40882,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=39063189",
      "date": "2024-01-20T00:11:36Z",
-     "snippet": "> Is there any web-based version of VSCode other than VSCode.dev or any open source alternative? This maybe? https://github.com/coder/code-server"
+     "snippet": "> Is there any web-based version of VSCode other than VSCode.dev or any open source alternative? This maybe? https://github.com/coder/code-server",
+     "author": "KomoD"
     }
    ],
    "checkedAt": "2026-11-02T08:41:46.422Z",
@@ -40839,13 +40985,15 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=38884606",
      "date": "2024-01-05T20:41:02Z",
-     "snippet": "I’ve found stats [1] to be a great open source alternative to the iStat Menus system monitor app mentioned in the article. [1] https://github.com/exelban/stats"
+     "snippet": "I’ve found stats [1] to be a great open source alternative to the iStat Menus system monitor app mentioned in the article. [1] https://github.com/exelban/stats",
+     "author": "barnabee"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=38884588",
      "date": "2024-01-05T20:39:45Z",
-     "snippet": "https://github.com/exelban/stats is a solid open-source alternative to istat."
+     "snippet": "https://github.com/exelban/stats is a solid open-source alternative to istat.",
+     "author": "remlov"
     }
    ],
    "checkedAt": "2026-11-02T08:40:25.203Z",
@@ -40930,7 +41078,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=38876118",
      "date": "2024-01-05T05:46:25Z",
-     "snippet": "It's not at \"an accident\" and Go didn't \"somehow\" fail to replace C++ at its systems programming domain. The reason why go failed to replace C and C++ is not a mystery to anyone: Mandatory GC and a rather heavyweight runtime. When the performance overhead of having a GC is less s"
+     "snippet": "It's not at \"an accident\" and Go didn't \"somehow\" fail to replace C++ at its systems programming domain. The reason why go failed to replace C and C++ is not a mystery to anyone: Mandatory GC and a rather heavyweight runtime. When the performance overhead of having a GC is less s",
+     "author": "unscaled"
     },
     {
      "source": "HN front page",
@@ -41095,7 +41244,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=38775708",
      "date": "2023-12-26T20:27:52Z",
-     "snippet": "SiYuan Note is a fantastic open source alternative to Obsidian and Notion, as it's like a mix of both, but open source and local-first. https://github.com/siyuan-note/siyuan"
+     "snippet": "SiYuan Note is a fantastic open source alternative to Obsidian and Notion, as it's like a mix of both, but open source and local-first. https://github.com/siyuan-note/siyuan",
+     "author": "adhamsalama"
     }
    ],
    "checkedAt": "2026-11-02T08:41:46.923Z",
@@ -41225,7 +41375,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=38501174",
      "date": "2023-12-02T19:22:50Z",
-     "snippet": "Lago | Open-Source Stripe Billing Alternative| Remote +/- 2h from CET; and/or Paris | Full-Time https://www.getlago.com/ We're hiring: - 1 Product Manager https://www.ycombinator.com/companies/lago/jobs/WZQKgQm-sr-p... - Back-end engineers (Ruby), Front-end engineers (React) : jo"
+     "snippet": "Lago | Open-Source Stripe Billing Alternative| Remote +/- 2h from CET; and/or Paris | Full-Time https://www.getlago.com/ We're hiring: - 1 Product Manager https://www.ycombinator.com/companies/lago/jobs/WZQKgQm-sr-p... - Back-end engineers (Ruby), Front-end engineers (React) : jo",
+     "author": "AnhTho_FR"
     },
     {
      "source": "HN front page",
@@ -41343,7 +41494,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49600024",
      "date": "2026-09-07T16:20:29Z",
-     "snippet": "This is how I use SponserBlock with YouTube on my Apple TV: https://github.com/dmunozv04/iSponsorBlockTV >iSponsorBlockTV is a self-hosted application that connects to your YouTube TV app and automatically skips segments in YouTube videos using the SponsorBlock API."
+     "snippet": "This is how I use SponserBlock with YouTube on my Apple TV: https://github.com/dmunozv04/iSponsorBlockTV >iSponsorBlockTV is a self-hosted application that connects to your YouTube TV app and automatically skips segments in YouTube videos using the SponsorBlock API.",
+     "author": "Systemmanic"
     },
     {
      "source": "HN front page",
@@ -41475,7 +41627,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49184254",
      "date": "2026-08-05T15:24:45Z",
-     "snippet": "There is also qm with smol machines. I found this out the long way, by looking at the contributors to qm at https://github.com/yc-software/qm where I found BinSquare, the founder of smol machines. Then I found a tweet about a public instance of it where I could try out having it "
+     "snippet": "There is also qm with smol machines. I found this out the long way, by looking at the contributors to qm at https://github.com/yc-software/qm where I found BinSquare, the founder of smol machines. Then I found a tweet about a public instance of it where I could try out having it ",
+     "author": "benatkin"
     },
     {
      "source": "HN front page",
@@ -41562,7 +41715,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=48632502",
      "date": "2026-06-22T16:37:48Z",
-     "snippet": "I was frustrated with photo sharing sites. Apple's iCloud shared albums take 20+ seconds to load, and everything else comes with ads, cumbersome UIs, or social media distractions. I just want to share photos with friends and family: fast, mobile-friendly, distraction-free. So I b"
+     "snippet": "I was frustrated with photo sharing sites. Apple's iCloud shared albums take 20+ seconds to load, and everything else comes with ads, cumbersome UIs, or social media distractions. I just want to share photos with friends and family: fast, mobile-friendly, distraction-free. So I b",
+     "author": "dougdonohoe"
     },
     {
      "source": "HN front page",
@@ -41631,7 +41785,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=48530464",
      "date": "2026-06-14T18:00:11Z",
-     "snippet": "I'm still working on a self-hosted search service called Hister with the goal to reduce dependence on online search engines. Hister is a full text indexer for websites and local files which automatically saves all the visited pages rendered by your browser. It provides offline re"
+     "snippet": "I'm still working on a self-hosted search service called Hister with the goal to reduce dependence on online search engines. Hister is a full text indexer for websites and local files which automatically saves all the visited pages rendered by your browser. It provides offline re",
+     "author": "asciimoo"
     },
     {
      "source": "Ask HN",
@@ -41644,7 +41799,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=48266796",
      "date": "2026-05-25T13:48:07Z",
-     "snippet": "Ohi, I'm the author of the open source Searx metasearch engine. I'm working on a self-hosted search service called Hister with the same goal when I started Searx development: reduce dependence on online search engines. Hister is a full text indexer for websites and local files wh"
+     "snippet": "Ohi, I'm the author of the open source Searx metasearch engine. I'm working on a self-hosted search service called Hister with the same goal when I started Searx development: reduce dependence on online search engines. Hister is a full text indexer for websites and local files wh",
+     "author": "asciimoo"
     }
    ],
    "checkedAt": "2026-11-02T08:39:59.593Z",
@@ -41681,7 +41837,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=48479372",
      "date": "2026-06-10T17:07:01Z",
-     "snippet": "Also take a look at Firefly for another self hosted alternative. Good middle ground between flexibility and ease of use. https://github.com/firefly-iii/firefly-iii/"
+     "snippet": "Also take a look at Firefly for another self hosted alternative. Good middle ground between flexibility and ease of use. https://github.com/firefly-iii/firefly-iii/",
+     "author": "notme43"
     },
     {
      "source": "HN front page",
@@ -41888,7 +42045,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=47763427",
      "date": "2026-04-14T09:53:14Z",
-     "snippet": "I added an Zenko Scality CloudServer S3-compatible Storage backend to a selfhosted Grist [1] instance. This allowed me to create forms with attachements in Grist (e.g. users can upload photos). I experimented with several and settled on Zenko Scality CloudServer [2]: - MinIO [3] "
+     "snippet": "I added an Zenko Scality CloudServer S3-compatible Storage backend to a selfhosted Grist [1] instance. This allowed me to create forms with attachements in Grist (e.g. users can upload photos). I experimented with several and settled on Zenko Scality CloudServer [2]: - MinIO [3] ",
+     "author": "Helmut10001"
     },
     {
      "source": "HN front page",
@@ -42054,7 +42212,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=47619948",
      "date": "2026-04-02T20:47:24Z",
-     "snippet": "If you have a basic ARM MacBook, GLM-OCR is the best single model I have found for OCR with good table extraction/formatting. It's a compact 0.9b parameter model, so it'll run on systems with only 8 GB of RAM. https://github.com/zai-org/GLM-OCR Use mlx-vlm for inference: https://"
+     "snippet": "If you have a basic ARM MacBook, GLM-OCR is the best single model I have found for OCR with good table extraction/formatting. It's a compact 0.9b parameter model, so it'll run on systems with only 8 GB of RAM. https://github.com/zai-org/GLM-OCR Use mlx-vlm for inference: https://",
+     "author": "philipkglass"
     },
     {
      "source": "HN front page",
@@ -42310,7 +42469,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46845753",
      "date": "2026-02-01T12:28:38Z",
-     "snippet": "(Shamless plug) I am also working on a similar FOSS, self-hosted project called Octelium https://github.com/octelium/octelium that you might find interesting if you are interested in this space. Octelium is, however, more of a generic/unified zero trust secure access platform tha"
+     "snippet": "(Shamless plug) I am also working on a similar FOSS, self-hosted project called Octelium https://github.com/octelium/octelium that you might find interesting if you are interested in this space. Octelium is, however, more of a generic/unified zero trust secure access platform tha",
+     "author": "geoctl"
     },
     {
      "source": "HN front page",
@@ -42777,7 +42937,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45561304",
      "date": "2025-10-12T19:58:25Z",
-     "snippet": "Self hosted Linkding is a pretty great modern equivalent https://github.com/sissbruecker/linkding"
+     "snippet": "Self hosted Linkding is a pretty great modern equivalent https://github.com/sissbruecker/linkding",
+     "author": "noveltyaccount"
     },
     {
      "source": "Ask HN",
@@ -42913,7 +43074,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49551767",
      "date": "2026-09-03T15:37:00Z",
-     "snippet": "While soldering is not that hard, different tasks require different tools. Most of them can be from very cheap to very expensive. As a beginner I'd recommend the following: A small USB-C soldering iron supported by IronOS[1], e.g. Pinecil vor TS100 A solid stand with brass wool A"
+     "snippet": "While soldering is not that hard, different tasks require different tools. Most of them can be from very cheap to very expensive. As a beginner I'd recommend the following: A small USB-C soldering iron supported by IronOS[1], e.g. Pinecil vor TS100 A solid stand with brass wool A",
+     "author": "sandreas"
     },
     {
      "source": "HN front page",
@@ -43057,7 +43219,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49500513",
      "date": "2026-08-30T17:06:11Z",
-     "snippet": "Interesting, it's not mentioned anywhere in the https://github.com/dbos-inc/dbos-transact-golang README. By contrast, Postgres is mentioned right at the top. I recommend updating the README to mention SQLite somewhere, with maybe a link to https://docs.dbos.dev/golang/reference/c"
+     "snippet": "Interesting, it's not mentioned anywhere in the https://github.com/dbos-inc/dbos-transact-golang README. By contrast, Postgres is mentioned right at the top. I recommend updating the README to mention SQLite somewhere, with maybe a link to https://docs.dbos.dev/golang/reference/c",
+     "author": "bbkane"
     },
     {
      "source": "HN front page",
@@ -43269,13 +43432,15 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49295989",
      "date": "2026-08-14T08:24:40Z",
-     "snippet": "The thing that blows me away is it does this at one quarter the total parameter count of K3 (and 40% active parameter count). There's plenty of room at the bottom. > How are you all toying with running this kind of thing in a mega quantized way locally? Sure, let me answer that i"
+     "snippet": "The thing that blows me away is it does this at one quarter the total parameter count of K3 (and 40% active parameter count). There's plenty of room at the bottom. > How are you all toying with running this kind of thing in a mega quantized way locally? Sure, let me answer that i",
+     "author": "wren6991"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49099595",
      "date": "2026-07-29T16:29:00Z",
-     "snippet": "I'm really excited about what's been happening couple last weeks for local inference. I feel like it all started after colibri [1] was released. Great work ! Anyone got recommendation about what local model to use for what purpose ? I feel like (as they were saying in moonshot bl"
+     "snippet": "I'm really excited about what's been happening couple last weeks for local inference. I feel like it all started after colibri [1] was released. Great work ! Anyone got recommendation about what local model to use for what purpose ? I feel like (as they were saying in moonshot bl",
+     "author": "maxignol"
     },
     {
      "source": "HN front page",
@@ -43404,7 +43569,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49193160",
      "date": "2026-08-06T06:23:17Z",
-     "snippet": "That is what I was alluding to, though I recommend people to use UAD-ng, since it explains what each package is and they are separated in safety-based categories. One note though: removal of system apps with adb is blocked in Android 17. You can only disable system apps on Androi"
+     "snippet": "That is what I was alluding to, though I recommend people to use UAD-ng, since it explains what each package is and they are separated in safety-based categories. One note though: removal of system apps with adb is blocked in Android 17. You can only disable system apps on Androi",
+     "author": "microtonal"
     },
     {
      "source": "HN front page",
@@ -44703,11 +44869,41 @@
     {
      "source": "Ask HN",
      "author": "namusanga",
+     "url": "https://news.ycombinator.com/item?id=50347088",
+     "date": "2026-11-03T02:07:18.000Z",
+     "snippet": "Technologies: CUDA, C++, PTX/SASS level tuning, CuTe, Nsight Compute, Nsight Systems, cuRAND, cuSPARSE, Python Remote: Yes, I've worked remotely with UK and US companies Location: Kampala, Uganda Willing to relocate: Yes, if the role needs it Résumé/CV: https://namusanga.com/resu"
+    },
+    {
+     "source": "Ask HN",
+     "author": "namusanga",
      "url": "https://news.ycombinator.com/item?id=49923920",
      "date": "2026-10-01T16:35:58.000Z",
      "snippet": "Location: Kampala, Uganda Remote: Yes (have worked remotely with US and UK contractors and open to on-site) Willing to relocate: Yes Technologies: CUDA, PTX/SASS level kernel tuning, C++, Nsight profiling, TensorRT, HPC, physics simulation, sparse solvers Résumé/CV: https://namus"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-03T06:46:04.684Z",
+   "meta": {
+    "name": "psiEngine",
+    "fullName": "nnamu-cl/psiEngine",
+    "description": "Visual quantum physics compute engine: Vulkan rendering, GPU compute, node graph, Lua scripting",
+    "homepage": null,
+    "stars": 0,
+    "language": "C",
+    "topics": [
+     "cpp",
+     "cuda",
+     "gpu",
+     "imgui",
+     "node-graph",
+     "physics-simulation",
+     "slang",
+     "vulkan"
+    ],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-09-07T17:34:54Z"
+   }
   },
   "c410-f3r/wtx": {
    "mentions": [
@@ -44797,6 +44993,13 @@
     {
      "source": "Ask HN",
      "author": "anosidium",
+     "url": "https://news.ycombinator.com/item?id=50344927",
+     "date": "2026-11-02T22:31:38.000Z",
+     "snippet": "Location: London, England, UK Remote: Yes — also open to hybrid or on-site roles Willing to relocate: Yes — UK, selected European countries and international opportunities Technologies: Swift, UIKit, SwiftUI, AppKit, iOS, iPadOS, watchOS, macOS, Swift Concurrency, Combine, Core D"
+    },
+    {
+     "source": "Ask HN",
+     "author": "anosidium",
      "url": "https://news.ycombinator.com/item?id=49925234",
      "date": "2026-10-01T18:23:17.000Z",
      "snippet": "Location: London, England, UK Remote: Yes — also open to hybrid or on-site roles Willing to relocate: Yes — UK, selected European countries and international opportunities Technologies: Swift, UIKit, SwiftUI, AppKit, iOS, iPadOS, watchOS, macOS, Swift Concurrency, Combine, Core D"
@@ -44841,6 +45044,13 @@
   },
   "anosidium/oliphaunt-app": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "anosidium",
+     "url": "https://news.ycombinator.com/item?id=50344927",
+     "date": "2026-11-02T22:31:38.000Z",
+     "snippet": "Location: London, England, UK Remote: Yes — also open to hybrid or on-site roles Willing to relocate: Yes — UK, selected European countries and international opportunities Technologies: Swift, UIKit, SwiftUI, AppKit, iOS, iPadOS, watchOS, macOS, Swift Concurrency, Combine, Core D"
+    },
     {
      "source": "Ask HN",
      "author": "anosidium",
@@ -45240,11 +45450,32 @@
     {
      "source": "Ask HN",
      "author": "blackwaltz0818",
+     "url": "https://news.ycombinator.com/item?id=50346883",
+     "date": "2026-11-03T01:37:56.000Z",
+     "snippet": "Location: Taipei, Taiwan (GMT+8) Remote: Yes, async Willing to relocate: Remote only Technologies: n8n (self-hosted), ChatGPT, Claude, Gemini, Microsoft Copilot; process mapping and requirements (CBAP, PMP) Résumé/CV: https://jasonchuang.com/about Email: jason@jasonchuang.com Fre"
+    },
+    {
+     "source": "Ask HN",
+     "author": "blackwaltz0818",
      "url": "https://news.ycombinator.com/item?id=49928891",
      "date": "2026-10-02T01:17:33.000Z",
      "snippet": "Location: Taipei, Taiwan (GMT+8) Remote: Yes, async Willing to relocate: Remote only Technologies: n8n (self-hosted), ChatGPT, Claude, Gemini, Microsoft Copilot; process mapping and requirements (CBAP, PMP) Résumé/CV: https://jasonchuang.com/about Email: jason@jasonchuang.com Fre"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-03T06:46:04.950Z",
+   "meta": {
+    "name": "ai-assistant-accuracy-test",
+    "fullName": "blackwaltz0818/ai-assistant-accuracy-test",
+    "description": "Can a paid AI assistant answer a small company's questions correctly from its own files? 25 invented files, 25 locked questions, every answer scored twice.",
+    "homepage": "https://jasonchuang.com",
+    "stars": 0,
+    "language": "Python",
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-23T10:39:44Z"
+   }
   },
   "kafle1/relay": {
    "mentions": [
@@ -115586,7 +115817,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=39128303",
      "date": "2024-01-25T11:05:53Z",
-     "snippet": "On the subject of installing Ollama, I found it to be a frustrating and user-hostile experience. I instead recommend the much more user-friendly LLM[0] by Simon Willison. Among the problems with Ollama include: * Ollama silently adds a login item with no way to opt out: < https:/"
+     "snippet": "On the subject of installing Ollama, I found it to be a frustrating and user-hostile experience. I instead recommend the much more user-friendly LLM[0] by Simon Willison. Among the problems with Ollama include: * Ollama silently adds a login item with no way to opt out: < https:/",
+     "author": "SnowLprd"
     },
     {
      "source": "HN front page",
@@ -121532,7 +121764,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41506560",
      "date": "2024-09-10T23:08:34Z",
-     "snippet": "We strongly considered Graphite as an alternative to Gerrit at my job that I mentioned at the start of this post (which I am no longer at, actually) because it does look like an absolutely excellent product, I will admit. You should all be proud of a smart design and smart set of"
+     "snippet": "We strongly considered Graphite as an alternative to Gerrit at my job that I mentioned at the start of this post (which I am no longer at, actually) because it does look like an absolutely excellent product, I will admit. You should all be proud of a smart design and smart set of",
+     "author": "aseipp"
     },
     {
      "source": "HN front page",
@@ -147191,19 +147424,22 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45567889",
      "date": "2025-10-13T13:04:25Z",
-     "snippet": "Currently working on an open source Heroku / Fly.io / Render alternative: https://canine.sh Its built on top of Kubernetes, based on learnings I've had from previous experiences scaling infrastructure. If you look at the markup PaaS (Heroku, Fly, Render) applies to IaaS (AWS, Het"
+     "snippet": "Currently working on an open source Heroku / Fly.io / Render alternative: https://canine.sh Its built on top of Kubernetes, based on learnings I've had from previous experiences scaling infrastructure. If you look at the markup PaaS (Heroku, Fly, Render) applies to IaaS (AWS, Het",
+     "author": "czhu12"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45419383",
      "date": "2025-09-29T22:07:09Z",
-     "snippet": "I'm working on a Heroku / Render / Flyio alternative thats free, open source, built on top of Kubernetes for about 2 years now. I’ve found these services charge way too much per GB of memory (10x more than IaaS providers), but more importantly, offer terrible flexibility. You can"
+     "snippet": "I'm working on a Heroku / Render / Flyio alternative thats free, open source, built on top of Kubernetes for about 2 years now. I’ve found these services charge way too much per GB of memory (10x more than IaaS providers), but more importantly, offer terrible flexibility. You can",
+     "author": "czhu12"
     },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44703870",
      "date": "2025-07-27T19:27:35Z",
-     "snippet": "I'm working on a Heroku / Render / Flyio alternative thats free, open source, built on top of Kubernetes. Supports deployments of your own apps as well as 15k+ other packages (postgres, airbyte, dagster, etc) via helm charts. https://github.com/czhu12/canine https://canine.sh Rea"
+     "snippet": "I'm working on a Heroku / Render / Flyio alternative thats free, open source, built on top of Kubernetes. Supports deployments of your own apps as well as 15k+ other packages (postgres, airbyte, dagster, etc) via helm charts. https://github.com/czhu12/canine https://canine.sh Rea",
+     "author": "czhu12"
     },
     {
      "source": "HN front page",
@@ -147782,7 +148018,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43197955",
      "date": "2025-02-27T20:12:40Z",
-     "snippet": "A bit better at coding than ChatGPT 4o but not better than o3-mini - there is a chart near the bottom of the page that is easy to overlook: - ChatGPT 4.5 on AWS Bench verified: 38.0% - ChatGPT 4o on AWS Bench verified: 30.7% - OpenAI o3-mini on AWS Bench verified: 61.0% BTW Anthr"
+     "snippet": "A bit better at coding than ChatGPT 4o but not better than o3-mini - there is a chart near the bottom of the page that is easy to overlook: - ChatGPT 4.5 on AWS Bench verified: 38.0% - ChatGPT 4o on AWS Bench verified: 30.7% - OpenAI o3-mini on AWS Bench verified: 61.0% BTW Anthr",
+     "author": "bhouston"
     },
     {
      "source": "HN front page",
@@ -147873,7 +148110,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40333813",
      "date": "2024-05-12T12:14:53Z",
-     "snippet": "Hey, we're building Ente[1] as an end-to-end encrypted alternative to Google Photos. If it helps, Ente has been previously discussed on HN[2][3]. To answer your questions, we support imports from Google Takeout[4], and we stitch together metadata from their sidecar files to make "
+     "snippet": "Hey, we're building Ente[1] as an end-to-end encrypted alternative to Google Photos. If it helps, Ente has been previously discussed on HN[2][3]. To answer your questions, we support imports from Google Takeout[4], and we stitch together metadata from their sidecar files to make ",
+     "author": "vishnumohandas"
     }
    ],
    "meta": {
@@ -147923,7 +148161,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=40051572",
      "date": "2024-04-16T13:24:32Z",
-     "snippet": "Very cool, I've been looking for an open source Ngrok alternative as well though for production traffic rather than development (I couldn't find a good option on awsome-tunneling so have been playing about with a proof of concept at https://github.com/andydunstall/pico )"
+     "snippet": "Very cool, I've been looking for an open source Ngrok alternative as well though for production traffic rather than development (I couldn't find a good option on awsome-tunneling so have been playing about with a proof of concept at https://github.com/andydunstall/pico )",
+     "author": "andydunstall"
     }
    ],
    "meta": {
@@ -149620,7 +149859,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50096766",
      "date": "2026-10-14T23:02:31Z",
-     "snippet": "This can happen without HTTP, we hit this issue in runc a decade ago[1] -- some container invocations would mysteriously error out with ECONNRESET and if you added a dummy environment variable they would work again. Turns out that json.Encoder always appends a newline but (as GP "
+     "snippet": "This can happen without HTTP, we hit this issue in runc a decade ago[1] -- some container invocations would mysteriously error out with ECONNRESET and if you added a dummy environment variable they would work again. Turns out that json.Encoder always appends a newline but (as GP ",
+     "author": "cyphar"
     }
    ],
    "meta": {
@@ -149650,7 +149890,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50018889",
      "date": "2026-10-09T11:14:03Z",
-     "snippet": "There is no canvas, no WebGL. Even JavaScript is optional I love the ring nebula: https://css.earth/m57/ Fully open source and paper/dataset based pipeline: https://github.com/layoutit/cssEarth"
+     "snippet": "There is no canvas, no WebGL. Even JavaScript is optional I love the ring nebula: https://css.earth/m57/ Fully open source and paper/dataset based pipeline: https://github.com/layoutit/cssEarth",
+     "author": "apresmoi"
     }
    ],
    "meta": {
@@ -149684,7 +149925,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50014638",
      "date": "2026-10-09T00:55:54Z",
-     "snippet": "Was looking for something like this but stumbled upon herdr-web-ui [0] first. They seem to do the same thing, but herdr-web-ui is completely free and self hosted and sets up as a PWA with webpush support. Seems to work decently well and it’s under heavy development. Will have to "
+     "snippet": "Was looking for something like this but stumbled upon herdr-web-ui [0] first. They seem to do the same thing, but herdr-web-ui is completely free and self hosted and sets up as a PWA with webpush support. Seems to work decently well and it’s under heavy development. Will have to ",
+     "author": "antoniomika"
     }
    ],
    "meta": {
@@ -149778,7 +150020,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49943200",
      "date": "2026-10-03T11:14:06Z",
-     "snippet": "Amazing! I’ve got a similar project going except focusing on voxel to LEGO to ensure the pieces build correctly. Would love to collab if you’re interested! https://github.com/jjohnson5253/brickbuilderai"
+     "snippet": "Amazing! I’ve got a similar project going except focusing on voxel to LEGO to ensure the pieces build correctly. Would love to collab if you’re interested! https://github.com/jjohnson5253/brickbuilderai",
+     "author": "jjohnson5253"
     }
    ],
    "meta": {
@@ -152049,7 +152292,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46256659",
      "date": "2025-12-13T18:22:02Z",
-     "snippet": "Thanks for the thoughtful and thorough questions! Really appreciate the constructive engagement. Let me address each one: > NVIDIA's AIstore AFAIK, AIstore is designed as a caching/proxy layer, but FractalBits is a ground-up object storage implementation with a custom metadata en"
+     "snippet": "Thanks for the thoughtful and thorough questions! Really appreciate the constructive engagement. Let me address each one: > NVIDIA's AIstore AFAIK, AIstore is designed as a caching/proxy layer, but FractalBits is a ground-up object storage implementation with a custom metadata en",
+     "author": "fractalbits"
     }
    ],
    "meta": {
@@ -152083,7 +152327,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45260489",
      "date": "2025-09-16T10:42:33Z",
-     "snippet": "Hey HN, We built `vue-renderer-markdown`, a high-performance streaming Markdown renderer for Vue 3. It was extracted from the core of DeepChat, our open-source AI chatbot, after being battle-tested in production. This wasn't just an exercise. We needed to render complex, streamin"
+     "snippet": "Hey HN, We built `vue-renderer-markdown`, a high-performance streaming Markdown renderer for Vue 3. It was extracted from the core of DeepChat, our open-source AI chatbot, after being battle-tested in production. This wasn't just an exercise. We needed to render complex, streamin",
+     "author": "simon_he"
     }
    ],
    "meta": {
@@ -152159,7 +152404,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44608478",
      "date": "2025-07-18T18:57:07Z",
-     "snippet": "Windows search is slow and painful for developers. Even tools like Everything or PowerShell Get-ChildItem can crawl on huge directories. I wanted a CLI tool that feels instant—so I built rq, an open-source file search utility in modern C17 that leverages parallel directory traver"
+     "snippet": "Windows search is slow and painful for developers. Even tools like Everything or PowerShell Get-ChildItem can crawl on huge directories. I wanted a CLI tool that feels instant—so I built rq, an open-source file search utility in modern C17 that leverages parallel directory traver",
+     "author": "seeyebe"
     }
    ],
    "meta": {
@@ -152222,7 +152468,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43816256",
      "date": "2025-04-28T00:06:50Z",
-     "snippet": "Open source Granloa alternative https://github.com/fastrepl/hyprnote"
+     "snippet": "Open source Granloa alternative https://github.com/fastrepl/hyprnote",
+     "author": "johntopia"
     }
    ],
    "meta": {
@@ -152255,7 +152502,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43787874",
      "date": "2025-04-24T21:47:31Z",
-     "snippet": "For context, Open VSX is run by the Eclipse foundation, which also develops the Eclipse Theia editor, which is basically a clone of VS Code (not a fork, like VS Codium). The Open VSX registry is open source ( https://github.com/eclipse/openvsx ) and self-hostable, although I have"
+     "snippet": "For context, Open VSX is run by the Eclipse foundation, which also develops the Eclipse Theia editor, which is basically a clone of VS Code (not a fork, like VS Codium). The Open VSX registry is open source ( https://github.com/eclipse/openvsx ) and self-hostable, although I have",
+     "author": "bogwog"
     }
    ],
    "meta": {
@@ -152286,7 +152534,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43312724",
      "date": "2025-03-09T19:25:35Z",
-     "snippet": "I asked Manus AI (the invite-only agent that sells for $20K on secondary markets) to create its own open-source alternative. The result is ANUS (Autonomous Networked Utility System), a complete AI agent framework with architecture, documentation, and tooling - 100% designed and c"
+     "snippet": "I asked Manus AI (the invite-only agent that sells for $20K on secondary markets) to create its own open-source alternative. The result is ANUS (Autonomous Networked Utility System), a complete AI agent framework with architecture, documentation, and tooling - 100% designed and c",
+     "author": "digitalresearch"
     }
    ],
    "meta": {
@@ -152321,7 +152570,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=43168651",
      "date": "2025-02-25T05:55:53Z",
-     "snippet": "I'm working on Somleng ( https://github.com/somleng ) - an Open Source alternative to Twilio, that's being used to save lives by powering the National Early Warning Systems of Cambodia and Laos. We're also building OpenEWS ( https://github.com/somleng/open-ews ) which will be the"
+     "snippet": "I'm working on Somleng ( https://github.com/somleng ) - an Open Source alternative to Twilio, that's being used to save lives by powering the National Early Warning Systems of Cambodia and Laos. We're also building OpenEWS ( https://github.com/somleng/open-ews ) which will be the",
+     "author": "dwilkie"
     }
    ],
    "meta": {
@@ -152346,7 +152596,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42810043",
      "date": "2025-01-24T02:42:01Z",
-     "snippet": "CogAgent: Open source alternative from China. Paper： https://arxiv.org/abs/2312.08914 Code： https://github.com/THUDM/CogAgent Model: https://huggingface.co/THUDM/cogagent-9b-20241220"
+     "snippet": "CogAgent: Open source alternative from China. Paper： https://arxiv.org/abs/2312.08914 Code： https://github.com/THUDM/CogAgent Model: https://huggingface.co/THUDM/cogagent-9b-20241220",
+     "author": "turingbook"
     }
    ],
    "meta": {
@@ -152377,7 +152628,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42544638",
      "date": "2024-12-29T23:39:23Z",
-     "snippet": "Given how much data (personal and otherwise) that you're likely going to feeding into it, I would HIGHLY recommend using an open-source chat interface like Jan. It's cross platform, works with most LLMs, and has extension support. https://github.com/janhq/jan Another alternative "
+     "snippet": "Given how much data (personal and otherwise) that you're likely going to feeding into it, I would HIGHLY recommend using an open-source chat interface like Jan. It's cross platform, works with most LLMs, and has extension support. https://github.com/janhq/jan Another alternative ",
+     "author": "vunderba"
     }
    ],
    "meta": {
@@ -152423,7 +152675,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=41414449",
      "date": "2024-09-01T05:06:40Z",
-     "snippet": "I don’t understand the license here https://github.com/blocksmd/blocksmd?tab=License-1-ov-file#r... It says Business Source License 1.1 which basically means I’m free to use as long as I don’t use it to build a competitive offering. Fair enough. But it changes to AGPL-3.0 on 2028"
+     "snippet": "I don’t understand the license here https://github.com/blocksmd/blocksmd?tab=License-1-ov-file#r... It says Business Source License 1.1 which basically means I’m free to use as long as I don’t use it to build a competitive offering. Fair enough. But it changes to AGPL-3.0 on 2028",
+     "author": "oefrha"
     }
    ],
    "meta": {
@@ -153505,6 +153758,204 @@
     "pushedAt": "2026-01-14T11:40:17Z"
    },
    "checkedAt": "2026-11-02T21:42:35.395Z"
+  },
+  "seun-novodev/android-tv-debloat-toolkit": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "BLKNSLVR",
+     "url": "https://news.ycombinator.com/item?id=50348574",
+     "date": "2026-11-03T05:54:37Z",
+     "snippet": "Thank you. Probably because of the copy and paste of an AI answer, which is somewhat understandable in most cases. I hope you get it to work. I tried re-mapping some of the custom buttons on the remote, but it didn't seem to work consistently, and right/left arrowing to navigate "
+    }
+   ]
+  },
+  "amywork777/lipflow": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "eranation",
+     "url": "https://news.ycombinator.com/item?id=50346926",
+     "date": "2026-11-03T01:45:47Z",
+     "snippet": "First, love it. Second, aren't you worried that video to text (AI lip reading) will be good enough so it can be a software only solution with any webcam? (e.g. https://lipnet.ai ) edit: what about solutions such as https://github.com/amywork777/lipflow"
+    }
+   ]
+  },
+  "jitsi/jiwer": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "nikvaes",
+     "url": "https://news.ycombinator.com/item?id=50345256",
+     "date": "2026-11-02T22:58:07Z",
+     "snippet": "Location: Amsterdam Remote: open to remote (or hybrid in NL) Willing to relocate: within NL if needed Technologies: java, typescript, python, pytorch, cuda, SLURM, terraform Résumé/CV: available on request Email: username at google's email service I have a PhD in speech recogniti"
+    }
+   ]
+  },
+  "aleyan/dela": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "aleyan",
+     "url": "https://news.ycombinator.com/item?id=50345097",
+     "date": "2026-11-02T22:44:30Z",
+     "snippet": "> \"the promotional and communication part always felt more like an obligation\" Yes, this feels like the worst part for me as a software engineer. It doesn't help that many communities have rules against self promotion. If I spent N hours building a tool for myself[0], I don't wan"
+    }
+   ]
+  },
+  "pcapp/hobgoblin": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "pcapp",
+     "url": "https://news.ycombinator.com/item?id=50344592",
+     "date": "2026-11-02T22:08:53.000Z",
+     "snippet": "Location: Bellevue, WA (Seattle area) Remote: Yes, or on-site/hybrid in Eastside/Seattle-area Willing to relocate: No Technologies: TypeScript, Python, Rust, C++, Kubernetes, Docker, GCP, SQL, Neo4j, LLM evals, OpenCV, ITK, Keras, Unreal Engine, Houdini Résumé/CV: https://www.pet"
+    }
+   ]
+  },
+  "pcapp/comfyui-dicom-volume": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "pcapp",
+     "url": "https://news.ycombinator.com/item?id=50344592",
+     "date": "2026-11-02T22:08:53.000Z",
+     "snippet": "Location: Bellevue, WA (Seattle area) Remote: Yes, or on-site/hybrid in Eastside/Seattle-area Willing to relocate: No Technologies: TypeScript, Python, Rust, C++, Kubernetes, Docker, GCP, SQL, Neo4j, LLM evals, OpenCV, ITK, Keras, Unreal Engine, Houdini Résumé/CV: https://www.pet"
+    }
+   ]
+  },
+  "nnamu-cl/cuda-orbital-sampler": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "namusanga",
+     "url": "https://news.ycombinator.com/item?id=50347088",
+     "date": "2026-11-03T02:07:18.000Z",
+     "snippet": "Technologies: CUDA, C++, PTX/SASS level tuning, CuTe, Nsight Compute, Nsight Systems, cuRAND, cuSPARSE, Python Remote: Yes, I've worked remotely with UK and US companies Location: Kampala, Uganda Willing to relocate: Yes, if the role needs it Résumé/CV: https://namusanga.com/resu"
+    }
+   ]
+  },
+  "mantou132/browser4agent": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "mantou132",
+     "url": "https://news.ycombinator.com/item?id=50347481",
+     "date": "2026-11-03T03:01:46.000Z",
+     "snippet": "Location: Changsha, China (UTC+8) Remote: Yes (remote only; async-friendly, happy to overlap a few hours with US/EU) Willing to relocate: No Technologies: TypeScript, JavaScript, React, Web Components, Node.js, Rust, WebAssembly, Tauri, WebExtensions, Chrome DevTools Protocol, MC"
+    }
+   ]
+  },
+  "mantou132/gem": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "mantou132",
+     "url": "https://news.ycombinator.com/item?id=50347481",
+     "date": "2026-11-03T03:01:46.000Z",
+     "snippet": "Location: Changsha, China (UTC+8) Remote: Yes (remote only; async-friendly, happy to overlap a few hours with US/EU) Willing to relocate: No Technologies: TypeScript, JavaScript, React, Web Components, Node.js, Rust, WebAssembly, Tauri, WebExtensions, Chrome DevTools Protocol, MC"
+    }
+   ]
+  },
+  "azterizm/legal-rag-verifier": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "azterizm",
+     "url": "https://news.ycombinator.com/item?id=50347893",
+     "date": "2026-11-03T04:02:33.000Z",
+     "snippet": "Location: Hyderabad, Pakistan (UTC+5) Remote: Yes Willing to relocate: No Technologies: Python, TypeScript, Node.js, SGLang, PyTorch, OpenAI, Anthropic and Gemini APIs, RAG, Remix, Prisma, Redis, SQLite Résumé/CV: https://azterizm.com/Abdullah_Memon_CV.pdf Email: abdullah@azteriz"
+    }
+   ]
+  },
+  "azterizm/legal-rag-router": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "azterizm",
+     "url": "https://news.ycombinator.com/item?id=50347893",
+     "date": "2026-11-03T04:02:33.000Z",
+     "snippet": "Location: Hyderabad, Pakistan (UTC+5) Remote: Yes Willing to relocate: No Technologies: Python, TypeScript, Node.js, SGLang, PyTorch, OpenAI, Anthropic and Gemini APIs, RAG, Remix, Prisma, Redis, SQLite Résumé/CV: https://azterizm.com/Abdullah_Memon_CV.pdf Email: abdullah@azteriz"
+    }
+   ]
+  },
+  "tetherto/qvac": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "azterizm",
+     "url": "https://news.ycombinator.com/item?id=50347893",
+     "date": "2026-11-03T04:02:33.000Z",
+     "snippet": "Location: Hyderabad, Pakistan (UTC+5) Remote: Yes Willing to relocate: No Technologies: Python, TypeScript, Node.js, SGLang, PyTorch, OpenAI, Anthropic and Gemini APIs, RAG, Remix, Prisma, Redis, SQLite Résumé/CV: https://azterizm.com/Abdullah_Memon_CV.pdf Email: abdullah@azteriz"
+    }
+   ]
+  },
+  "altancetincelik/seed-showcase": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "AltanCelik",
+     "url": "https://news.ycombinator.com/item?id=50348787",
+     "date": "2026-11-03T06:35:46.000Z",
+     "snippet": "Location: Denizli, Turkey (Remote only) Remote: Yes Willing to relocate: No Technologies: Python (FastAPI, Asyncio, Pandas), C/C++, Embedded Systems, IoT, LLM Agents & Tool Use, AI Model Evaluation (RLHF), Signal Processing, Linux, macOS Website: https://altancelik.dev Email: alt"
+    }
+   ]
+  },
+  "altancetincelik/my-projects": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "AltanCelik",
+     "url": "https://news.ycombinator.com/item?id=50348787",
+     "date": "2026-11-03T06:35:46.000Z",
+     "snippet": "Location: Denizli, Turkey (Remote only) Remote: Yes Willing to relocate: No Technologies: Python (FastAPI, Asyncio, Pandas), C/C++, Embedded Systems, IoT, LLM Agents & Tool Use, AI Model Evaluation (RLHF), Signal Processing, Linux, macOS Website: https://altancelik.dev Email: alt"
+    }
+   ]
+  },
+  "connollydavid/host": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "slartibardfast0",
+     "url": "https://news.ycombinator.com/item?id=50341740",
+     "date": "2026-11-02T18:55:02.000Z",
+     "snippet": "Qwen Next 3.8 @ 3 bit IQ on x2 Quadro 6000 (sm_75) on a Dell T5820 (W-2140B Xeon, 128GiB DDR3). Strata makes the most of the hardware. heavily customised agentic framework: https://github.com/connollydavid/host gets good work out of the weights"
+    }
+   ]
+  },
+  "poiedk/lg-hue-sync": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "MegaDeKay",
+     "url": "https://news.ycombinator.com/item?id=50346514",
+     "date": "2026-11-03T00:51:52.000Z",
+     "snippet": "One less box. One less thing to get something like a Harmony or Sofabaton remote to integrate with. An interface of your choice (there are many frontends), etc. I see a lot of ppl in here advocate AppleTV but that assumes you're part of their ecosystem already. Or think of it his"
+    }
+   ]
+  },
+  "jiafeimiao-k-cat/discimagestudio": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "bpierre",
+     "url": "https://news.ycombinator.com/item?id=50346849",
+     "date": "2026-11-03T01:33:43Z",
+     "snippet": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs (122 points)"
+    }
+   ]
+  },
+  "storytold/lightcraft": {
+   "mentions": [
+    {
+     "source": "Stack Exchange",
+     "author": "se:Franck Dernoncourt",
+     "url": "https://softwarerecs.stackexchange.com/a/95752",
+     "date": "2026-10-31T22:29:52.000Z",
+     "snippet": "One can use LightCraft . It is gratis and dual-licensed under MIT or Apache-2.0, at your option. It has a portable version. It is designed to be a free replacement for Adobe Lightroom. It works on Windows, Linux and macOS."
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -154304,18 +154755,20 @@
   "50084969": 1793608048416,
   "50121562": 1793608048501,
   "50151036": 1793623210888,
-  "50193416": 1793655713223,
-  "50200997": 1793655713060,
-  "50204125": 1793655713332,
-  "50271004": 1793655712469,
-  "50285134": 1793655712702,
-  "50301479": 1793655712795,
-  "50312756": 1793655712803,
-  "50318646": 1793655713070,
-  "50326727": 1793655713051,
-  "50328896": 1793655713489,
-  "50331001": 1793655713355,
-  "50338726": 1793655712737,
-  "50338728": 1793655712424
+  "50193416": 1793688253966,
+  "50200997": 1793688252937,
+  "50204125": 1793688253792,
+  "50271004": 1793688252454,
+  "50285134": 1793688252664,
+  "50301479": 1793688253224,
+  "50312756": 1793688252725,
+  "50313705": 1793688253754,
+  "50318646": 1793688253345,
+  "50326727": 1793688253233,
+  "50328896": 1793688253996,
+  "50331001": 1793688253706,
+  "50337431": 1793688253012,
+  "50338726": 1793688252797,
+  "50338728": 1793688252507
  }
 }
