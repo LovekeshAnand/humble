@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T06:46:05.698Z",
+ "updatedAt": "2026-11-03T19:32:56.390Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -3331,6 +3331,13 @@
   },
   "omlahore/removemacai": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "onyx47",
+     "url": "https://news.ycombinator.com/item?id=50352423",
+     "date": "2026-11-03T14:28:15.000Z",
+     "snippet": "Location: Mumbai, India Remote: Yes Willing to relocate: Yes, anywhere Technologies: Go, Python, TypeScript, Kubernetes, AWS, Docker, PostgreSQL, Swift Résumé/CV: https://omlahore.github.io Email: omlahorey@gmail.com I'm a founding engineer with 3 years of experience. I build and"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50260738",
@@ -7519,7 +7526,7 @@
     "fork": false,
     "pushedAt": "2026-11-03T03:57:45Z"
    },
-   "checkedAt": "2026-11-03T06:46:05.481Z"
+   "checkedAt": "2026-11-03T19:32:56.144Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -12153,6 +12160,13 @@
   },
   "yuechen-li-dev/aetheris": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "YuechenLi",
+     "url": "https://news.ycombinator.com/item?id=50354866",
+     "date": "2026-11-03T17:17:12Z",
+     "snippet": "Would you be interested in evaluating (or having your LLMs check out) my geometry kernel Aetheris for your project? I already have DSL (called Firmament) parser/lexer/AST part down, and it is designed to be easy to extend, so you don't have to write everything from scratch. https"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50079991",
@@ -18795,6 +18809,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "nemanja_codes",
+     "url": "https://news.ycombinator.com/item?id=50350151",
+     "date": "2026-11-03T10:20:42Z",
+     "snippet": "Location: Serbia, GMT +1 Remote: Yes Willing to relocate: Yes Technologies: React, Next.js, JavaScript/TypeScript, Node.js, Astro, TailwindCSS, Jest, Cypress, Prisma, PostgreSQL, MongoDB, Docker, Python, FastAPI, C#/.NET Resume/CV: Available on request GitHub: https://github.com/"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49960569",
      "date": "2026-10-05T04:08:33Z",
      "snippet": "Location: Serbia, GMT +2 Remote: Yes Willing to relocate: Yes Technologies: React, Next.js, JavaScript/TypeScript, Node.js, Astro, TailwindCSS, Jest, Cypress, Prisma, PostgreSQL, MongoDB, Docker, Python, FastAPI, C#/.NET Resume/CV: Available on request GitHub: https://github.com/",
@@ -18843,6 +18864,13 @@
   },
   "nemanjam/full-stack-fastapi-template-next": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "nemanja_codes",
+     "url": "https://news.ycombinator.com/item?id=50350151",
+     "date": "2026-11-03T10:20:42Z",
+     "snippet": "Location: Serbia, GMT +1 Remote: Yes Willing to relocate: Yes Technologies: React, Next.js, JavaScript/TypeScript, Node.js, Astro, TailwindCSS, Jest, Cypress, Prisma, PostgreSQL, MongoDB, Docker, Python, FastAPI, C#/.NET Resume/CV: Available on request GitHub: https://github.com/"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49960569",
@@ -20217,6 +20245,13 @@
   },
   "inclyner/cv": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Francisco-C",
+     "url": "https://news.ycombinator.com/item?id=50351448",
+     "date": "2026-11-03T12:57:21.000Z",
+     "snippet": "Location: Portugal (UK time zone) Remote: Yes Willing to relocate: Open to discussing it Technologies: Python, C#/.NET, TypeScript, React/Next.js, PostgreSQL, Azure, RAG, LLM evaluation Résumé/CV: https://github.com/inclyner/cv/blob/main/Francisco_Carvalho_... Email: carvalho.fra"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49930889",
@@ -26312,6 +26347,13 @@
   },
   "joelanders/gearmulator-md-mm": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "thrawoway14159",
+     "url": "https://news.ycombinator.com/item?id=50352581",
+     "date": "2026-11-03T14:41:14.000Z",
+     "snippet": "Location: Berlin, Germany Remote: yes Willing to relocate: no Technologies: Go, Python, TensorFlow, C++ CV: email me Email: joe@joelanders.net LinkedIn: https://www.linkedin.com/in/joe-landers-83531321a/ Github: https://github.com/joelanders My most recent role was in AdTech, wor"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49785950",
@@ -34991,6 +35033,13 @@
   },
   "postmanlabs/postman-app-support": {
    "mentions": [
+    {
+     "source": "HN front page",
+     "author": "sidgarimella",
+     "url": "https://news.ycombinator.com/item?id=50354960",
+     "date": "2026-11-03T17:22:37Z",
+     "snippet": "Postman silently auto-installs AI plugins and attempts to share all API data (516 points)"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=45651733",
@@ -45575,11 +45624,36 @@
     {
      "source": "Ask HN",
      "author": "naman_411",
+     "url": "https://news.ycombinator.com/item?id=50349254",
+     "date": "2026-11-03T07:52:40.000Z",
+     "snippet": "Location: Bhopal, India (IST, UTC+5:30) Remote: Yes. Can overlap 4+ hours with EU or US East. Willing to relocate: Yes, within India (Bengaluru, Hyderabad, Mumbai) Technologies: Python, TypeScript, FastAPI, LangGraph, LangChain, Google ADK, MCP, Qdrant, pgvector, Postgres, Redis,"
+    },
+    {
+     "source": "Ask HN",
+     "author": "naman_411",
      "url": "https://news.ycombinator.com/item?id=49929587",
      "date": "2026-10-02T03:37:22.000Z",
      "snippet": "Naman Gupta | India | Remote only | Contract (B2B, USD/EUR) or full-time AI engineer focused on retrieval quality and agent reliability. I measure retrieval before changing it. - Built and evaluated a production document-AI retrieval pipeline and LangGraph workflows. - rag-eval-h"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-03T19:32:53.272Z",
+   "meta": {
+    "name": "rag-eval-harness",
+    "fullName": "namanxdev/rag-eval-harness",
+    "description": "Retrieval evaluation harness on 20 CUAD contracts, 50 queries, 114 lawyer-annotated gold spans. Measures precision@k, recall@k, MRR and span coverage across fixed-width vs clause-aware chunking with optional cross-encoder rerank. Fixed-width severs 57% of clauses; clause-aware keeps 99.1% intact. CPU-only, no API keys.",
+    "homepage": "https://www.namangupta.dev/production-ai",
+    "stars": 2,
+    "language": "Python",
+    "topics": [
+     "rag",
+     "rag-evaluation",
+     "rag-pipeline"
+    ],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-09-19T03:54:41Z"
+   }
   },
   "bagombeka-job-dev/skyl": {
    "mentions": [
@@ -46938,6 +47012,13 @@
   },
   "deepseek-ai/deepinfer": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "vorticalbox",
+     "url": "https://news.ycombinator.com/item?id=50356822",
+     "date": "2026-11-03T19:19:08.000Z",
+     "snippet": "Deep seek have released their inference engine. https://github.com/deepseek-ai/DeepInfer"
+    },
     {
      "source": "Ask HN",
      "author": "phoghed",
@@ -50845,6 +50926,13 @@
   },
   "gorhill/ublock": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "DavideNL",
+     "url": "https://news.ycombinator.com/item?id=50355197",
+     "date": "2026-11-03T17:36:41Z",
+     "snippet": "Note that an alternative in those situations is using uBlock Origin instead of NoScript, and then configure \"Medium Mode\" [1] So, when blocking javascript (which uBo can also do of course) does not work, enable javascript with Medium Mode (blocks 3th party scripts and frames.) (p"
+    },
     {
      "source": "Stack Exchange",
      "author": "se:DrMoishe Pippik",
@@ -56707,6 +56795,13 @@
   "henrygd/beszel": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "LaurensBER",
+     "url": "https://news.ycombinator.com/item?id=50349587",
+     "date": "2026-11-03T08:47:15Z",
+     "snippet": "I'm running an [OpenStick]( https://github.com/OpenStick/OpenStick ) next to my Kubernetes cluster for fun and there's actually a lot of useful software that runs great with a limited amount of ram. Some of my favourites are: [Zeroclaw]( https://github.com/zeroclaw-labs/zeroclaw "
+    },
+    {
      "source": "Ask HN",
      "author": "justsomehuman",
      "url": "https://news.ycombinator.com/item?id=50013881",
@@ -60912,13 +61007,42 @@
   "go-shiori/shiori": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "LaurensBER",
+     "url": "https://news.ycombinator.com/item?id=50349587",
+     "date": "2026-11-03T08:47:15Z",
+     "snippet": "I'm running an [OpenStick]( https://github.com/OpenStick/OpenStick ) next to my Kubernetes cluster for fun and there's actually a lot of useful software that runs great with a limited amount of ram. Some of my favourites are: [Zeroclaw]( https://github.com/zeroclaw-labs/zeroclaw "
+    },
+    {
      "source": "Ask HN",
      "author": "Brajeshwar",
      "url": "https://news.ycombinator.com/item?id=44601106",
      "date": "2025-07-18T04:08:21.000Z",
      "snippet": "I stopped using Pocket, Instapaper, and the likes in my ongoing effort to be able to walk out[1] whenever I want/need to. I tried out and still wanted to have something that keeps archives of the content I like to read. That is also largely resolved with Archive.org. So, I end up"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-03T19:32:53.614Z",
+   "meta": {
+    "name": "shiori",
+    "fullName": "go-shiori/shiori",
+    "description": "Simple bookmark manager built with Go",
+    "homepage": null,
+    "stars": 11703,
+    "language": "Go",
+    "topics": [
+     "bookmark-manager",
+     "command-line",
+     "go",
+     "golang",
+     "hacktoberfest",
+     "web-interface"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-26T17:20:27Z"
+   },
+   "listedAt": "2026-11-03T19:32:56.387Z"
   },
   "wallabag/ios-app": {
    "mentions": [
@@ -88878,13 +89002,40 @@
   "archiveteam/grab-site": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "nikisweeting",
+     "url": "https://news.ycombinator.com/item?id=50349988",
+     "date": "2026-11-03T09:51:20Z",
+     "snippet": "https://github.com/archiveteam/grab-site works well too, but neither are great with JS"
+    },
+    {
      "source": "Ask HN",
      "author": "voltagex_",
      "url": "https://news.ycombinator.com/item?id=19907468",
      "date": "2019-05-14T07:19:06.000Z",
      "snippet": "https://github.com/ArchiveTeam/grab-site if you're super serious. Also archive.org will probably accept those output warcs."
     }
-   ]
+   ],
+   "checkedAt": "2026-11-03T19:32:53.942Z",
+   "meta": {
+    "name": "grab-site",
+    "fullName": "ArchiveTeam/grab-site",
+    "description": "The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns",
+    "homepage": null,
+    "stars": 1617,
+    "language": "Python",
+    "topics": [
+     "archiving",
+     "crawl",
+     "crawler",
+     "spider",
+     "warc"
+    ],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2025-05-23T09:57:06Z"
+   }
   },
   "pauldotknopf/darch-recipes": {
    "mentions": [
@@ -131053,13 +131204,40 @@
   "0x2e/fusion": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "LaurensBER",
+     "url": "https://news.ycombinator.com/item?id=50349587",
+     "date": "2026-11-03T08:47:15Z",
+     "snippet": "I'm running an [OpenStick]( https://github.com/OpenStick/OpenStick ) next to my Kubernetes cluster for fun and there's actually a lot of useful software that runs great with a limited amount of ram. Some of my favourites are: [Zeroclaw]( https://github.com/zeroclaw-labs/zeroclaw "
+    },
+    {
      "source": "HN front page",
      "author": "rook1e_dev",
      "url": "https://news.ycombinator.com/item?id=40522244",
      "date": "2024-05-30T10:53:09Z",
      "snippet": "Show HN: I built a tiny-VPS friendly RSS aggregator and reader (187 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-03T19:32:54.264Z",
+   "meta": {
+    "name": "fusion",
+    "fullName": "0x2E/fusion",
+    "description": "A lightweight, self-hosted friendly RSS reader",
+    "homepage": null,
+    "stars": 2204,
+    "language": "TypeScript",
+    "topics": [
+     "rss",
+     "rss-aggregator",
+     "rss-reader",
+     "self-hosted"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-07T13:48:14Z"
+   },
+   "listedAt": "2026-11-03T19:32:56.390Z"
   },
   "rossmoody/svg-gobbler": {
    "mentions": [
@@ -133713,13 +133891,44 @@
   "y2z/monolith": {
    "mentions": [
     {
+     "source": "Fosstodon",
+     "author": "mastodon:hndigest_best10@welley.social",
+     "url": "https://welley.social/g/hndigest/@best10/posts/pt_01m6fzx78zehha5rvjfgfptny3",
+     "date": "2026-11-03T06:00:26.143Z",
+     "snippet": "If you love a website, back it up blog.mistys-internet.website · 468 points · 101 comments · HN thread TL;DR Misty, who works in web archiving, argues that people should back up websites they love, since a favourite fansite ( teapuppies.com , online since 2004) vanished and its d"
+    },
+    {
      "source": "HN front page",
      "author": "iscream26",
      "url": "https://news.ycombinator.com/item?id=39810378",
      "date": "2024-03-24T20:48:06Z",
      "snippet": "Monolith – CLI tool for saving complete web pages as a single HTML file (772 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-03T19:32:54.621Z",
+   "meta": {
+    "name": "monolith",
+    "fullName": "Y2Z/monolith",
+    "description": "⬛️ GUI/CLI tool and library for saving complete web pages as a single HTML file",
+    "homepage": "https://crates.io/crates/monolith",
+    "stars": 15577,
+    "language": "Rust",
+    "topics": [
+     "come-and-take-it",
+     "e-hoarding",
+     "its-mine",
+     "make-the-internet-great-again",
+     "no-more-404",
+     "procrastination",
+     "save-the-internet",
+     "tab-rehab"
+    ],
+    "license": "CC0-1.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-02T13:55:44Z"
+   },
+   "listedAt": "2026-11-03T19:32:56.390Z"
   },
   "beemdevelopment/aegis": {
    "mentions": [
@@ -135422,13 +135631,46 @@
   "adguardteam/adguardhome": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "LaurensBER",
+     "url": "https://news.ycombinator.com/item?id=50349587",
+     "date": "2026-11-03T08:47:15Z",
+     "snippet": "I'm running an [OpenStick]( https://github.com/OpenStick/OpenStick ) next to my Kubernetes cluster for fun and there's actually a lot of useful software that runs great with a limited amount of ram. Some of my favourites are: [Zeroclaw]( https://github.com/zeroclaw-labs/zeroclaw "
+    },
+    {
      "source": "HN front page",
      "author": "kls0e",
      "url": "https://news.ycombinator.com/item?id=39276687",
      "date": "2024-02-06T16:48:27Z",
      "snippet": "AdGuard Home: Network-wide ad- and tracker-blocking DNS server (310 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-03T19:32:54.936Z",
+   "meta": {
+    "name": "AdGuardHome",
+    "fullName": "AdguardTeam/AdGuardHome",
+    "description": "Network-wide ads & trackers blocking DNS server",
+    "homepage": "https://adguard.com/adguard-home/overview.html",
+    "stars": 38103,
+    "language": "TypeScript",
+    "topics": [
+     "adblock",
+     "adguard",
+     "dns",
+     "dns-over-https",
+     "dns-over-quic",
+     "dns-over-tls",
+     "dnscrypt",
+     "golang",
+     "open-source",
+     "privacy"
+    ],
+    "license": "GPL-3.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-03T17:05:48Z"
+   },
+   "listedAt": "2026-11-03T19:32:56.390Z"
   },
   "deepseek-ai/deepseek-math": {
    "mentions": [
@@ -153164,13 +153406,44 @@
   "psyclyx/fix": {
    "mentions": [
     {
+     "source": "Lobsters",
+     "author": "lobsters:jaculabilis",
+     "url": "https://lobste.rs/c/esfe1s",
+     "date": "2026-11-03T08:44:02.752-06:00",
+     "snippet": "You might also check out [fix](https://github.com/psyclyx/fix)."
+    },
+    {
      "source": "Ask HN",
      "author": "psyclyx",
      "url": "https://news.ycombinator.com/item?id=49531365",
      "date": "2026-09-02T03:26:06.000Z",
      "snippet": "Location: Seattle Remote: preferred Willing to relocate: Possibly Technologies: Nix/NixOS (multi-site homelab), Linux, Clojure/CLJS, Zig + others as needed Resume/CV: email Email: hn@psyclyx.xyz Prior position: Senior SDE working on various parts of a Customer Data Platform/data "
     }
-   ]
+   ],
+   "checkedAt": "2026-11-03T19:32:55.253Z",
+   "meta": {
+    "name": "fix",
+    "fullName": "psyclyx/fix",
+    "description": "Fast nIX language evaluator",
+    "homepage": null,
+    "stars": 167,
+    "language": "Zig",
+    "topics": [
+     "bytecode",
+     "debugger",
+     "evaluator",
+     "home-manager",
+     "nix",
+     "nix-lang",
+     "nixos",
+     "zig"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-05T20:52:54Z"
+   },
+   "listedAt": "2026-11-03T19:32:56.390Z"
   },
   "rock19380-ai/neurust-workspace": {
    "mentions": [
@@ -153956,6 +154229,281 @@
      "snippet": "One can use LightCraft . It is gratis and dual-licensed under MIT or Apache-2.0, at your option. It has a portable version. It is designed to be a free replacement for Adobe Lightroom. It works on Windows, Linux and macOS."
     }
    ]
+  },
+  "tobbelobb/hangprinter": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "monkmartinez",
+     "url": "https://news.ycombinator.com/item?id=50356706",
+     "date": "2026-11-03T19:11:23Z",
+     "snippet": "Awesome!!! I love projects like this. Reminded me of the Hangprinter https://github.com/tobbelobb/hangprinter which has been around for around for long time... always wanted to build one. ETA: https://hangprinter.org/"
+    }
+   ]
+  },
+  "mhouppin/stash-bot": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Namahanna",
+     "url": "https://news.ycombinator.com/item?id=50355692",
+     "date": "2026-11-03T18:07:29Z",
+     "snippet": "Stash has never adopted NNUE and breaks 3k with ease It's also great reference engine with all of the pinned tags of its evolution. https://github.com/mhouppin/stash-bot https://chessprogramming.org/Automated_Tuning has excellent history. Still substantial compute on tuning, but "
+    }
+   ]
+  },
+  "unkn0wn-root/resterm": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "unkn0wn_root",
+     "url": "https://news.ycombinator.com/item?id=50355651",
+     "date": "2026-11-03T18:05:32Z",
+     "snippet": "If anyone is interested in a Postman alternative but likes TUIs and leans more toward using .http files, check out resterm[0]. btw - I'm the author. [0] https://github.com/unkn0wn-root/resterm"
+    }
+   ]
+  },
+  "highflame-ai/codeoid": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sharathr",
+     "url": "https://news.ycombinator.com/item?id=50354392",
+     "date": "2026-11-03T16:50:06Z",
+     "snippet": "have you taken a look at Codeoid: https://github.com/highflame-ai/codeoid , we use it regularly across everyone in our team and its really great. Especially the ability to switch an ongoing conversation from Claude Code to Codex or Gemini (if you run out of tokens)."
+    }
+   ]
+  },
+  "vostride/agent-qa": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "pranshuchittora",
+     "url": "https://news.ycombinator.com/item?id=50352657",
+     "date": "2026-11-03T14:47:05Z",
+     "snippet": "Good to see Momentic's demo. We at Vostride are building something similar, but we feel the verification layer should be open for verification, too. We built agent-qa ( https://github.com/vostride/agent-qa ), an open-source self-improving QA agent. The harness becomes outdated ev"
+    }
+   ]
+  },
+  "openwsp/openwsp": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "emrehan",
+     "url": "https://news.ycombinator.com/item?id=50352484",
+     "date": "2026-11-03T14:34:03Z",
+     "snippet": "I'm working on replicating these experiments (and building the tooling in the meantime) starting with Experiment 8 (the Qwen reasoning loop fix). My repo: https://github.com/openwsp/openwsp The forward passes are in progress, 5/50 as I write. It's costing real money and time, and"
+    }
+   ]
+  },
+  "stand-out-of-my-sun/diogenes-micro-gateway": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "diogenes_l402",
+     "url": "https://news.ycombinator.com/item?id=50351749",
+     "date": "2026-11-03T13:30:06Z",
+     "snippet": "Hi HN, We built *Diogenes* ([GitHub]( https://github.com/stand-out-of-my-sun/diogenes-micro-gatewa... ), [Live Gateway]( https://diogenes-micro-gateway.corinth.workers.dev )), an autonomous multi-protocol microservice gateway and Model Context Protocol (MCP) server running on Clo"
+    }
+   ]
+  },
+  "stand-out-of-my-sun/diogenes-micro-gatewa": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "diogenes_l402",
+     "url": "https://news.ycombinator.com/item?id=50351749",
+     "date": "2026-11-03T13:30:06Z",
+     "snippet": "Hi HN, We built *Diogenes* ([GitHub]( https://github.com/stand-out-of-my-sun/diogenes-micro-gatewa... ), [Live Gateway]( https://diogenes-micro-gateway.corinth.workers.dev )), an autonomous multi-protocol microservice gateway and Model Context Protocol (MCP) server running on Clo"
+    }
+   ]
+  },
+  "mpetrovich/b3e4ec291d21bbdbe17b1adf48e62173": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "mpetrovich",
+     "url": "https://news.ycombinator.com/item?id=50349767",
+     "date": "2026-11-03T09:17:20Z",
+     "snippet": "Here's a JS bookmarklet I use to apply dark mode to any website. It tries to preserve colors and avoids inverting graphics. Add a new bookmark to your toolbar and paste in that JS in place of the link. I hope you find it useful! https://gist.github.com/mpetrovich/b3e4ec291d21bbdb"
+    }
+   ]
+  },
+  "mpetrovich/b3e4ec291d21bbdbe17b1adf4": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "mpetrovich",
+     "url": "https://news.ycombinator.com/item?id=50349767",
+     "date": "2026-11-03T09:17:20Z",
+     "snippet": "Here's a JS bookmarklet I use to apply dark mode to any website. It tries to preserve colors and avoids inverting graphics. Add a new bookmark to your toolbar and paste in that JS in place of the link. I hope you find it useful! https://gist.github.com/mpetrovich/b3e4ec291d21bbdb"
+    }
+   ]
+  },
+  "openstick/openstick": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "LaurensBER",
+     "url": "https://news.ycombinator.com/item?id=50349587",
+     "date": "2026-11-03T08:47:15Z",
+     "snippet": "I'm running an [OpenStick]( https://github.com/OpenStick/OpenStick ) next to my Kubernetes cluster for fun and there's actually a lot of useful software that runs great with a limited amount of ram. Some of my favourites are: [Zeroclaw]( https://github.com/zeroclaw-labs/zeroclaw "
+    }
+   ]
+  },
+  "zeroclaw-labs/zeroclaw": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "LaurensBER",
+     "url": "https://news.ycombinator.com/item?id=50349587",
+     "date": "2026-11-03T08:47:15Z",
+     "snippet": "I'm running an [OpenStick]( https://github.com/OpenStick/OpenStick ) next to my Kubernetes cluster for fun and there's actually a lot of useful software that runs great with a limited amount of ram. Some of my favourites are: [Zeroclaw]( https://github.com/zeroclaw-labs/zeroclaw "
+    }
+   ]
+  },
+  "twin/gatus": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "LaurensBER",
+     "url": "https://news.ycombinator.com/item?id=50349587",
+     "date": "2026-11-03T08:47:15Z",
+     "snippet": "I'm running an [OpenStick]( https://github.com/OpenStick/OpenStick ) next to my Kubernetes cluster for fun and there's actually a lot of useful software that runs great with a limited amount of ram. Some of my favourites are: [Zeroclaw]( https://github.com/zeroclaw-labs/zeroclaw "
+    }
+   ]
+  },
+  "dessant/web-archives": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "jijijijij",
+     "url": "https://news.ycombinator.com/item?id=46630792",
+     "date": "2026-01-15T10:57:22.000Z",
+     "snippet": "There are different scenarios and different needs. Trust-wise, the enemy of your enemy may be your friend. Dodging legal liability can be an asset too, if you are dealing with evidence against the government, or powerful people within your jurisdiction. Wikileaks fills a similar "
+    }
+   ]
+  },
+  "sealedrun/sealedrun": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "anatolii1309",
+     "url": "https://news.ycombinator.com/item?id=50349086",
+     "date": "2026-11-03T07:25:17.000Z",
+     "snippet": "Location: Warsaw, Poland (CET) Remote: yes Willing to relocate: no Technologies: Python (FastAPI, Django), TypeScript (React/Next.js, Node.js), PostgreSQL, Docker, AWS/GCP/Azure, LLM/agent systems (RAG, LangGraph, MCP) Résumé/CV: https://linkedin.com/in/anatoli-navahrodski-558549"
+    }
+   ]
+  },
+  "zeeshanqadir568/vibe-app-tests": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "zeeshanqadir568",
+     "url": "https://news.ycombinator.com/item?id=50349217",
+     "date": "2026-11-03T07:46:08.000Z",
+     "snippet": "Location: Islamabad, Pakistan (UTC+5) Remote: Yes Willing to relocate: No Technologies: TypeScript, React, Supabase, Postgres, Python, Playwright, RAG / LLM agents Résumé/CV: https://zeeshanqadir568.github.io/ Email: zeeshanqadir568@gmail.com I fix and secure web apps built with "
+    }
+   ]
+  },
+  "namanxdev/faultline": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "naman_411",
+     "url": "https://news.ycombinator.com/item?id=50349254",
+     "date": "2026-11-03T07:52:40.000Z",
+     "snippet": "Location: Bhopal, India (IST, UTC+5:30) Remote: Yes. Can overlap 4+ hours with EU or US East. Willing to relocate: Yes, within India (Bengaluru, Hyderabad, Mumbai) Technologies: Python, TypeScript, FastAPI, LangGraph, LangChain, Google ADK, MCP, Qdrant, pgvector, Postgres, Redis,"
+    }
+   ]
+  },
+  "hamzarehmandeveloper/claude-account": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "hamza_rehman",
+     "url": "https://news.ycombinator.com/item?id=50351032",
+     "date": "2026-11-03T12:13:29.000Z",
+     "snippet": "Location: Lahore, Pakistan Remote: Yes, worldwide Willing to relocate: Open to discussion Technologies: TypeScript, JavaScript, React, Next.js, Node.js, NestJS, Python, Go, PostgreSQL, Docker, Kubernetes, AWS, LLMs, AI agents GitHub: https://github.com/hamzarehmandeveloper Email:"
+    }
+   ]
+  },
+  "joelanders/profligacy": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "thrawoway14159",
+     "url": "https://news.ycombinator.com/item?id=50352581",
+     "date": "2026-11-03T14:41:14.000Z",
+     "snippet": "Location: Berlin, Germany Remote: yes Willing to relocate: no Technologies: Go, Python, TensorFlow, C++ CV: email me Email: joe@joelanders.net LinkedIn: https://www.linkedin.com/in/joe-landers-83531321a/ Github: https://github.com/joelanders My most recent role was in AdTech, wor"
+    }
+   ]
+  },
+  "joelanders/reflecticon-224": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "thrawoway14159",
+     "url": "https://news.ycombinator.com/item?id=50352581",
+     "date": "2026-11-03T14:41:14.000Z",
+     "snippet": "Location: Berlin, Germany Remote: yes Willing to relocate: no Technologies: Go, Python, TensorFlow, C++ CV: email me Email: joe@joelanders.net LinkedIn: https://www.linkedin.com/in/joe-landers-83531321a/ Github: https://github.com/joelanders My most recent role was in AdTech, wor"
+    }
+   ]
+  },
+  "marufpulok/odysseus-homelab": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "marufhossain",
+     "url": "https://news.ycombinator.com/item?id=50355566",
+     "date": "2026-11-03T17:59:01.000Z",
+     "snippet": "Location: Sylhet, Bangladesh (UTC+6) Remote: Yes Willing to relocate: Yes, with visa sponsorship. Netherlands, Germany, Japan, Ireland, UAE, Singapore Technologies: TypeScript, React, Next.js, Node.js, NestJS, PostgreSQL, Redis, BullMQ, AWS (ECS, S3, CodePipeline, CodeDeploy), Do"
+    }
+   ]
+  },
+  "captof-omuamua/captof-omuamua": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Sisirvoruvuru",
+     "url": "https://news.ycombinator.com/item?id=50356927",
+     "date": "2026-11-03T19:26:06.000Z",
+     "snippet": "Location: India (IST, UTC+5:30) Remote: Yes Willing to relocate: Yes. The SF Bay Area is the goal (I want to be part of the bastion of frontier hardtech), or anywhere building robots Technologies: Python, PyTorch, torch.compile, TensorRT, INT8/FP8, Hugging Face LeRobot, VLAs, MuJ"
+    }
+   ]
+  },
+  "codealong/codealong": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "ghempton",
+     "url": "https://news.ycombinator.com/item?id=50355111",
+     "date": "2026-11-03T17:31:15.000Z",
+     "snippet": "We've noticed this occasionally and its a pretty serious issue since we tell our customers that none of their data is being trained on. It caused us to build this to track all of our agent accounts/subscriptions being used and flag any that have training turned on: https://github"
+    }
+   ]
+  },
+  "nvidia/auto-ontology": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "campervans",
+     "url": "https://news.ycombinator.com/item?id=50348962",
+     "date": "2026-11-03T07:04:50Z",
+     "snippet": "Nvidia – open-source auto-ontology (248 points)"
+    }
+   ]
+  },
+  "aaitor/skill-video-studio": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "aaitor",
+     "url": "https://news.ycombinator.com/item?id=50340992",
+     "date": "2026-11-02T18:10:39Z",
+     "snippet": "Skill to Create Product Videos (114 points)"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -154596,6 +155144,7 @@
   "46599807": 1793608017620,
   "46610156": 1793608018411,
   "46615137": 1793608046181,
+  "46624740": 1793734131933,
   "46654726": 1793608046584,
   "46660067": 1793623207103,
   "46734194": 1793608046234,
@@ -154748,6 +155297,7 @@
   "49982498": 1793608055559,
   "49985548": 1793608020869,
   "49989504": 1793608010577,
+  "50006366": 1793734132493,
   "50020096": 1793608048431,
   "50037859": 1793608039869,
   "50039291": 1793608071527,
@@ -154755,20 +155305,21 @@
   "50084969": 1793608048416,
   "50121562": 1793608048501,
   "50151036": 1793623210888,
-  "50193416": 1793688253966,
-  "50200997": 1793688252937,
-  "50204125": 1793688253792,
-  "50271004": 1793688252454,
-  "50285134": 1793688252664,
-  "50301479": 1793688253224,
-  "50312756": 1793688252725,
-  "50313705": 1793688253754,
-  "50318646": 1793688253345,
-  "50326727": 1793688253233,
-  "50328896": 1793688253996,
-  "50331001": 1793688253706,
-  "50337431": 1793688253012,
-  "50338726": 1793688252797,
-  "50338728": 1793688252507
+  "50193416": 1793734131985,
+  "50200997": 1793734132385,
+  "50204125": 1793734133081,
+  "50271004": 1793734131763,
+  "50285134": 1793734132106,
+  "50301479": 1793734132177,
+  "50312756": 1793734132509,
+  "50313705": 1793734132711,
+  "50318646": 1793734132471,
+  "50326727": 1793734132406,
+  "50328896": 1793734132886,
+  "50331001": 1793734132779,
+  "50337431": 1793734132422,
+  "50338726": 1793734132048,
+  "50338728": 1793734131885,
+  "50352757": 1793734132390
  }
 }
