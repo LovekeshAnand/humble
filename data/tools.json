@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T14:29:38.580Z",
+ "updatedAt": "2026-11-04T23:39:17.199Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -1202,6 +1202,13 @@
   },
   "sadilek/obeya": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sadilek",
+     "url": "https://news.ycombinator.com/item?id=50370886",
+     "date": "2026-11-04T20:15:02Z",
+     "snippet": "1) Claude Ultra, Codex Plus, SuperGrok, Gemini Pro. 2) No. 3) Opus 5.5 on high for all the work. Reviewed by Codex by default. Additionally by Grok and Gemini (agy) for critical work. I switched from Claude CLI to a custom-built harness because I got overwhelmed by walls of text "
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50304018",
@@ -7526,7 +7533,7 @@
     "fork": false,
     "pushedAt": "2026-11-03T03:57:45Z"
    },
-   "checkedAt": "2026-11-04T14:29:38.374Z"
+   "checkedAt": "2026-11-04T23:39:16.978Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -45728,6 +45735,13 @@
     {
      "source": "Ask HN",
      "author": "ksk385",
+     "url": "https://news.ycombinator.com/item?id=50366224",
+     "date": "2026-11-04T14:44:08.000Z",
+     "snippet": "Location: Greater New York Area Remote: Yes (US-based) Willing to relocate: No Services: Healthcare data engineering, Data platform architecture, Clinical data pipelines, Analytics engineering, AI/ML integrations, Technical discovery About Me: I'm Karan Krishnani, an independent "
+    },
+    {
+     "source": "Ask HN",
+     "author": "ksk385",
      "url": "https://news.ycombinator.com/item?id=49935547",
      "date": "2026-10-02T16:38:05.000Z",
      "snippet": "Location: Greater New York Area Remote: Yes (US-based) Willing to relocate: No Services: Healthcare data engineering, Data platform architecture, Clinical data pipelines, Analytics engineering, AI/ML integrations, Technical discovery About Me: I'm Karan Krishnani, an independent "
@@ -45757,6 +45771,13 @@
   },
   "karankrishnani/snowflake-healthtech-wareh": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "ksk385",
+     "url": "https://news.ycombinator.com/item?id=50366224",
+     "date": "2026-11-04T14:44:08.000Z",
+     "snippet": "Location: Greater New York Area Remote: Yes (US-based) Willing to relocate: No Services: Healthcare data engineering, Data platform architecture, Clinical data pipelines, Analytics engineering, AI/ML integrations, Technical discovery About Me: I'm Karan Krishnani, an independent "
+    },
     {
      "source": "Ask HN",
      "author": "ksk385",
@@ -46671,14 +46692,10 @@
     {
      "source": "Ask HN",
      "author": "WycliffeRotich",
-     "url": "https://news.ycombinator.com/item?id=50032449",
-     "date": "2026-10-10T12:52:17.000Z",
-     "snippet": "Location: Nairobi, Kenya (UTC+3) Work preference: Prefer fully remote roles, comfortable with EMEA hours and asynchronous teams. Open to relocation for the right opportunity. Willing to relocate: Yes Technologies: Python, FastAPI, PostgreSQL, AWS, Terraform, Kubernetes, Kafka, Do"
-    }
-   ]
-  },
-  "wycliffrotich-dev/aethergrid": {
-   "mentions": [
+     "url": "https://news.ycombinator.com/item?id=50368883",
+     "date": "2026-11-04T17:37:25.000Z",
+     "snippet": "Location: Nairobi, Kenya (EAT, UTC+3) Remote: Yes. Fully remote. Comfortable with EMEA working hours and asynchronous teams. Willing to relocate: Yes, for the right opportunity. Technologies: Python, Go, FastAPI, PostgreSQL, Kafka, AWS, Terraform, Docker, Kubernetes, Linux, distr"
+    },
     {
      "source": "Ask HN",
      "author": "WycliffeRotich",
@@ -46686,7 +46703,74 @@
      "date": "2026-10-10T12:52:17.000Z",
      "snippet": "Location: Nairobi, Kenya (UTC+3) Work preference: Prefer fully remote roles, comfortable with EMEA hours and asynchronous teams. Open to relocation for the right opportunity. Willing to relocate: Yes Technologies: Python, FastAPI, PostgreSQL, AWS, Terraform, Kubernetes, Kafka, Do"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-04T23:39:15.789Z",
+   "meta": {
+    "name": "cv",
+    "fullName": "wycliffRotich-dev/cv",
+    "description": "CV of Wycliffe Kipleting Rotich, platform engineer in Nairobi (UTC+3). Distributed systems, Python, AWS. Open to fully remote roles.",
+    "homepage": null,
+    "stars": 0,
+    "language": "HTML",
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-04T14:28:59Z"
+   }
+  },
+  "wycliffrotich-dev/aethergrid": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "WycliffeRotich",
+     "url": "https://news.ycombinator.com/item?id=50368883",
+     "date": "2026-11-04T17:37:25.000Z",
+     "snippet": "Location: Nairobi, Kenya (EAT, UTC+3) Remote: Yes. Fully remote. Comfortable with EMEA working hours and asynchronous teams. Willing to relocate: Yes, for the right opportunity. Technologies: Python, Go, FastAPI, PostgreSQL, Kafka, AWS, Terraform, Docker, Kubernetes, Linux, distr"
+    },
+    {
+     "source": "Ask HN",
+     "author": "WycliffeRotich",
+     "url": "https://news.ycombinator.com/item?id=50032449",
+     "date": "2026-10-10T12:52:17.000Z",
+     "snippet": "Location: Nairobi, Kenya (UTC+3) Work preference: Prefer fully remote roles, comfortable with EMEA hours and asynchronous teams. Open to relocation for the right opportunity. Willing to relocate: Yes Technologies: Python, FastAPI, PostgreSQL, AWS, Terraform, Kubernetes, Kafka, Do"
+    }
+   ],
+   "checkedAt": "2026-11-04T23:39:16.040Z",
+   "meta": {
+    "name": "aethergrid",
+    "fullName": "wycliffRotich-dev/aethergrid",
+    "description": "A decentralized compute orchestration platform powered by strict Domain-Driven Design (DDD). Decoupled domain core, event-driven state reconciliation, and zero-overhead cluster management.",
+    "homepage": null,
+    "stars": 9,
+    "language": "Python",
+    "topics": [
+     "ai",
+     "automation",
+     "clean-architecture",
+     "distributed-systems",
+     "docker",
+     "docker-compose",
+     "domain-driven-design",
+     "fastapi",
+     "gpu",
+     "multi-tenancy",
+     "open-source",
+     "orchestration",
+     "postgresql",
+     "python",
+     "react",
+     "scheduler",
+     "schema",
+     "sql",
+     "test-driven-development",
+     "websocket"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-04T07:53:33Z"
+   }
   },
   "devanshuneu/overhear": {
    "mentions": [
@@ -54028,13 +54112,42 @@
   "akavel/up": {
    "mentions": [
     {
+     "source": "Lobsters",
+     "author": "lobsters:akavel",
+     "url": "https://lobste.rs/c/mvtndj",
+     "date": "2026-11-04T09:55:32.390-06:00",
+     "snippet": "Disclaimer: I don't have RSI, don't know much about voice controlled setups (though I remember some video with weird syllables - I managed to google up something by Tavis Rudd, though I'm not 100% sure it was that one), and don't know details about your condition. Thus can only t"
+    },
+    {
      "source": "Ask HN",
      "author": "akavel",
      "url": "https://news.ycombinator.com/item?id=18486128",
      "date": "2018-11-19T13:11:11.000Z",
      "snippet": "up - https://github.com/akavel/up Ultimate Plumber is a tool for writing Linux pipes with instant live preview It's a new CLI tool I've recently written, and it reached a Top 1 position on HN just after the public release. It works with other classic CLI tools by boosting the spe"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-04T23:39:16.308Z",
+   "meta": {
+    "name": "up",
+    "fullName": "akavel/up",
+    "description": "Ultimate Plumber is a tool for writing Linux pipes with instant live preview",
+    "homepage": null,
+    "stars": 8858,
+    "language": "Go",
+    "topics": [
+     "instant-preview",
+     "linux",
+     "live-programming",
+     "pipes",
+     "tui",
+     "up"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2024-09-05T21:31:37Z"
+   },
+   "listedAt": "2026-11-04T23:39:17.196Z"
   },
   "holygeek/git-number": {
    "mentions": [
@@ -109769,6 +109882,13 @@
   "ladybirdbrowser/ladybird": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "quux",
+     "url": "https://news.ycombinator.com/item?id=50369438",
+     "date": "2026-11-04T18:18:32Z",
+     "snippet": "It's very easy to build it yourself if you want to try it right now. https://github.com/LadybirdBrowser/ladybird/blob/master/Docu..."
+    },
+    {
      "source": "HN front page",
      "author": "thewavelength",
      "url": "https://news.ycombinator.com/item?id=47067678",
@@ -112512,6 +112632,13 @@
   },
   "vercel/next.js": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Bengalilol",
+     "url": "https://news.ycombinator.com/item?id=50372289",
+     "date": "2026-11-04T22:17:37Z",
+     "snippet": "I may have missed something obvious, but I can't find the references to ethereum in the source code. Can you point me to the js file? I have found this though: https://github.com/vercel/next.js/discussions/44899 It may be unrelated to the app which is using Vercel next.js and it "
+    },
     {
      "source": "HN front page",
      "author": "rayhaanj",
@@ -154982,6 +155109,116 @@
      "snippet": "🎨 QGIS Studio Themes v1.3 is out → three icon styles for # QGIS ! Pick yours in the plugin settings: ⚫ Monochrome: clean single-colour icons 🌈 Colourful: detailed colour icons 🗺️ QGIS classic: QGIS’s own icons Also: 🖼️ 350+ more icons replaced (layouts, forms, georeferencer.."
     }
    ]
+  },
+  "localtunnel/localtunnel": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Bengalilol",
+     "url": "https://news.ycombinator.com/item?id=50372289",
+     "date": "2026-11-04T22:17:37Z",
+     "snippet": "I may have missed something obvious, but I can't find the references to ethereum in the source code. Can you point me to the js file? I have found this though: https://github.com/vercel/next.js/discussions/44899 It may be unrelated to the app which is using Vercel next.js and it "
+    }
+   ]
+  },
+  "teorth/analysis": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "hackermailman",
+     "url": "https://news.ycombinator.com/item?id=50371974",
+     "date": "2026-11-04T21:43:33Z",
+     "snippet": "You can use Lean with Tao's book https://github.com/teorth/analysis If you've never used Lean try some of this https://hrmacbeth.github.io/math2001/ you will eventually just pick it up then can start understanding Mathlib abstract tactics. There's modern analysis books too for ex"
+    }
+   ]
+  },
+  "capocasa/3code": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "warpspin",
+     "url": "https://news.ycombinator.com/item?id=50370419",
+     "date": "2026-11-04T19:32:01Z",
+     "snippet": "1. Using ChatGPT with a Business Premium seat (not personally paying for it). 2. Also have some API keys for some open weight models in Europe, but currently not using those. 3. I've personally used OpenCode, Claude Code and Codex and of those, I liked Codex the most, till bugs k"
+    }
+   ]
+  },
+  "mkornreich/llm-desktop-electron": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "enjoyyourlife",
+     "url": "https://news.ycombinator.com/item?id=50367146",
+     "date": "2026-11-04T15:39:48Z",
+     "snippet": "https://github.com/mkornreich/llm-desktop-electron with OpenRouter. I love Claude but Anthropic is expensive and too restrictive"
+    }
+   ]
+  },
+  "mumble-voip/mumble": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "mtlynch",
+     "url": "https://news.ycombinator.com/item?id=50366413",
+     "date": "2026-11-04T14:56:39Z",
+     "snippet": "> I'm happy to test crazy new ideas and throw out what doesn’t work well. It was able to wire & test a huge change to Mumble that added better noise cancelling; I use my beta build of it nearly every day. To me, this is a negative and mostly irresponsible use of AI. OP dumped a h"
+    }
+   ]
+  },
+  "karol-kosciolek/contsy-studio": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "karol_kosciolek",
+     "url": "https://news.ycombinator.com/item?id=50367203",
+     "date": "2026-11-04T15:44:09.000Z",
+     "snippet": "Location: Kraków, Poland Remote: Yes (CET; can overlap with US Eastern business hours) Willing to relocate: No Technologies: Python, JavaScript, HTML/CSS, Gradio, ComfyUI, local and hosted LLMs, AI image/video/voice pipelines, Cloudflare Workers, Git. I build AI-first with Claude"
+    }
+   ]
+  },
+  "kenizaya/pyco-db": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "pshdotggz",
+     "url": "https://news.ycombinator.com/item?id=50368066",
+     "date": "2026-11-04T16:35:43.000Z",
+     "snippet": "Location: India (IST, UTC+5:30) Remote: Yes Willing to relocate: Yes, anywhere in India. Abroad with visa sponsorship. Technologies: TypeScript, React, Next.js, React Native, Flutter, Node.js, Elixir/Phoenix, PostgreSQL, GraphQL, Python, Redis, Supabase, Docker, AWS, Cloudflare, "
+    }
+   ]
+  },
+  "glyphloom/astra-obsidian-vault": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "glyphloom",
+     "url": "https://news.ycombinator.com/item?id=50368815",
+     "date": "2026-11-04T17:32:14.000Z",
+     "snippet": "Location: Tivat, Montenegro (CET) Remote: Yes, remote only; contract, part-time or full-time Willing to relocate: No Technologies: TypeScript, Node.js, React, Next.js, Python, Go, Solidity, Hardhat, Foundry, Docker, Ansible, GitHub Actions; AI agents, MCP servers, Claude Code ski"
+    }
+   ]
+  },
+  "resolveworks/key": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "monneyboi",
+     "url": "https://news.ycombinator.com/item?id=50367849",
+     "date": "2026-11-04T16:22:33.000Z",
+     "snippet": "I'm playing around with some ideas on top of pi durable. Cascading contexts exposed over http. Mostly deepseek, glm and kimi in there. https://github.com/resolveworks/key"
+    }
+   ]
+  },
+  "finic-ai/kairos": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "ayanb9440",
+     "url": "https://news.ycombinator.com/item?id=50358314",
+     "date": "2026-11-03T21:16:48Z",
+     "snippet": "Show HN: Kairos – Open-source risk and fraud decisioning platform (104 points)"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -155801,26 +156038,28 @@
   "50084969": 1793608048416,
   "50121562": 1793608048501,
   "50151036": 1793623210888,
-  "50193416": 1793802547265,
-  "50200997": 1793802546581,
-  "50204125": 1793802547696,
+  "50193416": 1793835515476,
+  "50200997": 1793835514954,
+  "50204125": 1793835515894,
   "50271004": 1793772781968,
-  "50271808": 1793802547490,
-  "50285134": 1793802546749,
-  "50301479": 1793772782401,
-  "50312756": 1793802545987,
+  "50271808": 1793835515871,
+  "50285134": 1793835514738,
+  "50301479": 1793835514876,
+  "50312756": 1793835514629,
   "50313705": 1793772782987,
-  "50318646": 1793802547364,
+  "50318646": 1793835514933,
   "50326727": 1793772782762,
-  "50328896": 1793802547882,
-  "50331001": 1793802547652,
-  "50337431": 1793802545909,
-  "50338726": 1793802546862,
-  "50338728": 1793802545819,
-  "50352757": 1793802545994,
-  "50353457": 1793802547202,
-  "50354336": 1793802547611,
-  "50355959": 1793802547872,
-  "50363461": 1793802546708
+  "50328896": 1793835515499,
+  "50331001": 1793835516049,
+  "50337431": 1793835514292,
+  "50338726": 1793835514528,
+  "50338728": 1793835514434,
+  "50347425": 1793835515575,
+  "50352757": 1793835514628,
+  "50353457": 1793835514829,
+  "50354336": 1793835515848,
+  "50355959": 1793835516022,
+  "50363461": 1793835514891,
+  "50366117": 1793835515174
  }
 }
