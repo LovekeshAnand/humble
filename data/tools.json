@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T06:13:39.288Z",
+ "updatedAt": "2026-11-04T14:29:38.580Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7526,7 +7526,7 @@
     "fork": false,
     "pushedAt": "2026-11-03T03:57:45Z"
    },
-   "checkedAt": "2026-11-04T06:13:39.089Z"
+   "checkedAt": "2026-11-04T14:29:38.374Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -17149,6 +17149,13 @@
   },
   "kovidgoyal/kitty": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "msdz",
+     "url": "https://news.ycombinator.com/item?id=50364798",
+     "date": "2026-11-04T12:45:10Z",
+     "snippet": "> This feature > https://sw.kovidgoyal.net/kitty/changelog/#restore-after-log... Whoa, this is great news!! For years , it has been Mr. Goyal’s standpoint, and quite understandably so, to not offer this natively due to implementation effort [0]. I just put up with that (yes, tech"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49996881",
@@ -36055,6 +36062,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "DonHopkins",
+     "url": "https://news.ycombinator.com/item?id=50362483",
+     "date": "2026-11-04T07:39:54Z",
+     "snippet": "> your complaints boil down to \"I don't like it because I'm not familiar with it\" which is not valid critique dhx cited Fitts's law, and you answered with \"you're just not used to it\" and a pompous, hand-waving non sequitur about traffic signs you pulled out of your reactive ass."
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=44627569",
      "date": "2025-07-20T17:55:40Z",
      "snippet": "OpenLaszlo was an eariler, more powerful, more fun, open source alternative to FLEX. It's obsolete now that Flash is dead, but I really got in the \"zone\" with it. Residential, Commercial and Industrial zones: https://www.youtube.com/watch?v=8snnqQSI0GE https://github.com/SimHacke"
@@ -40882,11 +40896,32 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "DonHopkins",
+     "url": "https://news.ycombinator.com/item?id=50362483",
+     "date": "2026-11-04T07:39:54Z",
+     "snippet": "> your complaints boil down to \"I don't like it because I'm not familiar with it\" which is not valid critique dhx cited Fitts's law, and you answered with \"you're just not used to it\" and a pompous, hand-waving non sequitur about traffic signs you pulled out of your reactive ass."
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=39217923",
      "date": "2024-02-01T16:43:05Z",
      "snippet": "Thanks for the shout out and links! That timeline you linked to goes along with this article I wrote a few years ago: Pie Menus: A 30 Year Retrospective. By Don Hopkins, Ground Up Software, May 15, 2018. https://donhopkins.medium.com/pie-menus-936fed383ff1#8546 The earliest known"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-04T14:29:37.587Z",
+   "meta": {
+    "name": "jquery-pie",
+    "fullName": "SimHacker/jquery-pie",
+    "description": "Pie menus for jQuery",
+    "homepage": null,
+    "stars": 4,
+    "language": "HTML",
+    "topics": [],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2023-08-03T11:53:03Z"
+   }
   },
   "dittofeed/clickhouse-segments-tutorial": {
    "mentions": [
@@ -129842,13 +129877,49 @@
   "darrenburns/posting": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "jonny2811",
+     "url": "https://news.ycombinator.com/item?id=50363619",
+     "date": "2026-11-04T10:31:17Z",
+     "snippet": "just last week i was looking for a tui version of postman and found https://github.com/darrenburns/posting i've been using the beta since and am very happy. api checks are just yaml and can get stored in git to version and share and tui is nice and easy to drive via the keyboard"
+    },
+    {
      "source": "HN front page",
      "author": "nsdarren",
      "url": "https://news.ycombinator.com/item?id=40926211",
      "date": "2024-07-10T12:35:14Z",
      "snippet": "Show HN: Posting v1 – The modern HTTP client that lives in your terminal (184 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-04T14:29:37.878Z",
+   "meta": {
+    "name": "posting",
+    "fullName": "darrenburns/posting",
+    "description": "The modern API client that lives in your terminal.",
+    "homepage": null,
+    "stars": 12599,
+    "language": "Go",
+    "topics": [
+     "automation",
+     "cli",
+     "developer-tools",
+     "golang",
+     "golang-application",
+     "http",
+     "rest",
+     "rest-api",
+     "rest-client",
+     "ssh",
+     "terminal",
+     "textual",
+     "tui"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-16T02:21:22Z"
+   },
+   "listedAt": "2026-11-04T14:29:38.579Z"
   },
   "lm-sys/routellm": {
    "mentions": [
@@ -154845,6 +154916,72 @@
      "snippet": "You could add it to this Awesome Erlang list: https://github.com/drobakowski/awesome-erlang?tab=readme-ov-..."
     }
    ]
+  },
+  "dinkdonk/kitty-icon": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "dagi3d",
+     "url": "https://news.ycombinator.com/item?id=50363910",
+     "date": "2026-11-04T11:08:17Z",
+     "snippet": "I really love Kitty, it took me only about 5 minutes to migrate from Ghostty. just wish the used this icon as default: https://github.com/DinkDonk/kitty-icon"
+    }
+   ]
+  },
+  "peteromallet/dataclaw": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "woctordho",
+     "url": "https://news.ycombinator.com/item?id=50362207",
+     "date": "2026-11-04T06:49:43Z",
+     "snippet": "Distributed post training over the internet is much easier than distributed pretraining. What we need is just agent traces, from everyone's daily use. Hugging Face already supports uploading agent traces, see https://huggingface.co/docs/hub/en/agent-traces We've been developing D"
+    }
+   ]
+  },
+  "itsnileshhere/windows-iso-debloater": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "frankacter",
+     "url": "https://news.ycombinator.com/item?id=50362148",
+     "date": "2026-11-04T06:38:06Z",
+     "snippet": "Great point. It is the ONLY way I would use Windows on my computers. I just use the media builder from Microsoft directly: https://www.microsoft.com/en-us/software-download/windows11 There are also community projects like NTLite ( https://ntlite.com/ ) and Windows ISO Debloater ("
+    }
+   ]
+  },
+  "dawngend/andy-router": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "dawngend",
+     "url": "https://news.ycombinator.com/item?id=50365372",
+     "date": "2026-11-04T13:40:24.000Z",
+     "snippet": "Location: Quezon City, Philippines Remote: Yes. Full-time on US Eastern hours (9 AM to 5 PM ET) Willing to relocate: Yes Technologies: Python, SQL, FastAPI, Pydantic, PostgreSQL, SQLite, pandas, scikit-learn, PyTorch, sentence-transformers, RAG with ChromaDB, LLM APIs (Groq, NVID"
+    }
+   ]
+  },
+  "gallpeters/qgis-studio-themes": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:JossefKanter@mastodon.social",
+     "url": "https://mastodon.social/@JossefKanter/117557125329146972",
+     "date": "2026-11-04T08:02:58.000Z",
+     "snippet": "🎨 QGIS Studio Themes v1.3 is out → three icon styles for # QGIS ! Pick yours in the plugin settings: ⚫ Monochrome: clean single-colour icons 🌈 Colourful: detailed colour icons 🗺️ QGIS classic: QGIS’s own icons Also: 🖼️ 350+ more icons replaced (layouts, forms, georeferencer.."
+    }
+   ]
+  },
+  "gallpeters/qgis-stu": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:JossefKanter@mastodon.social",
+     "url": "https://mastodon.social/@JossefKanter/117557125329146972",
+     "date": "2026-11-04T08:02:58.000Z",
+     "snippet": "🎨 QGIS Studio Themes v1.3 is out → three icon styles for # QGIS ! Pick yours in the plugin settings: ⚫ Monochrome: clean single-colour icons 🌈 Colourful: detailed colour icons 🗺️ QGIS classic: QGIS’s own icons Also: 🖼️ 350+ more icons replaced (layouts, forms, georeferencer.."
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -155098,6 +155235,7 @@
   "21024358": 1793608012240,
   "21302412": 1793608035482,
   "21345850": 1793635505333,
+  "21429259": 1793802547118,
   "21564990": 1793608063734,
   "21880179": 1793608052245,
   "21884828": 1793608074729,
@@ -155262,6 +155400,7 @@
   "34206219": 1793608017374,
   "34211457": 1793608075150,
   "34229502": 1793608033039,
+  "34267132": 1793802547330,
   "34319414": 1793635503062,
   "34322303": 1793608043482,
   "34366610": 1793608056214,
@@ -155338,6 +155477,7 @@
   "40719253": 1793608037735,
   "40726735": 1793608015196,
   "40820316": 1793608037689,
+  "40878040": 1793802547883,
   "40878765": 1793608049193,
   "40884750": 1793608038013,
   "40889280": 1793608037911,
@@ -155385,6 +155525,7 @@
   "42779776": 1793608081900,
   "42799072": 1793608076917,
   "42827723": 1793608039087,
+  "42835850": 1793802547338,
   "42871613": 1793635507055,
   "42882699": 1793608027518,
   "43026774": 1793608028043,
@@ -155660,24 +155801,26 @@
   "50084969": 1793608048416,
   "50121562": 1793608048501,
   "50151036": 1793623210888,
-  "50193416": 1793772782526,
-  "50200997": 1793772782712,
-  "50204125": 1793772784050,
+  "50193416": 1793802547265,
+  "50200997": 1793802546581,
+  "50204125": 1793802547696,
   "50271004": 1793772781968,
-  "50285134": 1793772782524,
+  "50271808": 1793802547490,
+  "50285134": 1793802546749,
   "50301479": 1793772782401,
-  "50312756": 1793772782689,
+  "50312756": 1793802545987,
   "50313705": 1793772782987,
-  "50318646": 1793772783732,
+  "50318646": 1793802547364,
   "50326727": 1793772782762,
-  "50328896": 1793772784218,
-  "50331001": 1793772784177,
-  "50337431": 1793772782663,
-  "50338726": 1793772782046,
-  "50338728": 1793772782042,
-  "50352757": 1793772782887,
-  "50353457": 1793772783121,
-  "50354336": 1793772783977,
-  "50355959": 1793772783827
+  "50328896": 1793802547882,
+  "50331001": 1793802547652,
+  "50337431": 1793802545909,
+  "50338726": 1793802546862,
+  "50338728": 1793802545819,
+  "50352757": 1793802545994,
+  "50353457": 1793802547202,
+  "50354336": 1793802547611,
+  "50355959": 1793802547872,
+  "50363461": 1793802546708
  }
 }
