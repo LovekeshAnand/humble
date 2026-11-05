@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T06:41:36.224Z",
+ "updatedAt": "2026-11-05T19:56:10.812Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -770,6 +770,20 @@
   },
   "juggler-ai/juggler": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "julesrms",
+     "url": "https://news.ycombinator.com/item?id=50379165",
+     "date": "2026-11-05T14:01:10.000Z",
+     "snippet": "I'm on a Claude and a GPT plan, with occasional Deepseek, GLM and other models for testing. I work on cross-platform apps, so need to run things on a PC as well as my Mac. To make it less faff to switch between them, I run Juggler ( https://github.com/juggler-ai/juggler ) on both"
+    },
+    {
+     "source": "HN comment",
+     "author": "hypfer",
+     "url": "https://news.ycombinator.com/item?id=50376056",
+     "date": "2026-11-05T07:03:21Z",
+     "snippet": "1) I bought a z.ai 1 year subscription for their mid tier (second iteration of their pricing) for like 500€ total, so 40€/month for mostly GLM-5.3. I suppose flash is there too, but.. eh. 2) I have a 4090 which runs Qwen3.8-27b q4 fine with 180k ctx at q8. The model is capable en"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50316753",
@@ -3492,6 +3506,13 @@
   "enes-alatas/spool": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "enesalatas",
+     "url": "https://news.ycombinator.com/item?id=50376390",
+     "date": "2026-11-05T07:56:37.000Z",
+     "snippet": "1) Claude Max 5x, ChatGPT Plus (for minimal usage of Codex, mostly fired as a Pre/Post PR hook for Claude Code to get reviews from GPT models locally 2) None for now. 3) Claude Code CLI, but not always in a terminal I'm sitting in. I talk to it on Telegram and Slack for different"
+    },
+    {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50258139",
      "date": "2026-10-27T12:30:31Z",
@@ -5910,6 +5931,13 @@
   "gregwebs/skills-sdlc": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "gregwebs",
+     "url": "https://news.ycombinator.com/item?id=50378856",
+     "date": "2026-11-05T13:31:43.000Z",
+     "snippet": "1-2) Claude $20/mo (planner) Codex $20/mo (reviewer) Deepseek $1-3/day workhorse. 4) A standard /implement skill creates separate agents for different parts of the workflow. It uses Claude for planning, codex for reviewing, and deepseek for doing and orchestrating. https://github"
+    },
+    {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50204026",
      "date": "2026-10-23T03:02:19Z",
@@ -7554,7 +7582,7 @@
     "fork": false,
     "pushedAt": "2026-11-03T03:57:45Z"
    },
-   "checkedAt": "2026-11-05T06:41:35.792Z"
+   "checkedAt": "2026-11-05T19:56:10.419Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -17424,6 +17452,13 @@
   "tensorninja/ninfer-4090": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "netsroht",
+     "url": "https://news.ycombinator.com/item?id=50378737",
+     "date": "2026-11-05T13:18:34.000Z",
+     "snippet": "I have two Claude Ultra subs and one Codex Pro sub. I also use a few pay per token endpoints from various providers (these change a lot though because here I'm mainly testing and comparing capabilities) and one locally hosted Qwen-3.8-27b (on a custom inference engine [0]). Opus "
+    },
+    {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49989462",
      "date": "2026-10-07T07:25:57Z",
@@ -18515,6 +18550,13 @@
      "date": "2026-10-05T17:40:32Z",
      "snippet": "TLDR: didactic DB in python together with a hand's-on DBMS course in Jupyter, WIP since 2024 but no releases Seems like a great idea, worth evaluating and contributing to. Others afaik in C++ and rust - see e.g., - list: https://github.com/pingcap/awesome-database-learning - list",
      "author": "w10-1"
+    },
+    {
+     "source": "Ask HN",
+     "author": "saxenaabhi",
+     "url": "https://news.ycombinator.com/item?id=45576620",
+     "date": "2025-10-14T05:36:45.000Z",
+     "snippet": "That's not my experience. Over christmas I re wrote a restaurant POS application from laravel to vue/wrangler using bolt + chatgpt. My exact steps: 1) I took my db schema and got chatGPT to convert it to typescript types and stub data. 2) Uploaded these types to bolt and asked it"
     },
     {
      "source": "HN front page",
@@ -22386,6 +22428,13 @@
   },
   "agenta-ai/agenta": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "resiros",
+     "url": "https://news.ycombinator.com/item?id=50378890",
+     "date": "2026-11-05T13:35:01.000Z",
+     "snippet": "I have two Claude subscriptions and a ChatGPT subscription + Openrouter (mainly deepseek) I mainly use Agenta ( https://github.com/agenta-ai/agenta or https://agenta.ai ) as my main setup [disclaimer I am the founder]. It allows me to: - Build agents to automate parts of my work "
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49898167",
@@ -69017,13 +69066,34 @@
   "mhalstrom/maximizepm": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "biggestriverman",
+     "url": "https://news.ycombinator.com/item?id=50376567",
+     "date": "2026-11-05T08:19:45Z",
+     "snippet": "1) 2x Claude Max 20x + Chatgpt Pro 2) I dabble with open-code and hermes especially to try out the free models. 3) I use vanilla claude with an orchestrator on top 4) https://github.com/mhalstrom/maximizepm 5) I use Hermes. - I use hermes as a \"free\" agent platforms as you can ea"
+    },
+    {
      "source": "Ask HN",
      "author": "biggestriverman",
      "url": "https://news.ycombinator.com/item?id=50159081",
      "date": "2026-10-19T22:47:55.000Z",
      "snippet": "You have to design your process for writing code to handle more code than you could ever read. To do this you also have to accept that you will not be able to hand manage all of your agents and all of your projects. The key thing is to figure out how to manage your time better an"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-05T19:56:08.834Z",
+   "meta": {
+    "name": "maximizepm",
+    "fullName": "mhalstrom/maximizepm",
+    "description": "",
+    "homepage": "https://maximizepm.com",
+    "stars": 8,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-05T06:12:51Z"
+   }
   },
   "jchsoft/mcp4mail": {
    "mentions": [
@@ -83990,12 +84060,49 @@
    "mentions": [
     {
      "source": "Ask HN",
+     "author": "NortySpock",
+     "url": "https://news.ycombinator.com/item?id=50381875",
+     "date": "2026-11-05T17:33:00.000Z",
+     "snippet": "I have been kicking the tires on yoloai which seems to automate the \"intercept API calls to hide API keys\" step and the \"sandbox the files in a docker container\" step, with support for inspecting the files / diff before applying. I don't quite have it to a smooth workflow for my "
+    },
+    {
+     "source": "Ask HN",
      "author": "kstenerud",
      "url": "https://news.ycombinator.com/item?id=48450453",
      "date": "2026-06-08T19:33:04.000Z",
      "snippet": "I made a tool that creates sandboxes (docker, podman, orbstack, seatbelt, tart, containerd, kata, firecracker) and then sets up an agent (claude, codex, gemini, aider, opencode) inside it with max permissiveness (no prompts to call sed, etc). It creates its own copy of your workd"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-05T19:56:09.105Z",
+   "meta": {
+    "name": "yoloai",
+    "fullName": "kstenerud/yoloai",
+    "description": "Your agent is a security risk, so treat it like one. yoloAI does AI agent sandboxing right.",
+    "homepage": "https://yoloai.dev",
+    "stars": 225,
+    "language": "Go",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "aider",
+     "claude",
+     "codex",
+     "docker",
+     "gemini",
+     "opencode",
+     "permission",
+     "podman",
+     "sandbox",
+     "seatbelt",
+     "tmux",
+     "yolo"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-12T18:07:30Z"
+   },
+   "listedAt": "2026-11-05T19:56:10.811Z"
   },
   "crmkit/crmkit": {
    "mentions": [
@@ -84100,12 +84207,40 @@
    "mentions": [
     {
      "source": "Ask HN",
+     "author": "jvinet",
+     "url": "https://news.ycombinator.com/item?id=50382618",
+     "date": "2026-11-05T18:31:18.000Z",
+     "snippet": "I've found drop ( https://github.com/wrr/drop ) to be really simple and effective. For full isolation, I also use a VM via Incus. Lets me run the dayjob's Tailscale within, as well."
+    },
+    {
+     "source": "Ask HN",
      "author": "mixedbit",
      "url": "https://news.ycombinator.com/item?id=48450581",
      "date": "2026-06-08T19:38:42.000Z",
      "snippet": "I made a sandbox to productively work with agents while restricting files they can read and write: https://github.com/wrr/drop"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-05T19:56:09.358Z",
+   "meta": {
+    "name": "drop",
+    "fullName": "wrr/drop",
+    "description": "Linux sandboxing that doesn't get in your way",
+    "homepage": "https://droprun.sh",
+    "stars": 399,
+    "language": "Go",
+    "topics": [
+     "gvisor",
+     "linux",
+     "llm-agents",
+     "sandbox",
+     "security-tools"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-05T08:43:30Z"
+   },
+   "listedAt": "2026-11-05T19:56:10.811Z"
   },
   "epiccoleman/tuber": {
    "mentions": [
@@ -109966,6 +110101,13 @@
   },
   "ladybirdbrowser/ladybird": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "shevy-java",
+     "url": "https://news.ycombinator.com/item?id=50380884",
+     "date": "2026-11-05T16:07:38Z",
+     "snippet": "I have recently started to wonder whether we can really create a browser that can dethrone Google. Ladybird tries that, but Ladybird has made several really questionable decisions and has various strange policies. Now I am biased here since I was banned for \"trolling\" (I dispute "
+    },
     {
      "source": "HN comment",
      "author": "quux",
@@ -143667,13 +143809,46 @@
   "zwang4/awesome-machine-learning-in-compilers": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "bayindirh",
+     "url": "https://news.ycombinator.com/item?id=50377563",
+     "date": "2026-11-05T10:39:31Z",
+     "snippet": "Thanks for the link. I have also found a small trove as a warm-up. If anyone interested, here it is: https://github.com/zwang4/awesome-machine-learning-in-compil... Using small, purpose built ML \"things\" to make things better makes sense. We use them everywhere. I never argued ag"
+    },
+    {
      "source": "HN front page",
      "author": "snprajwal",
      "url": "https://news.ycombinator.com/item?id=36417908",
      "date": "2023-06-21T13:01:04Z",
      "snippet": "Research papers on ML in Compilers (105 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-05T19:56:09.633Z",
+   "meta": {
+    "name": "awesome-machine-learning-in-compilers",
+    "fullName": "zwang4/awesome-machine-learning-in-compilers",
+    "description": "Must read research papers and links to tools and datasets that are related to using machine learning for compilers and systems optimisation",
+    "homepage": null,
+    "stars": 1706,
+    "language": null,
+    "topics": [
+     "artificial-intelligence",
+     "auto-tuning",
+     "compiler",
+     "machine-learning",
+     "multi-cores",
+     "operating-systems",
+     "optimisation",
+     "parallel-computing",
+     "parallel-programming",
+     "parallelisation",
+     "parallelism"
+    ],
+    "license": "CC0-1.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-08-26T07:47:07Z"
+   }
   },
   "refuel-ai/autolabel": {
    "mentions": [
@@ -155627,6 +155802,446 @@
      "snippet": "Not a single mention of ODoH [[RFC 9230](https://www.rfc-editor.org/rfc/rfc9230.txt)]?\r\n\r\nI've been using it with [dnscrypt-proxy](https://github.com/dnscrypt/dnscrypt-proxy) on most boxes without any trouble for years."
     }
    ]
+  },
+  "entropie/ytdltt": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "entropie",
+     "url": "https://news.ycombinator.com/item?id=50383062",
+     "date": "2026-11-05T19:08:39Z",
+     "snippet": "I made a telegram bot for my mother that takes yt urls and downloads stuff to my jellyfin directory so she can download it from jellyfin. She downloaded like 2 tb of audio books the last 3 years. First I had a simple script. Now I use a little more complex approach with queuing, "
+    }
+   ]
+  },
+  "viceverse-cz/serein": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "lyorig",
+     "url": "https://news.ycombinator.com/item?id=50380887",
+     "date": "2026-11-05T16:07:43Z",
+     "snippet": "Serein[0] recently got on my radar, being exactly that (A Rust Discord client). Been using it for the last few weeks, and boy is it snappy! I rather like this trend of stuff being rewritten in Rust (usually via LLMs). Spotifast[1] being another great example. Perhaps Discord caug"
+    }
+   ]
+  },
+  "crmne/spotifast": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "lyorig",
+     "url": "https://news.ycombinator.com/item?id=50380887",
+     "date": "2026-11-05T16:07:43Z",
+     "snippet": "Serein[0] recently got on my radar, being exactly that (A Rust Discord client). Been using it for the last few weeks, and boy is it snappy! I rather like this trend of stuff being rewritten in Rust (usually via LLMs). Spotifast[1] being another great example. Perhaps Discord caug"
+    }
+   ]
+  },
+  "tashfeenahmed/freellmapi": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "elestor",
+     "url": "https://news.ycombinator.com/item?id=50379530",
+     "date": "2026-11-05T14:30:42Z",
+     "snippet": "1) None, I use freellmapi https://github.com/tashfeenahmed/freellmapi 2) No 3) Oh my pi in bwrap sandbox, used to use Opencode 4) No 5) No"
+    }
+   ]
+  },
+  "markmdev/misogi": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ohong",
+     "url": "https://news.ycombinator.com/item?id=50379251",
+     "date": "2026-11-05T14:08:39Z",
+     "snippet": "Hey HN, throughout 2010s, Mark Zuckerberg famously committed to one challenge every year: Learn Mandarin, only eat meat he hunted, visit every US state, etc. Inspired by his example, my friends Mark, Java, and I built Misogi — Let Muse guide you through your own annual challenge."
+    }
+   ]
+  },
+  "containers/bubblewrap": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tikkabhuna",
+     "url": "https://news.ycombinator.com/item?id=50379187",
+     "date": "2026-11-05T14:03:13Z",
+     "snippet": "Claude code uses bubblewrap[1] to offer some isolation. I'd love to hear from others whether its a reasonable solution or not. [1] https://github.com/containers/bubblewrap"
+    }
+   ]
+  },
+  "gszr/lunar": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "gszr",
+     "url": "https://news.ycombinator.com/item?id=50379150",
+     "date": "2026-11-05T14:00:22Z",
+     "snippet": "I use xAI and OpenAI subscriptions, switching between them, even mid session, using my Lunar harness: https://github.com/gszr/lunar . This is a very productive setup for me. As it also supports API keys, I throw in other models in the mix when I want to play around. I have not in"
+    }
+   ]
+  },
+  "binhnguyennus/awesome-scalability": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "xtracto",
+     "url": "https://news.ycombinator.com/item?id=50378955",
+     "date": "2026-11-05T13:42:34Z",
+     "snippet": "I disagree with the blanket statement. Lists like awesome-scalability [1] are actually pretty useful and full of great references. They dont recommend any specific tool, and it is a very good resource to learn unknown unknowns. AI suffers the same problem Search Engines had: you "
+    }
+   ]
+  },
+  "danoszz/penthera": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "danosz",
+     "url": "https://news.ycombinator.com/item?id=50378945",
+     "date": "2026-11-05T13:41:18Z",
+     "snippet": "hey Behan! agreed with Cyberpunkco giving your fullcode base to an LLM provider might not be the most secure move. AI is great for action oriented fixing; but in my experience (pentester) not verifiable AI found \"everything\" (how could you know what happens in their reasoning/pro"
+    }
+   ]
+  },
+  "kuyawa/jobs-lang": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Kuyawa",
+     "url": "https://news.ycombinator.com/item?id=50378790",
+     "date": "2026-11-05T13:23:32Z",
+     "snippet": "I asked DeepSeek to design a language [1] that she would use for better token optimization. She gave me all pros and cons of all current top languages and told me Rust makes her hallucinate a lot so she optimized it and removed the borrow checker, added named function arguments a"
+    }
+   ]
+  },
+  "jerpint/woltspace": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jerpint",
+     "url": "https://news.ycombinator.com/item?id=50377663",
+     "date": "2026-11-05T10:52:09Z",
+     "snippet": "If you’re interested in self hosting your own, I’m the creator of woltspace [0], it’s a fully open-source way of managing your team of coding agents (wolts). You give the wolts a lodge on your own infra. They’re always on, always reachable, and fun beavers and racoons that evolve"
+    },
+    {
+     "source": "HN comment",
+     "author": "jerpint",
+     "url": "https://news.ycombinator.com/item?id=50377566",
+     "date": "2026-11-05T10:39:47Z",
+     "snippet": "If you’re looking for an open-source alternative, I’m the creator of woltspace [0], which is a way of coordinating your wolts (coding agents) by letting them talk to each other and giving them a lodge on your machine. I built it for myself as a dev who loves tmux and vim and who "
+    }
+   ],
+   "checkedAt": "2026-11-05T19:56:09.883Z",
+   "meta": {
+    "name": "woltspace",
+    "fullName": "jerpint/woltspace",
+    "description": "gnaw, build, repeat 🦫",
+    "homepage": "https://woltspace.com",
+    "stars": 21,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-05T01:52:05Z"
+   },
+   "listedAt": "2026-11-05T19:56:10.812Z"
+  },
+  "zwang4/awesome-machine-learning-in-compil": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "bayindirh",
+     "url": "https://news.ycombinator.com/item?id=50377563",
+     "date": "2026-11-05T10:39:31Z",
+     "snippet": "Thanks for the link. I have also found a small trove as a warm-up. If anyone interested, here it is: https://github.com/zwang4/awesome-machine-learning-in-compil... Using small, purpose built ML \"things\" to make things better makes sense. We use them everywhere. I never argued ag"
+    }
+   ]
+  },
+  "vorticoncmdr/lemmings": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "VorticonCmdr",
+     "url": "https://news.ycombinator.com/item?id=50377133",
+     "date": "2026-11-05T09:35:30Z",
+     "snippet": "love it. I did build a html-in-canvas version ( https://github.com/VorticonCmdr/lemmings ) for fun and I love how creative other people get"
+    }
+   ]
+  },
+  "laughingmandev/loa": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "voodooEntity",
+     "url": "https://news.ycombinator.com/item?id=50376538",
+     "date": "2026-11-05T08:15:56Z",
+     "snippet": "For me the answer is twofold. Regarding commercial solutions: - Subscription: Google AI Ultra (testing for 1 month rn to see what i can get out of argon, after that probably going back to Pro package) - Harness: Antigravity IDE : from what i have tested on commercial harnesses th"
+    }
+   ]
+  },
+  "aseno-up/backend": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "hamiltonjunior",
+     "url": "https://news.ycombinator.com/item?id=50378407",
+     "date": "2026-11-05T12:40:16.000Z",
+     "snippet": "Location: Brazil (UTC-3) Remote: Yes Willing to relocate: No Technologies: Go, Node.js, TypeScript, NestJS, PostgreSQL, Redis, Kubernetes (EKS), Docker, AWS, GCP, GitHub Actions, Python, LLM APIs (Claude, OpenAI, Gemini), MCP Résumé/CV: https://www.upwork.com/freelancers/hamilton"
+    }
+   ]
+  },
+  "tejasgaikwad07/problem-submission-queue-similar-to-leetcode-": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Tejasg07",
+     "url": "https://news.ycombinator.com/item?id=50381920",
+     "date": "2026-11-05T17:37:31.000Z",
+     "snippet": "Location: Parbhani, India (IST, UTC+5:30) Remote: Yes (full-time; can overlap with EU hours and US mornings) Willing to relocate: Yes, within India Technologies: TypeScript, Node.js, Express, React, Next.js, PostgreSQL, MongoDB, Prisma, WebSockets, Jest, GitHub Actions, OpenAI AP"
+    }
+   ]
+  },
+  "tejasgaikwad07/problem-submission-queue-s": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Tejasg07",
+     "url": "https://news.ycombinator.com/item?id=50381920",
+     "date": "2026-11-05T17:37:31.000Z",
+     "snippet": "Location: Parbhani, India (IST, UTC+5:30) Remote: Yes (full-time; can overlap with EU hours and US mornings) Willing to relocate: Yes, within India Technologies: TypeScript, Node.js, Express, React, Next.js, PostgreSQL, MongoDB, Prisma, WebSockets, Jest, GitHub Actions, OpenAI AP"
+    }
+   ]
+  },
+  "tejasgaikwad07/walletx": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Tejasg07",
+     "url": "https://news.ycombinator.com/item?id=50381920",
+     "date": "2026-11-05T17:37:31.000Z",
+     "snippet": "Location: Parbhani, India (IST, UTC+5:30) Remote: Yes (full-time; can overlap with EU hours and US mornings) Willing to relocate: Yes, within India Technologies: TypeScript, Node.js, Express, React, Next.js, PostgreSQL, MongoDB, Prisma, WebSockets, Jest, GitHub Actions, OpenAI AP"
+    }
+   ]
+  },
+  "andrei-dubovik/jail": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "h45x1",
+     "url": "https://news.ycombinator.com/item?id=50376030",
+     "date": "2026-11-05T06:59:59.000Z",
+     "snippet": "I wrote my own bash wrapper around bubblewrap and pasta: https://github.com/andrei-dubovik/jail The wrapper also keeps history, memory, etc. split by project folder, so agents working in different projects don't know each others' history. If anything, `--resume` is a split second"
+    }
+   ]
+  },
+  "bsklaroff/yaac": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "salt-licker",
+     "url": "https://news.ycombinator.com/item?id=50376836",
+     "date": "2026-11-05T08:53:58.000Z",
+     "snippet": "I built something which auto-containerizes the agents for you (gvisor isolation, with credentials injected via proxy and url allowlist), but still allows orchestration between the agents, and a desktop app as well: https://github.com/bsklaroff/yaac"
+    }
+   ]
+  },
+  "mas-bandwidth/schema": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "glennfiedler",
+     "url": "https://news.ycombinator.com/item?id=50375943",
+     "date": "2026-11-05T06:41:50.000Z",
+     "snippet": "The sort of work I pass through this system, it's mostly library work for multiplayer games. For example, my work on schema, my protobufs/flatbuffers language replacement for multiplayer games, parallelizes very nicely across 15 languages on the sprint system. https://github.com/"
+    }
+   ]
+  },
+  "mas-bandwidth/fixed3d": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "glennfiedler",
+     "url": "https://news.ycombinator.com/item?id=50376018",
+     "date": "2026-11-05T06:58:02.000Z",
+     "snippet": "You'll like this too then https://github.com/mas-bandwidth/fixed3d -- port of box3d to fixed point :) https://github.com/mas-bandwidth/fixed -- fixed point math library"
+    }
+   ]
+  },
+  "mas-bandwidth/fixed": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "glennfiedler",
+     "url": "https://news.ycombinator.com/item?id=50376018",
+     "date": "2026-11-05T06:58:02.000Z",
+     "snippet": "You'll like this too then https://github.com/mas-bandwidth/fixed3d -- port of box3d to fixed point :) https://github.com/mas-bandwidth/fixed -- fixed point math library"
+    }
+   ]
+  },
+  "m6r-ai/humbug": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "tritondev",
+     "url": "https://news.ycombinator.com/item?id=50376262",
+     "date": "2026-11-05T07:36:15.000Z",
+     "snippet": "I built a Qt GUI-based harness, Humbug, that runs on MacOS, Linux, and Windows (I have reasons to use all 3). Has only 3 runtime dependencies other than the Python standard library: https://github.com/m6r-ai/humbug Usually have 3 or 4 instances running at a time and lets me use L"
+    }
+   ]
+  },
+  "8lamaster8/gin": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "8lamaster8",
+     "url": "https://news.ycombinator.com/item?id=50376692",
+     "date": "2026-11-05T08:36:06.000Z",
+     "snippet": "I built my experimental system and I'm using it. I'm genuinely very happy with it. If I had more compute and could run a real, full 30B model locally, I'd be absolutely thrilled. https://github.com/8lamaster8/GIN"
+    }
+   ]
+  },
+  "getspur/spurcode": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "mf_kevintruong",
+     "url": "https://news.ycombinator.com/item?id=50376746",
+     "date": "2026-11-05T08:42:39.000Z",
+     "snippet": "I build my own coding agent : Spurcode https://github.com/getspur/SpurCode which enable to support me to orchestrate difference other coding agent : like Codex + claude/Goose ...etc Also : give out product agent notebook workbench : https://getspur.dev/spurlab to make all coding "
+    }
+   ]
+  },
+  "asixicle/coterie": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "asixicle",
+     "url": "https://news.ycombinator.com/item?id=50376872",
+     "date": "2026-11-05T08:59:03.000Z",
+     "snippet": "Rolled my own for a Claude Max sub, basically tmux and an elaborate MCP for persistent semantic memory, Forgejo, etc. ( https://github.com/ASIXicle/Coterie ) I sense more people will do so as you can fairly easily tailor any harness and MCP/LXC combo to suit the way you work. It'"
+    }
+   ]
+  },
+  "jeffer1312/hangar": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "jefferfelizardo",
+     "url": "https://news.ycombinator.com/item?id=50377945",
+     "date": "2026-11-05T11:36:36.000Z",
+     "snippet": "I run Claude Code, Codex, Pi and Kimi Code across my desktop, laptop and a server, in tmux sessions I also follow from my phone. I got tired of juggling that, so I built Hangar, open source and self-hosted: https://github.com/jeffer1312/hangar"
+    }
+   ]
+  },
+  "pandreew/pi_group": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "PAndreew",
+     "url": "https://news.ycombinator.com/item?id=50377956",
+     "date": "2026-11-05T11:38:11.000Z",
+     "snippet": "1) Codex Plus (20 bucks) - find it enough even though I'm working on 3 small-medium size projects and occasionally helps out my wife 2) No 3) Pi 4) No, I think these are token burners and makes it practically impossible to track what's happening from a human side. 5) My own tool:"
+    }
+   ]
+  },
+  "sharkjets/iceghost": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "SkidVis",
+     "url": "https://news.ycombinator.com/item?id=50378518",
+     "date": "2026-11-05T12:52:43.000Z",
+     "snippet": "1) Claude ($100) and ChatGPT ($20) 2) No. 3) I mainly use Claude as my main, Pi (with ChatGPT) for any automations. I manage them all with herdr. I cd into a path, kick off a claude/codex/pi session, then kill the session and manage it from anywhere with iceghost. ( https://githu"
+    }
+   ]
+  },
+  "caudra/caudra": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "netsroht",
+     "url": "https://news.ycombinator.com/item?id=50378737",
+     "date": "2026-11-05T13:18:34.000Z",
+     "snippet": "I have two Claude Ultra subs and one Codex Pro sub. I also use a few pay per token endpoints from various providers (these change a lot though because here I'm mainly testing and comparing capabilities) and one locally hosted Qwen-3.8-27b (on a custom inference engine [0]). Opus "
+    }
+   ]
+  },
+  "gi-dellav/zerostack": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Matl",
+     "url": "https://news.ycombinator.com/item?id=50379315",
+     "date": "2026-11-05T14:15:12.000Z",
+     "snippet": "Also used by ZeroStack[1], which I quite like, but whether it provides 'meaningful' protection am less sure. 1 - https://github.com/gi-dellav/zerostack"
+    }
+   ]
+  },
+  "gregwebs/pi-quota-dispatcher": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "gregwebs",
+     "url": "https://news.ycombinator.com/item?id=50378856",
+     "date": "2026-11-05T13:31:43.000Z",
+     "snippet": "1-2) Claude $20/mo (planner) Codex $20/mo (reviewer) Deepseek $1-3/day workhorse. 4) A standard /implement skill creates separate agents for different parts of the workflow. It uses Claude for planning, codex for reviewing, and deepseek for doing and orchestrating. https://github"
+    }
+   ]
+  },
+  "ontouchstart/b6a08b068cf863f0523bbd8880c88cf4": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "ontouchstart",
+     "url": "https://news.ycombinator.com/item?id=50379205",
+     "date": "2026-11-05T14:04:43.000Z",
+     "snippet": "I know this is getting meta, but I am sure people and AI would learn a lot from this log: https://gist.github.com/ontouchstart/b6a08b068cf863f0523bbd8..."
+    }
+   ]
+  },
+  "ontouchstart/b6a08b068cf863f0523bbd8": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "ontouchstart",
+     "url": "https://news.ycombinator.com/item?id=50379205",
+     "date": "2026-11-05T14:04:43.000Z",
+     "snippet": "I know this is getting meta, but I am sure people and AI would learn a lot from this log: https://gist.github.com/ontouchstart/b6a08b068cf863f0523bbd8..."
+    }
+   ]
+  },
+  "storytold/gridcraft": {
+   "mentions": [
+    {
+     "source": "Stack Exchange",
+     "author": "se:Franck Dernoncourt",
+     "url": "https://softwarerecs.stackexchange.com/a/95761",
+     "date": "2026-11-03T00:49:15.000Z",
+     "snippet": "One can use GridCraft . It is gratis and dual-licensed under MIT or Apache-2.0, at your option. It has a portable version. It is designed to be a free replacement for Microsoft Excel. It works on Windows, Linux and macOS. The https://github.com/sirmmo/craft-vba add-in adds VBA su"
+    }
+   ]
+  },
+  "sirmmo/craft-vba": {
+   "mentions": [
+    {
+     "source": "Stack Exchange",
+     "author": "se:Franck Dernoncourt",
+     "url": "https://softwarerecs.stackexchange.com/a/95761",
+     "date": "2026-11-03T00:49:15.000Z",
+     "snippet": "One can use GridCraft . It is gratis and dual-licensed under MIT or Apache-2.0, at your option. It has a portable version. It is designed to be a free replacement for Microsoft Excel. It works on Windows, Linux and macOS. The https://github.com/sirmmo/craft-vba add-in adds VBA su"
+    }
+   ]
+  },
+  "asterisk/asterisk": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:selfhost_discovery@mastodon.social",
+     "url": "https://mastodon.social/@selfhost_discovery/117564179973874083",
+     "date": "2026-11-05T13:57:03.000Z",
+     "snippet": "🚀 New # release · Asterisk 24.0.0 The Asterisk Development Team would like to announce the release of asterisk-24.0.0. The release artifacts are available for immediate download at https:// github.com/asterisk/asterisk/r eleases/tag/24.0.0 and Dig into this release → https:// se"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -156234,6 +156849,7 @@
   "45019483": 1793608005668,
   "45050502": 1793608002791,
   "45054260": 1793608029819,
+  "45073589": 1793908523538,
   "45235243": 1793608068725,
   "45251624": 1793608069162,
   "45269827": 1793608069096,
@@ -156242,6 +156858,7 @@
   "45404760": 1793608073531,
   "45404997": 1793608008923,
   "45558430": 1793608069583,
+  "45572130": 1793908523537,
   "45615193": 1793608069951,
   "45771870": 1793608070103,
   "45807775": 1793608029805,
@@ -156446,28 +157063,28 @@
   "50084969": 1793608048416,
   "50121562": 1793608048501,
   "50151036": 1793623210888,
-  "50193416": 1793860857722,
-  "50200997": 1793860857862,
-  "50204125": 1793860858269,
+  "50193416": 1793908524256,
+  "50200997": 1793908523496,
+  "50204125": 1793908524167,
   "50271004": 1793860857161,
-  "50271808": 1793860858033,
-  "50285134": 1793860857534,
-  "50301479": 1793860857346,
-  "50312756": 1793860857568,
+  "50271808": 1793908524454,
+  "50285134": 1793908523666,
+  "50301479": 1793908523575,
+  "50312756": 1793908523716,
   "50313705": 1793860857675,
-  "50318646": 1793860857826,
+  "50318646": 1793908523935,
   "50326727": 1793772782762,
-  "50328896": 1793860858335,
-  "50331001": 1793860858244,
-  "50337431": 1793860857498,
-  "50338726": 1793860857259,
-  "50338728": 1793860857128,
-  "50347425": 1793860857839,
-  "50352757": 1793860857616,
-  "50353457": 1793860857900,
-  "50354336": 1793860858101,
-  "50355959": 1793860858081,
-  "50363461": 1793860857906,
-  "50366117": 1793860858338
+  "50328896": 1793908524674,
+  "50331001": 1793908524306,
+  "50337431": 1793908523736,
+  "50338726": 1793908523299,
+  "50338728": 1793908523262,
+  "50347425": 1793908523945,
+  "50352757": 1793908523853,
+  "50353457": 1793908523865,
+  "50354336": 1793908524241,
+  "50355959": 1793908524730,
+  "50363461": 1793908523952,
+  "50366117": 1793908524567
  }
 }
