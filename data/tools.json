@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T23:39:17.199Z",
+ "updatedAt": "2026-11-05T06:41:36.224Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -3722,6 +3722,20 @@
   "amterp/kan": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "alok-g",
+     "url": "https://news.ycombinator.com/item?id=50374919",
+     "date": "2026-11-05T03:48:42.000Z",
+     "snippet": ">> [1] https://github.com/amterp/kan Nice! I am guessing the intended use is on developers' own machines, not putting on a server and live co-editing in a team meeting. Pls. let me know if I have misunderstood. Thanks."
+    },
+    {
+     "source": "Ask HN",
+     "author": "amterp",
+     "url": "https://news.ycombinator.com/item?id=50374498",
+     "date": "2026-11-05T02:49:39.000Z",
+     "snippet": "1) One 5x Claude sub, one pro lite codex sub 2) Not really, the value proposition on the subs are just so much greater. 3) I'm using Claude Code and Codex, crucially thru Muster[0] which I've been working on. It's a herdr inspired Libghostty-powered terminal which understands age"
+    },
+    {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50254018",
      "date": "2026-10-27T02:22:38Z",
@@ -4602,6 +4616,13 @@
   },
   "omacom/omarchy": {
    "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:mountdiscovery@spacey.space",
+     "url": "https://spacey.space/@mountdiscovery/117562243988588815",
+     "date": "2026-11-05T05:44:42.000Z",
+     "snippet": "WHAT?! Omarchy 4.5, aka (Quattro RS), is officially a full-fledged public release. 💻 M1/M2/M3/Neo compatibility For those who want to use # Linux on # Apple Silicon, you have to try this OS https:// github.com/omacom/omarchy/rele ases/tag/v4.5.0"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50230931",
@@ -7533,7 +7554,7 @@
     "fork": false,
     "pushedAt": "2026-11-03T03:57:45Z"
    },
-   "checkedAt": "2026-11-04T23:39:16.978Z"
+   "checkedAt": "2026-11-05T06:41:35.792Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -20323,6 +20344,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "petu",
+     "url": "https://news.ycombinator.com/item?id=50375517",
+     "date": "2026-11-05T05:21:10Z",
+     "snippet": "> and the remainder of VRAM is occupied by the KV cache and whatever experts still fit. Those days engines try to optimize \"whatever experts\" part and can use remaining VRAM as cache, moving hot experts to GPU during inference (but less used experts keep executing on CPU, yea). e"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49930595",
      "date": "2026-10-02T07:00:45Z",
      "snippet": "The docs are a great start. https://github.com/ggml-org/llama.cpp/blob/master/docs/backe...",
@@ -22746,6 +22774,13 @@
   "mattpocock/skills": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "semireg",
+     "url": "https://news.ycombinator.com/item?id=50374679",
+     "date": "2026-11-05T03:11:55.000Z",
+     "snippet": "I'm a solo developer. I'd hit walls with openrouter (sonnet/opus/sol) + cline Now I'm running qwen 3.8 FN + omp + https://github.com/mattpocock/skills This combination has pretty much \"solved\" node/react coding for me, running locally on dual RTX 6000, 200-800 tps depending on co"
+    },
+    {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49881430",
      "date": "2026-09-28T17:29:01Z",
@@ -23271,6 +23306,13 @@
   },
   "mickael-kerjean/filestash": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "mickael-kerjean",
+     "url": "https://news.ycombinator.com/item?id=50373293",
+     "date": "2026-11-05T00:16:52.000Z",
+     "snippet": "I have been working on a shared folder that sync between agents ( https://www.filestash.app/agents/ ). The control plane [1] handles pretty much all storages protocols / platform (S3, SFTP, NFS< SMB, ....), you add the controls / permission boundaries and everything is auditable "
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49873584",
@@ -85994,13 +86036,49 @@
   "ferrislucas/circus-chief": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "deathmonger5000",
+     "url": "https://news.ycombinator.com/item?id=50374678",
+     "date": "2026-11-05T03:11:27Z",
+     "snippet": "I use Circus Chief to orchestrate workflows that use various combinations of Claude, Codex, Muse, z.ai, and Grok subscriptions. When one subscription runs out, Circus Chief falls back to the next. You can configure tiers to control how that works. Full disclosure: I’m the creator"
+    },
+    {
      "source": "Ask HN",
      "author": "deathmonger5000",
      "url": "https://news.ycombinator.com/item?id=48460058",
      "date": "2026-06-09T12:11:19.000Z",
      "snippet": "I made Circus Chief: https://github.com/ferrislucas/Circus-Chief Circus Chief is a tool for managing coding agent sessions from a browser. It's specifically optimized for small screens. It supports Claude Code, OpenAI Codex, and Google Gemini CLI agents. Features Agents can opera"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-05T06:41:34.372Z",
+   "meta": {
+    "name": "Circus-Chief",
+    "fullName": "ferrislucas/Circus-Chief",
+    "description": "Open-source meta-harness for Claude Code, OpenAI Codex, and Gemini CLI coding agents",
+    "homepage": "https://www.npmjs.com/package/circuschief",
+    "stars": 13,
+    "language": "JavaScript",
+    "topics": [
+     "agentic-ai",
+     "agentic-workflow",
+     "agents",
+     "ai-agents",
+     "claude",
+     "claude-code",
+     "codex",
+     "coding-agents",
+     "developer-tools",
+     "gemini-cli",
+     "meta-harness",
+     "metaharness",
+     "muse",
+     "musecode"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-05T03:32:58Z"
+   }
   },
   "fabritorio/fabritorio": {
    "mentions": [
@@ -101638,6 +101716,13 @@
   },
   "morluto/rea": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "vivzkestrel",
+     "url": "https://news.ycombinator.com/item?id=50375124",
+     "date": "2026-11-05T04:18:35Z",
+     "snippet": "here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]( https://www.microsoft.com/en-us/software-download/windows11 ) - then download vm"
+    },
     {
      "source": "HN comment",
      "author": "vivzkestrel",
@@ -154807,11 +154892,41 @@
     {
      "source": "Ask HN",
      "author": "ghempton",
+     "url": "https://news.ycombinator.com/item?id=50374491",
+     "date": "2026-11-05T02:48:33.000Z",
+     "snippet": "1) claude, claude again, codex, antigravity, cursor 2) no 3) using a variety of different harnesses managed by codealong 4) built https://github.com/codealong/codealong 5) openclaw not used very much anymore in favor of native harnesses"
+    },
+    {
+     "source": "Ask HN",
+     "author": "ghempton",
      "url": "https://news.ycombinator.com/item?id=50355111",
      "date": "2026-11-03T17:31:15.000Z",
      "snippet": "We've noticed this occasionally and its a pretty serious issue since we tell our customers that none of their data is being trained on. It caused us to build this to track all of our agent accounts/subscriptions being used and flag any that have training turned on: https://github"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-05T06:41:34.647Z",
+   "meta": {
+    "name": "codealong",
+    "fullName": "codealong/codealong",
+    "description": "Every coding agent you run, in one window: a free, open-source app for macOS and Linux for Claude Code, Codex, OpenCode, Antigravity and Cursor, across your accounts and machines.",
+    "homepage": "https://www.codealong.com",
+    "stars": 33,
+    "language": "Rust",
+    "topics": [
+     "claude-code",
+     "codex",
+     "coding-agents",
+     "developer-tools",
+     "linux",
+     "macos",
+     "tauri"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-05T04:04:04Z"
+   },
+   "listedAt": "2026-11-05T06:41:36.224Z"
   },
   "nvidia/auto-ontology": {
    "mentions": [
@@ -154840,14 +154955,10 @@
     {
      "source": "HN comment",
      "author": "vivzkestrel",
-     "url": "https://news.ycombinator.com/item?id=50361170",
-     "date": "2026-11-04T03:23:14Z",
-     "snippet": "- slghtly offtopic but also covers how to run windows 11 super duper optimally - here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]("
-    }
-   ]
-  },
-  "ystyle/jvms": {
-   "mentions": [
+     "url": "https://news.ycombinator.com/item?id=50375124",
+     "date": "2026-11-05T04:18:35Z",
+     "snippet": "here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]( https://www.microsoft.com/en-us/software-download/windows11 ) - then download vm"
+    },
     {
      "source": "HN comment",
      "author": "vivzkestrel",
@@ -154855,7 +154966,62 @@
      "date": "2026-11-04T03:23:14Z",
      "snippet": "- slghtly offtopic but also covers how to run windows 11 super duper optimally - here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]("
     }
-   ]
+   ],
+   "checkedAt": "2026-11-05T06:41:34.924Z",
+   "meta": {
+    "name": "fnm",
+    "fullName": "Schniz/fnm",
+    "description": "🚀 Fast and simple Node.js version manager, built in Rust",
+    "homepage": "https://fnm.vercel.app",
+    "stars": 27299,
+    "language": "Rust",
+    "topics": [
+     "hacktoberfest",
+     "javascript",
+     "nodejs",
+     "nvm",
+     "reasonml",
+     "version"
+    ],
+    "license": "GPL-3.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-26T16:28:14Z"
+   },
+   "listedAt": "2026-11-05T06:41:36.224Z"
+  },
+  "ystyle/jvms": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "vivzkestrel",
+     "url": "https://news.ycombinator.com/item?id=50375124",
+     "date": "2026-11-05T04:18:35Z",
+     "snippet": "here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]( https://www.microsoft.com/en-us/software-download/windows11 ) - then download vm"
+    },
+    {
+     "source": "HN comment",
+     "author": "vivzkestrel",
+     "url": "https://news.ycombinator.com/item?id=50361170",
+     "date": "2026-11-04T03:23:14Z",
+     "snippet": "- slghtly offtopic but also covers how to run windows 11 super duper optimally - here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]("
+    }
+   ],
+   "checkedAt": "2026-11-05T06:41:35.205Z",
+   "meta": {
+    "name": "jvms",
+    "fullName": "ystyle/jvms",
+    "description": "JDK Version Manager (JVMS) for Windows",
+    "homepage": null,
+    "stars": 1040,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-14T22:01:08Z"
+   },
+   "listedAt": "2026-11-05T06:41:36.224Z"
   },
   "indygreg/apple-platform-rs": {
    "mentions": [
@@ -155217,6 +155383,248 @@
      "url": "https://news.ycombinator.com/item?id=50358314",
      "date": "2026-11-03T21:16:48Z",
      "snippet": "Show HN: Kairos – Open-source risk and fraud decisioning platform (104 points)"
+    }
+   ]
+  },
+  "vkalintiris/3ad526e71a75bcba013aaadc9d9d0837": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ehostunreach",
+     "url": "https://news.ycombinator.com/item?id=50375619",
+     "date": "2026-11-05T05:41:57Z",
+     "snippet": "> Try to keep context shoved in a conversation thread under a token limit to save tokens. For big tasks/features, I'm always creating a new git worktree and I'm using a \"status repo\" skill that creates a sibling status git repository where everything is recorded. It works quite w"
+    }
+   ]
+  },
+  "vkalintiris/3ad526e71a75bcba013aaadc": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ehostunreach",
+     "url": "https://news.ycombinator.com/item?id=50375619",
+     "date": "2026-11-05T05:41:57Z",
+     "snippet": "> Try to keep context shoved in a conversation thread under a token limit to save tokens. For big tasks/features, I'm always creating a new git worktree and I'm using a \"status repo\" skill that creates a sibling status git repository where everything is recorded. It works quite w"
+    }
+   ]
+  },
+  "netdata/netdata": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ehostunreach",
+     "url": "https://news.ycombinator.com/item?id=50375619",
+     "date": "2026-11-05T05:41:57Z",
+     "snippet": "> Try to keep context shoved in a conversation thread under a token limit to save tokens. For big tasks/features, I'm always creating a new git worktree and I'm using a \"status repo\" skill that creates a sibling status git repository where everything is recorded. It works quite w"
+    }
+   ]
+  },
+  "yendo-eng/remuda": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "dgunay",
+     "url": "https://news.ycombinator.com/item?id=50375407",
+     "date": "2026-11-05T05:02:23Z",
+     "snippet": "I use AI primarily through work, I don't pay for a personal AI sub. I do have some OpenRouter credits but I mostly use them sparingly to try open weight models out for small personal projects. I currently interact primarily with Claude Code, but most of my async workers are on Co"
+    }
+   ]
+  },
+  "fluxmoot/fluximp": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "joshheitzman",
+     "url": "https://news.ycombinator.com/item?id=50375145",
+     "date": "2026-11-05T04:21:55Z",
+     "snippet": "My own agent: https://github.com/fluxmoot/fluximp I primarily use DS v4.1 Flash @ deepinfra.com with less use of GLM 5.3 Flash and GLM 5.3 @ friendli.ai I use a locked down (i.e. many tools disabled; shell especially) setup of oh-my-pi in benchmarks for comparison."
+    }
+   ]
+  },
+  "oscscull/quarterdeck": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "earthdeity",
+     "url": "https://news.ycombinator.com/item?id=50375046",
+     "date": "2026-11-05T04:07:47Z",
+     "snippet": "Claude + Codex, both from work. Just those. https://github.com/oscscull/quarterdeck built my own harness. I had trouble with both claude and codex. In particular, managing multiple tasks in a kanban, syncing between my machines, making sure work is done on the right machine and c"
+    }
+   ]
+  },
+  "jonwiggins/optio": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jawiggins",
+     "url": "https://news.ycombinator.com/item?id=50374982",
+     "date": "2026-11-05T03:57:10Z",
+     "snippet": "I use a tool I made that lets me orchestrate lots of AI agents (claude/codex/gemini) both on my laptop and on a k8s cluster. I set them up to run on various triggers and access them from my phone/laptop: https://github.com/jonwiggins/optio"
+    }
+   ]
+  },
+  "common-pattern/claudeflow": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sudhirj",
+     "url": "https://news.ycombinator.com/item?id=50374380",
+     "date": "2026-11-05T02:31:53Z",
+     "snippet": "I use Claude, on a Max plan. Have a server at home, so mosh into it and run Claude Code at the lowest level. Use Blink off the iPad. For normal work though, I have a bunch of services set up to run Claude —-remote-control in every one of my projects, so I just use the Claude app "
+    }
+   ]
+  },
+  "bestboyhq/malini": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "szymeo",
+     "url": "https://news.ycombinator.com/item?id=50374203",
+     "date": "2026-11-05T02:08:09Z",
+     "snippet": "im with you. Try free, open-source drop in replacement https://github.com/bestboyhq/malini"
+    }
+   ]
+  },
+  "shaftoe/awesome-pi-coding-agent": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "alexfortin",
+     "url": "https://news.ycombinator.com/item?id=50374094",
+     "date": "2026-11-05T01:54:28Z",
+     "snippet": "Models: I pay Z.ai a lite sub which costs me ~9USD/month and for the last months I've been using `glm-5.3-flash` amost exclusively for my day-to-day. I also make use of free models from OpenRouter for simple CI/CD automated stuff but very little so. When I'm out of sub tokens I f"
+    }
+   ]
+  },
+  "squid-protocol/agent-habits": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "joe-esquibel",
+     "url": "https://news.ycombinator.com/item?id=50373836",
+     "date": "2026-11-05T01:23:44Z",
+     "snippet": "Thanks for the interest! I've done some work comparing code signatures between Claude and codex on the same tasks. This was also written heavily by llm (I haven't had a chance yet to try some rewrites on my own based on this feedback yet)... https://github.com/squid-protocol/agen"
+    }
+   ]
+  },
+  "doriantaylor/swet": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jauntywundrkind",
+     "url": "https://news.ycombinator.com/item?id=50373132",
+     "date": "2026-11-04T23:59:59Z",
+     "snippet": "Good LWN coverage from a bit ago, https://lwn.net/Articles/1034560/ It's just an idea & very amorphous, but I dig Dorian Taylor's swet. As an idea of where we could go. wasm but also how it gets used too, what xslt could mean. https://github.com/doriantaylor/swet Worth repeating "
+    }
+   ]
+  },
+  "regnull/openbot": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "regnull",
+     "url": "https://news.ycombinator.com/item?id=50373129",
+     "date": "2026-11-04T23:59:50Z",
+     "snippet": "I feel like this is a great opportunity to mention https://github.com/regnull/openbot , my attempt to create an open-source tool similar to Grok Bot. You can hook it up to OpenRouter and solve 80% of problems with 1/10th of the cost. I use it all the time. Contributors are always"
+    }
+   ]
+  },
+  "lbeckman314/resume": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "lbeckman314",
+     "url": "https://news.ycombinator.com/item?id=50373539",
+     "date": "2026-11-05T00:46:23.000Z",
+     "snippet": "Location: Portland, OR Remote: Yes Willing to relocate: Yes Technologies: Go, Python, TypeScript, Java, Rust, Bash, Kubernetes, Helm, Terraform, Docker, AWS, Azure, OpenStack, PostgreSQL, Elasticsearch, gRPC/Protobuf, GitHub Actions, Nextflow, GA4GH TES/DRS, HL7 FHIR Résumé/CV: h"
+    }
+   ]
+  },
+  "mickael-kerjean/fdrive": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "mickael-kerjean",
+     "url": "https://news.ycombinator.com/item?id=50373293",
+     "date": "2026-11-05T00:16:52.000Z",
+     "snippet": "I have been working on a shared folder that sync between agents ( https://www.filestash.app/agents/ ). The control plane [1] handles pretty much all storages protocols / platform (S3, SFTP, NFS< SMB, ....), you add the controls / permission boundaries and everything is auditable "
+    }
+   ]
+  },
+  "mitchellgordon95/miniclaw": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "bitforger",
+     "url": "https://news.ycombinator.com/item?id=50373322",
+     "date": "2026-11-05T00:20:51.000Z",
+     "snippet": "1) Claude Ultra (aka Max 20x) 2) No 3) Claude Code 4) Custom WIP https://muster.town/ 5) Custom personal agent setup https://github.com/mitchellgordon95/miniclaw Usage is mainly wiki building around personal info (finances, topics of interest), calorie counting, and doing various"
+    }
+   ]
+  },
+  "navels/neal": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "navels",
+     "url": "https://news.ycombinator.com/item?id=50373463",
+     "date": "2026-11-05T00:38:50.000Z",
+     "snippet": "1) Work covers my Claude and Codex subscriptions. Each is the ~$200/month tier. 2) I have a \"live Zoom call audio transcription\" setup that uses Silero VAD, Qwen3-ASR-1.7B, Qwen3-4B-Instruct, and pyannote speaker-diarization-community-1. 3) Claude Code in the Desktop UI using rem"
+    }
+   ]
+  },
+  "seanturner026/f": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "strangelove026",
+     "url": "https://news.ycombinator.com/item?id=50374135",
+     "date": "2026-11-05T01:59:50.000Z",
+     "snippet": "https://github.com/seanturner026/f There’s an excalidraw in the reader My manager described this as incomprehensible lol but it’s modeled on conductor but uses Claude code terminal and mods and glues a bunch of open source stuff with a cli I had Claude write. Herdr for sessions, "
+    }
+   ]
+  },
+  "amterp/muster": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "amterp",
+     "url": "https://news.ycombinator.com/item?id=50374498",
+     "date": "2026-11-05T02:49:39.000Z",
+     "snippet": "1) One 5x Claude sub, one pro lite codex sub 2) Not really, the value proposition on the subs are just so much greater. 3) I'm using Claude Code and Codex, crucially thru Muster[0] which I've been working on. It's a herdr inspired Libghostty-powered terminal which understands age"
+    }
+   ]
+  },
+  "mas-bandwidth/nova-tools": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "glennfiedler",
+     "url": "https://news.ycombinator.com/item?id=50375606",
+     "date": "2026-11-05T05:39:29.000Z",
+     "snippet": "I'm juggling multiple claude ultra subs, multiple codex $500 a month subs, antigravity for argon, plus API rate deepseek 4.1 flash, mercury 3, and abliterated large v2 for red teaming. I work across multiple models and harnesses using a really simple redis-backed message bus call"
+    }
+   ]
+  },
+  "mas-bandwidth/nova-sprint": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "glennfiedler",
+     "url": "https://news.ycombinator.com/item?id=50375606",
+     "date": "2026-11-05T05:39:29.000Z",
+     "snippet": "I'm juggling multiple claude ultra subs, multiple codex $500 a month subs, antigravity for argon, plus API rate deepseek 4.1 flash, mercury 3, and abliterated large v2 for red teaming. I work across multiple models and harnesses using a really simple redis-backed message bus call"
+    }
+   ]
+  },
+  "dnscrypt/dnscrypt-proxy": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:vpr",
+     "url": "https://lobste.rs/c/qznqbi",
+     "date": "2026-11-04T22:36:56.558-06:00",
+     "snippet": "Not a single mention of ODoH [[RFC 9230](https://www.rfc-editor.org/rfc/rfc9230.txt)]?\r\n\r\nI've been using it with [dnscrypt-proxy](https://github.com/dnscrypt/dnscrypt-proxy) on most boxes without any trouble for years."
     }
    ]
   }
@@ -156038,28 +156446,28 @@
   "50084969": 1793608048416,
   "50121562": 1793608048501,
   "50151036": 1793623210888,
-  "50193416": 1793835515476,
-  "50200997": 1793835514954,
-  "50204125": 1793835515894,
-  "50271004": 1793772781968,
-  "50271808": 1793835515871,
-  "50285134": 1793835514738,
-  "50301479": 1793835514876,
-  "50312756": 1793835514629,
-  "50313705": 1793772782987,
-  "50318646": 1793835514933,
+  "50193416": 1793860857722,
+  "50200997": 1793860857862,
+  "50204125": 1793860858269,
+  "50271004": 1793860857161,
+  "50271808": 1793860858033,
+  "50285134": 1793860857534,
+  "50301479": 1793860857346,
+  "50312756": 1793860857568,
+  "50313705": 1793860857675,
+  "50318646": 1793860857826,
   "50326727": 1793772782762,
-  "50328896": 1793835515499,
-  "50331001": 1793835516049,
-  "50337431": 1793835514292,
-  "50338726": 1793835514528,
-  "50338728": 1793835514434,
-  "50347425": 1793835515575,
-  "50352757": 1793835514628,
-  "50353457": 1793835514829,
-  "50354336": 1793835515848,
-  "50355959": 1793835516022,
-  "50363461": 1793835514891,
-  "50366117": 1793835515174
+  "50328896": 1793860858335,
+  "50331001": 1793860858244,
+  "50337431": 1793860857498,
+  "50338726": 1793860857259,
+  "50338728": 1793860857128,
+  "50347425": 1793860857839,
+  "50352757": 1793860857616,
+  "50353457": 1793860857900,
+  "50354336": 1793860858101,
+  "50355959": 1793860858081,
+  "50363461": 1793860857906,
+  "50366117": 1793860858338
  }
 }
