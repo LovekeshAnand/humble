@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T06:37:52.535Z",
+ "updatedAt": "2026-11-06T19:22:28.170Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7582,7 +7582,7 @@
     "fork": false,
     "pushedAt": "2026-11-03T03:57:45Z"
    },
-   "checkedAt": "2026-11-06T06:37:52.284Z"
+   "checkedAt": "2026-11-06T19:22:27.959Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -17369,6 +17369,13 @@
   "cse498/spring2026-companyb": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "schelcc",
+     "url": "https://news.ycombinator.com/item?id=50394949",
+     "date": "2026-11-06T16:57:14.000Z",
+     "snippet": "Location: Kalamazoo, Michigan USA Remote: Yes Willing to relocate: No, open to infrequent (0-4/year) travel Technologies: C++, Python, Rust, Docker, Linux, ROS1+2 | Open and excited to learn others Resume/CV: https://resume.schelcc.dev/ Email: schelcc@pobox.com Website: https://w"
+    },
+    {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49992267",
      "date": "2026-10-07T13:08:52Z",
@@ -26260,6 +26267,13 @@
   },
   "psf/requests": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "meowface",
+     "url": "https://news.ycombinator.com/item?id=50391920",
+     "date": "2026-11-06T13:12:51Z",
+     "snippet": "Many of my old >1K star GitHub projects were not that great, but I always made sure to create the cleanest, simplest possible READMEs, inspired by things like the Python requests library's docs ( https://github.com/psf/requests ). I think it helped a lot in their success. I remem"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49788746",
@@ -44282,13 +44296,48 @@
   "privsec-dev/banking-apps-compat-report": {
    "mentions": [
     {
+     "source": "HN front page",
+     "author": "microtonal",
+     "url": "https://news.ycombinator.com/item?id=50390124",
+     "date": "2026-11-06T09:27:12Z",
+     "snippet": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS (579 points)"
+    },
+    {
      "source": "Ask HN",
      "author": "grapheneos",
      "url": "https://news.ycombinator.com/item?id=49474127",
      "date": "2026-08-28T03:48:06.000Z",
      "snippet": "PayPal still works on GrapheneOS. It's because PayPal shipped an update with incorrect anti-tampering code incompatible with secure app spawning. It can be worked around with the per-app secure app spawning toggle until they fix it. Starling Bank app still works on GrapheneOS too"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-06T19:22:27.241Z",
+   "meta": {
+    "name": "banking-apps-compat-report",
+    "fullName": "PrivSec-dev/banking-apps-compat-report",
+    "description": "Report and track banking app compatibility with GrapheneOS, including which workarounds may be required.",
+    "homepage": "https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/",
+    "stars": 365,
+    "language": null,
+    "topics": [
+     "android",
+     "attestation-compatibility",
+     "banking-app",
+     "compatibility-layer",
+     "exploit-protection-compatibility-mode",
+     "grapheneos",
+     "mobile-banking-app",
+     "native-code-debugging",
+     "privacy",
+     "remote-attestation",
+     "reports",
+     "sandboxed-google-play",
+     "security"
+    ],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-05-20T17:58:24Z"
+   }
   },
   "oleksandrkrupko/mac-os-debloat": {
    "mentions": [
@@ -107496,13 +107545,38 @@
   "infisical/agent-vault": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "skwee357",
+     "url": "https://news.ycombinator.com/item?id=50391245",
+     "date": "2026-11-06T11:51:15Z",
+     "snippet": "I don't have anything fancy. I run EVERYTHING inside MicroVMs with LimaVM. Employer pays for Claude Code, which I run inside lima with herdr (because I often work on 5-7 different worktrees). I also pay for my own Claude Code subscription, and run each project in a dedicated lima"
+    },
+    {
      "source": "HN front page",
      "author": "dangtony98",
      "url": "https://news.ycombinator.com/item?id=47865822",
      "date": "2026-04-22T16:25:28Z",
      "snippet": "Show HN: Agent Vault – Open-source credential proxy and vault for agents (156 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-06T19:22:27.502Z",
+   "meta": {
+    "name": "agent-vault",
+    "fullName": "Infisical/agent-vault",
+    "description": "A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.",
+    "homepage": "https://docs.agent-vault.dev",
+    "stars": 2484,
+    "language": "Go",
+    "topics": [
+     "agents",
+     "ai-agents",
+     "secrets-management"
+    ],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-06T17:24:46Z"
+   }
   },
   "calcom/cal.diy": {
    "mentions": [
@@ -150611,6 +150685,13 @@
     {
      "source": "HN front page",
      "author": "NathanFlurry",
+     "url": "https://news.ycombinator.com/item?id=50381687",
+     "date": "2026-11-05T17:17:42Z",
+     "snippet": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3 (117 points)"
+    },
+    {
+     "source": "HN front page",
+     "author": "NathanFlurry",
      "url": "https://news.ycombinator.com/item?id=42472519",
      "date": "2024-12-20T16:36:33Z",
      "snippet": "Show HN: Rivet Actors – Durable Objects built with Rust, FoundationDB, Isolates (133 points)"
@@ -156576,6 +156657,160 @@
      "snippet": "An Amazing find! I've been looking for something to fit a niche and have tried or considered: - WordPress w/ActivityPub plugin - It's too heavy, not a wordpress fan per se' for my personal publishing needs - I have infra that I wish to use and don't need yet another full-blown CM"
     }
    ]
+  },
+  "pigeon-home/homing-pigeon": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "homingpigeon",
+     "url": "https://news.ycombinator.com/item?id=50397009",
+     "date": "2026-11-06T19:19:09Z",
+     "snippet": "I was tired of copy/pasting back and forth from ChatGPT to my terminal, so I created Pigeon-Home.ai Homing Pigeon is both a protocol and a software (daemon) which gives major cloud AI vendors a signed and secure channel to your CPU/memory. Try this prompt in your cloud SI, it sho"
+    }
+   ]
+  },
+  "rileyhilliard/rr": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "RileyHilliard",
+     "url": "https://news.ycombinator.com/item?id=50394369",
+     "date": "2026-11-06T16:19:04Z",
+     "snippet": "When working with multiple coding agents, or dispatching multiple subagents to complete a task faster, the bottleneck started to become my laptop itself. Agents dont coordinate when they kick off test runs, so they would run tests at the same time which would bog down my laptop a"
+    }
+   ]
+  },
+  "jarmitage99/opende": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "anthk",
+     "url": "https://news.ycombinator.com/item?id=50394310",
+     "date": "2026-11-06T16:16:07Z",
+     "snippet": "First, GMDX it's amazing. Second, there's Open Deus EX (I think not GMDX compatible yet) and DX-Rust, which it is. I still play to that game, and it's my favourite among Slashem and some few interactive fiction ones. OpenDE: Fast, vanilla https://github.com/jarmitage99/OpenDE DX-"
+    }
+   ]
+  },
+  "grissyelda/dx-rust": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "anthk",
+     "url": "https://news.ycombinator.com/item?id=50394310",
+     "date": "2026-11-06T16:16:07Z",
+     "snippet": "First, GMDX it's amazing. Second, there's Open Deus EX (I think not GMDX compatible yet) and DX-Rust, which it is. I still play to that game, and it's my favourite among Slashem and some few interactive fiction ones. OpenDE: Fast, vanilla https://github.com/jarmitage99/OpenDE DX-"
+    }
+   ]
+  },
+  "timmikeladze/next-flag": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "linesofcode",
+     "url": "https://news.ycombinator.com/item?id=50393020",
+     "date": "2026-11-06T14:52:27Z",
+     "snippet": "Cool! Feature flags are great when you need them. I’ve seen so many different implementations of flags over the years. Even made one myself couple years ago which uses a GitHub issue (and a list of checkboxes) as a persistent store for maintaining and toggling with flags. https:/"
+    }
+   ]
+  },
+  "azure/azure-cosmos-db-emulator-docker": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "CharlieDigital",
+     "url": "https://news.ycombinator.com/item?id=50392834",
+     "date": "2026-11-06T14:38:26Z",
+     "snippet": "Sharing my perspective as a big time user of Firebase: 1. It is practically free for a lot of my projects. Yes, there are also other free platforms out there now, but because Firebase is largely an abstraction on GCP, I have more reach if I need to scale it or move it into a more"
+    }
+   ]
+  },
+  "kinjuriu/us-elections-dashboard": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Kinjuriu",
+     "url": "https://news.ycombinator.com/item?id=50392130",
+     "date": "2026-11-06T13:36:37Z",
+     "snippet": "I have built an interactive data dashboard that shows which parties control the House and the Senate from the year 2000 to 2024. And it also includes a state-by-state map of every Senate, race, and House delegation. It has 6 pages, U.S. Congress, Governor, Senate story, notes, an"
+    }
+   ]
+  },
+  "daijro/paint.rs": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Imustaskforhelp",
+     "url": "https://news.ycombinator.com/item?id=50390852",
+     "date": "2026-11-06T11:04:22Z",
+     "snippet": "There is paint.rs[0] as well which is intended to be paint.net open source alternative which works on Linux. I’d be interested to know what you think about it [0]: https://github.com/daijro/paint.rs"
+    }
+   ]
+  },
+  "ziko-asm/provguard": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "ziyaazizov",
+     "url": "https://news.ycombinator.com/item?id=50396601",
+     "date": "2026-11-06T18:50:05.000Z",
+     "snippet": "Location: Baku, Azerbaijan Remote: Yes Willing to relocate: Yes (EU) Technologies: Python, PyTorch, LLM agents, prompt-injection defence and red teaming, FastAPI, JavaScript/TypeScript, React Résumé/CV: https://ayfar.dev/cv/Ziya_Azizov_CV.pdf Email: ziyaazizov9@gmail.com AI secur"
+    }
+   ]
+  },
+  "guldmitry/jagt": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "WhiteMart",
+     "url": "https://news.ycombinator.com/item?id=50389538",
+     "date": "2026-11-06T08:12:35.000Z",
+     "snippet": "1) Claude Team plan through work, so I'm not paying for it. 2) Mostly OpenRouter + Gemini. 3) Claude Code in the terminal, inside tmux. No IDE plugin. Opus plans and reviews, Sonnet writes most of the code, Haiku does the boring mechanical stuff. 4) My own tool, https://github.co"
+    }
+   ]
+  },
+  "unleash/unleash": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "ivarconr",
+     "url": "https://news.ycombinator.com/item?id=50391145",
+     "date": "2026-11-06T11:40:06Z",
+     "snippet": "We've built an open-source feature flag server for 11 years (119 points)"
+    }
+   ]
+  },
+  "ppmpreetham/bui": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "ppmpreetham",
+     "url": "https://news.ycombinator.com/item?id=50389333",
+     "date": "2026-11-06T07:40:35Z",
+     "snippet": "Blender's UI and Runtime: Much Faster Than GPUI (590 points)"
+    }
+   ]
+  },
+  "dsx-ai-factory/nvke": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "gkapur",
+     "url": "https://news.ycombinator.com/item?id=50387738",
+     "date": "2026-11-06T03:16:26Z",
+     "snippet": "Nvidia Kubernetes Engine (NVKE) (117 points)"
+    }
+   ]
+  },
+  "smeldr/core": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:smeldr@mastodon.social",
+     "url": "https://mastodon.social/@smeldr/117568910867267423",
+     "date": "2026-11-06T10:00:11.000Z",
+     "snippet": "Smeldr keeps decisions coherent when people and AI agents move fast. Decide: ratified by someone with the right, never edited, only replaced. Know: who decided, what is in force, what builds on what. Enforce: a pull request shows the decisions that apply and can wait for an appro"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -157406,23 +157641,24 @@
   "50204125": 1793947032613,
   "50271004": 1793860857161,
   "50271808": 1793947032678,
-  "50285134": 1793947031664,
-  "50301479": 1793947031493,
-  "50312756": 1793947031725,
-  "50313705": 1793860857675,
-  "50318646": 1793947032313,
+  "50285134": 1793992917363,
+  "50301479": 1793992917447,
+  "50312756": 1793992917412,
+  "50313705": 1793992917958,
+  "50318646": 1793992917720,
   "50326727": 1793772782762,
-  "50328896": 1793947032754,
-  "50331001": 1793947032761,
-  "50337431": 1793947031256,
-  "50338726": 1793947031515,
-  "50338728": 1793947031357,
-  "50347425": 1793947032756,
-  "50352757": 1793947031429,
-  "50353457": 1793947031761,
-  "50354336": 1793947032826,
-  "50355959": 1793947032287,
-  "50363461": 1793947032233,
-  "50366117": 1793947032898
+  "50328896": 1793992917983,
+  "50331001": 1793992917895,
+  "50337431": 1793992917171,
+  "50338726": 1793992917036,
+  "50338728": 1793992917076,
+  "50347425": 1793992917653,
+  "50352757": 1793992917436,
+  "50353457": 1793992917230,
+  "50354336": 1793992917712,
+  "50355959": 1793992917809,
+  "50363461": 1793992917583,
+  "50366117": 1793992918075,
+  "50393105": 1793992917660
  }
 }
