@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T19:56:10.812Z",
+ "updatedAt": "2026-11-06T06:37:52.535Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7582,7 +7582,7 @@
     "fork": false,
     "pushedAt": "2026-11-03T03:57:45Z"
    },
-   "checkedAt": "2026-11-05T19:56:10.419Z"
+   "checkedAt": "2026-11-06T06:37:52.284Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -10076,6 +10076,13 @@
   },
   "anthropics/claude-code": {
    "mentions": [
+    {
+     "source": "HN front page",
+     "author": "motoroco",
+     "url": "https://news.ycombinator.com/item?id=50385272",
+     "date": "2026-11-05T22:17:15Z",
+     "snippet": "Claude Code sends your email address to websites (864 points)"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50115196",
@@ -95273,13 +95280,55 @@
   "n8n-io/n8n": {
    "mentions": [
     {
+     "source": "Fosstodon",
+     "author": "mastodon:tallship@public.mitra.social",
+     "url": "https://public.mitra.social/objects/01a1aed5-2f9f-76b1-b6f4-c43b6c5e68b2",
+     "date": "2026-11-06T03:09:29.374Z",
+     "snippet": "An Amazing find! I've been looking for something to fit a niche and have tried or considered: - WordPress w/ActivityPub plugin - It's too heavy, not a wordpress fan per se' for my personal publishing needs - I have infra that I wish to use and don't need yet another full-blown CM"
+    },
+    {
      "source": "Ask HN",
      "author": "FBISurveillance",
      "url": "https://news.ycombinator.com/item?id=34206088",
      "date": "2023-01-01T13:24:55.000Z",
      "snippet": "* https://github.com/excalidraw/excalidraw * https://github.com/calcom/cal.com * https://github.com/supabase/supabase * https://github.com/appwrite/appwrite * https://github.com/n8n-io/n8n * https://github.com/appsmithorg/appsmith * https://github.com/directus/directus * https://"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-06T06:37:50.446Z",
+   "meta": {
+    "name": "n8n",
+    "fullName": "n8n-io/n8n",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "homepage": "https://n8n.io",
+    "stars": 209667,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "apis",
+     "automation",
+     "cli",
+     "data-flow",
+     "development",
+     "integration-framework",
+     "integrations",
+     "ipaas",
+     "low-code",
+     "low-code-platform",
+     "mcp",
+     "mcp-client",
+     "mcp-server",
+     "n8n",
+     "no-code",
+     "self-hosted",
+     "typescript",
+     "workflow",
+     "workflow-automation"
+    ],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-06T06:02:55Z"
+   }
   },
   "directus/directus": {
    "mentions": [
@@ -150553,6 +150602,13 @@
   "rivet-dev/rivet": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "timsuchanek",
+     "url": "https://news.ycombinator.com/item?id=50385324",
+     "date": "2026-11-05T22:22:03Z",
+     "snippet": "Congratz on the launch! I love how efficient this is - I'm pretty sure more agents will be built this way than having the heavy sandbox. Quick note, in the README on GH there's a link to https://github.com/rivet-dev/rivet/blob/main/engine/packages... which doesn't lead anywhere."
+    },
+    {
      "source": "HN front page",
      "author": "NathanFlurry",
      "url": "https://news.ycombinator.com/item?id=42472519",
@@ -152812,13 +152868,40 @@
   "zackb/tether": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "dadoum",
+     "url": "https://news.ycombinator.com/item?id=50387227",
+     "date": "2026-11-06T02:02:27Z",
+     "snippet": "For substitutes I guess you could use Tether [0] But if you want the true deals on Linux, I am working on that personally [1]. For clipboard sharing, it should be feasible on Linux if you have AirDrop compatible Wi-Fi hardware, but for iMessage integration, it's possible given Ma"
+    },
+    {
      "source": "Lemmy",
      "author": "lemmy:https://piefed.social/u/Goodcart",
      "url": "https://piefed.social/comment/13552539",
      "date": "2026-11-02T12:34:23.153958Z",
      "snippet": "Tether is a useful tool for keeping an iPhone, but switching off MacOS. The main features I use it for are: - Clipboard access between devices - Notifications/replies to Messages -General notifications Works over a combo of bluetooth and wifi. It's not as neat as the MacOS / iOS "
     }
-   ]
+   ],
+   "checkedAt": "2026-11-06T06:37:50.749Z",
+   "meta": {
+    "name": "tether",
+    "fullName": "zackb/tether",
+    "description": "Linux + iPhone Continuity / iMessage / SMS",
+    "homepage": null,
+    "stars": 1522,
+    "language": "C++",
+    "topics": [
+     "imessage",
+     "iphone",
+     "linux",
+     "wayland"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-06T03:45:51Z"
+   },
+   "listedAt": "2026-11-06T06:37:52.535Z"
   },
   "alam00000/bentopdf": {
    "mentions": [
@@ -156071,12 +156154,33 @@
    "mentions": [
     {
      "source": "Ask HN",
+     "author": "genxy",
+     "url": "https://news.ycombinator.com/item?id=50386404",
+     "date": "2026-11-06T00:08:01.000Z",
+     "snippet": "You are right! Big fan of RDF, your sexpr notes are hilarious https://github.com/mas-bandwidth/fixed/blob/main/docs/roadma... What tooling do you have around this?"
+    },
+    {
+     "source": "Ask HN",
      "author": "glennfiedler",
      "url": "https://news.ycombinator.com/item?id=50376018",
      "date": "2026-11-05T06:58:02.000Z",
      "snippet": "You'll like this too then https://github.com/mas-bandwidth/fixed3d -- port of box3d to fixed point :) https://github.com/mas-bandwidth/fixed -- fixed point math library"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-06T06:37:51.014Z",
+   "meta": {
+    "name": "fixed",
+    "fullName": "mas-bandwidth/fixed",
+    "description": "Deterministic Q48.16 fixed-point math library",
+    "homepage": null,
+    "stars": 4,
+    "language": "C",
+    "topics": [],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-28T01:14:41Z"
+   }
   },
   "m6r-ai/humbug": {
    "mentions": [
@@ -156242,6 +156346,236 @@
      "snippet": "🚀 New # release · Asterisk 24.0.0 The Asterisk Development Team would like to announce the release of asterisk-24.0.0. The release artifacts are available for immediate download at https:// github.com/asterisk/asterisk/r eleases/tag/24.0.0 and Dig into this release → https:// se"
     }
    ]
+  },
+  "nordstjernen-web/northstar-web-browser": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "VoidWhisperer",
+     "url": "https://news.ycombinator.com/item?id=50388452",
+     "date": "2026-11-06T05:09:10Z",
+     "snippet": "Interesting how he said (when facing issues getting packaged for Debian and Arch) that the project was stopping AI as of Oct 2026[0].. but if you check the projects, as of writing this comment, one of them had a Claude co-authored commit dated 7 hours ago [1]. Edit: Just to clari"
+    }
+   ]
+  },
+  "sergiotapia/joyscroller": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sergiotapia",
+     "url": "https://news.ycombinator.com/item?id=50388114",
+     "date": "2026-11-06T04:16:27Z",
+     "snippet": ">There's videos from ~15 years ago that I consider gone for good This is literally why I built joyscroller for myself hahaha give a try, fork it if you want. https://github.com/sergiotapia/joyscroller"
+    }
+   ]
+  },
+  "tailscale/golink": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "BoofMcQueen42",
+     "url": "https://news.ycombinator.com/item?id=50386840",
+     "date": "2026-11-06T01:01:01Z",
+     "snippet": "I had similar problems for a while. Especially Safari tabs that were dumped from memory on iOS. Logging in again was annoying. A quite over-engineered solution that slowly evolved in my Kagi usage uses Tailscale Golink [0]. Case 1: Kagi extension for Safari redirects from Ecosia "
+    }
+   ]
+  },
+  "taskivities/taskivities-app": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "y1426i",
+     "url": "https://news.ycombinator.com/item?id=50386652",
+     "date": "2026-11-06T00:37:39Z",
+     "snippet": "A task manager / todo list for teams. A little something to bring total visibility in cross-functional teams. Check out the demo at: https://demo.taskivities.com/login Github: https://github.com/taskivities/taskivities-app This was originally built as a SaaS pre-AI days. Claude d"
+    }
+   ]
+  },
+  "dspinellis/unix-history-repo": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "JdeBP",
+     "url": "https://news.ycombinator.com/item?id=50386623",
+     "date": "2026-11-06T00:34:29Z",
+     "snippet": "I suggest finding a code path where FreeBSD crypt() ever returns NULL, which would mean one of its internal functions returning non-zero, before getting too excited. They all end in return (0) . (-: * https://cgit.freebsd.org/src/tree/lib/libcrypt As I said, the callers of crypt("
+    }
+   ]
+  },
+  "computeruseagent/autocua": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "aashish16yadav",
+     "url": "https://news.ycombinator.com/item?id=50386330",
+     "date": "2026-11-05T23:59:49Z",
+     "snippet": "Hey HN!! completey opensource - AutoCua, has ability to control phone while controlling computer browser, coding at same time. That give me thought how about i use AutoCua to fight a Clash Royale, clash of clan, chess all three game at same time in different device and give me go"
+    },
+    {
+     "source": "HN comment",
+     "author": "aashish16yadav",
+     "url": "https://news.ycombinator.com/item?id=50385503",
+     "date": "2026-11-05T22:37:50Z",
+     "snippet": "Hey HN!! completey opensource - AutoCua, has ability to control phone while controlling computer browser, coding at same time. That give me thought how about i use AutoCua to fight a Clash Royale, clash of clan, chess all three game at same time in different device and give me go"
+    }
+   ],
+   "checkedAt": "2026-11-06T06:37:51.287Z",
+   "meta": {
+    "name": "AutoCua",
+    "fullName": "ComputerUseAgent/AutoCua",
+    "description": "Automate with computer-use agent (ComputerUse / CUA) for macOS, Windows, Linux, Browser, iOS & Android. It sees the screen, clicks, types, browses and writes the code too. One agent, every computer.",
+    "homepage": "https://computeruse.uk",
+    "stars": 1117,
+    "language": "Python",
+    "topics": [
+     "browser-use",
+     "browser-use-agent",
+     "codex",
+     "computer-agent",
+     "computer-use",
+     "computer-use-agent",
+     "computer-use-agents",
+     "computer-use-linux",
+     "computer-use-preview",
+     "computer-use-windows",
+     "computeruse",
+     "computeruseagents",
+     "cua",
+     "cua-agent",
+     "ios-automation",
+     "linux-ai",
+     "linux-ai-automations",
+     "macos-use",
+     "web-use",
+     "windows-ai"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-05T22:42:36Z"
+   },
+   "listedAt": "2026-11-06T06:37:52.535Z"
+  },
+  "pratyushasharma/sw-combinatoriality": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "bbor",
+     "url": "https://news.ycombinator.com/item?id=50386121",
+     "date": "2026-11-05T23:34:17Z",
+     "snippet": "I'd love to share this with family and friends to replace my usual incoherent shreiking, but I just happen to be familiar with one of the referenced papers and I really don't think a layperson would agree it even involves AI, much less depends on it: the paper arguing for linguis"
+    }
+   ]
+  },
+  "dllu/dllup-rs": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "dllu",
+     "url": "https://news.ycombinator.com/item?id=50385826",
+     "date": "2026-11-05T23:06:44Z",
+     "snippet": "> In today’s age of data collection and privacy concerns, I prefer to pay for my blogging platform or hosting. Not sure if that is necessary. Tons of great static blog generators these days, like Jekyll and stuff. I personally use my own vibe-coded markdown-based one [1] [1] http"
+    }
+   ]
+  },
+  "jrcii/texted": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jeena",
+     "url": "https://news.ycombinator.com/item?id=50384243",
+     "date": "2026-11-05T20:44:38Z",
+     "snippet": "Back when Apple put in cloud in TextEdit I had to stop using it because it was too many steps to start writing, you had to choose a file path and name before you could start typing. I've always used it to quickly jot down something, never because it had rich text or so. So I had "
+    }
+   ]
+  },
+  "wn-mitch/flora": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "yoochan",
+     "url": "https://news.ycombinator.com/item?id=50384129",
+     "date": "2026-11-05T20:34:35Z",
+     "snippet": "Amazing! And thank you! I love this version... and everything is being open sourced by the author, including a typescript version https://github.com/wn-mitch/flora and the tikz version too"
+    }
+   ]
+  },
+  "safebots/safecloud": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "EGreg",
+     "url": "https://news.ycombinator.com/item?id=50384076",
+     "date": "2026-11-05T20:31:04Z",
+     "snippet": "There is a solution to this for videos you upload from now on. The problem is decoupling persistence and access. Imagine a decentralized network where you could “pin” videos the way you do in IPFS, but they’d be streamed and end-to-end encrypted. Websites could ask their visitors"
+    }
+   ]
+  },
+  "danielrh/lobbylink": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "daniel_rh",
+     "url": "https://news.ycombinator.com/item?id=50384057",
+     "date": "2026-11-05T20:29:12Z",
+     "snippet": "I love what you've done. I see your multiplayer is on a lan with UDP. Would you mind looking into lobbylink ? Lobbylink uses webRTC to punch through firewalls and send both reliable and unreliable packets. It works with nearly every language on every platform. The server side is "
+    }
+   ]
+  },
+  "yusefsyed/scopehaven-oss": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "YusefSyed",
+     "url": "https://news.ycombinator.com/item?id=50387713",
+     "date": "2026-11-06T03:13:00.000Z",
+     "snippet": "Location: Toronto (moving to San Francisco or New York, January 2027) Remote: Open for a standout AI team; prefer in person Willing to relocate: Yes, SF or NYC Technologies: Python, TypeScript/Node.js, Rust, SQL, Inspect AI, PyRIT, Docker, Linux (ptrace/seccomp), PostgreSQL, GitH"
+    }
+   ]
+  },
+  "kuba97531/jiraude": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "kuboble",
+     "url": "https://news.ycombinator.com/item?id=50384746",
+     "date": "2026-11-05T21:32:55.000Z",
+     "snippet": "Yes, I have one instance of it per project. And there run only one claude code session that is only supposed to manage \"jiraude\" and run the actual work in subagents. I published it at https://github.com/kuba97531/jiraude"
+    }
+   ]
+  },
+  "saragordic/window-sweaters": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "nickswalker",
+     "url": "https://news.ycombinator.com/item?id=50381383",
+     "date": "2026-11-05T16:50:14Z",
+     "snippet": "Window Sweaters (292 points)"
+    }
+   ]
+  },
+  "kurokesu/ssh-keyup": {
+   "mentions": [
+    {
+     "source": "Stack Exchange",
+     "author": "se:DaniusKalv",
+     "url": "https://superuser.com/a/1941415",
+     "date": "2026-11-05T10:53:27.000Z",
+     "snippet": "Accepted one-liner silently does nothing on RouterOS 7.21+. always-allow-password-login was renamed to password-authentication and RouterOS drops whole line on syntax error. You can skip file step and add key inline: ssh admin@192.168.88.1 \"/user/ssh-keys/add user=admin key=\\\"$(c"
+    }
+   ]
+  },
+  "sveltia/sveltia-cms": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:tallship@public.mitra.social",
+     "url": "https://public.mitra.social/objects/01a1aed5-2f9f-76b1-b6f4-c43b6c5e68b2",
+     "date": "2026-11-06T03:09:29.374Z",
+     "snippet": "An Amazing find! I've been looking for something to fit a niche and have tried or considered: - WordPress w/ActivityPub plugin - It's too heavy, not a wordpress fan per se' for my personal publishing needs - I have infra that I wish to use and don't need yet another full-blown CM"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -156250,12 +156584,15 @@
   "380377": 1793608013127,
   "445454": 1793608014316,
   "1005067": 1793608023477,
+  "1076237": 1793947032060,
   "1121269": 1793608030462,
   "1185224": 1793623207947,
   "1327132": 1793635506087,
+  "1352571": 1793947032127,
   "1365094": 1793608033022,
   "1447418": 1793608040956,
   "1769910": 1793608063430,
+  "1796231": 1793947032256,
   "1824413": 1793608021292,
   "1880797": 1793608023739,
   "2000087": 1793623207904,
@@ -156275,6 +156612,7 @@
   "2973404": 1793608001760,
   "3338161": 1793608022652,
   "3618082": 1793608014524,
+  "3690627": 1793947031862,
   "3996652": 1793608041650,
   "4156764": 1793608013431,
   "4471030": 1793608014141,
@@ -157064,27 +157402,27 @@
   "50121562": 1793608048501,
   "50151036": 1793623210888,
   "50193416": 1793908524256,
-  "50200997": 1793908523496,
-  "50204125": 1793908524167,
+  "50200997": 1793947031973,
+  "50204125": 1793947032613,
   "50271004": 1793860857161,
-  "50271808": 1793908524454,
-  "50285134": 1793908523666,
-  "50301479": 1793908523575,
-  "50312756": 1793908523716,
+  "50271808": 1793947032678,
+  "50285134": 1793947031664,
+  "50301479": 1793947031493,
+  "50312756": 1793947031725,
   "50313705": 1793860857675,
-  "50318646": 1793908523935,
+  "50318646": 1793947032313,
   "50326727": 1793772782762,
-  "50328896": 1793908524674,
-  "50331001": 1793908524306,
-  "50337431": 1793908523736,
-  "50338726": 1793908523299,
-  "50338728": 1793908523262,
-  "50347425": 1793908523945,
-  "50352757": 1793908523853,
-  "50353457": 1793908523865,
-  "50354336": 1793908524241,
-  "50355959": 1793908524730,
-  "50363461": 1793908523952,
-  "50366117": 1793908524567
+  "50328896": 1793947032754,
+  "50331001": 1793947032761,
+  "50337431": 1793947031256,
+  "50338726": 1793947031515,
+  "50338728": 1793947031357,
+  "50347425": 1793947032756,
+  "50352757": 1793947031429,
+  "50353457": 1793947031761,
+  "50354336": 1793947032826,
+  "50355959": 1793947032287,
+  "50363461": 1793947032233,
+  "50366117": 1793947032898
  }
 }
