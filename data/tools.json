@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T19:22:28.170Z",
+ "updatedAt": "2026-11-07T05:55:10.002Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7582,7 +7582,7 @@
     "fork": false,
     "pushedAt": "2026-11-03T03:57:45Z"
    },
-   "checkedAt": "2026-11-06T19:22:27.959Z"
+   "checkedAt": "2026-11-07T05:55:09.778Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -56871,13 +56871,35 @@
   "redbearak/toshy": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "benoau",
+     "url": "https://news.ycombinator.com/item?id=50399808",
+     "date": "2026-11-06T23:15:05Z",
+     "snippet": "What I find more important than replicating the appearance is the keyboard shortcuts and their consistency system-wide, for that I like this project Toshy which I use with Pop OS: https://github.com/RedBearAK/Toshy"
+    },
+    {
      "source": "Ask HN",
      "author": "benoau",
      "url": "https://news.ycombinator.com/item?id=49029381",
      "date": "2026-07-23T23:19:05.000Z",
      "snippet": "Pop OS, combined with \"Toshy\" for using Mac keyboard shortcuts. I find this is a really comprehensive translation of Mac shortcuts, even cmd+shift+{} works for moving between tabs. I use my Keychron keyboard in Mac mode retaining all the same muscle memory. https://github.com/Red"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-07T05:55:08.879Z",
+   "meta": {
+    "name": "Toshy",
+    "fullName": "RedBearAK/Toshy",
+    "description": "Keymapper config to make Linux keyboard shortcuts work like a 'Tosh! And more. (A Kinto alternative.)",
+    "homepage": "https://toshy.app",
+    "stars": 1312,
+    "language": "Python",
+    "topics": [],
+    "license": "GPL-3.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-06T12:39:03Z"
+   },
+   "listedAt": "2026-11-07T05:55:09.999Z"
   },
   "notable/notable": {
    "mentions": [
@@ -155229,6 +155251,13 @@
   "codealong/codealong": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "ghempton",
+     "url": "https://news.ycombinator.com/item?id=50399690",
+     "date": "2026-11-06T23:03:32Z",
+     "snippet": "Jev is pretty cool for augmenting llms in a lot of ways. We use it in our own agent orchestrator[1] to help route ideas/prompts to running agent sessions. I find when I have a lot of parallel agents running its hard to reason about which agent I should be talking to and Jev makes"
+    },
+    {
      "source": "Ask HN",
      "author": "ghempton",
      "url": "https://news.ycombinator.com/item?id=50374491",
@@ -155950,11 +155979,53 @@
     {
      "source": "Ask HN",
      "author": "glennfiedler",
+     "url": "https://news.ycombinator.com/item?id=50398915",
+     "date": "2026-11-06T21:43:58.000Z",
+     "snippet": "Faster as in, working in parallel to reduce wall clock time. Yes, you can do some || in each harness, but I can guarantee you, you cannot out of the box work this wide across multiple models and harnesses without additional structure. That's where the nova-sprint system comes in "
+    },
+    {
+     "source": "Ask HN",
+     "author": "glennfiedler",
      "url": "https://news.ycombinator.com/item?id=50375606",
      "date": "2026-11-05T05:39:29.000Z",
      "snippet": "I'm juggling multiple claude ultra subs, multiple codex $500 a month subs, antigravity for argon, plus API rate deepseek 4.1 flash, mercury 3, and abliterated large v2 for red teaming. I work across multiple models and harnesses using a really simple redis-backed message bus call"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-07T05:55:09.173Z",
+   "meta": {
+    "name": "nova-sprint",
+    "fullName": "mas-bandwidth/nova-sprint",
+    "description": "Coordinate AI sprints across different models, harnesses and machines.",
+    "homepage": null,
+    "stars": 21,
+    "language": "Go",
+    "topics": [
+     "ai-coding",
+     "ai-coding-agent",
+     "ai-coding-agents",
+     "ai-coding-tool",
+     "ai-coding-tools",
+     "antigravity",
+     "argon",
+     "claude-code",
+     "codex",
+     "deepseek",
+     "deepseek-harness",
+     "gemini",
+     "grok",
+     "jev",
+     "jev-ai",
+     "mercury",
+     "muse",
+     "opencode",
+     "openrouter"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-07T05:54:50Z"
+   },
+   "listedAt": "2026-11-07T05:55:10.002Z"
   },
   "dnscrypt/dnscrypt-proxy": {
    "mentions": [
@@ -156811,6 +156882,105 @@
      "snippet": "Smeldr keeps decisions coherent when people and AI agents move fast. Decide: ratified by someone with the right, never edited, only replaced. Know: who decided, what is in force, what builds on what. Enforce: a pull request shows the decisions that apply and can wait for an appro"
     }
    ]
+  },
+  "apple/container-examples": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "dofm",
+     "url": "https://news.ycombinator.com/item?id=50401016",
+     "date": "2026-11-07T02:18:16Z",
+     "snippet": "\"You know you should run your code and agents in a sandbox, but most tools need configuration and setup that’s hard to get right.\" This is very true. Having been a user of heavily-customised vagrant boxes for a long time I've been spending a fair bit of time lately on updating my"
+    }
+   ]
+  },
+  "hbmartin/legolization": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "hmartin",
+     "url": "https://news.ycombinator.com/item?id=50399558",
+     "date": "2026-11-06T22:49:41Z",
+     "snippet": "Hi anteloc, congrats on some cool projects! Look forward to playing with them over the weekend. pyldraw3 creator here btw... would love to find a forum where we (i.e. the handful of us trying to push lego tooling forward) can collaborate and communicate better. My current main ef"
+    }
+   ]
+  },
+  "allebee/jevk5": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "johnshahbazian",
+     "url": "https://news.ycombinator.com/item?id=50399451",
+     "date": "2026-11-06T22:38:56Z",
+     "snippet": "I got very good results from JevK5: https://github.com/allebee/jevk5 It's what I use locally. For my workload, it was right up there with Jev."
+    }
+   ]
+  },
+  "evertheylen/probox": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "evertheylen",
+     "url": "https://news.ycombinator.com/item?id=50398261",
+     "date": "2026-11-06T20:45:09Z",
+     "snippet": "Add me to the list, although I use podman containers ( https://github.com/evertheylen/probox ). I find that the hard part is not restricting the container/VM, but to make it \"easy\" to do things in the container that require something protected. How will you commit? Where does you"
+    }
+   ]
+  },
+  "alainnothere/privibe": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "xlayn",
+     "url": "https://news.ycombinator.com/item?id=50397921",
+     "date": "2026-11-06T20:22:10Z",
+     "snippet": "If you use Qwen3.8 27B to manage, to orchestrate, do do shallow research, and then make it ask claude you will notice that Qwen can get out of Haiku, Sonnet and Opus almost as good answers... I was researching how good the model asnswers where, I can't get to work with anything b"
+    }
+   ]
+  },
+  "someone/demo-app": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tharun208",
+     "url": "https://news.ycombinator.com/item?id=50397436",
+     "date": "2026-11-06T19:49:27Z",
+     "snippet": "Hi HN, I built CloneGuard after a fake recruiter had me run a “take-home” codebase on a call. I ran it once, stopped it, and later asked an AI tool to explain the code. It was a stealer going after SSH and AWS keys. I reported it to IT immediately, but it made me realize I had no"
+    }
+   ]
+  },
+  "jonneslin/weight-space-trigger": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jinhonglin",
+     "url": "https://news.ycombinator.com/item?id=50380709",
+     "date": "2026-11-05T15:54:56Z",
+     "snippet": "Author here. This builds on Weight-Space Programming (Takehi et al.), where GPT-6 Astra edited Qwen3.5-0.8B's weights directly to fix a reasoning loop. I wanted to try the other direction: can a frontier model plant a behavior in the weights that you wouldn't notice in normal use"
+    }
+   ]
+  },
+  "sparclehq/bolt-apps": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "rajendrapatil",
+     "url": "https://news.ycombinator.com/item?id=50398698",
+     "date": "2026-11-06T21:21:20.000Z",
+     "snippet": "Just to add: fastest or first application doesn't win, so please don't rush. What helps is a specific detail. Something concrete, and link one thing you've shipped. Five lines is plenty. We build on Rust and Svelte, and we're working towards Bolt being the platform where any busi"
+    }
+   ]
+  },
+  "anomalyco/rune": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "mik3y",
+     "url": "https://news.ycombinator.com/item?id=50394569",
+     "date": "2026-11-06T16:31:32Z",
+     "snippet": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web (159 points)"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -157641,24 +157811,24 @@
   "50204125": 1793947032613,
   "50271004": 1793860857161,
   "50271808": 1793947032678,
-  "50285134": 1793992917363,
-  "50301479": 1793992917447,
-  "50312756": 1793992917412,
-  "50313705": 1793992917958,
-  "50318646": 1793992917720,
+  "50285134": 1794030871212,
+  "50301479": 1794030871356,
+  "50312756": 1794030871239,
+  "50313705": 1794030871578,
+  "50318646": 1794030871228,
   "50326727": 1793772782762,
-  "50328896": 1793992917983,
-  "50331001": 1793992917895,
-  "50337431": 1793992917171,
-  "50338726": 1793992917036,
-  "50338728": 1793992917076,
-  "50347425": 1793992917653,
-  "50352757": 1793992917436,
-  "50353457": 1793992917230,
-  "50354336": 1793992917712,
-  "50355959": 1793992917809,
-  "50363461": 1793992917583,
-  "50366117": 1793992918075,
-  "50393105": 1793992917660
+  "50328896": 1794030871917,
+  "50331001": 1794030871778,
+  "50337431": 1794030870960,
+  "50338726": 1794030871122,
+  "50338728": 1794030870970,
+  "50347425": 1794030871527,
+  "50352757": 1794030871240,
+  "50353457": 1794030870916,
+  "50354336": 1794030871670,
+  "50355959": 1794030871564,
+  "50363461": 1794030871591,
+  "50366117": 1794030871846,
+  "50393105": 1794030871531
  }
 }
