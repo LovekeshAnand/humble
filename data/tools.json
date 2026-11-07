@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T05:55:10.002Z",
+ "updatedAt": "2026-11-07T12:56:41.624Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7582,7 +7582,7 @@
     "fork": false,
     "pushedAt": "2026-11-03T03:57:45Z"
    },
-   "checkedAt": "2026-11-07T05:55:09.778Z"
+   "checkedAt": "2026-11-07T12:56:41.444Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -156981,6 +156981,72 @@
      "snippet": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web (159 points)"
     }
    ]
+  },
+  "lukolszewski/session-keeper": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Roark66",
+     "url": "https://news.ycombinator.com/item?id=50403791",
+     "date": "2026-11-07T12:01:02Z",
+     "snippet": "I've made a very similar tool github.com/lukolszewski/session-keeper But my tool supports pi, claude code and copilot cli as this is what I use. It also saves any tail -f and few other processes I tend to leave running for a long time as well as folders I'm in. My tool is likewis"
+    }
+   ]
+  },
+  "pgasawa/continual-learning-bench": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "bbor",
+     "url": "https://news.ycombinator.com/item?id=50403763",
+     "date": "2026-11-07T11:55:39Z",
+     "snippet": "Reading such a passionate take as someone who has looked up is a strange experience, I must admit. Kinda like how the Bernard twist in S01 of Westworld felt. I'll try to respond as substantively as I can, regardless: That Claude rarely, if ever, actually \"remembers\". Since these "
+    }
+   ]
+  },
+  "talhamudo/nfsu2recomp": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "MayeulC",
+     "url": "https://news.ycombinator.com/item?id=50403473",
+     "date": "2026-11-07T11:05:09Z",
+     "snippet": "This is great, I have been thinking about revisiting this old game. Unfortunately, it is not available for sale anywhere (probably for music licensing issues, see other games such as Alan Wake), and older versions don't run as well as they could. I do find it legally dubious to a"
+    }
+   ]
+  },
+  "pcdv/hackertv-androidtv": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "pacoverdi",
+     "url": "https://news.ycombinator.com/item?id=50403161",
+     "date": "2026-11-07T10:03:07Z",
+     "snippet": "I really wanted this on my TV, so I (ahem, Claude Sonnet 5.5) wrapped it in an Android TV app. It works great on my Sony/Google TV, the remote control buttons are correctly mapped (color buttons, guide, channel +/- etc). https://github.com/pcdv/hackertv-androidtv"
+    }
+   ]
+  },
+  "wraith-proxy/wraith-skills": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "teejaypeeps",
+     "url": "https://news.ycombinator.com/item?id=50402364",
+     "date": "2026-11-07T07:14:25Z",
+     "snippet": "1) Claude Pro. Just the £18 a month one, as that's more than enough for my personal needs. Just the one sub. 2) I've an OpenAI API endpoint to route things to free models, too. Just general query things. odysseus sits over that, plus a few tiny local models that sit on 2x4GB Nvid"
+    }
+   ]
+  },
+  "livefasteattrashraccoon/raccoonforfriendica": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:akesiseli@poliversity.it",
+     "url": "https://poliversity.it/@akesiseli/117574191704789070",
+     "date": "2026-11-07T08:23:10.000Z",
+     "snippet": "@ raccoonforfriendicaapp Raccoon 1.2.0 has been released! Besides fixes and minor enhancements, it adds the possibility to configure feed types (useful for Friendica users with many circles/channels/groups), plus a more fine-grained management of push notifications with RFC 8291-"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -157811,24 +157877,24 @@
   "50204125": 1793947032613,
   "50271004": 1793860857161,
   "50271808": 1793947032678,
-  "50285134": 1794030871212,
-  "50301479": 1794030871356,
-  "50312756": 1794030871239,
-  "50313705": 1794030871578,
+  "50285134": 1794056168585,
+  "50301479": 1794056168717,
+  "50312756": 1794056168615,
+  "50313705": 1794056168771,
   "50318646": 1794030871228,
   "50326727": 1793772782762,
-  "50328896": 1794030871917,
-  "50331001": 1794030871778,
-  "50337431": 1794030870960,
-  "50338726": 1794030871122,
-  "50338728": 1794030870970,
-  "50347425": 1794030871527,
-  "50352757": 1794030871240,
-  "50353457": 1794030870916,
-  "50354336": 1794030871670,
-  "50355959": 1794030871564,
-  "50363461": 1794030871591,
-  "50366117": 1794030871846,
-  "50393105": 1794030871531
+  "50328896": 1794056169200,
+  "50331001": 1794056169069,
+  "50337431": 1794056168661,
+  "50338726": 1794056168516,
+  "50338728": 1794056168454,
+  "50347425": 1794056168893,
+  "50352757": 1794056168427,
+  "50353457": 1794056168505,
+  "50354336": 1794056168990,
+  "50355959": 1794056168870,
+  "50363461": 1794056169011,
+  "50366117": 1794056169338,
+  "50393105": 1794056168932
  }
 }
