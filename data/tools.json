@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T12:56:41.624Z",
+ "updatedAt": "2026-11-07T21:47:49.974Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7580,9 +7580,9 @@
     "license": "GPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-03T03:57:45Z"
+    "pushedAt": "2026-11-07T19:45:06Z"
    },
-   "checkedAt": "2026-11-07T12:56:41.444Z"
+   "checkedAt": "2026-11-07T21:47:49.771Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -41767,12 +41767,40 @@
   "nioc/xmpp-web": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "nik_ca",
+     "url": "https://news.ycombinator.com/item?id=50406587",
+     "date": "2026-11-07T18:04:02.000Z",
+     "snippet": "Well, my folks live/visit countries with insane govt censorship, so it was quite easy: I just said our private XMPP server is a good reserve comms channel, and over time they just got used to the peace of mind that it gives to them. Decent android ( https://f-droid.org/en/package"
+    },
+    {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49478699",
      "date": "2026-08-28T14:06:19Z",
      "snippet": "I use 'Conversations' (from F-Droid) on my Android and self-hosted 'XMPP Web' on my PC https://github.com/nioc/xmpp-web This combination covers 99% of my needs."
     }
-   ]
+   ],
+   "checkedAt": "2026-11-07T21:47:48.407Z",
+   "meta": {
+    "name": "xmpp-web",
+    "fullName": "nioc/xmpp-web",
+    "description": "Lightweight web chat client for XMPP server",
+    "homepage": null,
+    "stars": 195,
+    "language": "Vue",
+    "topics": [
+     "muc",
+     "vuejs",
+     "xmpp",
+     "xmpp-client",
+     "xmpp-web"
+    ],
+    "license": "AGPL-3.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-05-13T16:00:18Z"
+   },
+   "listedAt": "2026-11-07T21:47:49.970Z"
   },
   "ahmadpiran/restoredrill": {
    "mentions": [
@@ -42919,6 +42947,13 @@
   },
   "en/actions": {
    "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:kokada",
+     "url": "https://lobste.rs/s/nft1s2",
+     "date": "2026-11-07T14:27:05.147-06:00",
+     "snippet": "Workflow dependency lockfiles"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46294001",
@@ -45220,11 +45255,37 @@
     {
      "source": "Ask HN",
      "author": "ahmad_not",
+     "url": "https://news.ycombinator.com/item?id=50408079",
+     "date": "2026-11-07T21:08:18.000Z",
+     "snippet": "Location: Munich, Germany Remote: Yes Willing to relocate: Yes Technologies: Rust, Typescript/JavaScript, C#/.NET, MongoDb, PostgresDb, Kafka, MQTT, React, React Native, RabbitMQ, Similarity Search, Vector Databases, CRDT, AWS, Azure, Pulumi, Terraform Résumé/CV: https://github.c"
+    },
+    {
+     "source": "Ask HN",
+     "author": "ahmad_not",
      "url": "https://news.ycombinator.com/item?id=49924985",
      "date": "2026-10-01T18:03:31.000Z",
      "snippet": "Location: Munich, Germany Remote: Yes Willing to relocate: Yes Technologies: Rust, Typescript/JavaScript, C#/.NET, MongoDb, PostgresDb, Kafka, MQTT, React, React Native, RabbitMQ, Similarity Search, Vector Databases, CRDT, AWS, Azure, Pulumi, Terraform Résumé/CV: https://github.c"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-07T21:47:48.617Z",
+   "meta": {
+    "name": "Resume",
+    "fullName": "ahmad2smile/Resume",
+    "description": "AI enabled Resume generation workflow",
+    "homepage": "https://shafiqahmad.com",
+    "stars": 0,
+    "language": "Typst",
+    "topics": [
+     "resume",
+     "resume-builder",
+     "resume-creator",
+     "resume-template"
+    ],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-01T22:01:00Z"
+   }
   },
   "anosidium/hackit-app": {
    "mentions": [
@@ -45945,6 +46006,13 @@
   },
   "priyansh00soni/nexus": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "sparkk",
+     "url": "https://news.ycombinator.com/item?id=50406164",
+     "date": "2026-11-07T17:12:01.000Z",
+     "snippet": "Location: Indore, India Remote: Yes Willing to relocate: No Technologies: Node.js, TypeScript, Express, PostgreSQL, Redis, BullMQ, Prisma, React, Next.js, Docker Résumé/CV: https://docs.google.com/document/d/1krhgbMRy0DypO3o2X-_jZvks... Email: priyansh.workspace@gmail.com I built"
+    },
     {
      "source": "Ask HN",
      "author": "sparkk",
@@ -57776,13 +57844,34 @@
   "pkulak/barnaby-home": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "pkulak",
+     "url": "https://news.ycombinator.com/item?id=50407527",
+     "date": "2026-11-07T20:00:58Z",
+     "snippet": "XMPP is a no go, sorry. There's just no good iOS app (or Android, I think). And you can't come back and say some app you love is feature complete, or whatever. It has to LOOK good. Matrix will work though. Element X is very polished. Same with FluffyChat. However, I still only bo"
+    },
+    {
      "source": "Ask HN",
      "author": "pkulak",
      "url": "https://news.ycombinator.com/item?id=50015268",
      "date": "2026-10-09T02:32:48.000Z",
      "snippet": "Set up a family chat, with a built-in helper agent? https://github.com/pkulak/barnaby-home"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-07T21:47:48.850Z",
+   "meta": {
+    "name": "barnaby-home",
+    "fullName": "pkulak/barnaby-home",
+    "description": "Turnkey Matrix chat plus a helper agent.",
+    "homepage": null,
+    "stars": 2,
+    "language": "Nix",
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-11T02:25:41Z"
+   }
   },
   "seanboyce/ubiblio": {
    "mentions": [
@@ -72573,6 +72662,13 @@
   },
   "en/copilot": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "faradaycage314",
+     "url": "https://news.ycombinator.com/item?id=50407937",
+     "date": "2026-11-07T20:52:11Z",
+     "snippet": "I use them all! well mostly all of them: claude code, codex, github copilot, antigravity, qwen, opencode. Claude code and codex are my go to ones, but I think github copilot has the best integration with VS Code, and until they switched to usage based pricing and became too expen"
+    },
     {
      "source": "Ask HN",
      "author": "partsch",
@@ -104463,13 +104559,46 @@
   "clawkwork/clawk": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "NateEag",
+     "url": "https://news.ycombinator.com/item?id=50406757",
+     "date": "2026-11-07T18:26:03Z",
+     "snippet": "You want a VM, not a container, because VMs are harder to escape. since my employer is compelling me to throw out my expertise and rot my brain with Claude, I've been using clawk to sandbox instances in VMs: https://github.com/clawkwork/clawk It's not perfect, but it works pretty"
+    },
+    {
      "source": "HN front page",
      "author": "celrenheit",
      "url": "https://news.ycombinator.com/item?id=48892859",
      "date": "2026-07-13T14:02:03Z",
      "snippet": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop (226 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-07T21:47:49.093Z",
+   "meta": {
+    "name": "clawk",
+    "fullName": "clawkwork/clawk",
+    "description": "Give coding agents a disposable Linux VM, not your laptop",
+    "homepage": null,
+    "stars": 1040,
+    "language": "Go",
+    "topics": [
+     "agent-sandbox",
+     "ai-agent-sandbox",
+     "ai-agents",
+     "claude",
+     "claude-code",
+     "codex",
+     "microvm",
+     "sandbox",
+     "virtualization",
+     "vm"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-08-13T21:18:22Z"
+   },
+   "listedAt": "2026-11-07T21:47:49.972Z"
   },
   "floodtide/dom-docx": {
    "mentions": [
@@ -138261,13 +138390,35 @@
   "bluewaysw/pcgeos": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "WillAdams",
+     "url": "https://news.ycombinator.com/item?id=50407976",
+     "date": "2026-11-07T20:57:08Z",
+     "snippet": "Folks who are curious about the underlying technology can see: https://github.com/bluewaysw/pcgeos (which I'd love to see get ported to the Raspberry Pi EDIT: or updated to make it easy to run on contemporary hardware)"
+    },
+    {
      "source": "HN front page",
      "author": "lproven",
      "url": "https://news.ycombinator.com/item?id=38594876",
      "date": "2023-12-10T20:45:49Z",
      "snippet": "PC GEOS: the multitasking DOS-based GUI OS that evolved from a C64 desktop (135 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-07T21:47:49.298Z",
+   "meta": {
+    "name": "pcgeos",
+    "fullName": "bluewaysw/pcgeos",
+    "description": "#FreeGEOS source codes. The offical home of the PC/GEOS operating system technology. For personal computing fans. For all developers and assembly lovers. For YOU!",
+    "homepage": null,
+    "stars": 936,
+    "language": "Assembly",
+    "topics": [],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-07T20:22:49Z"
+   },
+   "listedAt": "2026-11-07T21:47:49.973Z"
   },
   "gspu/coherent": {
    "mentions": [
@@ -157047,6 +157198,160 @@
      "snippet": "@ raccoonforfriendicaapp Raccoon 1.2.0 has been released! Besides fixes and minor enhancements, it adds the possibility to configure feed types (useful for Friendica users with many circles/channels/groups), plus a more fine-grained management of push notifications with RFC 8291-"
     }
    ]
+  },
+  "queenkjuul/milkv-duo-ubuntu": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "queenkjuul",
+     "url": "https://news.ycombinator.com/item?id=50407510",
+     "date": "2026-11-07T19:58:48Z",
+     "snippet": "I've been using the Milk-V Duo series of boards (original MSRP starting at $6) and earlier this year got Linux 7.0 working on them including WiFi USB and Bluetooth: https://github.com/queenkjuul/milkv-duo-ubuntu"
+    }
+   ]
+  },
+  "dwim-sh/dwim": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "penberg",
+     "url": "https://news.ycombinator.com/item?id=50407369",
+     "date": "2026-11-07T19:40:04Z",
+     "snippet": "1. I am on Claude Code Ultra plan, mostly for Fable, but I also burn through quite a bit of tokens. 2. I am experimenting with hybrid setup with Fable and Qwen3.8-27B locally. 3. I use Claude Code, some Codex, and for local development, I built my own harness ( https://github.com"
+    }
+   ]
+  },
+  "splay-sh/splay": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "penberg",
+     "url": "https://news.ycombinator.com/item?id=50407369",
+     "date": "2026-11-07T19:40:04Z",
+     "snippet": "1. I am on Claude Code Ultra plan, mostly for Fable, but I also burn through quite a bit of tokens. 2. I am experimenting with hybrid setup with Fable and Qwen3.8-27B locally. 3. I use Claude Code, some Codex, and for local development, I built my own harness ( https://github.com"
+    }
+   ]
+  },
+  "apenwarr/blip": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "NortySpock",
+     "url": "https://news.ycombinator.com/item?id=50406816",
+     "date": "2026-11-07T18:34:12Z",
+     "snippet": "Nice list, I'll have to try a few! I've been having fun squeezing things into a Raspberry Pi 4 (4GB) and a thin client acting as a server (16GB), there's something about passively cooled compute that feels \"free\"... Possibly of note from my services list: victoria-metrics : curre"
+    }
+   ]
+  },
+  "drawthingsai/local-code-community": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "liuliu",
+     "url": "https://news.ycombinator.com/item?id=50405607",
+     "date": "2026-11-07T15:56:53Z",
+     "snippet": "Try DeepSeek 4.1 Flash 1017, feels much better: https://github.com/drawthingsai/local-code-community"
+    }
+   ]
+  },
+  "508-dev/erp_rules": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "komali2",
+     "url": "https://news.ycombinator.com/item?id=50405521",
+     "date": "2026-11-07T15:47:58Z",
+     "snippet": "This is a fun blog idea, I'm going to steal it. I've been running a software engineering co-op for the last 5 years using only self hosted and FOSS software (outside of our email server and discord). The bulk of it is run through ERPnext, which handles timesheets, invoices (clien"
+    }
+   ]
+  },
+  "508-dev/books_health": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "komali2",
+     "url": "https://news.ycombinator.com/item?id=50405521",
+     "date": "2026-11-07T15:47:58Z",
+     "snippet": "This is a fun blog idea, I'm going to steal it. I've been running a software engineering co-op for the last 5 years using only self hosted and FOSS software (outside of our email server and discord). The bulk of it is run through ERPnext, which handles timesheets, invoices (clien"
+    }
+   ]
+  },
+  "unleash/yggdrasil": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ivarconr",
+     "url": "https://news.ycombinator.com/item?id=50405500",
+     "date": "2026-11-07T15:46:00Z",
+     "snippet": "That's a great question, and the honest answer is that it is hard. We can easily add new capabilities in the UI, but for the Unleash protocol itself we need to make sure all changes are backward compatible, because we do not control the SDK version. We have a few tricks we apply:"
+    }
+   ]
+  },
+  "global-metrics/programming-languages": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "CyberDildonics",
+     "url": "https://news.ycombinator.com/item?id=50404381",
+     "date": "2026-11-07T13:26:24Z",
+     "snippet": "I never said Clojure or Lisp is \"about to take over\", I didn't say you did. CircleCI, Metabase, Walmart, Grammarly, ITA/Google Flights, Cisco, Rate.com, Funding Circle, Netflix and bunch of other teams that use it in production. So which is it? It's popular or it's not popular bu"
+    }
+   ]
+  },
+  "global-metrics/programmin": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "CyberDildonics",
+     "url": "https://news.ycombinator.com/item?id=50404381",
+     "date": "2026-11-07T13:26:24Z",
+     "snippet": "I never said Clojure or Lisp is \"about to take over\", I didn't say you did. CircleCI, Metabase, Walmart, Grammarly, ITA/Google Flights, Cisco, Rate.com, Funding Circle, Netflix and bunch of other teams that use it in production. So which is it? It's popular or it's not popular bu"
+    }
+   ]
+  },
+  "redbadger/crux": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "cpursley",
+     "url": "https://news.ycombinator.com/item?id=50404209",
+     "date": "2026-11-07T13:02:32Z",
+     "snippet": "Great option for this that lets you use Rust along with real native UI for cross platform: https://github.com/redbadger/crux"
+    }
+   ]
+  },
+  "storybookjs/storybook": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "yg2k",
+     "url": "https://news.ycombinator.com/item?id=50408197",
+     "date": "2026-11-07T21:24:05.000Z",
+     "snippet": "Location: Bengaluru, India Remote: Yes, remote only. Can work US or EU hours. Willing to relocate: No Technologies: Python, TypeScript, FastAPI, React/Next.js, Postgres, LLMs, agents, evals Résumé/GitHub: github.com/yatishgoel | linkedin.com/in/yatish-goel-6a02841b4 Email: yg2k00"
+    }
+   ]
+  },
+  "hedgerow-dev/coldframe": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "hedgerow-dev",
+     "url": "https://news.ycombinator.com/item?id=50406292",
+     "date": "2026-11-07T17:27:30Z",
+     "snippet": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller (140 points)"
+    }
+   ]
+  },
+  "vincentbernat/nixops-take1": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:vbernat",
+     "url": "https://lobste.rs/c/orntzs",
+     "date": "2026-11-07T06:58:32.258-06:00",
+     "snippet": "> Exactly where to host that is another question (where are you willing to host a server that has write on all your domains...)\r\n\r\nI was previously using nginx and the certificates were managed through NixOS `security.acme.certs`. After adding more hosts, I noticed Let's Encrypt "
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -157877,24 +158182,25 @@
   "50204125": 1793947032613,
   "50271004": 1793860857161,
   "50271808": 1793947032678,
-  "50285134": 1794056168585,
-  "50301479": 1794056168717,
-  "50312756": 1794056168615,
-  "50313705": 1794056168771,
-  "50318646": 1794030871228,
+  "50285134": 1794088035391,
+  "50301479": 1794088035564,
+  "50312756": 1794088035431,
+  "50313705": 1794088035774,
+  "50318646": 1794088035445,
   "50326727": 1793772782762,
-  "50328896": 1794056169200,
-  "50331001": 1794056169069,
-  "50337431": 1794056168661,
-  "50338726": 1794056168516,
-  "50338728": 1794056168454,
-  "50347425": 1794056168893,
-  "50352757": 1794056168427,
-  "50353457": 1794056168505,
-  "50354336": 1794056168990,
-  "50355959": 1794056168870,
-  "50363461": 1794056169011,
-  "50366117": 1794056169338,
-  "50393105": 1794056168932
+  "50328896": 1794088036105,
+  "50331001": 1794088036394,
+  "50337431": 1794088035159,
+  "50338726": 1794088035307,
+  "50338728": 1794088035171,
+  "50347425": 1794088035636,
+  "50352757": 1794088035686,
+  "50353457": 1794088035160,
+  "50354336": 1794088035815,
+  "50355959": 1794088035841,
+  "50363461": 1794088036062,
+  "50366117": 1794088036274,
+  "50393105": 1794088035770,
+  "50405250": 1794088036145
  }
 }
