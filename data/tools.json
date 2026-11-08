@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T13:19:53.610Z",
+ "updatedAt": "2026-11-08T22:01:15.797Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -877,6 +877,13 @@
   },
   "getpaseo/paseo": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sergiotapia",
+     "url": "https://news.ycombinator.com/item?id=50414272",
+     "date": "2026-11-08T15:49:09Z",
+     "snippet": "I highly recommend Paseo. I feel like I finally found what I was looking for after so long. https://github.com/getpaseo/paseo It works really well, has the nice code diff view which what I used to open vs code for, and it lets you drive from your phone. All the beefy work happens"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50315386",
@@ -7596,7 +7603,7 @@
     "fork": false,
     "pushedAt": "2026-11-07T23:26:37Z"
    },
-   "checkedAt": "2026-11-08T13:19:53.391Z"
+   "checkedAt": "2026-11-08T22:01:15.580Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -41729,6 +41736,13 @@
   "dmunozv04/isponsorblocktv": {
    "mentions": [
     {
+     "source": "HN front page",
+     "author": "xnx",
+     "url": "https://news.ycombinator.com/item?id=50410249",
+     "date": "2026-11-08T03:47:19Z",
+     "snippet": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients (116 points)"
+    },
+    {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49600024",
      "date": "2026-09-07T16:20:29Z",
@@ -44271,13 +44285,41 @@
   "storytold/artcraft": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "westurner",
+     "url": "https://news.ycombinator.com/item?id=50413565",
+     "date": "2026-11-08T14:16:04Z",
+     "snippet": "No experience with or opinion on SPSS; GNU Octave is like Matlab. Matplotlib is like Matlab but doesn't support the same syntax. Will it have a DataFrame API? Before R data.frame and Pandas DataFrame and substrait.dataframe, there were labeled arrays in NumPy. Pint uses numpy ufu"
+    },
+    {
      "source": "Ask HN",
      "author": "echelon",
      "url": "https://news.ycombinator.com/item?id=48750050",
      "date": "2026-07-01T17:07:49.000Z",
      "snippet": "ArtCraft | Backend Engineer (Rust, MySQL) | Remote (Global) / Onsite (SF Bay Area and Atlanta, Georgia) | https://github.com/storytold/artcraft | https://getartcraft.com We’re experienced artists and engineers building source available controllable AI for artists, filmmakers, mus"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-08T22:01:14.752Z",
+   "meta": {
+    "name": "artcraft",
+    "fullName": "storytold/artcraft",
+    "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+    "homepage": "https://getartcraft.com",
+    "stars": 39872,
+    "language": "Rust",
+    "topics": [
+     "3d-graphics",
+     "ai",
+     "aivideo",
+     "filmmaking",
+     "imagegeneration"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-07T03:48:03Z"
+   },
+   "listedAt": "2026-11-08T22:01:15.795Z"
   },
   "stjude-rust-labs/sprocket": {
    "mentions": [
@@ -156545,11 +156587,32 @@
     {
      "source": "Ask HN",
      "author": "glennfiedler",
+     "url": "https://news.ycombinator.com/item?id=50414204",
+     "date": "2026-11-08T15:40:31.000Z",
+     "snippet": "Here is the roadmap tool that uses lisp sexp: https://github.com/mas-bandwidth/nova-roadmap I find it really useful to track future work, and then bring it in the current session or sprint. It also regenerates nice roadmap tables in markdown that people can read like these ones: "
+    },
+    {
+     "source": "Ask HN",
+     "author": "glennfiedler",
      "url": "https://news.ycombinator.com/item?id=50375943",
      "date": "2026-11-05T06:41:50.000Z",
      "snippet": "The sort of work I pass through this system, it's mostly library work for multiplayer games. For example, my work on schema, my protobufs/flatbuffers language replacement for multiplayer games, parallelizes very nicely across 15 languages on the sprint system. https://github.com/"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-08T22:01:15.032Z",
+   "meta": {
+    "name": "schema",
+    "fullName": "mas-bandwidth/schema",
+    "description": "Your constants, enums, flags, types and tables generated across multiple languages.",
+    "homepage": null,
+    "stars": 50,
+    "language": "Go",
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-08T18:40:04Z"
+   }
   },
   "mas-bandwidth/fixed3d": {
    "mentions": [
@@ -157614,6 +157677,160 @@
      "snippet": "Location: Hyderabad, Pakistan (GMT+5) Remote: Yes (Worldwide / US / EU timezone overlap) Willing to relocate: Yes (Open to relocation with visa support) Technologies: Next.js 16, React 19, TypeScript, Node.js, Model Context Protocol (MCP), WebSockets, React Native (Expo), Three.j"
     }
    ]
+  },
+  "greenm01/triad": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "nylonstrung",
+     "url": "https://news.ycombinator.com/item?id=50416507",
+     "date": "2026-11-08T19:53:23Z",
+     "snippet": "DMS is extremely solid but at this point is becoming more all-encompassing than I honestly want I've been wanting to try Noctalia with this River-based multi-paradigm compositor (which supports DMS) https://github.com/greenm01/triad"
+    }
+   ]
+  },
+  "czottmann/pi-automode": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "czottmann",
+     "url": "https://news.ycombinator.com/item?id=50416377",
+     "date": "2026-11-08T19:39:25Z",
+     "snippet": "I wrote pi-automode for exactly that reason. Works well enough for me, YMMV. https://github.com/czottmann/pi-automode"
+    }
+   ]
+  },
+  "serjaimelannister/appseed": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Imustaskforhelp",
+     "url": "https://news.ycombinator.com/item?id=50416227",
+     "date": "2026-11-08T19:26:23Z",
+     "snippet": "This is really beautiful from first glance. I had built appseed[0] inspired by zapps.app (curious what you think about that) and although, I could get some apps like bun and others to work statically using that. I struggled to make it work on things like OBS studio and it certain"
+    }
+   ]
+  },
+  "brkomir/anja": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "brkomir",
+     "url": "https://news.ycombinator.com/item?id=50415956",
+     "date": "2026-11-08T18:58:02Z",
+     "snippet": "A hook plus a background script. The hook tells the session to arm the background script (mail-listener) that check every 30 seconds for anything addressed to it or the entire fleet, using Calude Code’s Monitor tool. The mailbox is a file-based message queue I’ve been using since"
+    }
+   ]
+  },
+  "henrypp/simplewall": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "shrx",
+     "url": "https://news.ycombinator.com/item?id=50415791",
+     "date": "2026-11-08T18:39:57Z",
+     "snippet": "Another alternative is Simplewall: https://github.com/henrypp/simplewall"
+    }
+   ]
+  },
+  "safescript/safescript": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "EGreg",
+     "url": "https://news.ycombinator.com/item?id=50415466",
+     "date": "2026-11-08T17:55:38Z",
+     "snippet": "If you like having something for security — even in Node — check out something I invented, called SafeScript. It’s for executing untrusted code written by others… a large subset of Javascript which guarantees the code can only call the Facades you inject, and you can hook and int"
+    }
+   ]
+  },
+  "apcamargo/dsh-claude-subscription": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "elsoja",
+     "url": "https://news.ycombinator.com/item?id=50414695",
+     "date": "2026-11-08T16:32:53Z",
+     "snippet": "dsh-claude-subscription provides a native interface in Deepseek Harness and works great https://github.com/apcamargo/dsh-claude-subscription"
+    }
+   ]
+  },
+  "lemonade-sdk/llamacpp-rocm": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "rpdillon",
+     "url": "https://news.ycombinator.com/item?id=50413929",
+     "date": "2026-11-08T15:06:39Z",
+     "snippet": "I use lemonade llama.cpp with a 2-bit quant of DeepseekV4F 0731 that runs at about 15 tokens a second. I use it as my \"smol\" model in omp, with default going to OpenCode hosted Deepseek (faster inference). I haven't done work lately on Dwarf Star. I got it running a few weeks ago"
+    }
+   ]
+  },
+  "rochus-keller/micron": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "andsoitis",
+     "url": "https://news.ycombinator.com/item?id=50413466",
+     "date": "2026-11-08T14:02:27Z",
+     "snippet": "Love the examples you've implemented in Micron: The examples subdirectory ( https://github.com/rochus-keller/Micron/tree/master/examples ) contains: - a Smalltalk-80 implementation, - the original 1976 P4 Pascal compiler, - the Scheme 9 virtual machine, - the Project Oberon Syste"
+    }
+   ]
+  },
+  "spantaleev/matrix-docker-ansible-deploy": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "greentea23",
+     "url": "https://news.ycombinator.com/item?id=50415678",
+     "date": "2026-11-08T18:22:17.000Z",
+     "snippet": "This playbook organizes a lot of the useful bots and bridges https://github.com/spantaleev/matrix-docker-ansible-deploy , I've mostly customized on top of this set."
+    }
+   ]
+  },
+  "mas-bandwidth/nova-roadmap": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "glennfiedler",
+     "url": "https://news.ycombinator.com/item?id=50414204",
+     "date": "2026-11-08T15:40:31.000Z",
+     "snippet": "Here is the roadmap tool that uses lisp sexp: https://github.com/mas-bandwidth/nova-roadmap I find it really useful to track future work, and then bring it in the current session or sprint. It also regenerates nice roadmap tables in markdown that people can read like these ones: "
+    }
+   ]
+  },
+  "synchopate/llama-modchip": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "joshcsimmons",
+     "url": "https://news.ycombinator.com/item?id=50411961",
+     "date": "2026-11-08T10:22:04Z",
+     "snippet": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU (315 points)"
+    }
+   ]
+  },
+  "ml-explore/mlx-lm": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:spillybones",
+     "url": "https://lobste.rs/c/upor2f",
+     "date": "2026-11-08T12:52:25.677-06:00",
+     "snippet": "I have the same hardware as you and I've been using [MLX-LM](https://github.com/ml-explore/mlx-lm) with Qwen3.6-27B 6bit quant. My setup is a vibe-coded local server that just wires together a bunch of different components with a web UI. It's fairly fast in terms of token output,"
+    }
+   ]
+  },
+  "robertkarl/unbiasedstrata": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:coby",
+     "url": "https://lobste.rs/c/k6avp3",
+     "date": "2026-11-08T15:32:27.264-06:00",
+     "snippet": "Check out [Unbiased Strata](https://github.com/robertkarl/UnbiasedStrata) which aims to be a more secure version of [Strata](https://stratallm.org/). It's a custom inference engine based on llama.cpp (?) tuned to let you run Qwen-Flash-Next locally using as little as 12GB VRAM (p"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -158402,6 +158619,7 @@
   "49533073": 1793608019871,
   "49546432": 1793608061310,
   "49548600": 1793608060973,
+  "49551096": 1794175227653,
   "49555592": 1793623207527,
   "49577129": 1793608071207,
   "49583440": 1793608019881,
@@ -158443,27 +158661,27 @@
   "50193416": 1793908524256,
   "50200997": 1793947031973,
   "50204125": 1793947032613,
-  "50271004": 1793860857161,
+  "50271004": 1794175228952,
   "50271808": 1793947032678,
-  "50285134": 1794143943288,
-  "50301479": 1794117444229,
-  "50312756": 1794143943341,
+  "50285134": 1794175230720,
+  "50301479": 1794175230141,
+  "50312756": 1794175226501,
   "50313705": 1794088035774,
-  "50318646": 1794143943452,
+  "50318646": 1794175233195,
   "50326727": 1793772782762,
-  "50328896": 1794143943896,
-  "50331001": 1794143943729,
-  "50337431": 1794117443865,
-  "50338726": 1794143943301,
-  "50338728": 1794143943213,
-  "50347425": 1794143943713,
-  "50352757": 1794143943434,
-  "50353457": 1794143943275,
-  "50354336": 1794143943674,
-  "50355959": 1794143943903,
-  "50363461": 1794143943416,
-  "50366117": 1794143944085,
-  "50393105": 1794143943707,
-  "50405250": 1794143943809
+  "50328896": 1794175236683,
+  "50331001": 1794175238395,
+  "50337431": 1794175232584,
+  "50338726": 1794175228593,
+  "50338728": 1794175227133,
+  "50347425": 1794175236983,
+  "50352757": 1794175234325,
+  "50353457": 1794175228025,
+  "50354336": 1794175236388,
+  "50355959": 1794175235025,
+  "50363461": 1794175234285,
+  "50366117": 1794175241186,
+  "50393105": 1794175236634,
+  "50405250": 1794175237338
  }
 }
