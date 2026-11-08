@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T21:47:49.974Z",
+ "updatedAt": "2026-11-08T05:58:05.239Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7580,9 +7580,9 @@
     "license": "GPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-07T19:45:06Z"
+    "pushedAt": "2026-11-07T23:26:37Z"
    },
-   "checkedAt": "2026-11-07T21:47:49.771Z"
+   "checkedAt": "2026-11-08T05:58:05.005Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -28866,6 +28866,13 @@
   "asahilinux/linux": {
    "mentions": [
     {
+     "source": "Lobsters",
+     "author": "lobsters:alyssa",
+     "url": "https://lobste.rs/c/wbiyeu",
+     "date": "2026-11-07T21:30:01.542-06:00",
+     "snippet": "We have USB-C display support on the [\"fairydust\" development branch](https://github.com/AsahiLinux/linux/tree/fairydust).\r\n\r\nIt's still a little rough around the edges, which is why we're not yet comfortable releasing it to end-users. In particular, only a single \"blessed\" type-"
+    },
+    {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49721365",
      "date": "2026-09-16T02:13:35Z",
@@ -30524,6 +30531,13 @@
   },
   "chattocorp/chatto": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "snvzz",
+     "url": "https://news.ycombinator.com/item?id=50410364",
+     "date": "2026-11-08T04:15:06.000Z",
+     "snippet": "https://github.com/chattocorp/chatto >GNU Affero General Public License 3.0 or later. It's Affero. I'd rather use anything else."
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49077063",
@@ -41777,7 +41791,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49478699",
      "date": "2026-08-28T14:06:19Z",
-     "snippet": "I use 'Conversations' (from F-Droid) on my Android and self-hosted 'XMPP Web' on my PC https://github.com/nioc/xmpp-web This combination covers 99% of my needs."
+     "snippet": "I use 'Conversations' (from F-Droid) on my Android and self-hosted 'XMPP Web' on my PC https://github.com/nioc/xmpp-web This combination covers 99% of my needs.",
+     "author": "nik_ca"
     }
    ],
    "checkedAt": "2026-11-07T21:47:48.407Z",
@@ -156106,13 +156121,41 @@
   "amterp/muster": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "amterp",
+     "url": "https://news.ycombinator.com/item?id=50408563",
+     "date": "2026-11-07T22:15:08Z",
+     "snippet": "In my case it's cause I wanted something like herdr or cmux i.e. a terminal with first-class agent support, but I didn't like any of the solutions that were already out there, hence I made Muster [0]. I wanted to focus on just the AI-ness of it all, I was previously very happy wi"
+    },
+    {
      "source": "Ask HN",
      "author": "amterp",
      "url": "https://news.ycombinator.com/item?id=50374498",
      "date": "2026-11-05T02:49:39.000Z",
      "snippet": "1) One 5x Claude sub, one pro lite codex sub 2) Not really, the value proposition on the subs are just so much greater. 3) I'm using Claude Code and Codex, crucially thru Muster[0] which I've been working on. It's a herdr inspired Libghostty-powered terminal which understands age"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-08T05:58:04.360Z",
+   "meta": {
+    "name": "muster",
+    "fullName": "amterp/muster",
+    "description": "Native macOS workspace for AI coding agents: real splits, agent state at a glance, local and SSH agents in one window, on sessions that outlive the app.",
+    "homepage": "https://github.com/amterp/muster",
+    "stars": 1,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "ghostty",
+     "macos",
+     "rust",
+     "swift",
+     "terminal"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-07T17:51:57Z"
+   }
   },
   "mas-bandwidth/nova-tools": {
    "mentions": [
@@ -157352,6 +157395,61 @@
      "snippet": "> Exactly where to host that is another question (where are you willing to host a server that has write on all your domains...)\r\n\r\nI was previously using nginx and the certificates were managed through NixOS `security.acme.certs`. After adding more hosts, I noticed Let's Encrypt "
     }
    ]
+  },
+  "siraben/pi-tool-summaries": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "siraben",
+     "url": "https://news.ycombinator.com/item?id=50410725",
+     "date": "2026-11-08T05:41:31Z",
+     "snippet": "I've been daily driving Pi for over a month now and never looking back. The latest crop of frontier models have really complex bash calls, so I've written an extension that rewrites them into plain English while still making them easy to reveal in full, unlike some harnesses whic"
+    }
+   ]
+  },
+  "earendil-works/pi-claude-code": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sigttou",
+     "url": "https://news.ycombinator.com/item?id=50410645",
+     "date": "2026-11-08T05:25:46Z",
+     "snippet": "Pi has been my goto agent for several months now, the project is great and basically runs everywhere. If you like Pi, I suggest taking a look at Deepseek Harness too. For those using Claude, there's pi-claude-code[0] which is currently still the way to use Ant subs in Pi. [0] htt"
+    }
+   ]
+  },
+  "jdebp/unscii": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "JdeBP",
+     "url": "https://news.ycombinator.com/item?id=50409735",
+     "date": "2026-11-08T01:34:58Z",
+     "snippet": "The PET lives on in odd ways. I use the PET font, long since hoisted out of the ROMs by several people and via Unscii and Funscii, as the medium weight font for virtual terminals on my own Linux-based, NetBSD, and FreeBSD machines. It pairs up nicely with the BBC Micro graphics f"
+    }
+   ]
+  },
+  "alainnothere/mailboy": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "xlayn",
+     "url": "https://news.ycombinator.com/item?id=50408542",
+     "date": "2026-11-07T22:11:24Z",
+     "snippet": "OR you can use Lazarus pascal and ship a 5mb application that uses 13Mb of RAM and runs everywhere instead of a 150MB installer that installs the nth multigb copy of the same application with different hat that leaves free 13Mb of RAM. https://github.com/alainnothere/mailBoy Elec"
+    }
+   ]
+  },
+  "sidenai/sidex": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "anthk",
+     "url": "https://news.ycombinator.com/item?id=50408512",
+     "date": "2026-11-07T22:08:03Z",
+     "snippet": "Lapce works, so does the ArtCraft suite even on Aros. No Vulkan there, just MESA 26 with OpenGL 4.6+ and that's it. Altough I use evcode myself. But there are tons of GUI IDE's/editors for Rust out there. Also, this curb-stoms VS Code: https://github.com/Sidenai/sidex"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -158182,25 +158280,25 @@
   "50204125": 1793947032613,
   "50271004": 1793860857161,
   "50271808": 1793947032678,
-  "50285134": 1794088035391,
-  "50301479": 1794088035564,
-  "50312756": 1794088035431,
+  "50285134": 1794117444350,
+  "50301479": 1794117444229,
+  "50312756": 1794117444653,
   "50313705": 1794088035774,
-  "50318646": 1794088035445,
+  "50318646": 1794117444348,
   "50326727": 1793772782762,
-  "50328896": 1794088036105,
-  "50331001": 1794088036394,
-  "50337431": 1794088035159,
-  "50338726": 1794088035307,
-  "50338728": 1794088035171,
-  "50347425": 1794088035636,
-  "50352757": 1794088035686,
-  "50353457": 1794088035160,
-  "50354336": 1794088035815,
-  "50355959": 1794088035841,
-  "50363461": 1794088036062,
-  "50366117": 1794088036274,
-  "50393105": 1794088035770,
-  "50405250": 1794088036145
+  "50328896": 1794117444974,
+  "50331001": 1794117444793,
+  "50337431": 1794117443865,
+  "50338726": 1794117444085,
+  "50338728": 1794117443974,
+  "50347425": 1794117444718,
+  "50352757": 1794117444269,
+  "50353457": 1794117444027,
+  "50354336": 1794117444686,
+  "50355959": 1794117444541,
+  "50363461": 1794117444442,
+  "50366117": 1794117444933,
+  "50393105": 1794117444545,
+  "50405250": 1794117444899
  }
 }
