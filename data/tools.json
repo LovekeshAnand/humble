@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T05:58:05.239Z",
+ "updatedAt": "2026-11-08T13:19:53.610Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -770,6 +770,13 @@
   },
   "juggler-ai/juggler": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "julesrms",
+     "url": "https://news.ycombinator.com/item?id=50411950",
+     "date": "2026-11-08T10:19:20Z",
+     "snippet": "> it’s yours, the total control is the only way to move from driving agents to orchestrating them I wrote Juggler ( https://github.com/juggler-ai/juggler ) because I liked Pi's approach to everything being customisable and controllable, but I wanted a slick, navigable GUI rather "
+    },
     {
      "source": "Ask HN",
      "author": "julesrms",
@@ -7029,6 +7036,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "franga2000",
+     "url": "https://news.ycombinator.com/item?id=50411426",
+     "date": "2026-11-08T08:31:05Z",
+     "snippet": "Clever hack! I didn't think the latency would be low enough for that, but I guess with some ad segments being upwards of a minute long these days, it's still worth it. For anyone who can load APKs on their TV and wants a more integrated solution, this alternative client works won"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50176099",
      "date": "2026-10-21T04:31:24Z",
      "snippet": "Try SmartTube ( https://github.com/yuliskov/SmartTube/ ) or PipePipe ( https://github.com/InfinityLoop1308/PipePipe ). They do a pretty good job of blocking Google's nonsense and just showing you the videos.",
@@ -7582,7 +7596,7 @@
     "fork": false,
     "pushedAt": "2026-11-07T23:26:37Z"
    },
-   "checkedAt": "2026-11-08T05:58:05.005Z"
+   "checkedAt": "2026-11-08T13:19:53.391Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -25010,6 +25024,13 @@
   },
   "torvalds/linux": {
    "mentions": [
+    {
+     "source": "HN front page",
+     "author": "ridowk",
+     "url": "https://news.ycombinator.com/item?id=50411818",
+     "date": "2026-11-08T09:56:07Z",
+     "snippet": "GitHub Down Again? (108 points)"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49827717",
@@ -91104,13 +91125,51 @@
   "vinhnx/vtcode": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "vinhnx",
+     "url": "https://news.ycombinator.com/item?id=50409102",
+     "date": "2026-11-07T23:39:21Z",
+     "snippet": "I've been building VT Code, an open-source coding agent written in Rust. It focuses on structural code editing, sandboxed execution, and keeping developers in control of agent actions. Supports multiple LLM providers, with a CLI/TUI and a new native macOS app built with GPUI, bot"
+    },
+    {
      "source": "Ask HN",
      "author": "vinhnx",
      "url": "https://news.ycombinator.com/item?id=45774009",
      "date": "2025-10-31T16:42:25.000Z",
      "snippet": "> Which model(s) are you running (e.g., Ollama, LM Studio, or others) and which open-source coding assistant/integration (for example, a VS Code plugin) you’re using? Open-source coding assistant: VT Code (my own coding agent -- github.com/vinhnx/vtcode) Model: gpt-oss-120b remot"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-08T13:19:52.645Z",
+   "meta": {
+    "name": "VTCode",
+    "fullName": "vinhnx/VTCode",
+    "description": "A local-first AI coding agent for your terminal and desktop.",
+    "homepage": "https://vinhnx.github.io/VTCode/",
+    "stars": 899,
+    "language": "Rust",
+    "topics": [
+     "agent",
+     "agentclientprotocol",
+     "agentplugins",
+     "agentskills",
+     "ai",
+     "artificial-intelligence",
+     "cargo",
+     "cli",
+     "codingagent",
+     "crossterm",
+     "mcp",
+     "ratatui",
+     "rust",
+     "terminal",
+     "tui"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-08T12:50:48Z"
+   },
+   "listedAt": "2026-11-08T13:19:53.608Z"
   },
   "woile/nix-config": {
    "mentions": [
@@ -149123,6 +149182,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "thisismyanon2",
+     "url": "https://news.ycombinator.com/item?id=50411222",
+     "date": "2026-11-08T07:47:05Z",
+     "snippet": "gpui is meant to be a fairly low level library. If you want screenshots check out zed, but be aware that for many use cases you'll have to roll your own widgets. gpui-kit (formerly gpui-component) provides a richer set of widgets and a Javascript shell. Screenshots can be found h"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50010671",
      "date": "2026-10-08T19:18:46Z",
      "snippet": "I've been using https://github.com/longbridge/gpui-component Imgui is also good for this"
@@ -156630,13 +156696,34 @@
   "gregwebs/pi-quota-dispatcher": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "gregwebs",
+     "url": "https://news.ycombinator.com/item?id=50412579",
+     "date": "2026-11-08T12:11:08Z",
+     "snippet": "I have been using Pi most of this year. Just one problem that's going to make me move to deepseek harness: no subagent support. I am using tintinweb/pi-subagents and it works, but always wondering if there is a better option. It doesn't seem to work right with Herdr's agent statu"
+    },
+    {
      "source": "Ask HN",
      "author": "gregwebs",
      "url": "https://news.ycombinator.com/item?id=50378856",
      "date": "2026-11-05T13:31:43.000Z",
      "snippet": "1-2) Claude $20/mo (planner) Codex $20/mo (reviewer) Deepseek $1-3/day workhorse. 4) A standard /implement skill creates separate agents for different parts of the workflow. It uses Claude for planning, codex for reviewing, and deepseek for doing and orchestrating. https://github"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-08T13:19:52.848Z",
+   "meta": {
+    "name": "pi-quota-dispatcher",
+    "fullName": "gregwebs/pi-quota-dispatcher",
+    "description": "Dynamically alter agent configuration based on quota",
+    "homepage": null,
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-04T19:25:17Z"
+   }
   },
   "ontouchstart/b6a08b068cf863f0523bbd8880c88cf4": {
    "mentions": [
@@ -157450,6 +157537,83 @@
      "snippet": "Lapce works, so does the ArtCraft suite even on Aros. No Vulkan there, just MESA 26 with OpenGL 4.6+ and that's it. Altough I use evcode myself. But there are tons of GUI IDE's/editors for Rust out there. Also, this curb-stoms VS Code: https://github.com/Sidenai/sidex"
     }
    ]
+  },
+  "jonaslsaa/pi-optchat": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "oddly",
+     "url": "https://news.ycombinator.com/item?id=50412805",
+     "date": "2026-11-08T12:48:03Z",
+     "snippet": "I've been using pi-optchat, might want to give that a try. Manually connecting subagents to the main agent keeps them open indefinitely. https://github.com/jonaslsaa/pi-optchat"
+    }
+   ]
+  },
+  "dioxuslabs/dioxus": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "pas",
+     "url": "https://news.ycombinator.com/item?id=50412227",
+     "date": "2026-11-08T11:07:28Z",
+     "snippet": "Dioxus has many renderers and also cross-platform. https://github.com/DioxusLabs/dioxus#experimental-native-ren... Blitz itself is a great experiment in debloating. see also https://github.com/pathscale/izumo"
+    }
+   ]
+  },
+  "pathscale/izumo": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "pas",
+     "url": "https://news.ycombinator.com/item?id=50412227",
+     "date": "2026-11-08T11:07:28Z",
+     "snippet": "Dioxus has many renderers and also cross-platform. https://github.com/DioxusLabs/dioxus#experimental-native-ren... Blitz itself is a great experiment in debloating. see also https://github.com/pathscale/izumo"
+    }
+   ]
+  },
+  "kobaltgit/statcraft": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "kobaltGIT",
+     "url": "https://news.ycombinator.com/item?id=50411523",
+     "date": "2026-11-08T08:54:07Z",
+     "snippet": "I'm building StatCraft — an open-source statistical analysis package in 100% Safe Rust, as a clean-room alternative to IBM SPSS Statistics. I started this because I believe statistical software should not crash on malformed data, should be scriptable by AI agents via MCP, and sho"
+    }
+   ]
+  },
+  "piercefreeman/waymark": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "MOZGIII",
+     "url": "https://news.ycombinator.com/item?id=50411353",
+     "date": "2026-11-08T08:16:26Z",
+     "snippet": "Varies, 0-6, 2.6 on average. Here's the code for the workflows we use in benches: https://github.com/piercefreeman/waymark/blob/main/crates/li..."
+    }
+   ]
+  },
+  "sameersamiisam5-cpu/agentpulse": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Samikhan02",
+     "url": "https://news.ycombinator.com/item?id=50341232",
+     "date": "2026-11-02T18:25:04.000Z",
+     "snippet": "Location: Hyderabad, Pakistan (GMT+5) Remote: Yes (Worldwide / US / EU timezone overlap) Willing to relocate: Yes (Open to relocation with visa support) Technologies: Next.js 16, React 19, TypeScript, Node.js, Model Context Protocol (MCP), WebSockets, React Native (Expo), Three.j"
+    }
+   ]
+  },
+  "sameersamiisam5-cpu/frameforge": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Samikhan02",
+     "url": "https://news.ycombinator.com/item?id=50341232",
+     "date": "2026-11-02T18:25:04.000Z",
+     "snippet": "Location: Hyderabad, Pakistan (GMT+5) Remote: Yes (Worldwide / US / EU timezone overlap) Willing to relocate: Yes (Open to relocation with visa support) Technologies: Next.js 16, React 19, TypeScript, Node.js, Model Context Protocol (MCP), WebSockets, React Native (Expo), Three.j"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -158078,6 +158242,7 @@
   "45850325": 1793608069705,
   "45867176": 1793608028791,
   "45888409": 1793608029190,
+  "45911105": 1794143943249,
   "45918355": 1793608077607,
   "46071771": 1793608069576,
   "46082711": 1793608017279,
@@ -158280,25 +158445,25 @@
   "50204125": 1793947032613,
   "50271004": 1793860857161,
   "50271808": 1793947032678,
-  "50285134": 1794117444350,
+  "50285134": 1794143943288,
   "50301479": 1794117444229,
-  "50312756": 1794117444653,
+  "50312756": 1794143943341,
   "50313705": 1794088035774,
-  "50318646": 1794117444348,
+  "50318646": 1794143943452,
   "50326727": 1793772782762,
-  "50328896": 1794117444974,
-  "50331001": 1794117444793,
+  "50328896": 1794143943896,
+  "50331001": 1794143943729,
   "50337431": 1794117443865,
-  "50338726": 1794117444085,
-  "50338728": 1794117443974,
-  "50347425": 1794117444718,
-  "50352757": 1794117444269,
-  "50353457": 1794117444027,
-  "50354336": 1794117444686,
-  "50355959": 1794117444541,
-  "50363461": 1794117444442,
-  "50366117": 1794117444933,
-  "50393105": 1794117444545,
-  "50405250": 1794117444899
+  "50338726": 1794143943301,
+  "50338728": 1794143943213,
+  "50347425": 1794143943713,
+  "50352757": 1794143943434,
+  "50353457": 1794143943275,
+  "50354336": 1794143943674,
+  "50355959": 1794143943903,
+  "50363461": 1794143943416,
+  "50366117": 1794143944085,
+  "50393105": 1794143943707,
+  "50405250": 1794143943809
  }
 }
