@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T22:01:15.797Z",
+ "updatedAt": "2026-11-09T06:20:16.180Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -2344,6 +2344,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "RGS1811",
+     "url": "https://news.ycombinator.com/item?id=50420202",
+     "date": "2026-11-09T02:22:33Z",
+     "snippet": "I just launched a no-subscription fitness tracking app (macros, biometrics, workouts, supplements, etc.), aimed at bodybuilders. https://apps.apple.com/us/app/cheiron/id6825576174 I'm working on the interview portion of my federal income tax formalization project. I've hit my cov"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50278497",
      "date": "2026-10-28T18:20:51Z",
      "snippet": "As a proof-of-concept, I've been using extra tokens to formalize the IRS tax forms and worksheets, mostly just to prove this can be done. The idea is that something like this could be adapted into a publicly maintained version of the IRS Direct File program (RIP). I'm up to an es",
@@ -3519,6 +3526,13 @@
   },
   "enes-alatas/spool": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "enesalatas",
+     "url": "https://news.ycombinator.com/item?id=50418478",
+     "date": "2026-11-08T23:01:08Z",
+     "snippet": "I’m working on Spool, an open-source tool for running persistent Claude Code loops. https://github.com/enes-alatas/spool I wanted a way to manage multiple loops without babysitting terminal sessions and to talk to them as they work. With Spool, you can create and manage loops fro"
+    },
     {
      "source": "Ask HN",
      "author": "enesalatas",
@@ -7601,9 +7615,9 @@
     "license": "GPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-07T23:26:37Z"
+    "pushedAt": "2026-11-09T00:54:44Z"
    },
-   "checkedAt": "2026-11-08T22:01:15.580Z"
+   "checkedAt": "2026-11-09T06:20:15.987Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -12244,6 +12258,13 @@
   },
   "yuechen-li-dev/aetheris": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "YuechenLi",
+     "url": "https://news.ycombinator.com/item?id=50419952",
+     "date": "2026-11-09T01:47:39Z",
+     "snippet": "Well, if you wanna give VibeCAD a try, ask your agents to use Aetheris directly since making a good UX is hard and it's something I have to test by hand instead of offloading to an AI. https://github.com/yuechen-li-dev/Aetheris Aetheris is focused on performance and reliability f"
+    },
     {
      "source": "HN comment",
      "author": "YuechenLi",
@@ -20306,6 +20327,13 @@
   },
   "shaftoe/pi-coding-agent-action": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "alexfortin",
+     "url": "https://news.ycombinator.com/item?id=50419852",
+     "date": "2026-11-09T01:32:54Z",
+     "snippet": "I went from Claude Code to Opencode to Pi and never looked back. I also lost interest in closed models and been using open weight ones exclusively since ~January and can hardly be happier. Pi flexibility is awesome, mostly I use the TUI but I also build this Github action [0] on "
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49931485",
@@ -156088,11 +156116,32 @@
     {
      "source": "HN comment",
      "author": "earthdeity",
+     "url": "https://news.ycombinator.com/item?id=50420523",
+     "date": "2026-11-09T03:05:33Z",
+     "snippet": "I wrote a software to do it. It's not that difficult to make something like this now, it's just a Tauri2 app that has a kanban, priorities, history of everything the agent does. https://github.com/oscscull/quarterdeck I don't think necessarily I'd recommend using or forking it (t"
+    },
+    {
+     "source": "HN comment",
+     "author": "earthdeity",
      "url": "https://news.ycombinator.com/item?id=50375046",
      "date": "2026-11-05T04:07:47Z",
      "snippet": "Claude + Codex, both from work. Just those. https://github.com/oscscull/quarterdeck built my own harness. I had trouble with both claude and codex. In particular, managing multiple tasks in a kanban, syncing between my machines, making sure work is done on the right machine and c"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-09T06:20:15.552Z",
+   "meta": {
+    "name": "quarterdeck",
+    "fullName": "oscscull/quarterdeck",
+    "description": "A day scheduler desktop app (Tauri + Rust)",
+    "homepage": null,
+    "stars": 14,
+    "language": "Rust",
+    "topics": [],
+    "license": "GPL-3.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-09T03:32:55Z"
+   }
   },
   "jonwiggins/optio": {
    "mentions": [
@@ -157831,6 +157880,204 @@
      "snippet": "Check out [Unbiased Strata](https://github.com/robertkarl/UnbiasedStrata) which aims to be a more secure version of [Strata](https://stratallm.org/). It's a custom inference engine based on llama.cpp (?) tuned to let you run Qwen-Flash-Next locally using as little as 12GB VRAM (p"
     }
    ]
+  },
+  "kristiandupont/sherlock": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "kristiandupont",
+     "url": "https://news.ycombinator.com/item?id=50421389",
+     "date": "2026-11-09T05:23:40Z",
+     "snippet": "Neat! Somewhat related, I built a browser-based version of my favourite deduction game: https://github.com/kristiandupont/sherlock"
+    }
+   ]
+  },
+  "fission-ai/openspec": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "driverdan",
+     "url": "https://news.ycombinator.com/item?id=50420738",
+     "date": "2026-11-09T03:35:27Z",
+     "snippet": "I use the OpenSpec[1] workflow with PRs at each step, proposal, apply, archive. I have the LLM do those steps but I review the results and have it make changes as needed. OpenSpec specs make it easy to look back at what it was supposed to do if necessary, including a checklist of"
+    }
+   ]
+  },
+  "flokkit/apptown": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "xyzzy123",
+     "url": "https://news.ycombinator.com/item?id=50420331",
+     "date": "2026-11-09T02:39:19Z",
+     "snippet": "A self hosted software forge / factory / agent platform / mini heroku thing. It's not polished yet but it's building and maintaining little apps and games. https://github.com/flokkit/apptown You can try it out on mac or Linux in a temp container. It's self hostable and can use lo"
+    }
+   ]
+  },
+  "dobladez/clview": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ferd",
+     "url": "https://news.ycombinator.com/item?id=50420065",
+     "date": "2026-11-09T02:03:31Z",
+     "snippet": "A cli command to view PDFs, images, Word documents, spreadsheets, drawings, Markdown and HTML inside the terminal (kitty, ghostty, etc.) Works well with tmux and through ssh too: https://github.com/dobladez/clview"
+    }
+   ]
+  },
+  "con-dog/clingon": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "purple-leafy",
+     "url": "https://news.ycombinator.com/item?id=50419899",
+     "date": "2026-11-09T01:39:34Z",
+     "snippet": "Too many things. - See my GitHub [0] - A terminal workflow tool [1] You can always see my current projects on my GitHub profile README, I’m pretty proud of it and get great feedback on it regularly. I like to think I don’t build standard crap. I’m also working on an interactive t"
+    }
+   ]
+  },
+  "hew3d/hew": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "dstryr",
+     "url": "https://news.ycombinator.com/item?id=50419793",
+     "date": "2026-11-09T01:26:07Z",
+     "snippet": "i'd also recommend checking out https://hew3d.com/ ( https://github.com/hew3d/hew ) i directed pi to their documentation + github repo and created a pretty awesome skill that allows me to take measurements on paper, snap a pic, and then have it generate the drawing. can also snap"
+    }
+   ]
+  },
+  "ide/lexy": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "avianlyric",
+     "url": "https://news.ycombinator.com/item?id=50419676",
+     "date": "2026-11-09T01:07:30Z",
+     "snippet": "LLM seems to think it’s Toyota/Lexus based on an open source alternative client[1] documenting the same APIs that appear in the blog post. A cursory glance seems to suggest it’s right and it took less than 2 mins to both ask and check its answer, which is a little scary. [1] http"
+    }
+   ]
+  },
+  "bowlingx/super-release": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "bowlingx",
+     "url": "https://news.ycombinator.com/item?id=50419638",
+     "date": "2026-11-09T01:02:31Z",
+     "snippet": "I'm working on https://github.com/BowlingX/super-release , an alternative written in rust for semantic-release and mono-repo support. I build it mainly to make shipping packages in larger JavaScript/Typescript mono-repos easier. Also I started getting into rust more and wanted to"
+    }
+   ]
+  },
+  "galbacarys/ministar": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "nameless912",
+     "url": "https://news.ycombinator.com/item?id=50419614",
+     "date": "2026-11-09T00:59:24Z",
+     "snippet": "I'm working on two moderately large projects right now, both of which are interesting to me and maybe no one else, but why not share? The first is withfire.app, which is basically a productization of the AI driven resume tailoring pipeline I used during my last job search. The la"
+    }
+   ]
+  },
+  "skritch/astro-marimo": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sixo",
+     "url": "https://news.ycombinator.com/item?id=50418884",
+     "date": "2026-11-08T23:34:12Z",
+     "snippet": "A little plugin to serve Marimo notebooks (which are great) inside an Astro static site (which are great): https://github.com/skritch/astro-marimo \"OneVote\", which aims to answer: how much is your vote worth? https://github.com/skritch/onevote"
+    }
+   ]
+  },
+  "skritch/onevote": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sixo",
+     "url": "https://news.ycombinator.com/item?id=50418884",
+     "date": "2026-11-08T23:34:12Z",
+     "snippet": "A little plugin to serve Marimo notebooks (which are great) inside an Astro static site (which are great): https://github.com/skritch/astro-marimo \"OneVote\", which aims to answer: how much is your vote worth? https://github.com/skritch/onevote"
+    }
+   ]
+  },
+  "djeastm/karaoke-pitch": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "djeastm",
+     "url": "https://news.ycombinator.com/item?id=50418801",
+     "date": "2026-11-08T23:26:47Z",
+     "snippet": "A free, open-source browser extension called Karaoke Pitch that lets you adjust the pitch of a YouTube video (and optionally store that chosen pitch for later). I find it to be a great way to practice singing/music. Firefox: https://addons.mozilla.org/en-US/firefox/addon/karaoke-"
+    }
+   ]
+  },
+  "netflector/netflector": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ruffsl",
+     "url": "https://news.ycombinator.com/item?id=50418465",
+     "date": "2026-11-08T23:00:05Z",
+     "snippet": "For about 10 months or so I've been working on this FOSS hobby project to get more practice at Linux packaging, cargo utilities, and migrating to Nix and NixOS (as well as solve some personal pain points in using a HDMI TVs and projectors with PCs). https://tisvlay.readthedocs.io"
+    }
+   ]
+  },
+  "swax/dub-anything": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "swax",
+     "url": "https://news.ycombinator.com/item?id=50418066",
+     "date": "2026-11-08T22:24:44Z",
+     "snippet": "Generate subtitles and dubs for any video, in the actors' own voices https://github.com/swax/dub-anything I use it to watch movies that have never been translated to English. A whole world of previously inaccessible media is opened up."
+    }
+   ]
+  },
+  "patrickjh/ssa": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "pianopatrick",
+     "url": "https://news.ycombinator.com/item?id=50417984",
+     "date": "2026-11-08T22:17:43Z",
+     "snippet": "I'm still working on my own shell based AI tool. This month I am testing and reworking it to try and get useful results with really small models, like 2B level. Goal is to get help debugging Linux issues when offline with these small models that can run anywhere. Then also being "
+    }
+   ]
+  },
+  "johnwarne/upvote-rss": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.zip/u/dabe",
+     "url": "https://lemmy.zip/comment/30018320",
+     "date": "2026-11-08T22:59:59.456323Z",
+     "snippet": "Lots of good responses so far. I'll add my favorite: https://github.com/johnwarne/upvote-rss which is the only sane way for me to discover posts on popular forum boards like reddit and Lemmy. I can set the number of posts I'm shown a day, and it adds friction to the process of in"
+    }
+   ]
+  },
+  "brownphotographic/brighttable": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:brownphotographic",
+     "url": "https://fosstodon.org/@brownphotographic/117583773337189676",
+     "date": "2026-11-09T00:59:54.526Z",
+     "snippet": "A new version of BrightTable is published: 1. Interface sizing option for those with big (or small) screens 2. Fixes to round-trip in # ART and # RawTherapee 3. Metadata refresh from # Immich library I keep this project going because I use it myself, and if I use it myself, I kee"
+    }
+   ]
+  },
+  "brownphotographic/b": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:brownphotographic",
+     "url": "https://fosstodon.org/@brownphotographic/117583773337189676",
+     "date": "2026-11-09T00:59:54.526Z",
+     "snippet": "A new version of BrightTable is published: 1. Interface sizing option for those with big (or small) screens 2. Fixes to round-trip in # ART and # RawTherapee 3. Metadata refresh from # Immich library I keep this project going because I use it myself, and if I use it myself, I kee"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -158661,27 +158908,27 @@
   "50193416": 1793908524256,
   "50200997": 1793947031973,
   "50204125": 1793947032613,
-  "50271004": 1794175228952,
+  "50271004": 1794205179359,
   "50271808": 1793947032678,
-  "50285134": 1794175230720,
-  "50301479": 1794175230141,
-  "50312756": 1794175226501,
+  "50285134": 1794205179318,
+  "50301479": 1794205179628,
+  "50312756": 1794205179364,
   "50313705": 1794088035774,
-  "50318646": 1794175233195,
+  "50318646": 1794205179104,
   "50326727": 1793772782762,
-  "50328896": 1794175236683,
-  "50331001": 1794175238395,
-  "50337431": 1794175232584,
-  "50338726": 1794175228593,
-  "50338728": 1794175227133,
-  "50347425": 1794175236983,
-  "50352757": 1794175234325,
-  "50353457": 1794175228025,
-  "50354336": 1794175236388,
-  "50355959": 1794175235025,
-  "50363461": 1794175234285,
-  "50366117": 1794175241186,
-  "50393105": 1794175236634,
-  "50405250": 1794175237338
+  "50328896": 1794205180280,
+  "50331001": 1794205179721,
+  "50337431": 1794205178362,
+  "50338726": 1794205178666,
+  "50338728": 1794205178461,
+  "50347425": 1794205179278,
+  "50352757": 1794205179538,
+  "50353457": 1794205179217,
+  "50354336": 1794205179571,
+  "50355959": 1794205179735,
+  "50363461": 1794205178843,
+  "50366117": 1794205179909,
+  "50393105": 1794205179474,
+  "50405250": 1794205179752
  }
 }
