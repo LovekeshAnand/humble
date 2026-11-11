@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T06:09:40.755Z",
+ "updatedAt": "2026-11-11T14:15:51.795Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -1438,6 +1438,13 @@
   },
   "drduh/yubikey-guide": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jwr",
+     "url": "https://news.ycombinator.com/item?id=50452858",
+     "date": "2026-11-11T12:58:15Z",
+     "snippet": "I decided years ago that I want to protect my keys with a hardware device that is independent of the vendor of the machine that I'm currently using. I also want to have backup keys and I want to be able to freely move them around various physical locations. Or have a backup shipp"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50301186",
@@ -7615,7 +7622,7 @@
     "fork": false,
     "pushedAt": "2026-11-11T03:22:38Z"
    },
-   "checkedAt": "2026-11-11T06:09:40.594Z"
+   "checkedAt": "2026-11-11T14:15:51.504Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -102357,13 +102364,13 @@
      "snippet": "Reverse engineer anything with agents, from app behavior down to native binaries (101 points)"
     }
    ],
-   "checkedAt": "2026-11-04T06:13:38.422Z",
+   "checkedAt": "2026-11-11T14:15:50.343Z",
    "meta": {
     "name": "rea",
     "fullName": "morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "homepage": "https://rea.tools",
-    "stars": 427987,
+    "stars": 451708,
     "language": "TypeScript",
     "topics": [
      "agent-skills",
@@ -102390,7 +102397,7 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-04T06:07:06Z"
+    "pushedAt": "2026-11-11T14:05:24Z"
    },
    "listedAt": "2026-11-04T06:13:39.287Z"
   },
@@ -144398,13 +144405,13 @@
      "snippet": "Aeon: A unified framework for machine learning with time series (121 points)"
     }
    ],
-   "checkedAt": "2026-11-04T06:13:38.636Z",
+   "checkedAt": "2026-11-11T14:15:50.730Z",
    "meta": {
     "name": "aeon",
     "fullName": "aeon-toolkit/aeon",
     "description": "A toolkit for time series  machine learning and deep learning",
     "homepage": "https://aeon-toolkit.org/",
-    "stars": 1473,
+    "stars": 1478,
     "language": "Python",
     "topics": [
      "aeon",
@@ -144428,7 +144435,7 @@
     "license": "BSD-3-Clause",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-03T16:04:47Z"
+    "pushedAt": "2026-11-10T14:34:56Z"
    },
    "listedAt": "2026-11-04T06:13:39.287Z"
   },
@@ -159632,6 +159639,149 @@
      "snippet": "> I'd love a weird-license repositories in Linux distributions with lovely, quirky, useful, useless, handcrafted software!\r\n\r\nMany options here: https://github.com/ErikMcClure/bad-licenses/"
     }
    ]
+  },
+  "anaisbetts/ts-ssh-agent": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "anaisbetts",
+     "url": "https://news.ycombinator.com/item?id=50453320",
+     "date": "2026-11-11T13:42:45Z",
+     "snippet": "Never missing an opportunity for self-promotion, if you use a lot of machines and have issues with agent forwarding and Git (i.e. because you're using a remote coding agent), I wrote https://github.com/anaisbetts/ts-ssh-agent - your keys are stored on a remote Tailscale node, and"
+    }
+   ]
+  },
+  "ralabarge/enclave": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "RALaBarge",
+     "url": "https://news.ycombinator.com/item?id=50453018",
+     "date": "2026-11-11T13:13:37Z",
+     "snippet": "This is really awesome and the next rabbit hole I want to check out. I'm on the defensive making software for me running AIs in the most secure way possible, and one main lack was the ability to fully guard against kernel attacks should a jailbreak happen. Its another layer I can"
+    }
+   ]
+  },
+  "ddalcu/mlx-serve": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "crossroadsguy",
+     "url": "https://news.ycombinator.com/item?id=50451424",
+     "date": "2026-11-11T09:40:41Z",
+     "snippet": "I hope it will be optional. This is too much to ask for on Apple platform. I recently had to install a 3rd party script to get rid of Apple's laregely useless AI stuff from my 5 year old mac and save more than a few GBs which I badly needed. Running local models is already extrem"
+    }
+   ]
+  },
+  "ggml-org/llama-macos": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "crossroadsguy",
+     "url": "https://news.ycombinator.com/item?id=50451424",
+     "date": "2026-11-11T09:40:41Z",
+     "snippet": "I hope it will be optional. This is too much to ask for on Apple platform. I recently had to install a 3rd party script to get rid of Apple's laregely useless AI stuff from my 5 year old mac and save more than a few GBs which I badly needed. Running local models is already extrem"
+    }
+   ]
+  },
+  "tjjh89017/stunmesh-go": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tarasglek",
+     "url": "https://news.ycombinator.com/item?id=50451040",
+     "date": "2026-11-11T08:40:40Z",
+     "snippet": "The most minimal possible alternative to tailscale and netbird is https://github.com/tjjh89017/stunmesh-go I contributed some features to it and switched"
+    }
+   ]
+  },
+  "gopasspw/git-credential-gopass": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "LeBit",
+     "url": "https://news.ycombinator.com/item?id=50450280",
+     "date": "2026-11-11T06:23:31Z",
+     "snippet": "Why not use PAT? I’ve grown to appreciate ssh should only be used with git for signing commits and as a deploy key (eg in a CI system). I always use https for day to day git operations. My keys reside in gopass and are extracted by gopass-git-credential when needed by git. I use "
+    }
+   ]
+  },
+  "sailmanseeulater/gitube": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "latesailor",
+     "url": "https://news.ycombinator.com/item?id=50450195",
+     "date": "2026-11-11T06:09:14Z",
+     "snippet": "Hi guys, I wanted to show a website I made. Gitube, a repo/person GitHub activity visualizer. It visualize each commits and branches on a metro map. How to use: Paste a GitHub Repository or profile and it will visualize it. It's a static site, using the browser to call GitHub API"
+    }
+   ]
+  },
+  "leonidfilbert/rails-review-agents": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "LeonidSkrypniko",
+     "url": "https://news.ycombinator.com/item?id=50451418",
+     "date": "2026-11-11T09:40:11.000Z",
+     "snippet": "Location: Cherkasy, Ukraine Remote: Yes (remote only, EU hours, US-East overlap OK) Willing to relocate: No Technologies: Ruby on Rails (8+ yrs), PostgreSQL, MySQL, Redis, Sidekiq, Elasticsearch, Stripe/PayPal/webhooks, React/Next.js/TypeScript, AWS (SQS/S3), Claude Code + Cursor"
+    }
+   ]
+  },
+  "hjoseph96/50cdaf37cef7de91a84537cdaac1387d": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "makeshift_softw",
+     "url": "https://news.ycombinator.com/item?id=50453290",
+     "date": "2026-11-11T13:39:41.000Z",
+     "snippet": "Hey HN! We’re building ThunderTruck™, the operating system for local food—connecting mobile food vendors and brick-and-mortar storefronts with nearby customers and a dedicated e-scooter/flatbed courier fleet. Full details: https://gist.github.com/hjoseph96/50cdaf37cef7de91a84537c"
+    }
+   ]
+  },
+  "hjoseph96/50cdaf37cef7de91a84537cdaa": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "makeshift_softw",
+     "url": "https://news.ycombinator.com/item?id=50453290",
+     "date": "2026-11-11T13:39:41.000Z",
+     "snippet": "Hey HN! We’re building ThunderTruck™, the operating system for local food—connecting mobile food vendors and brick-and-mortar storefronts with nearby customers and a dedicated e-scooter/flatbed courier fleet. Full details: https://gist.github.com/hjoseph96/50cdaf37cef7de91a84537c"
+    }
+   ]
+  },
+  "nodo-labs-uk/attention-queue": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "orbis-tertius",
+     "url": "https://news.ycombinator.com/item?id=50453469",
+     "date": "2026-11-11T13:55:22.000Z",
+     "snippet": "We run everything in separate worktrees, and built https://github.com/nodo-labs-uk/attention-queue to manage our Claude Code sessions"
+    }
+   ]
+  },
+  "fiso64/musicbee-linux": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:Flaky@furry.engineer",
+     "url": "https://furry.engineer/@Flaky/117598081851213601",
+     "date": "2026-11-11T13:38:45.000Z",
+     "snippet": "I love that MusicBee is one of the most highly sought after software for Linux that people are willing to get it working - conveniently - in any way possible, without having to build an entirely new app. https:// github.com/fiso64/musicbee-lin ux # Linux # MusicBee"
+    }
+   ]
+  },
+  "fiso64/musicbee-lin": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:Flaky@furry.engineer",
+     "url": "https://furry.engineer/@Flaky/117598081851213601",
+     "date": "2026-11-11T13:38:45.000Z",
+     "snippet": "I love that MusicBee is one of the most highly sought after software for Linux that people are willing to get it working - conveniently - in any way possible, without having to build an entirely new app. https:// github.com/fiso64/musicbee-lin ux # Linux # MusicBee"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -160469,26 +160619,26 @@
   "50204125": 1793947032613,
   "50271004": 1794294757508,
   "50271808": 1793947032678,
-  "50285134": 1794377338944,
-  "50301479": 1794377339135,
-  "50312756": 1794377339010,
+  "50285134": 1794406511919,
+  "50301479": 1794406511756,
+  "50312756": 1794406511887,
   "50313705": 1794088035774,
-  "50318646": 1794377339807,
+  "50318646": 1794406511783,
   "50326727": 1793772782762,
-  "50328896": 1794377340102,
-  "50331001": 1794377339913,
+  "50328896": 1794406513239,
+  "50331001": 1794406513414,
   "50337431": 1794377338736,
-  "50338726": 1794377338804,
-  "50338728": 1794377338818,
-  "50347425": 1794377340005,
-  "50352757": 1794377338959,
-  "50353457": 1794377338867,
-  "50354336": 1794377339275,
-  "50355959": 1794377339574,
-  "50363461": 1794377339509,
-  "50366117": 1794377340874,
-  "50393105": 1794377339816,
-  "50403153": 1794377339560,
-  "50405250": 1794377340081
+  "50338726": 1794406510481,
+  "50338728": 1794406511272,
+  "50347425": 1794406512880,
+  "50352757": 1794406511329,
+  "50353457": 1794406512557,
+  "50354336": 1794406513147,
+  "50355959": 1794406511772,
+  "50363461": 1794406512212,
+  "50366117": 1794406512928,
+  "50393105": 1794406512349,
+  "50403153": 1794406512297,
+  "50405250": 1794406513940
  }
 }
