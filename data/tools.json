@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T19:44:42.918Z",
+ "updatedAt": "2026-11-11T06:09:40.755Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7613,9 +7613,9 @@
     "license": "GPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-10T16:02:03Z"
+    "pushedAt": "2026-11-11T03:22:38Z"
    },
-   "checkedAt": "2026-11-10T19:43:03.849Z"
+   "checkedAt": "2026-11-11T06:09:40.594Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -8271,6 +8271,13 @@
   },
   "zeeq-ai/zeeq-app": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "CharlieDigital",
+     "url": "https://news.ycombinator.com/item?id=50448915",
+     "date": "2026-11-11T01:55:40Z",
+     "snippet": "I have more detail written up here: https://chrlschn.dev/blog/2026/08/the-unexpected-ai-stack-cs... But the gist of it is that I wire it up through Aspire (don't need to, but makes it nice) to set the environment variable on my main app host. Then the agent can run `csharprepl` c"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50151325",
@@ -12302,6 +12309,13 @@
   },
   "yuechen-li-dev/aetheris": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "YuechenLi",
+     "url": "https://news.ycombinator.com/item?id=50449784",
+     "date": "2026-11-11T04:34:51Z",
+     "snippet": "Figure I try pitching at least, but would you consider evaluating my Aetheris kernel to use as Aircad's geometry kernel over OCCT? https://github.com/yuechen-li-dev/Aetheris There are currently a lot of newer browser CAD projects that already wraps OCCT WASM, like FluidCAD and Ch"
+    },
     {
      "source": "HN comment",
      "author": "YuechenLi",
@@ -27809,7 +27823,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49742969",
      "date": "2026-09-17T16:16:58Z",
-     "snippet": "my code github.com/AGGIB/Stroq just try=)"
+     "snippet": "my code github.com/AGGIB/Stroq just try=)",
+     "author": "Agybay"
     }
    ],
    "checkedAt": "2026-11-10T19:43:16.331Z",
@@ -32296,7 +32311,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=47304341",
      "date": "2026-03-09T02:51:00Z",
-     "snippet": "Sure here's the demo: https://craft-burgers.openship.org/ Github: https://github.com/openshiporg/openfront-restaurant We're actually building an opensource SaaS for every vertical. We shipped our Shopify alternative end of last year and after restaurant, we have hotels, grocery, "
+     "snippet": "Sure here's the demo: https://craft-burgers.openship.org/ Github: https://github.com/openshiporg/openfront-restaurant We're actually building an opensource SaaS for every vertical. We shipped our Shopify alternative end of last year and after restaurant, we have hotels, grocery, ",
+     "author": "theturtletalks"
     }
    ],
    "checkedAt": "2026-11-10T19:43:50.212Z",
@@ -147840,13 +147856,40 @@
   "maxgoedjen/secretive": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "johng",
+     "url": "https://news.ycombinator.com/item?id=50450131",
+     "date": "2026-11-11T05:54:24Z",
+     "snippet": "2nd this. Found out about it when this type of thing came up about a week ago. I had a hard time getting the stock stuff going but Secretive made it easy to set up and I love using it. Definitely a recco from me as well. -- git hub here: https://github.com/maxgoedjen/secretive"
+    },
+    {
      "source": "HN front page",
      "author": "ValentineC",
      "url": "https://news.ycombinator.com/item?id=35090238",
      "date": "2023-03-10T04:06:29Z",
      "snippet": "Secretive: Store SSH Keys in the Secure Enclave (292 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-11T06:09:40.069Z",
+   "meta": {
+    "name": "secretive",
+    "fullName": "maxgoedjen/secretive",
+    "description": "Protect your SSH keys with your Mac's Secure Enclave",
+    "homepage": "https://secretive.dev",
+    "stars": 9297,
+    "language": "Swift",
+    "topics": [
+     "mac",
+     "secure-enclave",
+     "security",
+     "ssh"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-18T22:43:59Z"
+   },
+   "listedAt": "2026-11-11T06:09:40.755Z"
   },
   "microsoft/visual-chatgpt": {
    "mentions": [
@@ -159512,6 +159555,83 @@
      "snippet": "I do something similar on my website (for typst documents, not opengraph images), but I use the [typst.ts](https://github.com/myriad-dreamin/typst.ts) library --- this has the advantage that I can compile my documents easily on Vercel (where I host my website).\r\n\r\n(For Opengraph "
     }
    ]
+  },
+  "zigpy/zha-device-handlers": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "nexle",
+     "url": "https://news.ycombinator.com/item?id=50449449",
+     "date": "2026-11-11T03:27:51Z",
+     "snippet": "I recommend SONOFF: they support ZHA as first class citizen (they are very active on raising PR to https://github.com/zigpy/zha-device-handlers ) and they are cheap (manufactured in china). I don't even have to download their app to do the initial setup, most of their devices jus"
+    }
+   ]
+  },
+  "blueprintlabio/restless-core": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "yaoke259",
+     "url": "https://news.ycombinator.com/item?id=50449166",
+     "date": "2026-11-11T02:39:34Z",
+     "snippet": "seems to be working for me, you can check out the repo here https://github.com/BlueprintLabIO/restless-core"
+    }
+   ]
+  },
+  "nagadomi/nunif": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "LoganDark",
+     "url": "https://news.ycombinator.com/item?id=50448148",
+     "date": "2026-11-11T00:12:55Z",
+     "snippet": "This reminds me of some fucking bullshit about how browsers silently store canvas pixel data as premultiplied and try to transparently convert everything you put in and everything you take out, but silently corrupt color values in the process. https://github.com/nagadomi/nunif/is"
+    }
+   ]
+  },
+  "dabbers/remote-apps": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "dabbz",
+     "url": "https://news.ycombinator.com/item?id=50445830",
+     "date": "2026-11-10T20:26:31Z",
+     "snippet": "I was trying not to step on the toes of OP with my own links but I'm more than happy to share what I've built so far. It's quite rough around the edges still but works well. If sharing my link is frowned upon, I'll gladly remove it just lmk. (note it is 100% vibed and far from la"
+    }
+   ]
+  },
+  "googlechrome/modern-web-guidance": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "paulirish",
+     "url": "https://news.ycombinator.com/item?id=50443812",
+     "date": "2026-11-10T18:01:15Z",
+     "snippet": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives (324 points)"
+    }
+   ]
+  },
+  "microsoft/procexp-mac": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "ingve",
+     "url": "https://news.ycombinator.com/item?id=50433216",
+     "date": "2026-11-09T22:30:41Z",
+     "snippet": "Process Explorer for macOS (173 points)"
+    }
+   ]
+  },
+  "erikmcclure/bad-licenses": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:jaculabilis",
+     "url": "https://lobste.rs/c/czuf2n",
+     "date": "2026-11-10T15:39:50.903-06:00",
+     "snippet": "> I'd love a weird-license repositories in Linux distributions with lovely, quirky, useful, useless, handcrafted software!\r\n\r\nMany options here: https://github.com/ErikMcClure/bad-licenses/"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -160349,26 +160469,26 @@
   "50204125": 1793947032613,
   "50271004": 1794294757508,
   "50271808": 1793947032678,
-  "50285134": 1794339742437,
-  "50301479": 1794339742531,
-  "50312756": 1794339742386,
+  "50285134": 1794377338944,
+  "50301479": 1794377339135,
+  "50312756": 1794377339010,
   "50313705": 1794088035774,
-  "50318646": 1794294757958,
+  "50318646": 1794377339807,
   "50326727": 1793772782762,
-  "50328896": 1794339743517,
-  "50331001": 1794339743131,
-  "50337431": 1794339742049,
-  "50338726": 1794339742641,
-  "50338728": 1794339742035,
-  "50347425": 1794339742861,
-  "50352757": 1794339742251,
-  "50353457": 1794339742185,
-  "50354336": 1794339742902,
-  "50355959": 1794339742513,
-  "50363461": 1794339742625,
-  "50366117": 1794339743831,
-  "50393105": 1794339742804,
-  "50403153": 1794339742840,
-  "50405250": 1794339743117
+  "50328896": 1794377340102,
+  "50331001": 1794377339913,
+  "50337431": 1794377338736,
+  "50338726": 1794377338804,
+  "50338728": 1794377338818,
+  "50347425": 1794377340005,
+  "50352757": 1794377338959,
+  "50353457": 1794377338867,
+  "50354336": 1794377339275,
+  "50355959": 1794377339574,
+  "50363461": 1794377339509,
+  "50366117": 1794377340874,
+  "50393105": 1794377339816,
+  "50403153": 1794377339560,
+  "50405250": 1794377340081
  }
 }
