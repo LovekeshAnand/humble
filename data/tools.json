@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T15:08:58.136Z",
+ "updatedAt": "2026-11-12T23:36:13.437Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7620,9 +7620,9 @@
     "license": "GPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-11T03:22:38Z"
+    "pushedAt": "2026-11-12T18:23:55Z"
    },
-   "checkedAt": "2026-11-12T15:08:57.837Z"
+   "checkedAt": "2026-11-12T23:36:13.087Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -13961,6 +13961,13 @@
    "mentions": [
     {
      "source": "HN front page",
+     "author": "thesuperbigfrog",
+     "url": "https://news.ycombinator.com/item?id=50471793",
+     "date": "2026-11-12T18:24:06Z",
+     "snippet": "Rust 1.100 (308 points)"
+    },
+    {
+     "source": "HN front page",
      "author": "formerly_proven",
      "url": "https://news.ycombinator.com/item?id=50069499",
      "date": "2026-10-13T10:27:00Z",
@@ -18979,6 +18986,13 @@
      "url": "https://news.ycombinator.com/item?id=49179098",
      "date": "2026-08-05T06:00:16.000Z",
      "snippet": "Location: Serbia, GMT +2 Remote: Yes Willing to relocate: Yes Technologies: React, Next.js, JavaScript/TypeScript, Node.js, Astro, TailwindCSS, Jest, Cypress, Prisma, PostgreSQL, MongoDB, Docker, Python, FastAPI, C#/.NET Resume/CV: Available on request GitHub: https://github.com/"
+    },
+    {
+     "source": "Ask HN",
+     "author": "nemanja_codes",
+     "url": "https://news.ycombinator.com/item?id=48759432",
+     "date": "2026-07-02T10:57:05.000Z",
+     "snippet": "Location: Serbia, GMT +2 Remote: Yes Willing to relocate: Yes Technologies: React, Next.js, JavaScript/TypeScript, Node.js, Astro, TailwindCSS, Jest, Cypress, Prisma, PostgreSQL, MongoDB, Docker, Python, FastAPI, C#/.NET Resume/CV: Available on request GitHub: https://github.com/"
     }
    ],
    "checkedAt": "2026-11-09T22:18:23.049Z",
@@ -19034,6 +19048,13 @@
      "author": "nemanja_codes",
      "url": "https://news.ycombinator.com/item?id=49179098",
      "date": "2026-08-05T06:00:16.000Z",
+     "snippet": "Location: Serbia, GMT +2 Remote: Yes Willing to relocate: Yes Technologies: React, Next.js, JavaScript/TypeScript, Node.js, Astro, TailwindCSS, Jest, Cypress, Prisma, PostgreSQL, MongoDB, Docker, Python, FastAPI, C#/.NET Resume/CV: Available on request GitHub: https://github.com/"
+    },
+    {
+     "source": "Ask HN",
+     "author": "nemanja_codes",
+     "url": "https://news.ycombinator.com/item?id=48759432",
+     "date": "2026-07-02T10:57:05.000Z",
      "snippet": "Location: Serbia, GMT +2 Remote: Yes Willing to relocate: Yes Technologies: React, Next.js, JavaScript/TypeScript, Node.js, Astro, TailwindCSS, Jest, Cypress, Prisma, PostgreSQL, MongoDB, Docker, Python, FastAPI, C#/.NET Resume/CV: Available on request GitHub: https://github.com/"
     }
    ],
@@ -22922,6 +22943,13 @@
   },
   "mattpocock/skills": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "__rito__",
+     "url": "https://news.ycombinator.com/item?id=50472170",
+     "date": "2026-11-12T18:47:12Z",
+     "snippet": "Has anyone been using the teach skill [0]? How does it compare? I was playing with it for a short time, otherwise, I just tell the model to 'teach me X, and do not give me direct answers, and give me exercises'. [0]: https://github.com/mattpocock/skills/tree/main/skills/produc..."
+    },
     {
      "source": "HN comment",
      "author": "Tar90",
@@ -45407,6 +45435,13 @@
      "url": "https://news.ycombinator.com/item?id=49159046",
      "date": "2026-08-03T17:41:47.000Z",
      "snippet": "Email: c410.f3r (at) gmail.com Location: Brazil Remote: Yes Résumé/CV: https://c410-f3r.github.io/curriculum.pdf Technologies: AI, Blockchain, C, C++, Cryptography, Docker, Svelte, GCP, Go, Kubernetes, Node, PostgreSQL, React, Rust, Web, ZK Willing to relocate: No Hello! I am a s"
+    },
+    {
+     "source": "Ask HN",
+     "author": "CaioFer",
+     "url": "https://news.ycombinator.com/item?id=48750179",
+     "date": "2026-07-01T17:16:08.000Z",
+     "snippet": "Email: c410.f3r (at) gmail.com Location: Brazil Remote: Yes Résumé/CV: https://c410-f3r.github.io/curriculum.pdf Technologies: AI, Blockchain, C, C++, Cryptography, Docker, Svelte, GCP, Go, Kubernetes, Node, PostgreSQL, React, Rust, Web, ZK Willing to relocate: No Hello! I am a s"
     }
    ],
    "checkedAt": "2026-11-09T22:18:57.930Z",
@@ -45523,6 +45558,13 @@
      "url": "https://news.ycombinator.com/item?id=49204026",
      "date": "2026-08-06T23:27:19.000Z",
      "snippet": "Location: London, England, UK Remote: Yes — also open to hybrid or on-site roles Willing to relocate: Yes — UK, selected European countries and international opportunities Technologies: Swift, SwiftUI, UIKit, AppKit, iOS, iPadOS, watchOS, macOS, Swift Concurrency, Combine, Core D"
+    },
+    {
+     "source": "Ask HN",
+     "author": "anosidium",
+     "url": "https://news.ycombinator.com/item?id=48839485",
+     "date": "2026-07-09T00:45:24.000Z",
+     "snippet": "Location: London, England, UK Remote: Yes — also open to hybrid or on-site roles Willing to relocate: Yes — UK, selected European countries and international opportunities Technologies: Swift, SwiftUI, UIKit, AppKit, iOS, iPadOS, watchOS, macOS, Swift Concurrency, Combine, Core D"
     }
    ],
    "checkedAt": "2026-11-09T22:18:28.064Z",
@@ -45576,6 +45618,13 @@
      "author": "anosidium",
      "url": "https://news.ycombinator.com/item?id=49204026",
      "date": "2026-08-06T23:27:19.000Z",
+     "snippet": "Location: London, England, UK Remote: Yes — also open to hybrid or on-site roles Willing to relocate: Yes — UK, selected European countries and international opportunities Technologies: Swift, SwiftUI, UIKit, AppKit, iOS, iPadOS, watchOS, macOS, Swift Concurrency, Combine, Core D"
+    },
+    {
+     "source": "Ask HN",
+     "author": "anosidium",
+     "url": "https://news.ycombinator.com/item?id=48839485",
+     "date": "2026-07-09T00:45:24.000Z",
      "snippet": "Location: London, England, UK Remote: Yes — also open to hybrid or on-site roles Willing to relocate: Yes — UK, selected European countries and international opportunities Technologies: Swift, SwiftUI, UIKit, AppKit, iOS, iPadOS, watchOS, macOS, Swift Concurrency, Combine, Core D"
     }
    ],
@@ -45733,6 +45782,13 @@
     {
      "source": "Ask HN",
      "author": "ellis0n",
+     "url": "https://news.ycombinator.com/item?id=48748411",
+     "date": "2026-07-01T15:23:54.000Z",
+     "snippet": "Location: Poland Remote: Yes Willing to relocate: Yes Technologies: H100, AI, Training, Python, PyTorch, FastAPI, Docker, CUDA, C/C++, OpenCV, Swift, JavaScript, TypeScript, NodeJS, React, NextJS. Email: pungg10kk@gmail.com I'm an experienced developer, visionary and researcher. "
+    },
+    {
+     "source": "Ask HN",
+     "author": "ellis0n",
      "url": "https://news.ycombinator.com/item?id=27485936",
      "date": "2021-06-12T17:21:59.000Z",
      "snippet": "drive.py Disc comare tool https://github.com/web3cryptowallet/drive-py I made it to work with unstructured data with any amount of size"
@@ -45774,6 +45830,13 @@
      "author": "cinci",
      "url": "https://news.ycombinator.com/item?id=49161314",
      "date": "2026-08-03T20:55:42.000Z",
+     "snippet": "Location: Dubai, UAE Remote: Yes Willing to relocate: Yes Technologies: Penetration Testing, Reverse Engineering, Emulation, Bare-Metal Programming, Embedded, Electronics, GNU Radio/SDR, Python/C/Assembly, Linux/Unix/*BSD/Windows. GitHub: https://github.com/chris-pcguy Email: chr"
+    },
+    {
+     "source": "Ask HN",
+     "author": "cinci",
+     "url": "https://news.ycombinator.com/item?id=48747981",
+     "date": "2026-07-01T15:01:29.000Z",
      "snippet": "Location: Dubai, UAE Remote: Yes Willing to relocate: Yes Technologies: Penetration Testing, Reverse Engineering, Emulation, Bare-Metal Programming, Embedded, Electronics, GNU Radio/SDR, Python/C/Assembly, Linux/Unix/*BSD/Windows. GitHub: https://github.com/chris-pcguy Email: chr"
     }
    ],
@@ -46426,6 +46489,13 @@
      "url": "https://news.ycombinator.com/item?id=49156967",
      "date": "2026-08-03T15:20:07.000Z",
      "snippet": "Location: Vijayawada, India Remote: Yes (worldwide — 2pm–11pm IST, overlapping full EU business hours plus US-East mornings) Willing to relocate: Yes Technologies: Python, C/C++, Docker SDK (Sandboxing/cgroups), LangGraph, Numba JIT, POSIX, FastAPI, WebSockets, Thread-Safe Queues"
+    },
+    {
+     "source": "Ask HN",
+     "author": "varun636",
+     "url": "https://news.ycombinator.com/item?id=48748508",
+     "date": "2026-07-01T15:29:57.000Z",
+     "snippet": "Location: Vijayawada, India Remote: Yes (worldwide, comfortable with EU / US-East overlap) Willing to relocate: Yes Technologies: Python, FastAPI, LangGraph, Docker (Sandboxing), Threading/Queue Concurrency, SQLite (WAL), MQL5, React GitHub: https://github.com/sriramvarun0636 Res"
     }
    ],
    "checkedAt": "2026-11-09T22:18:59.729Z",
@@ -46471,6 +46541,13 @@
      "url": "https://news.ycombinator.com/item?id=49156967",
      "date": "2026-08-03T15:20:07.000Z",
      "snippet": "Location: Vijayawada, India Remote: Yes (worldwide — 2pm–11pm IST, overlapping full EU business hours plus US-East mornings) Willing to relocate: Yes Technologies: Python, C/C++, Docker SDK (Sandboxing/cgroups), LangGraph, Numba JIT, POSIX, FastAPI, WebSockets, Thread-Safe Queues"
+    },
+    {
+     "source": "Ask HN",
+     "author": "varun636",
+     "url": "https://news.ycombinator.com/item?id=48748508",
+     "date": "2026-07-01T15:29:57.000Z",
+     "snippet": "Location: Vijayawada, India Remote: Yes (worldwide, comfortable with EU / US-East overlap) Willing to relocate: Yes Technologies: Python, FastAPI, LangGraph, Docker (Sandboxing), Threading/Queue Concurrency, SQLite (WAL), MQL5, React GitHub: https://github.com/sriramvarun0636 Res"
     }
    ],
    "checkedAt": "2026-11-09T22:19:00.015Z",
@@ -69522,19 +69599,19 @@
      "snippet": "You have to design your process for writing code to handle more code than you could ever read. To do this you also have to accept that you will not be able to hand manage all of your agents and all of your projects. The key thing is to figure out how to manage your time better an"
     }
    ],
-   "checkedAt": "2026-11-05T19:56:08.834Z",
+   "checkedAt": "2026-11-12T23:36:10.063Z",
    "meta": {
     "name": "maximizepm",
     "fullName": "mhalstrom/maximizepm",
     "description": "",
     "homepage": "https://maximizepm.com",
-    "stars": 8,
+    "stars": 9,
     "language": "Python",
     "topics": [],
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-05T06:12:51Z"
+    "pushedAt": "2026-11-12T23:21:16Z"
    }
   },
   "jchsoft/mcp4mail": {
@@ -74867,13 +74944,47 @@
   "docker-mailserver/docker-mailserver": {
    "mentions": [
     {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.world/u/manwichmakesameal",
+     "url": "https://lemmy.world/comment/26836899",
+     "date": "2026-11-12T23:15:58.789741Z",
+     "snippet": "I repeatedly see people saying \"don't host your own mailserver\". So what are we supposed to do? Just give up and let megacorps own all of our mail? I get it, it goes to those servers anyways. F-that. I'm not giving up yet another service to them. Personally, I have a VPS with rac"
+    },
+    {
      "source": "Ask HN",
      "author": "KronisLV",
      "url": "https://news.ycombinator.com/item?id=29304453",
      "date": "2021-11-22T09:18:25.000Z",
      "snippet": "Genuine question: why not just have your own e-mail server with a bit of automation thrown in, something simple like https://github.com/docker-mailserver/docker-mailserver I can understand something like SendGrid or PostMark for the more complex use cases or larger platforms, but"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-12T23:36:10.367Z",
+   "meta": {
+    "name": "docker-mailserver",
+    "fullName": "docker-mailserver/docker-mailserver",
+    "description": "Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container.",
+    "homepage": "https://docker-mailserver.github.io/docker-mailserver/latest/",
+    "stars": 19744,
+    "language": "Shell",
+    "topics": [
+     "container",
+     "dovecot",
+     "fail2ban",
+     "imap",
+     "ldap",
+     "mail",
+     "mailserver",
+     "pop3",
+     "postfix",
+     "rspamd",
+     "smtp"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-11T18:50:38Z"
+   },
+   "listedAt": "2026-11-12T23:36:13.435Z"
   },
   "adamritter/pageql": {
    "mentions": [
@@ -84522,13 +84633,13 @@
      "snippet": "I made a tool that creates sandboxes (docker, podman, orbstack, seatbelt, tart, containerd, kata, firecracker) and then sets up an agent (claude, codex, gemini, aider, opencode) inside it with max permissiveness (no prompts to call sed, etc). It creates its own copy of your workd"
     }
    ],
-   "checkedAt": "2026-11-05T19:56:09.105Z",
+   "checkedAt": "2026-11-12T23:36:10.618Z",
    "meta": {
     "name": "yoloai",
     "fullName": "kstenerud/yoloai",
     "description": "Your agent is a security risk, so treat it like one. yoloAI does AI agent sandboxing right.",
     "homepage": "https://yoloai.dev",
-    "stars": 225,
+    "stars": 255,
     "language": "Go",
     "topics": [
      "ai",
@@ -84669,13 +84780,13 @@
      "snippet": "I made a sandbox to productively work with agents while restricting files they can read and write: https://github.com/wrr/drop"
     }
    ],
-   "checkedAt": "2026-11-05T19:56:09.358Z",
+   "checkedAt": "2026-11-12T23:36:10.798Z",
    "meta": {
     "name": "drop",
     "fullName": "wrr/drop",
     "description": "Linux sandboxing that doesn't get in your way",
     "homepage": "https://droprun.sh",
-    "stars": 399,
+    "stars": 403,
     "language": "Go",
     "topics": [
      "gvisor",
@@ -84687,7 +84798,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-05T08:43:30Z"
+    "pushedAt": "2026-11-10T15:39:02Z"
    },
    "listedAt": "2026-11-05T19:56:10.811Z"
   },
@@ -104404,13 +104515,52 @@
   "frigadehq/yap": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "brownrout",
+     "url": "https://news.ycombinator.com/item?id=50470211",
+     "date": "2026-11-12T16:44:06Z",
+     "snippet": "We use this for speech to text, and are considering merging the projects: https://github.com/FrigadeHQ/yap"
+    },
+    {
      "source": "HN front page",
      "author": "pancomplex",
      "url": "https://news.ycombinator.com/item?id=49073834",
      "date": "2026-07-27T18:36:02Z",
      "snippet": "Show HN: Yap – OSS on-device voice dictation for macOS with no model to download (104 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-12T23:36:11.045Z",
+   "meta": {
+    "name": "yap",
+    "fullName": "FrigadeHQ/yap",
+    "description": "Free, open source voice dictation for macOS. On-device transcription with Apple's Speech framework. No cloud/no API keys/no account.",
+    "homepage": "https://frigade.com/yap",
+    "stars": 475,
+    "language": "Swift",
+    "topics": [
+     "accessibility",
+     "apple-speech",
+     "dictation",
+     "macos",
+     "macos-app",
+     "menubar",
+     "offline",
+     "on-device",
+     "privacy",
+     "speech-recognition",
+     "speech-to-text",
+     "swift",
+     "swiftui",
+     "transcription",
+     "voice-to-text",
+     "wispr-flow"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-09T19:33:41Z"
+   },
+   "listedAt": "2026-11-12T23:36:13.436Z"
   },
   "moonshotai/kimi-k3": {
    "mentions": [
@@ -135856,13 +136006,40 @@
   "explodingcamera/tinywasm": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "explodingcamera",
+     "url": "https://news.ycombinator.com/item?id=48751067",
+     "date": "2026-07-01T18:18:18.000Z",
+     "snippet": "Location: Stuttgart, Germany Remote: Open to remote or hybrid, anywhere in the EU Willing to relocate: Yes Technologies: Rust, WebAssembly, TypeScript, React, PostgreSQL, Redis, Docker Résumé/CV: https://henrygressmann.de/static/cv-henry-gressmann.pdf Email: hn@henrygressmann.de "
+    },
+    {
      "source": "HN front page",
      "author": "explodingcamera",
      "url": "https://news.ycombinator.com/item?id=39627410",
      "date": "2024-03-07T10:44:35Z",
      "snippet": "Show HN: TinyWasm – A tiny WebAssembly Runtime written in Rust (172 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-12T23:36:11.307Z",
+   "meta": {
+    "name": "tinywasm",
+    "fullName": "explodingcamera/tinywasm",
+    "description": "A tiny WebAssembly runtime written in safe Rust",
+    "homepage": "https://tinywasm.dev",
+    "stars": 598,
+    "language": "Rust",
+    "topics": [
+     "embedded",
+     "rust",
+     "webassembly",
+     "webassembly-runtime"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-01T14:50:41Z"
+   },
+   "listedAt": "2026-11-12T23:36:13.437Z"
   },
   "dekunukem/bob_cassette_rewinder": {
    "mentions": [
@@ -144536,13 +144713,13 @@
      "snippet": "Research papers on ML in Compilers (105 points)"
     }
    ],
-   "checkedAt": "2026-11-05T19:56:09.633Z",
+   "checkedAt": "2026-11-12T23:36:11.578Z",
    "meta": {
     "name": "awesome-machine-learning-in-compilers",
     "fullName": "zwang4/awesome-machine-learning-in-compilers",
     "description": "Must read research papers and links to tools and datasets that are related to using machine learning for compilers and systems optimisation",
     "homepage": null,
-    "stars": 1706,
+    "stars": 1707,
     "language": null,
     "topics": [
      "artificial-intelligence",
@@ -154532,6 +154709,13 @@
      "url": "https://news.ycombinator.com/item?id=49228235",
      "date": "2026-08-09T03:40:39.000Z",
      "snippet": "Location: Columbus, OH (willing to relocate to Chicago or coastal metros) Remote: Yes Technologies: Elixir, Phoenix, LiveView, OTP/GenServer, TypeScript, React, Next.js, Clojure, PostgreSQL, Ecto, Docker, AWS, CI/CD Résumé/CV: See Github projects. PDF available on-request. Linked"
+    },
+    {
+     "source": "Ask HN",
+     "author": "beerscb",
+     "url": "https://news.ycombinator.com/item?id=48799718",
+     "date": "2026-07-06T01:22:04.000Z",
+     "snippet": "Location: Columbus, OH (willing to relocate to Chicago or coastal metros) Remote: Yes Technologies: Elixir, Phoenix, LiveView, OTP/GenServer, TypeScript, React, Next.js, Clojure, PostgreSQL, Ecto, Docker, AWS, CI/CD Résumé/CV: See Github projects. PDF available on-request. Linked"
     }
    ],
    "checkedAt": "2026-11-10T07:14:01.862Z",
@@ -154640,6 +154824,13 @@
      "author": "syngrog66",
      "url": "https://news.ycombinator.com/item?id=49527239",
      "date": "2026-09-01T19:56:07.000Z",
+     "snippet": "Location: Colorado, USA Remote: Yes Willing to relocate: Yes Technologies: Golang (Go), C, Python, Java, SQL, git, Docker, Linux/POSIX, Internet & web dev, cloud IaaS, distributed, concurrency & threading, performance & scalability, some math & ML Résumé/CV: https://github.com/mk"
+    },
+    {
+     "source": "Ask HN",
+     "author": "syngrog66",
+     "url": "https://news.ycombinator.com/item?id=48754636",
+     "date": "2026-07-01T23:48:24.000Z",
      "snippet": "Location: Colorado, USA Remote: Yes Willing to relocate: Yes Technologies: Golang (Go), C, Python, Java, SQL, git, Docker, Linux/POSIX, Internet & web dev, cloud IaaS, distributed, concurrency & threading, performance & scalability, some math & ML Résumé/CV: https://github.com/mk"
     }
    ],
@@ -155156,8 +155347,36 @@
      "url": "https://news.ycombinator.com/item?id=49156967",
      "date": "2026-08-03T15:20:07.000Z",
      "snippet": "Location: Vijayawada, India Remote: Yes (worldwide — 2pm–11pm IST, overlapping full EU business hours plus US-East mornings) Willing to relocate: Yes Technologies: Python, C/C++, Docker SDK (Sandboxing/cgroups), LangGraph, Numba JIT, POSIX, FastAPI, WebSockets, Thread-Safe Queues"
+    },
+    {
+     "source": "Ask HN",
+     "author": "varun636",
+     "url": "https://news.ycombinator.com/item?id=48748508",
+     "date": "2026-07-01T15:29:57.000Z",
+     "snippet": "Location: Vijayawada, India Remote: Yes (worldwide, comfortable with EU / US-East overlap) Willing to relocate: Yes Technologies: Python, FastAPI, LangGraph, Docker (Sandboxing), Threading/Queue Concurrency, SQLite (WAL), MQL5, React GitHub: https://github.com/sriramvarun0636 Res"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-12T23:36:11.846Z",
+   "meta": {
+    "name": "HydraPrime",
+    "fullName": "sriramvarun0636/HydraPrime",
+    "description": "Object-oriented, systematic Expert Advisor for XAUUSD (MT5). Features volatility-adaptive execution, asynchronous liquidations, and terminal memory persistence in MQL5.",
+    "homepage": null,
+    "stars": 3,
+    "language": "MQL5",
+    "topics": [
+     "algorithmic-trading",
+     "expert-advisor",
+     "metatrader-5",
+     "mql5",
+     "quantitative-finance",
+     "xauusd"
+    ],
+    "license": "GPL-3.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-08-14T08:38:05Z"
+   }
   },
   "dmccarty/backend-engineer-resume": {
    "mentions": [
@@ -155167,8 +155386,29 @@
      "url": "https://news.ycombinator.com/item?id=49156996",
      "date": "2026-08-03T15:22:01.000Z",
      "snippet": "Location: Lafayette, CO, USA Remote: Yes Willing to relocate: No Technologies: Ruby, Ruby on Rails, PostgreSQL, Redis, Sidekiq, Java, AWS, GCP, Docker, Kubernetes, CI/CD, REST APIs, distributed systems Résumé/CV: [ https://github.com/dmccarty/backend-engineer-resume/blob/mai ... "
+    },
+    {
+     "source": "Ask HN",
+     "author": "dmccarty2829",
+     "url": "https://news.ycombinator.com/item?id=48751867",
+     "date": "2026-07-01T19:21:27.000Z",
+     "snippet": "Location: Lafayette, CO, USA Remote: Yes Willing to relocate: No Technologies: Ruby, Ruby on Rails, PostgreSQL, Redis, Sidekiq, Java, AWS, GCP, Docker, Kubernetes, CI/CD, REST APIs, distributed systems Résumé/CV: [ https://github.com/dmccarty/backend-engineer-resume/blob/mai... G"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-12T23:36:12.143Z",
+   "meta": {
+    "name": "backend-engineer-resume",
+    "fullName": "dmccarty/backend-engineer-resume",
+    "description": "",
+    "homepage": null,
+    "stars": 0,
+    "language": null,
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-05-30T02:31:50Z"
+   }
   },
   "isaaclevinsky/resume": {
    "mentions": [
@@ -156831,19 +157071,19 @@
      "snippet": "If you’re looking for an open-source alternative, I’m the creator of woltspace [0], which is a way of coordinating your wolts (coding agents) by letting them talk to each other and giving them a lodge on your machine. I built it for myself as a dev who loves tmux and vim and who "
     }
    ],
-   "checkedAt": "2026-11-05T19:56:09.883Z",
+   "checkedAt": "2026-11-12T23:36:12.463Z",
    "meta": {
     "name": "woltspace",
     "fullName": "jerpint/woltspace",
     "description": "gnaw, build, repeat 🦫",
     "homepage": "https://woltspace.com",
-    "stars": 21,
+    "stars": 25,
     "language": "Python",
     "topics": [],
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-05T01:52:05Z"
+    "pushedAt": "2026-11-10T00:44:34Z"
    },
    "listedAt": "2026-11-05T19:56:10.812Z"
   },
@@ -160258,6 +160498,314 @@
      "snippet": "RE: https:// mastodon.gamedev.place/@Xanato s/117588951297880901 I just released version 0.21.0 including fixes I talked about two days ago. This is a feature freeze release to prepare 1.0.0 Also the hard AI got additional personalities randomly selected. This will change the beh"
     }
    ]
+  },
+  "lukks/like-webrtc": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "LuKks",
+     "url": "https://news.ycombinator.com/item?id=50475144",
+     "date": "2026-11-12T22:17:47Z",
+     "snippet": "I appreciate it, but when you try to use WebRTC from scratch on your own e.g. connect two RTCPeerConnection instances there is no signaling at all meaning you have to do it and let alone handling SDP negotiation glares Here \"built-in signaling\" of course means that you don't worr"
+    }
+   ]
+  },
+  "paul-oms/prompt": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "albertgoeswoof",
+     "url": "https://news.ycombinator.com/item?id=50474967",
+     "date": "2026-11-12T22:03:32Z",
+     "snippet": "I’ve been using these in my terminal for correcting errors and suggesting commands https://github.com/paul-oms/prompt Surprisingly capable on an m1 8gb (in my opinion this is the smallest machine that local ai needs to run on)"
+    }
+   ]
+  },
+  "watzon/sayso": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "rpdillon",
+     "url": "https://news.ycombinator.com/item?id=50474482",
+     "date": "2026-11-12T21:23:05Z",
+     "snippet": "Handy was the first one I tried after I got a lot of reports that it was good quality, but I was unable to ever have it work on my Linux machine properly. The primary problem, I think, was related to hardware detection because it just ran forever, even on short snippets of audio."
+    }
+   ]
+  },
+  "deepnoodle-ai/decide": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "myzie",
+     "url": "https://news.ycombinator.com/item?id=50471886",
+     "date": "2026-11-12T18:28:49Z",
+     "snippet": "If you want to try the audio, video, and PDF inputs without writing any code, I added Gemini Decision to Decide today. This is a new open source project I'm working on. Examples of using the built-in sentiment analysis query: export GEMINI_API_KEY=... decide run sentiment support"
+    }
+   ]
+  },
+  "kccqzy/quoridor-3d": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "kccqzy",
+     "url": "https://news.ycombinator.com/item?id=50470871",
+     "date": "2026-11-12T17:26:31Z",
+     "snippet": "Last month I used Opus to port one of my favorite board games, Quoridor, to a single HTML page, because one day I somehow couldn’t locate it in my closet. It’s a great game for two players. Single HTML, where all graphics are procedurally generated: https://github.com/kccqzy/quor"
+    }
+   ]
+  },
+  "plkmoi/nexusgrad": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "newu1729",
+     "url": "https://news.ycombinator.com/item?id=48749808",
+     "date": "2026-07-01T16:53:12.000Z",
+     "snippet": "Location: India Remote: Yes (Worldwide) Willing to relocate: Yes (Visa sponsorship / relocation welcome) Technologies: C++, CUDA, Python, PyTorch, Linux, GPU Programming, Deep Learning Systems, AI Infrastructure, AI Inference, CUDA Kernels, Flash Attention, Autograd, SIMD, pybind"
+    }
+   ]
+  },
+  "oxremy/blinkmore": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Remy42",
+     "url": "https://news.ycombinator.com/item?id=48751080",
+     "date": "2026-07-01T18:19:24.000Z",
+     "snippet": "Research engineer with statistics and environmental-science training — I build sensor-to-score systems where the job is knowing whether the number means anything: frozen data contracts, QC gates, holdouts, and baselines before anyone trusts a model. Recently owned embedded therma"
+    }
+   ]
+  },
+  "thecolorblue/bspec": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "thecolorblue",
+     "url": "https://news.ycombinator.com/item?id=48753146",
+     "date": "2026-07-01T21:08:22.000Z",
+     "snippet": "Location: Cleveland, Ohio Remote: yes Willing to relocate: no Technologies: MCP servers, agents, agent harnesses, LLM evals, javascript, typescript, python, SQL, Docker, AWS, GCP Résumé/CV: https://docs.google.com/document/d/1pGfDBQkmiCBsoDr0_nInqw6S... Email: brad.bdavis1@gmail."
+    }
+   ]
+  },
+  "nabeelsherazi/nabeelsherazi.github.io": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "nxtfari",
+     "url": "https://news.ycombinator.com/item?id=48756368",
+     "date": "2026-07-02T03:55:20.000Z",
+     "snippet": "Location: NYC / LA Remote: yes Willing to relocate: NYC or LA Technologies: Motion planning, autonomy, embedded microcontrollers, embedded Linux, perception systems, controls. C, C++, Python, Rust Résumé/CV: https://github.com/nabeelsherazi/nabeelsherazi.github.io/blo... Email: s"
+    }
+   ]
+  },
+  "daves1245/horizon": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "medbar",
+     "url": "https://news.ycombinator.com/item?id=48757397",
+     "date": "2026-07-02T06:39:28.000Z",
+     "snippet": "Location: FL Remote: Yes, or in-office Willing to relocate: Yes Keyword Bingo: C++, C, Python, Linux, Git, Bash, SQL, Javascipt, Typescript, Java, HTML, CSS, React, Redis, Next.js, RAG, Vector DB, Docker, NoSQL, Vercel, Terraform Résumé: https://medbar.dev/resume email: dsantamar"
+    }
+   ]
+  },
+  "redux-observable/redux-observable": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "EvertBouw",
+     "url": "https://news.ycombinator.com/item?id=48757760",
+     "date": "2026-07-02T07:27:02.000Z",
+     "snippet": "Location: Amsterdam, The Netherlands Remote: Yes Willing to relocate: Yes Technologies: React, Typescript, Redux, RxJS, Node.js Resume: See linkedin or ask for pdf https://www.linkedin.com/in/evert-bouw-58735b187/ Email: my last name at outlook dot com Open source maintainer ( ht"
+    }
+   ]
+  },
+  "rkblake/resume": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "blakerandall",
+     "url": "https://news.ycombinator.com/item?id=48762360",
+     "date": "2026-07-02T14:41:10.000Z",
+     "snippet": "Location: Philadelphia, PA Remote: open to remote Willing to relocate: maybe Technologies: C/C++ javascript/typescript, golang, python, sql, node.js, Networking Résumé/CV: https://github.com/rkblake/Resume/blob/master/randallblake_r... Email: blakerandall0@gmail.com professional "
+    }
+   ]
+  },
+  "ochirovaleks/ochirovaleks": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Sanchous",
+     "url": "https://news.ycombinator.com/item?id=48763874",
+     "date": "2026-07-02T16:29:56.000Z",
+     "snippet": "Location: Bayonne, NJ (NYC metro) Open to remote, hybrid, or onsite Willing to relocate: Yes Technologies: JavaScript, TypeScript, Node.js, Express, React, PostgreSQL, Prisma, REST APIs, Playwright, Cypress, Jest, Supertest, Postman, GitHub Actions Résumé/CV: https://github.com/O"
+    }
+   ]
+  },
+  "sofie-automation/sofie-tv-automation": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "rjmunro",
+     "url": "https://news.ycombinator.com/item?id=48768594",
+     "date": "2026-07-02T23:11:54.000Z",
+     "snippet": "Location: Oxford area, UK Remote: Yes (happy with hybrid — 2–3 office visits/month to London, Reading, Bristol, Birmingham, or similar) Willing to relocate: No Technologies: TypeScript, JavaScript, Node.js, React, Python, PHP, PostgreSQL, MySQL, MongoDB, Docker, GitHub Actions, G"
+    }
+   ]
+  },
+  "rjmunro/jamies-git-tools": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "rjmunro",
+     "url": "https://news.ycombinator.com/item?id=48768594",
+     "date": "2026-07-02T23:11:54.000Z",
+     "snippet": "Location: Oxford area, UK Remote: Yes (happy with hybrid — 2–3 office visits/month to London, Reading, Bristol, Birmingham, or similar) Willing to relocate: No Technologies: TypeScript, JavaScript, Node.js, React, Python, PHP, PostgreSQL, MySQL, MongoDB, Docker, GitHub Actions, G"
+    }
+   ]
+  },
+  "avatune/avatune": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "nevmstas",
+     "url": "https://news.ycombinator.com/item?id=48772210",
+     "date": "2026-07-03T07:59:33.000Z",
+     "snippet": "Location: Bishkek, Kyrgyzstan Remote: Yes Willing to relocate: Yes Technologies: TypeScript, React, Next.js, React Native, tRCP, Python, FastApi, PostgreSQL, Docker, AWS, Rspack, Bun/Yarn workspaces, Turborepo, Claude/OpenAI/DeepSeek platforms Resume/CV: https://nevmstas.github.i"
+    }
+   ]
+  },
+  "kirkburleson/resume": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "current_robot",
+     "url": "https://news.ycombinator.com/item?id=48786458",
+     "date": "2026-07-04T16:11:18.000Z",
+     "snippet": "Location: USA, Oklahoma Remote: Yes, but prefer office Willing to relocate: YES Technologies: JavaScript (no typescript), HTML, CSS, .NET, C#, C, C++, SQL, SSMS, SQLServer, Docker, WinForms, Win32, WebForms, Excel, ADO.Net Résumé/CV: https://github.com/kirkBurleson/Resume Email: "
+    }
+   ]
+  },
+  "michaelpgifford/serp-gap-analyzer": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "michaelgifford",
+     "url": "https://news.ycombinator.com/item?id=48797464",
+     "date": "2026-07-05T20:00:04.000Z",
+     "snippet": "Location: Nashville, TN (US Central) Remote: Yes — remote-first preferred, full overlap with any US timezone Willing to relocate: No (occasional travel abroad, always on US hours) Technologies: JavaScript/TypeScript, Next.js, React, Node.js, Python, PostgreSQL/SQL, scraping & dat"
+    }
+   ]
+  },
+  "eli-maroun/supportly-demo": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Eli_Maroun",
+     "url": "https://news.ycombinator.com/item?id=48836603",
+     "date": "2026-07-08T19:50:05.000Z",
+     "snippet": "Location: Iraq Remote: Yes Willing to relocate: No Technologies: TypeScript, React, Next.js, Prisma, PostgreSQL, Clerk Auth, Tailwind CSS, Email: eli.maroun.work@gmail.com GitHub: https://github.com/Eli-Maroun Project Demo: https://supportly-demo.vercel.app I am a self-taught, en"
+    }
+   ]
+  },
+  "hamzaarifi98/mycv": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "hamzaarifi98",
+     "url": "https://news.ycombinator.com/item?id=48859448",
+     "date": "2026-07-10T13:11:47.000Z",
+     "snippet": "Location: Skopje, North Macedonia Remote: Yes (CET timezone, comfortable with EU/US overlap) Willing to relocate: No Technologies: Python (FastAPI, LangChain, LangGraph), RAG systems (Neo4j GraphRAG, pgvector), LLM integration (OpenAI, Anthropic, local Llama via Ollama/vLLM), OCR"
+    }
+   ]
+  },
+  "stevibe/benchlocal": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "super00826",
+     "url": "https://news.ycombinator.com/item?id=48864273",
+     "date": "2026-07-10T19:40:15.000Z",
+     "snippet": "Location: West, TX Remote: Yes Willing to relocate: Technologies: Résumé/CV: https://stevenlei-potfolio.vercel.app/ Email: chrisdev0117@gmail.com https://github.com/stevibe/BenchLocal Senior Software Engineer and former Technical Co-Founder with 10+ years of experience shipping p"
+    }
+   ]
+  },
+  "simpsoka/zigzag": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "simpsoka",
+     "url": "https://news.ycombinator.com/item?id=50470488",
+     "date": "2026-11-12T17:02:42Z",
+     "snippet": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app (262 points)"
+    }
+   ]
+  },
+  "chocoford/excalidrawz": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "Qision",
+     "url": "https://news.ycombinator.com/item?id=50468944",
+     "date": "2026-11-12T15:25:52Z",
+     "snippet": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS (100 points)"
+    }
+   ]
+  },
+  "hyperionaidev/smolmaxxing": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "mrashad74",
+     "url": "https://news.ycombinator.com/item?id=50468888",
+     "date": "2026-11-12T15:23:10Z",
+     "snippet": "I'm making LLMs work on small and old devices (261 points)"
+    }
+   ]
+  },
+  "bsgcl/smarttubelocal": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.ml/u/thingsiplay",
+     "url": "https://lemmy.ml/comment/28975511",
+     "date": "2026-11-12T21:34:28.514189Z",
+     "snippet": "More info at https://github.com/bsgcl/SmartTubeLocal/blob/master/FAQ.md . One thing to note is, that this is developed and maintained by a single person. And according to the README https://github.com/bsgcl/SmartTubeLocal: > This repository is maintained offline for private use, "
+    }
+   ]
+  },
+  "elnix90/dragon-launcher": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://feditown.com/u/exu",
+     "url": "https://feditown.com/comment/6663918",
+     "date": "2026-11-12T20:42:34.753067Z",
+     "snippet": "I can somewhat recommend [Dragon Launcher](https://github.com/Elnix90/Dragon-Launcher). It's gesture based around \"app circles\". You arrange your apps in custom circles of arbitrary nesting and swipe to get there. The main downside imo is the extreme pace of development; most rel"
+    }
+   ]
+  },
+  "codergtm/yantra-app-launcher": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://piefed.social/u/gbzm",
+     "url": "https://piefed.social/comment/13699889",
+     "date": "2026-11-12T19:52:30.489543Z",
+     "snippet": "[Yantra launcher](https://github.com/coderGtm/yantra-app-launcher) for weirdos who like the feeling of cli. I used to love tui-launcher but it was abandoned. I tried switching back to normal launchers but even minimal search-based ones feel clunky. It's the only kind I've tried t"
+    }
+   ]
+  },
+  "gezimos/inkos": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.ml/u/thermogel",
+     "url": "https://lemmy.ml/comment/28968450",
+     "date": "2026-11-12T15:11:20.912599Z",
+     "snippet": "I like [InkOS](https://github.com/gezimos/inkOS), minimalist, in an _epaper_ kinda way. Just dont like the notification module but I disable it. And I use Snowbell as the font, love it."
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -161022,6 +161570,7 @@
   "48713041": 1793608029969,
   "48737226": 1793607997304,
   "48739792": 1793608040561,
+  "48747975": 1794526533106,
   "48747976": 1793607998179,
   "48765450": 1793608047303,
   "48785525": 1793607997641,
@@ -161104,26 +161653,26 @@
   "50271004": 1794294757508,
   "50271808": 1793947032678,
   "50285134": 1794496096463,
-  "50301479": 1794496096648,
-  "50312756": 1794496096597,
+  "50301479": 1794526533512,
+  "50312756": 1794526533314,
   "50313705": 1794088035774,
-  "50318646": 1794496096825,
+  "50318646": 1794526533416,
   "50326727": 1793772782762,
-  "50328896": 1794496097351,
-  "50331001": 1794496097185,
-  "50337431": 1794496096317,
-  "50338726": 1794496096553,
-  "50338728": 1794496096305,
+  "50328896": 1794526534336,
+  "50331001": 1794526533690,
+  "50337431": 1794526533001,
+  "50338726": 1794526533434,
+  "50338728": 1794526533132,
   "50347425": 1794496096655,
-  "50352757": 1794496096643,
-  "50353457": 1794496096671,
-  "50354336": 1794496097040,
-  "50355959": 1794496096798,
-  "50363461": 1794496096981,
-  "50366117": 1794496097301,
+  "50352757": 1794526533391,
+  "50353457": 1794526533196,
+  "50354336": 1794526533726,
+  "50355959": 1794526533517,
+  "50363461": 1794526533742,
+  "50366117": 1794526534033,
   "50393105": 1794496097039,
-  "50403153": 1794496097073,
-  "50405250": 1794496097267,
-  "50444380": 1794496096911
+  "50403153": 1794526533699,
+  "50405250": 1794526533767,
+  "50444380": 1794526533380
  }
 }
