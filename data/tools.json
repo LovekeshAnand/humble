@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T14:15:51.795Z",
+ "updatedAt": "2026-11-12T00:39:49.963Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7622,7 +7622,7 @@
     "fork": false,
     "pushedAt": "2026-11-11T03:22:38Z"
    },
-   "checkedAt": "2026-11-11T14:15:51.504Z"
+   "checkedAt": "2026-11-12T00:39:49.750Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -19474,6 +19474,13 @@
     {
      "source": "HN comment",
      "author": "ftchd",
+     "url": "https://news.ycombinator.com/item?id=50455529",
+     "date": "2026-11-11T16:49:52Z",
+     "snippet": "I've gone a different route and prefer using the native harnesses (Claude, Codex), but with multiple accounts due to the limits. In order to easily switch between accounts I've build Switcheroo, which I've been using for the past 2-3 months now. I've decided to open source it: ht"
+    },
+    {
+     "source": "HN comment",
+     "author": "ftchd",
      "url": "https://news.ycombinator.com/item?id=50442674",
      "date": "2026-11-10T16:32:49Z",
      "snippet": "Already out of limit ): If you're like me you need something to switch the account where the usage is taken from. I made something simple & transparent named Switcheroo: https://github.com/FTCHD/switcheroo Been using it for a few months now, others have also given good feedback. "
@@ -21075,6 +21082,13 @@
   },
   "anthonyhrcr/psych-schedule": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "anthonyhrcr",
+     "url": "https://news.ycombinator.com/item?id=50453881",
+     "date": "2026-11-11T14:30:42Z",
+     "snippet": "Location: Brazil (UTC-3) Remote: Yes (full overlap with US Eastern, good overlap with Pacific) Willing to relocate: Within Brazil (São Paulo / Belo Horizonte) Technologies: TypeScript, React, Next.js, Node.js, Python, PostgreSQL, Supabase, REST APIs, OpenAI API, Claude Code, Vite"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49924510",
@@ -41155,7 +41169,7 @@
      "snippet": "Thanks for the shout out and links! That timeline you linked to goes along with this article I wrote a few years ago: Pie Menus: A 30 Year Retrospective. By Don Hopkins, Ground Up Software, May 15, 2018. https://donhopkins.medium.com/pie-menus-936fed383ff1#8546 The earliest known"
     }
    ],
-   "checkedAt": "2026-11-04T14:29:37.587Z",
+   "checkedAt": "2026-11-12T00:39:47.982Z",
    "meta": {
     "name": "jquery-pie",
     "fullName": "SimHacker/jquery-pie",
@@ -41167,7 +41181,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2023-08-03T11:53:03Z"
+    "pushedAt": "2026-11-10T20:27:46Z"
    }
   },
   "dittofeed/clickhouse-segments-tutorial": {
@@ -47105,20 +47119,8 @@
      "snippet": "Location: Nairobi, Kenya (UTC+3) Work preference: Prefer fully remote roles, comfortable with EMEA hours and asynchronous teams. Open to relocation for the right opportunity. Willing to relocate: Yes Technologies: Python, FastAPI, PostgreSQL, AWS, Terraform, Kubernetes, Kafka, Do"
     }
    ],
-   "checkedAt": "2026-11-04T23:39:15.789Z",
-   "meta": {
-    "name": "cv",
-    "fullName": "wycliffRotich-dev/cv",
-    "description": "CV of Wycliffe Kipleting Rotich, platform engineer in Nairobi (UTC+3). Distributed systems, Python, AWS. Open to fully remote roles.",
-    "homepage": null,
-    "stars": 0,
-    "language": "HTML",
-    "topics": [],
-    "license": null,
-    "archived": false,
-    "fork": false,
-    "pushedAt": "2026-11-04T14:28:59Z"
-   }
+   "checkedAt": "2026-11-12T00:39:48.183Z",
+   "meta": null
   },
   "wycliffrotich-dev/aethergrid": {
    "mentions": [
@@ -47137,13 +47139,13 @@
      "snippet": "Location: Nairobi, Kenya (UTC+3) Work preference: Prefer fully remote roles, comfortable with EMEA hours and asynchronous teams. Open to relocation for the right opportunity. Willing to relocate: Yes Technologies: Python, FastAPI, PostgreSQL, AWS, Terraform, Kubernetes, Kafka, Do"
     }
    ],
-   "checkedAt": "2026-11-04T23:39:16.040Z",
+   "checkedAt": "2026-11-12T00:39:48.554Z",
    "meta": {
     "name": "aethergrid",
     "fullName": "wycliffRotich-dev/aethergrid",
     "description": "A decentralized compute orchestration platform powered by strict Domain-Driven Design (DDD). Decoupled domain core, event-driven state reconciliation, and zero-overhead cluster management.",
     "homepage": null,
-    "stars": 9,
+    "stars": 10,
     "language": "Python",
     "topics": [
      "ai",
@@ -47170,7 +47172,7 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-04T07:53:33Z"
+    "pushedAt": "2026-11-11T08:59:48Z"
    }
   },
   "devanshuneu/overhear": {
@@ -54527,13 +54529,13 @@
      "snippet": "up - https://github.com/akavel/up Ultimate Plumber is a tool for writing Linux pipes with instant live preview It's a new CLI tool I've recently written, and it reached a Top 1 position on HN just after the public release. It works with other classic CLI tools by boosting the spe"
     }
    ],
-   "checkedAt": "2026-11-04T23:39:16.308Z",
+   "checkedAt": "2026-11-12T00:39:48.802Z",
    "meta": {
     "name": "up",
     "fullName": "akavel/up",
     "description": "Ultimate Plumber is a tool for writing Linux pipes with instant live preview",
     "homepage": null,
-    "stars": 8858,
+    "stars": 8861,
     "language": "Go",
     "topics": [
      "instant-preview",
@@ -102344,6 +102346,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "jmyeet",
+     "url": "https://news.ycombinator.com/item?id=50453742",
+     "date": "2026-11-11T14:19:50Z",
+     "snippet": "I've waited for Internet-connected devices to get better but honestly, the experience continues to be terrible. A few anecdotes: 1. I bought some highly-rated smart plugs on Amazon. They make their own Wifi network to connect to to configure. Never got them to work. They're sitti"
+    },
+    {
+     "source": "HN comment",
      "author": "vivzkestrel",
      "url": "https://news.ycombinator.com/item?id=50375124",
      "date": "2026-11-05T04:18:35Z",
@@ -130867,13 +130876,13 @@
      "snippet": "Show HN: Posting v1 – The modern HTTP client that lives in your terminal (184 points)"
     }
    ],
-   "checkedAt": "2026-11-04T14:29:37.878Z",
+   "checkedAt": "2026-11-12T00:39:49.063Z",
    "meta": {
     "name": "posting",
     "fullName": "darrenburns/posting",
     "description": "The modern API client that lives in your terminal.",
     "homepage": null,
-    "stars": 12599,
+    "stars": 12620,
     "language": "Go",
     "topics": [
      "automation",
@@ -158167,13 +158176,51 @@
   "con-dog/clingon": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "purple-leafy",
+     "url": "https://news.ycombinator.com/item?id=50446574",
+     "date": "2026-11-10T21:30:18.000Z",
+     "snippet": "Have a vision, and know what to say no to [0]. Thats how I build all my own projects, most recent here for example [0] - https://github.com/con-dog/clingon"
+    },
+    {
      "source": "HN comment",
      "author": "purple-leafy",
      "url": "https://news.ycombinator.com/item?id=50419899",
      "date": "2026-11-09T01:39:34Z",
      "snippet": "Too many things. - See my GitHub [0] - A terminal workflow tool [1] You can always see my current projects on my GitHub profile README, I’m pretty proud of it and get great feedback on it regularly. I like to think I don’t build standard crap. I’m also working on an interactive t"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-12T00:39:49.317Z",
+   "meta": {
+    "name": "clingon",
+    "fullName": "con-dog/clingon",
+    "description": "Stop googling commands. Pick them from a menu, fill in the blanks, and run them in your real shell. macOS.",
+    "homepage": "https://github.com/con-dog/clingon",
+    "stars": 15,
+    "language": "Go",
+    "topics": [
+     "bash",
+     "bubbletea",
+     "cheatsheet",
+     "cli",
+     "command-line",
+     "developer-tools",
+     "go",
+     "homebrew",
+     "macos",
+     "markdown",
+     "productivity",
+     "shell",
+     "terminal",
+     "tmux",
+     "tui",
+     "zsh"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-10T05:51:31Z"
+   }
   },
   "hew3d/hew": {
    "mentions": [
@@ -159782,13 +159829,205 @@
      "snippet": "I love that MusicBee is one of the most highly sought after software for Linux that people are willing to get it working - conveniently - in any way possible, without having to build an entirely new app. https:// github.com/fiso64/musicbee-lin ux # Linux # MusicBee"
     }
    ]
+  },
+  "act-security-labs/iam-lens": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "davidjkerber",
+     "url": "https://news.ycombinator.com/item?id=50461081",
+     "date": "2026-11-12T00:22:28Z",
+     "snippet": "I've implemented the AWS IAM engine and all policy types, conditions, etc in here if you want to try it out. It's the most thorough in terms of edge case coverage I'm aware of and I'm constantly adding enhancements and closing edge cases. https://github.com/act-security-labs/iam-"
+    }
+   ]
+  },
+  "act-security-labs/iam-collect": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "davidjkerber",
+     "url": "https://news.ycombinator.com/item?id=50461081",
+     "date": "2026-11-12T00:22:28Z",
+     "snippet": "I've implemented the AWS IAM engine and all policy types, conditions, etc in here if you want to try it out. It's the most thorough in terms of edge case coverage I'm aware of and I'm constantly adding enhancements and closing edge cases. https://github.com/act-security-labs/iam-"
+    }
+   ]
+  },
+  "jen20/aws-emulator": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jen20",
+     "url": "https://news.ycombinator.com/item?id=50460922",
+     "date": "2026-11-12T00:07:31Z",
+     "snippet": "This looks great, I'm looking forward to using it! That said, I don't like using Docker for things, and I run macOS on my desktop. Here's a patch that gets it all building on macOS [1] - though there's no good way to upstream it! [1]: https://github.com/jen20/aws-emulator/tree/je"
+    }
+   ]
+  },
+  "muesli-hq/muesli": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "hmokiguess",
+     "url": "https://news.ycombinator.com/item?id=50460490",
+     "date": "2026-11-11T23:30:31Z",
+     "snippet": "I have been using Muesli for this https://github.com/Muesli-HQ/muesli how does it compare?"
+    }
+   ]
+  },
+  "naggie/dsnet": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "lorenzo95",
+     "url": "https://news.ycombinator.com/item?id=50460257",
+     "date": "2026-11-11T23:08:42Z",
+     "snippet": "I totally get the use-case. Interesting way to solve it. I will have to give it a try. Been using https://github.com/naggie/dsnet which is awesome but hub and spoke. The threshold-signed checkpoints are a key feature, I think. Until then, nothing prevents backdated or reordered o"
+    }
+   ]
+  },
+  "aws/copilot-cli": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "CharlieDigital",
+     "url": "https://news.ycombinator.com/item?id=50458782",
+     "date": "2026-11-11T21:16:18Z",
+     "snippet": "Look at AWS Copilot CLI https://aws.github.io/copilot-cli/docs/concepts/environments... and the repo https://github.com/aws/copilot-cli/ . Look at Floci (I have no affiliation) https://floci.io/ the blog https://floci.io/chronicle/ and the labs https://floci.io/labs/ Do you agree"
+    }
+   ]
+  },
+  "gentraxyz/scoutcode": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "gentra",
+     "url": "https://news.ycombinator.com/item?id=50458488",
+     "date": "2026-11-11T20:50:17Z",
+     "snippet": "This is a project I have been working on called ScoutCode. I've been improving it for a while I wanted to show it off here and get feedback on how to improve it It's basically an AI harness that brings together a bunch of other AI harnesses and gives away it's own free models Her"
+    }
+   ]
+  },
+  "wenet-e2e/wespeaker": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "mickdarling",
+     "url": "https://news.ycombinator.com/item?id=50457550",
+     "date": "2026-11-11T19:41:05Z",
+     "snippet": "It's a lot of fun to see what people can do with the voice transcription tools available now that are all open source. I've been building my own Jarvis, and I still haven't built my own meeting mode for him yet, though it's on the trajectory. I may borrow some ideas from this. I "
+    }
+   ]
+  },
+  "shoenig/ssh-key-sync": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "andix",
+     "url": "https://news.ycombinator.com/item?id=50454868",
+     "date": "2026-11-11T15:54:28Z",
+     "snippet": "The other option is to have device-bound keys and a script to sync them to all ssh servers you want to access. Relying on a small set of ssh keys for a longer time is anyway not that great, it's best to have some mechanism to cycle them. I wouldn't use any automated sync tool for"
+    }
+   ]
+  },
+  "anthonyhrcr/emporio-da-musica-agent": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "anthonyhrcr",
+     "url": "https://news.ycombinator.com/item?id=50453881",
+     "date": "2026-11-11T14:30:42Z",
+     "snippet": "Location: Brazil (UTC-3) Remote: Yes (full overlap with US Eastern, good overlap with Pacific) Willing to relocate: Within Brazil (São Paulo / Belo Horizonte) Technologies: TypeScript, React, Next.js, Node.js, Python, PostgreSQL, Supabase, REST APIs, OpenAI API, Claude Code, Vite"
+    }
+   ]
+  },
+  "alaudet/raspi-sump": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "alaudet",
+     "url": "https://news.ycombinator.com/item?id=50453838",
+     "date": "2026-11-11T14:27:20Z",
+     "snippet": "Shameless self promotion, check out my Raspi-Sump app. Released it 12 years ago. Free and opensource and no phone home bs. https://github.com/alaudet/raspi-sump https://raspisumpdocs.linuxnorth.org/"
+    }
+   ]
+  },
+  "doitsujin/dxvk": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "cornedor",
+     "url": "https://news.ycombinator.com/item?id=50453837",
+     "date": "2026-11-11T14:27:03Z",
+     "snippet": "I've used to same technique to get Fallout: New Vegas running on Asahi Linux on MacOS. Its quite a step, but https://github.com/doitsujin/dxvk makes it possible to skip a lot of work and get the game running in day. You can then make any changes you want, so I'm running fallout n"
+    }
+   ]
+  },
+  "aws/aws-emulator": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "super_linear",
+     "url": "https://news.ycombinator.com/item?id=50456631",
+     "date": "2026-11-11T18:21:38Z",
+     "snippet": "AWS emulator (625 points)"
+    }
+   ]
+  },
+  "frigadehq/yogurt": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "brownrout",
+     "url": "https://news.ycombinator.com/item?id=50454625",
+     "date": "2026-11-11T15:33:06Z",
+     "snippet": "Show HN: Yogurt – Free, private, open-source alternative to Granola (159 points)"
+    }
+   ]
+  },
+  "gmkurtzer/ginux": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "d3Xt3r",
+     "url": "https://news.ycombinator.com/item?id=50450007",
+     "date": "2026-11-11T05:25:54Z",
+     "snippet": "Greg Kurtzer's Ginux is now a userspace kernel (114 points)"
+    }
+   ]
+  },
+  "adrbn/bo2-mac": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "adrbn",
+     "url": "https://news.ycombinator.com/item?id=50449891",
+     "date": "2026-11-11T04:56:47Z",
+     "snippet": "Show HN: Black Ops II statically recompiled to native ARM64 macOS (138 points)"
+    }
+   ]
+  },
+  "spc476/mod_limitipconn": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:spc476",
+     "url": "https://lobste.rs/c/kuktqg",
+     "date": "2026-11-11T13:14:04.782-06:00",
+     "snippet": "One thing I don't see mentioned here is---if you host a web site, your ISP connection will be swamped with bot activity if it's publicly available.  There are multiple ways to mitigate this, but they all come with different tradeoffs; Cloudflare is easy to set up, but you are rel"
+    }
+   ]
   }
  },
  "hnThreads": {
+  "201844": 1794443948925,
   "203242": 1793608021336,
+  "203457": 1794443948848,
+  "249908": 1794443948862,
   "349029": 1793608012822,
   "380377": 1793608013127,
+  "436523": 1794443948991,
   "445454": 1793608014316,
+  "874827": 1794443949007,
   "1005067": 1793608023477,
   "1076237": 1793947032060,
   "1121269": 1793608030462,
@@ -159797,7 +160036,9 @@
   "1352571": 1793947032127,
   "1365094": 1793608033022,
   "1447418": 1793608040956,
+  "1656136": 1794443948749,
   "1769910": 1793608063430,
+  "1782487": 1794443949300,
   "1796231": 1793947032256,
   "1824413": 1793608021292,
   "1880797": 1793608023739,
@@ -159809,6 +160050,7 @@
   "2158116": 1793608040801,
   "2420344": 1793608001192,
   "2461271": 1793608023748,
+  "2725893": 1794443948719,
   "2749219": 1793635505452,
   "2826493": 1793635503487,
   "2882356": 1793635504164,
@@ -160619,26 +160861,27 @@
   "50204125": 1793947032613,
   "50271004": 1794294757508,
   "50271808": 1793947032678,
-  "50285134": 1794406511919,
-  "50301479": 1794406511756,
-  "50312756": 1794406511887,
+  "50285134": 1794443948496,
+  "50301479": 1794443948635,
+  "50312756": 1794443948565,
   "50313705": 1794088035774,
-  "50318646": 1794406511783,
+  "50318646": 1794443949006,
   "50326727": 1793772782762,
-  "50328896": 1794406513239,
-  "50331001": 1794406513414,
-  "50337431": 1794377338736,
-  "50338726": 1794406510481,
-  "50338728": 1794406511272,
-  "50347425": 1794406512880,
-  "50352757": 1794406511329,
-  "50353457": 1794406512557,
-  "50354336": 1794406513147,
-  "50355959": 1794406511772,
-  "50363461": 1794406512212,
-  "50366117": 1794406512928,
-  "50393105": 1794406512349,
-  "50403153": 1794406512297,
-  "50405250": 1794406513940
+  "50328896": 1794443950911,
+  "50331001": 1794443949782,
+  "50337431": 1794443947912,
+  "50338726": 1794443948382,
+  "50338728": 1794443948178,
+  "50347425": 1794443949610,
+  "50352757": 1794443948522,
+  "50353457": 1794443948386,
+  "50354336": 1794443949562,
+  "50355959": 1794443949518,
+  "50363461": 1794443948602,
+  "50366117": 1794443949799,
+  "50393105": 1794443949564,
+  "50403153": 1794443949519,
+  "50405250": 1794443949927,
+  "50444380": 1794443949312
  }
 }
