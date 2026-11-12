@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T00:39:49.963Z",
+ "updatedAt": "2026-11-12T15:08:58.136Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7622,7 +7622,7 @@
     "fork": false,
     "pushedAt": "2026-11-11T03:22:38Z"
    },
-   "checkedAt": "2026-11-12T00:39:49.750Z"
+   "checkedAt": "2026-11-12T15:08:57.837Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -22922,6 +22922,13 @@
   },
   "mattpocock/skills": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Tar90",
+     "url": "https://news.ycombinator.com/item?id=50466452",
+     "date": "2026-11-12T12:56:06Z",
+     "snippet": "I've been experimenting with a lot of these learning skills (see also, e.g., https://github.com/mattpocock/skills/blob/main/skills/produc... , which I think addresses the progress tracking part better than this skill) and they're great for getting simple answers, getting unstuck "
+    },
     {
      "source": "Ask HN",
      "author": "chrisweekly",
@@ -46746,11 +46753,42 @@
     {
      "source": "Ask HN",
      "author": "Proph8",
+     "url": "https://news.ycombinator.com/item?id=50464426",
+     "date": "2026-11-12T08:17:21.000Z",
+     "snippet": "Location: Baku, Azerbaijan (UTC+4) Remote: Yes, remote only Willing to relocate: No Technologies: TypeScript, Node.js, Python, FastAPI, PostgreSQL, Next.js, React, Docker, Linux, Rust (open-source tooling), OpenAI-compatible LLM APIs Résumé/CV: https://iusifli.dev/resume Email: i"
+    },
+    {
+     "source": "Ask HN",
+     "author": "Proph8",
      "url": "https://news.ycombinator.com/item?id=49976658",
      "date": "2026-10-06T10:46:45.000Z",
      "snippet": "Location: Baku, Azerbaijan (UTC+4) Remote: Yes, remote only Willing to relocate: No Technologies: TypeScript, Node.js, Python, FastAPI, PostgreSQL, Next.js, React, Docker, Linux, OpenAI-compatible LLM APIs Résumé/CV: https://linkedin.com/in/ismail-iusifli Email: ismail.yusifli86@"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-12T15:08:55.581Z",
+   "meta": {
+    "name": "edtech-billing-core",
+    "fullName": "alt-f6/edtech-billing-core",
+    "description": "Concurrency-safe billing on PostgreSQL: append-only ledger, idempotent webhooks, randomized invariant tests",
+    "homepage": "https://iusifli.dev",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+     "billing",
+     "concurrency",
+     "idempotency",
+     "ledger",
+     "payments",
+     "postgresql",
+     "testing",
+     "typescript",
+     "webhooks"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-25T03:45:25Z"
+   }
   },
   "danidante/llm-wire-check": {
    "mentions": [
@@ -86596,7 +86634,7 @@
      "snippet": "I made Circus Chief: https://github.com/ferrislucas/Circus-Chief Circus Chief is a tool for managing coding agent sessions from a browser. It's specifically optimized for small screens. It supports Claude Code, OpenAI Codex, and Google Gemini CLI agents. Features Agents can opera"
     }
    ],
-   "checkedAt": "2026-11-05T06:41:34.372Z",
+   "checkedAt": "2026-11-12T15:08:55.850Z",
    "meta": {
     "name": "Circus-Chief",
     "fullName": "ferrislucas/Circus-Chief",
@@ -86623,7 +86661,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-05T03:32:58Z"
+    "pushedAt": "2026-11-08T23:52:16Z"
    }
   },
   "fabritorio/fabritorio": {
@@ -103564,13 +103602,35 @@
   "tailscale/tailcat": {
    "mentions": [
     {
+     "source": "Fosstodon",
+     "author": "mastodon:milosz@fedibeastie.eu",
+     "url": "https://fedibeastie.eu/@milosz/117601804273179306",
+     "date": "2026-11-12T05:25:24.000Z",
+     "snippet": "Just stumbled across tailcat. No open ports, no firewall configuration, end-to-end encrypted out of the box. Exactly the kind of tiny, sharp Unix-style tool I love. https:// github.com/tailscale/tailcat # Tailscale # SelfHosted # Linux"
+    },
+    {
      "source": "HN front page",
      "author": "nderjung",
      "url": "https://news.ycombinator.com/item?id=49452990",
      "date": "2026-08-26T17:42:22Z",
      "snippet": "Tailcat – Like netcat, but over Tailscale’s data plane (687 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-12T15:08:56.151Z",
+   "meta": {
+    "name": "tailcat",
+    "fullName": "tailscale/tailcat",
+    "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+    "homepage": "https://tailscale.com/tailcat",
+    "stars": 8948,
+    "language": "Go",
+    "topics": [],
+    "license": "BSD-3-Clause",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-05T15:10:23Z"
+   },
+   "listedAt": "2026-11-12T15:08:58.135Z"
   },
   "martineesmaa/2f4b261cb90a47e9c41ba115a011a4aa": {
    "mentions": [
@@ -147873,6 +147933,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "andelink",
+     "url": "https://news.ycombinator.com/item?id=50462685",
+     "date": "2026-11-12T03:26:39Z",
+     "snippet": "I use [1] ssh config ControlPersist for 10m to enable something like this: Host * IdentityAgent ~/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh IdentitiesOnly yes ControlMaster auto ControlPersist 10m ControlPath ~/.ssh/sockets/%r@%k:%p [1] https://githu"
+    },
+    {
+     "source": "HN comment",
      "author": "johng",
      "url": "https://news.ycombinator.com/item?id=50450131",
      "date": "2026-11-11T05:54:24Z",
@@ -155815,13 +155882,13 @@
      "snippet": "We've noticed this occasionally and its a pretty serious issue since we tell our customers that none of their data is being trained on. It caused us to build this to track all of our agent accounts/subscriptions being used and flag any that have training turned on: https://github"
     }
    ],
-   "checkedAt": "2026-11-05T06:41:34.647Z",
+   "checkedAt": "2026-11-12T15:08:55.262Z",
    "meta": {
     "name": "codealong",
     "fullName": "codealong/codealong",
     "description": "Every coding agent you run, in one window: a free, open-source app for macOS and Linux for Claude Code, Codex, OpenCode, Antigravity and Cursor, across your accounts and machines.",
     "homepage": "https://www.codealong.com",
-    "stars": 33,
+    "stars": 44,
     "language": "Rust",
     "topics": [
      "claude-code",
@@ -155835,7 +155902,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-05T04:04:04Z"
+    "pushedAt": "2026-11-12T04:44:34Z"
    },
    "listedAt": "2026-11-05T06:41:36.224Z"
   },
@@ -155878,13 +155945,13 @@
      "snippet": "- slghtly offtopic but also covers how to run windows 11 super duper optimally - here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]("
     }
    ],
-   "checkedAt": "2026-11-05T06:41:34.924Z",
+   "checkedAt": "2026-11-12T15:08:56.408Z",
    "meta": {
     "name": "fnm",
     "fullName": "Schniz/fnm",
     "description": "🚀 Fast and simple Node.js version manager, built in Rust",
     "homepage": "https://fnm.vercel.app",
-    "stars": 27299,
+    "stars": 27388,
     "language": "Rust",
     "topics": [
      "hacktoberfest",
@@ -155918,7 +155985,7 @@
      "snippet": "- slghtly offtopic but also covers how to run windows 11 super duper optimally - here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]("
     }
    ],
-   "checkedAt": "2026-11-05T06:41:35.205Z",
+   "checkedAt": "2026-11-12T15:08:56.720Z",
    "meta": {
     "name": "jvms",
     "fullName": "ystyle/jvms",
@@ -158666,12 +158733,33 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "yababa_y",
+     "url": "https://news.ycombinator.com/item?id=50461834",
+     "date": "2026-11-12T01:32:29Z",
+     "snippet": "I've been maintaining a tool that does similar: https://github.com/emberian/cv . High performance parsers of the major harness formats at several versions. Not as much autosyncing. Great results using custom prunings compared to compaction summarization."
+    },
+    {
+     "source": "HN comment",
      "author": "cmrx64",
      "url": "https://news.ycombinator.com/item?id=50421842",
      "date": "2026-11-09T06:30:29Z",
      "snippet": "I use https://github.com/emberian/cv all day every day for slicing and dicing agent transcripts. Streaming/in-place when possible, supports all the harnesses, indexing and search as well with tantivy. Custom pruning and compaction saved 40% of tokens in one recent evaluation of a"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-12T15:08:57.059Z",
+   "meta": {
+    "name": "cv",
+    "fullName": "emberian/cv",
+    "description": "agents can read each others minds (session logs)",
+    "homepage": "https://emberian.github.io/cv/",
+    "stars": 23,
+    "language": "Rust",
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-12T05:49:19Z"
+   }
   },
   "renves/b3quant": {
    "mentions": [
@@ -160016,6 +160104,160 @@
      "snippet": "One thing I don't see mentioned here is---if you host a web site, your ISP connection will be swamped with bot activity if it's publicly available.  There are multiple ways to mitigate this, but they all come with different tradeoffs; Cloudflare is easy to set up, but you are rel"
     }
    ]
+  },
+  "vpinball/vpinball": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "MegaDeKay",
+     "url": "https://news.ycombinator.com/item?id=50468050",
+     "date": "2026-11-12T14:40:13Z",
+     "snippet": "Check out Visual Pinball [0]. Not on Steam. Thousands of tables. Cross platform and runs on everything from phones to purpose built cabinets. Very advanced physics. Free and open source. It's fantastic. [0] https://github.com/vpinball/vpinball"
+    }
+   ]
+  },
+  "rolo/mudgym": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "kingrolo",
+     "url": "https://news.ycombinator.com/item?id=50466810",
+     "date": "2026-11-12T13:30:01Z",
+     "snippet": "Hey HN. I've put together a browser demo for MudGym, a reinforcement learning environment I built around MUD2, the multiplayer text adventure game. It all runs in the browser with WebAssembly. There's an example to train a neural network to reach a goal room, and one to hook up a"
+    }
+   ]
+  },
+  "chicagobuss/zpq": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "chicagobuss",
+     "url": "https://news.ycombinator.com/item?id=50465049",
+     "date": "2026-11-12T09:41:55Z",
+     "snippet": "Benchmarks: https://zpq.chicagobuss.dev/lambda-bench.html https://zpq.chicagobuss.dev/numbers.html Personal blog post https://chicagobuss.dev/blog/zpq-052/ Don't skip the part that you can use zpq from within Python or the JVM since it's capable of handing over arrow: https://zpq"
+    }
+   ]
+  },
+  "devmortimer/pi-warden": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "lprd",
+     "url": "https://news.ycombinator.com/item?id=50462538",
+     "date": "2026-11-12T03:05:03Z",
+     "snippet": "Yep, I use pi-warden ( https://github.com/DevMortimer/pi-warden ) as part of my workflow."
+    }
+   ]
+  },
+  "fossifyorg/voice-recorder": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "e12e",
+     "url": "https://news.ycombinator.com/item?id=50462214",
+     "date": "2026-11-12T02:14:04Z",
+     "snippet": "Interesting. Maybe I can Kill one of my vibecoded atrocities now. It was born from similar frustrations - to find a good way to record audio for small meetings on a phone (there are foss options for Android - but I need one tool to recommend; https://github.com/FossifyOrg/Voice-R"
+    }
+   ]
+  },
+  "alt-f6/pg-interleave": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Proph8",
+     "url": "https://news.ycombinator.com/item?id=50464426",
+     "date": "2026-11-12T08:17:21.000Z",
+     "snippet": "Location: Baku, Azerbaijan (UTC+4) Remote: Yes, remote only Willing to relocate: No Technologies: TypeScript, Node.js, Python, FastAPI, PostgreSQL, Next.js, React, Docker, Linux, Rust (open-source tooling), OpenAI-compatible LLM APIs Résumé/CV: https://iusifli.dev/resume Email: i"
+    }
+   ]
+  },
+  "tylertms/stela": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "iceboundrock",
+     "url": "https://news.ycombinator.com/item?id=50460154",
+     "date": "2026-11-11T23:02:38Z",
+     "snippet": "A general purpose Apple Silicon layer for x86-64 PCs (126 points)"
+    }
+   ]
+  },
+  "huawei-csl/macaq": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "thefox96",
+     "url": "https://news.ycombinator.com/item?id=50458166",
+     "date": "2026-11-11T20:23:57Z",
+     "snippet": "Huawei releases MACaQ, its internal quantizer for local inference (124 points)"
+    }
+   ]
+  },
+  "0xdeadf1sh/assemblyforneovim": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "0xdeadf1sh",
+     "url": "https://news.ycombinator.com/item?id=50453229",
+     "date": "2026-11-11T13:34:24Z",
+     "snippet": "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust) (103 points)"
+    }
+   ]
+  },
+  "janestreet/agent_skills": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "tosh",
+     "url": "https://news.ycombinator.com/item?id=50438261",
+     "date": "2026-11-10T10:18:22Z",
+     "snippet": "Jane Street: Socratic Tutor (475 points)"
+    }
+   ]
+  },
+  "virtualbox/virtualbox": {
+   "mentions": [
+    {
+     "source": "Stack Exchange",
+     "author": "se:Franck Dernoncourt",
+     "url": "https://superuser.com/a/1941507",
+     "date": "2026-11-12T00:36:17.000Z",
+     "snippet": "Power off the VM, run the following command, and start the VM again: VBoxManage setextradata \"<VM name>\" \"VBoxInternal/EM/ExitOptimizationEnabled\" 0 Reason : UEFI VMs with two or more vCPUs then hang inside VirtualBox's UEFI firmware while it coordinates the secondary CPUs before"
+    }
+   ]
+  },
+  "sethvargo/ratchet": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:rtpg",
+     "url": "https://lobste.rs/c/zlaie6",
+     "date": "2026-11-11T18:57:03.548-06:00",
+     "snippet": "yeah at work we use [ratchet](https://github.com/sethvargo/ratchet) and it works quite well."
+    }
+   ]
+  },
+  "d-generation-s/samory": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:Xanatos@mastodon.gamedev.place",
+     "url": "https://mastodon.gamedev.place/@Xanatos/117602695771189150",
+     "date": "2026-11-12T09:12:07.000Z",
+     "snippet": "RE: https:// mastodon.gamedev.place/@Xanato s/117588951297880901 I just released version 0.21.0 including fixes I talked about two days ago. This is a feature freeze release to prepare 1.0.0 Also the hard AI got additional personalities randomly selected. This will change the beh"
+    }
+   ]
+  },
+  "d-generation-s/samo": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:Xanatos@mastodon.gamedev.place",
+     "url": "https://mastodon.gamedev.place/@Xanatos/117602695771189150",
+     "date": "2026-11-12T09:12:07.000Z",
+     "snippet": "RE: https:// mastodon.gamedev.place/@Xanato s/117588951297880901 I just released version 0.21.0 including fixes I talked about two days ago. This is a feature freeze release to prepare 1.0.0 Also the hard AI got additional personalities randomly selected. This will change the beh"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -160861,27 +161103,27 @@
   "50204125": 1793947032613,
   "50271004": 1794294757508,
   "50271808": 1793947032678,
-  "50285134": 1794443948496,
-  "50301479": 1794443948635,
-  "50312756": 1794443948565,
+  "50285134": 1794496096463,
+  "50301479": 1794496096648,
+  "50312756": 1794496096597,
   "50313705": 1794088035774,
-  "50318646": 1794443949006,
+  "50318646": 1794496096825,
   "50326727": 1793772782762,
-  "50328896": 1794443950911,
-  "50331001": 1794443949782,
-  "50337431": 1794443947912,
-  "50338726": 1794443948382,
-  "50338728": 1794443948178,
-  "50347425": 1794443949610,
-  "50352757": 1794443948522,
-  "50353457": 1794443948386,
-  "50354336": 1794443949562,
-  "50355959": 1794443949518,
-  "50363461": 1794443948602,
-  "50366117": 1794443949799,
-  "50393105": 1794443949564,
-  "50403153": 1794443949519,
-  "50405250": 1794443949927,
-  "50444380": 1794443949312
+  "50328896": 1794496097351,
+  "50331001": 1794496097185,
+  "50337431": 1794496096317,
+  "50338726": 1794496096553,
+  "50338728": 1794496096305,
+  "50347425": 1794496096655,
+  "50352757": 1794496096643,
+  "50353457": 1794496096671,
+  "50354336": 1794496097040,
+  "50355959": 1794496096798,
+  "50363461": 1794496096981,
+  "50366117": 1794496097301,
+  "50393105": 1794496097039,
+  "50403153": 1794496097073,
+  "50405250": 1794496097267,
+  "50444380": 1794496096911
  }
 }
