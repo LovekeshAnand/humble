@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T23:36:13.437Z",
+ "updatedAt": "2026-11-13T06:39:51.105Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7622,7 +7622,7 @@
     "fork": false,
     "pushedAt": "2026-11-12T18:23:55Z"
    },
-   "checkedAt": "2026-11-12T23:36:13.087Z"
+   "checkedAt": "2026-11-13T06:39:50.606Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -95885,13 +95885,13 @@
      "snippet": "* https://github.com/excalidraw/excalidraw * https://github.com/calcom/cal.com * https://github.com/supabase/supabase * https://github.com/appwrite/appwrite * https://github.com/n8n-io/n8n * https://github.com/appsmithorg/appsmith * https://github.com/directus/directus * https://"
     }
    ],
-   "checkedAt": "2026-11-06T06:37:50.446Z",
+   "checkedAt": "2026-11-13T06:39:49.315Z",
    "meta": {
     "name": "n8n",
     "fullName": "n8n-io/n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
     "homepage": "https://n8n.io",
-    "stars": 209667,
+    "stars": 210350,
     "language": "TypeScript",
     "topics": [
      "ai",
@@ -95918,7 +95918,7 @@
     "license": null,
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-06T06:02:55Z"
+    "pushedAt": "2026-11-13T06:39:44Z"
    }
   },
   "directus/directus": {
@@ -153772,13 +153772,13 @@
      "snippet": "Tether is a useful tool for keeping an iPhone, but switching off MacOS. The main features I use it for are: - Clipboard access between devices - Notifications/replies to Messages -General notifications Works over a combo of bluetooth and wifi. It's not as neat as the MacOS / iOS "
     }
    ],
-   "checkedAt": "2026-11-06T06:37:50.749Z",
+   "checkedAt": "2026-11-13T06:39:49.595Z",
    "meta": {
     "name": "tether",
     "fullName": "zackb/tether",
     "description": "Linux + iPhone Continuity / iMessage / SMS",
     "homepage": null,
-    "stars": 1522,
+    "stars": 1543,
     "language": "C++",
     "topics": [
      "imessage",
@@ -153789,7 +153789,7 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-06T03:45:51Z"
+    "pushedAt": "2026-11-08T17:46:11Z"
    },
    "listedAt": "2026-11-06T06:37:52.535Z"
   },
@@ -157246,7 +157246,7 @@
      "snippet": "You'll like this too then https://github.com/mas-bandwidth/fixed3d -- port of box3d to fixed point :) https://github.com/mas-bandwidth/fixed -- fixed point math library"
     }
    ],
-   "checkedAt": "2026-11-06T06:37:51.014Z",
+   "checkedAt": "2026-11-13T06:39:49.878Z",
    "meta": {
     "name": "fixed",
     "fullName": "mas-bandwidth/fixed",
@@ -157258,7 +157258,7 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-10-28T01:14:41Z"
+    "pushedAt": "2026-11-08T02:34:59Z"
    }
   },
   "m6r-ai/humbug": {
@@ -157519,13 +157519,13 @@
      "snippet": "Hey HN!! completey opensource - AutoCua, has ability to control phone while controlling computer browser, coding at same time. That give me thought how about i use AutoCua to fight a Clash Royale, clash of clan, chess all three game at same time in different device and give me go"
     }
    ],
-   "checkedAt": "2026-11-06T06:37:51.287Z",
+   "checkedAt": "2026-11-13T06:39:50.099Z",
    "meta": {
     "name": "AutoCua",
     "fullName": "ComputerUseAgent/AutoCua",
     "description": "Automate with computer-use agent (ComputerUse / CUA) for macOS, Windows, Linux, Browser, iOS & Android. It sees the screen, clicks, types, browses and writes the code too. One agent, every computer.",
     "homepage": "https://computeruse.uk",
-    "stars": 1117,
+    "stars": 1183,
     "language": "Python",
     "topics": [
      "browser-use",
@@ -157552,7 +157552,7 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-05T22:42:36Z"
+    "pushedAt": "2026-11-12T22:45:01Z"
    },
    "listedAt": "2026-11-06T06:37:52.535Z"
   },
@@ -160806,6 +160806,154 @@
      "snippet": "I like [InkOS](https://github.com/gezimos/inkOS), minimalist, in an _epaper_ kinda way. Just dont like the notification module but I disable it. And I use Snowbell as the font, love it."
     }
    ]
+  },
+  "rinkesh2010rpp/sudarshana": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Rinkesh2010rpp",
+     "url": "https://news.ycombinator.com/item?id=50478784",
+     "date": "2026-11-13T05:34:19Z",
+     "snippet": "Thats what I am gonna ask my claude code to do lol. If you are interested, check out The agent: https://github.com/rinkesh2010rpp/sudarshana The A2a Hotplug which gives agents ability to add a2a agent in runtime https://github.com/rinkesh2010rpp/a2a-hotplug Security layer for you"
+    }
+   ]
+  },
+  "rinkesh2010rpp/a2a-hotplug": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Rinkesh2010rpp",
+     "url": "https://news.ycombinator.com/item?id=50478784",
+     "date": "2026-11-13T05:34:19Z",
+     "snippet": "Thats what I am gonna ask my claude code to do lol. If you are interested, check out The agent: https://github.com/rinkesh2010rpp/sudarshana The A2a Hotplug which gives agents ability to add a2a agent in runtime https://github.com/rinkesh2010rpp/a2a-hotplug Security layer for you"
+    }
+   ]
+  },
+  "rinkesh2010rpp/taster-ai": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Rinkesh2010rpp",
+     "url": "https://news.ycombinator.com/item?id=50478784",
+     "date": "2026-11-13T05:34:19Z",
+     "snippet": "Thats what I am gonna ask my claude code to do lol. If you are interested, check out The agent: https://github.com/rinkesh2010rpp/sudarshana The A2a Hotplug which gives agents ability to add a2a agent in runtime https://github.com/rinkesh2010rpp/a2a-hotplug Security layer for you"
+    }
+   ]
+  },
+  "huggingface/transformers.js": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "chris_wot",
+     "url": "https://news.ycombinator.com/item?id=50478410",
+     "date": "2026-11-13T04:38:03Z",
+     "snippet": "You can use ONNX directly with WebAssembly (Wasm) through the ONNX Runtime Web library (onnxruntime-web). If you use transformer.js [1] then it can load the entire LLM into memory and you can run it from the browser. Not an LLM, but I had it load the whisper transcriber in a page"
+    }
+   ]
+  },
+  "pdparchitect/noodle": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "_pdp_",
+     "url": "https://news.ycombinator.com/item?id=50476453",
+     "date": "2026-11-13T00:24:04Z",
+     "snippet": "I have been using Foundation Models in Noodle for a while and have liked working with it. One part I have not explored yet is Apple Private Cloud Compute but it is on my list. I think I need special entitlements that are only available to Siri desktop app for now - need to check."
+    }
+   ]
+  },
+  "creativeinquiry/pembroider": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "gregsadetsky",
+     "url": "https://news.ycombinator.com/item?id=50476215",
+     "date": "2026-11-12T23:58:58Z",
+     "snippet": "This is very very much in my current wheelhouse. My (extremely genius) friend Owen Trueblood reverse engineered the Brother PE-150 [0] and made a replacement motherboard, replacing the stock one, to control it over USB. The PE-150 is a great example of the absurdity/sadness of th"
+    }
+   ]
+  },
+  "ishanichugh/quantboard": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "ishanichugh",
+     "url": "https://news.ycombinator.com/item?id=50479095",
+     "date": "2026-11-13T06:17:52.000Z",
+     "snippet": "Location: India (currently travelling within India; IST, UTC+5:30) Remote: Yes – remote only. Happy to shift my hours for solid overlap with US or EU teams. Willing to relocate: No Technologies: React, TypeScript, Python, Kotlin/Spring Boot, GraphQL, FastAPI, Snowflake, C++; MCP "
+    },
+    {
+     "source": "Ask HN",
+     "author": "ishanichugh",
+     "url": "https://news.ycombinator.com/item?id=50479091",
+     "date": "2026-11-13T06:17:26.000Z",
+     "snippet": "Location: India (currently travelling within India; IST, UTC+5:30) Remote: Yes – remote only. Happy to shift my hours for solid overlap with US or EU teams. Willing to relocate: No Technologies: React, TypeScript, Python, Kotlin/Spring Boot, GraphQL, FastAPI, Snowflake, C++; MCP "
+    }
+   ],
+   "checkedAt": "2026-11-13T06:39:50.891Z",
+   "meta": {
+    "name": "quantboard",
+    "fullName": "ishanichugh/quantboard",
+    "description": "Portfolio analytics dashboard — FastAPI, GraphQL, React, MCP",
+    "homepage": null,
+    "stars": 0,
+    "language": "Python",
+    "topics": [
+     "fastapi",
+     "fintech",
+     "graphql",
+     "mcp",
+     "portfolio-analytics"
+    ],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-09-01T17:31:49Z"
+   }
+  },
+  "sskg2602/chronorag-g": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "SSKG2602",
+     "url": "https://news.ycombinator.com/item?id=50478177",
+     "date": "2026-11-13T04:09:14.000Z",
+     "snippet": "Location: Bengaluru, India (UTC+5:30) Remote: Yes, worldwide Willing to relocate: Yes — US (SF Bay Area/NYC), UK, EU, Singapore, Australia, or other suitable locations. Open to visa sponsorship. Technologies: Python, C++, SQL, FastAPI, PostgreSQL, Docker, Git, AWS, GCP, FAISS, LL"
+    }
+   ]
+  },
+  "fandreuz/tui-consolelauncher": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://sh.itjust.works/u/brax",
+     "url": "https://sh.itjust.works/comment/28550320",
+     "date": "2026-11-13T03:46:52.539673Z",
+     "snippet": "I've been using the [TUI Launcher](https://github.com/fandreuz/TUI-ConsoleLauncher) for like a decade now. It's kinda been abandoned, but it still works perfectly fine."
+    }
+   ]
+  },
+  "googlechrome/modern-web-guidance-src": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:0x7eaf",
+     "url": "https://fosstodon.org/@0x7eaf/117607720861176588",
+     "date": "2026-11-13T06:30:04.743Z",
+     "snippet": "🔧 BUILD // GitHub Trending — 2026-11-13 Great, now I need an agent to keep the agent that writes my code up to date, because apparently I&#39;m just middle management now. ⭐ 739 stars today · TypeScript 🔗 https:// github.com/GoogleChrome/modern -web-guidance-src # GitHub # Open"
+    }
+   ]
+  },
+  "googlechrome/modern": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:0x7eaf",
+     "url": "https://fosstodon.org/@0x7eaf/117607720861176588",
+     "date": "2026-11-13T06:30:04.743Z",
+     "snippet": "🔧 BUILD // GitHub Trending — 2026-11-13 Great, now I need an agent to keep the agent that writes my code up to date, because apparently I&#39;m just middle management now. ⭐ 739 stars today · TypeScript 🔗 https:// github.com/GoogleChrome/modern -web-guidance-src # GitHub # Open"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -161653,26 +161801,26 @@
   "50271004": 1794294757508,
   "50271808": 1793947032678,
   "50285134": 1794496096463,
-  "50301479": 1794526533512,
-  "50312756": 1794526533314,
+  "50301479": 1794551949973,
+  "50312756": 1794551949913,
   "50313705": 1794088035774,
-  "50318646": 1794526533416,
+  "50318646": 1794551948680,
   "50326727": 1793772782762,
-  "50328896": 1794526534336,
-  "50331001": 1794526533690,
-  "50337431": 1794526533001,
-  "50338726": 1794526533434,
-  "50338728": 1794526533132,
-  "50347425": 1794496096655,
-  "50352757": 1794526533391,
-  "50353457": 1794526533196,
-  "50354336": 1794526533726,
-  "50355959": 1794526533517,
-  "50363461": 1794526533742,
-  "50366117": 1794526534033,
-  "50393105": 1794496097039,
-  "50403153": 1794526533699,
-  "50405250": 1794526533767,
-  "50444380": 1794526533380
+  "50328896": 1794551952070,
+  "50331001": 1794551951166,
+  "50337431": 1794551948719,
+  "50338726": 1794551948322,
+  "50338728": 1794551947777,
+  "50347425": 1794551950816,
+  "50352757": 1794551949353,
+  "50353457": 1794551949473,
+  "50354336": 1794551951324,
+  "50355959": 1794551950509,
+  "50363461": 1794551949760,
+  "50366117": 1794551951601,
+  "50393105": 1794551950839,
+  "50403153": 1794551950782,
+  "50405250": 1794551951427,
+  "50444380": 1794551949887
  }
 }
