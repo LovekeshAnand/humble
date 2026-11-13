@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T06:39:51.105Z",
+ "updatedAt": "2026-11-13T19:39:22.269Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7061,6 +7061,13 @@
   "yuliskov/smarttube": {
    "mentions": [
     {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.dbzer0.com/u/Spite_By_Design_LLC",
+     "url": "https://lemmy.dbzer0.com/comment/29289619",
+     "date": "2026-11-13T12:00:20.235283Z",
+     "snippet": "> Yes, after a brief assessment i concluded (correctly, i see now after taking another look at it) that your project is exactly the kind of new, single-developer, vibe-coded slop which i think we should not accept the promotion of here A brief assessment indeed. Dare I say, a per"
+    },
+    {
      "source": "HN comment",
      "author": "franga2000",
      "url": "https://news.ycombinator.com/item?id=50411426",
@@ -7622,7 +7629,7 @@
     "fork": false,
     "pushedAt": "2026-11-12T18:23:55Z"
    },
-   "checkedAt": "2026-11-13T06:39:50.606Z"
+   "checkedAt": "2026-11-13T19:39:21.889Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -33365,6 +33372,13 @@
   "ankitects/anki": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "david_allison",
+     "url": "https://news.ycombinator.com/item?id=48344502",
+     "date": "2026-05-31T10:19:32.000Z",
+     "snippet": "We define our API into the Rust via protobufs[0] and some codegen. The wrapper around these is very lean, FFI-based[1], it's abstracted to a library so Android devs never need to know there's rust/codegen involved. We then define a light Kotlin-based wrapper around the protobuf-g"
+    },
+    {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46867816",
      "date": "2026-02-03T07:43:51Z",
@@ -44559,13 +44573,13 @@
      "snippet": "PayPal still works on GrapheneOS. It's because PayPal shipped an update with incorrect anti-tampering code incompatible with secure app spawning. It can be worked around with the per-app secure app spawning toggle until they fix it. Starling Bank app still works on GrapheneOS too"
     }
    ],
-   "checkedAt": "2026-11-06T19:22:27.241Z",
+   "checkedAt": "2026-11-13T19:39:20.464Z",
    "meta": {
     "name": "banking-apps-compat-report",
     "fullName": "PrivSec-dev/banking-apps-compat-report",
     "description": "Report and track banking app compatibility with GrapheneOS, including which workarounds may be required.",
     "homepage": "https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/",
-    "stars": 365,
+    "stars": 372,
     "language": null,
     "topics": [
      "android",
@@ -47960,6 +47974,13 @@
   },
   "dotnet/maui": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "mattmanser",
+     "url": "https://news.ycombinator.com/item?id=48338211",
+     "date": "2026-05-30T16:45:53.000Z",
+     "snippet": "https://github.com/dotnet/maui/wiki/Using-AI-to-Work-on-.NET..."
+    },
     {
      "source": "HN front page",
      "author": "yell0wsnow",
@@ -57144,6 +57165,13 @@
      "url": "https://news.ycombinator.com/item?id=49520022",
      "date": "2026-09-01T10:11:02Z",
      "snippet": "AnkiDroid: Google Play no longer allowing Open Collective donation link (924 points)"
+    },
+    {
+     "source": "Ask HN",
+     "author": "david_allison",
+     "url": "https://news.ycombinator.com/item?id=48344502",
+     "date": "2026-05-31T10:19:32.000Z",
+     "snippet": "We define our API into the Rust via protobufs[0] and some codegen. The wrapper around these is very lean, FFI-based[1], it's abstracted to a library so Android devs never need to know there's rust/codegen involved. We then define a light Kotlin-based wrapper around the protobuf-g"
     },
     {
      "source": "Ask HN",
@@ -102782,13 +102810,34 @@
   "powderworkscode/headstart": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "knuckleheads",
+     "url": "https://news.ycombinator.com/item?id=50481795",
+     "date": "2026-11-13T11:06:17Z",
+     "snippet": "After working on https://github.com/PowderworksCode/headstart and some good conversations with the compiler team, I've been working on finding a way to make big changes to speed up rust while also respecting their wishes around the usage of LLM's. I don't really want to support a"
+    },
+    {
      "source": "HN front page",
      "author": "knuckleheads",
      "url": "https://news.ycombinator.com/item?id=49951218",
      "date": "2026-10-04T06:26:57Z",
      "snippet": "Emitting metadata early makes building/checking Rust up to twice as fast (157 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-13T19:39:20.799Z",
+   "meta": {
+    "name": "headstart",
+    "fullName": "PowderworksCode/headstart",
+    "description": "Start dependent crates before their dependencies finish type-checking",
+    "homepage": null,
+    "stars": 191,
+    "language": "Rust",
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-10-20T17:14:14Z"
+   }
   },
   "anteloc/ldraw-nova": {
    "mentions": [
@@ -108211,13 +108260,13 @@
      "snippet": "Show HN: Agent Vault – Open-source credential proxy and vault for agents (156 points)"
     }
    ],
-   "checkedAt": "2026-11-06T19:22:27.502Z",
+   "checkedAt": "2026-11-13T19:39:21.119Z",
    "meta": {
     "name": "agent-vault",
     "fullName": "Infisical/agent-vault",
     "description": "A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.",
     "homepage": "https://docs.agent-vault.dev",
-    "stars": 2484,
+    "stars": 2505,
     "language": "Go",
     "topics": [
      "agents",
@@ -108227,7 +108276,7 @@
     "license": null,
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-06T17:24:46Z"
+    "pushedAt": "2026-11-07T03:19:57Z"
    }
   },
   "calcom/cal.diy": {
@@ -160767,12 +160816,33 @@
    "mentions": [
     {
      "source": "Lemmy",
+     "author": "lemmy:https://lemmy.dbzer0.com/u/Spite_By_Design_LLC",
+     "url": "https://lemmy.dbzer0.com/comment/29289619",
+     "date": "2026-11-13T12:00:20.235283Z",
+     "snippet": "> Yes, after a brief assessment i concluded (correctly, i see now after taking another look at it) that your project is exactly the kind of new, single-developer, vibe-coded slop which i think we should not accept the promotion of here A brief assessment indeed. Dare I say, a per"
+    },
+    {
+     "source": "Lemmy",
      "author": "lemmy:https://lemmy.ml/u/thingsiplay",
      "url": "https://lemmy.ml/comment/28975511",
      "date": "2026-11-12T21:34:28.514189Z",
      "snippet": "More info at https://github.com/bsgcl/SmartTubeLocal/blob/master/FAQ.md . One thing to note is, that this is developed and maintained by a single person. And according to the README https://github.com/bsgcl/SmartTubeLocal: > This repository is maintained offline for private use, "
     }
-   ]
+   ],
+   "checkedAt": "2026-11-13T19:39:21.352Z",
+   "meta": {
+    "name": "SmartTubeLocal",
+    "fullName": "bsgcl/SmartTubeLocal",
+    "description": "SmartTube with local profiles, no Google sign-in and offline playback from your local YouTube archive.",
+    "homepage": null,
+    "stars": 2,
+    "language": "Java",
+    "topics": [],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-12T18:20:28Z"
+   }
   },
   "elnix90/dragon-launcher": {
    "mentions": [
@@ -160952,6 +161022,182 @@
      "url": "https://fosstodon.org/@0x7eaf/117607720861176588",
      "date": "2026-11-13T06:30:04.743Z",
      "snippet": "🔧 BUILD // GitHub Trending — 2026-11-13 Great, now I need an agent to keep the agent that writes my code up to date, because apparently I&#39;m just middle management now. ⭐ 739 stars today · TypeScript 🔗 https:// github.com/GoogleChrome/modern -web-guidance-src # GitHub # Open"
+    }
+   ]
+  },
+  "buggins/dlangide": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "giancarlostoro",
+     "url": "https://news.ycombinator.com/item?id=50486076",
+     "date": "2026-11-13T16:43:31Z",
+     "snippet": "Which IDE are you trying to setup with D? I've not had any issues... You may try DlangIDE possibly? https://github.com/buggins/dlangide"
+    }
+   ]
+  },
+  "nim-lang/nimony": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sergiotapia",
+     "url": "https://news.ycombinator.com/item?id=50485941",
+     "date": "2026-11-13T16:34:10Z",
+     "snippet": "https://github.com/nim-lang/nimony Check out Nimony effectively Nim 3.0 from the author. It's a top to bottom rethinking of Nim with all the lessons learned. I'm so hyped about it tbh https://nim-lang.org/araq/nimony.html"
+    }
+   ]
+  },
+  "jjba23/sift": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "mark_l_watson",
+     "url": "https://news.ycombinator.com/item?id=50482558",
+     "date": "2026-11-13T12:27:43Z",
+     "snippet": "My thought also. I often use local models for Common Lisp and Scheme coding and edit errors on s-expressions are a time-waster. Using sift with appropriate lisp codings skills might improve things. Worth a try. After my morning coffee I will try an installation using: brew instal"
+    }
+   ]
+  },
+  "ankidroid/anki-android-backend": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "david_allison",
+     "url": "https://news.ycombinator.com/item?id=48344502",
+     "date": "2026-05-31T10:19:32.000Z",
+     "snippet": "We define our API into the Rust via protobufs[0] and some codegen. The wrapper around these is very lean, FFI-based[1], it's abstracted to a library so Android devs never need to know there's rust/codegen involved. We then define a light Kotlin-based wrapper around the protobuf-g"
+    }
+   ]
+  },
+  "nordicsemi/kotlin-ble-library": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "georgemcbay",
+     "url": "https://news.ycombinator.com/item?id=48339586",
+     "date": "2026-05-30T19:03:22.000Z",
+     "snippet": "> and the bluetooth libraries across different devices (particularly in Android land) has me concerned. I work on the Android side for a company that develops an external bluetooth device (not a wearable, but similar enough) and the bluetooth library situation has certainly been "
+    }
+   ]
+  },
+  "leomobiledeveloper/ios-developer-tools": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "guessbest",
+     "url": "https://news.ycombinator.com/item?id=48339241",
+     "date": "2026-05-30T18:24:55.000Z",
+     "snippet": "I just do iOS development and my opinion is this: Start with XCode then use an LLM to design and develop it out from there its great. The newer models work great with project files where they used to struggle. Using the Visual Code development tools alongside XCode, claude skills"
+    }
+   ]
+  },
+  "avdlee/swiftui-agent-skill": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "guessbest",
+     "url": "https://news.ycombinator.com/item?id=48339241",
+     "date": "2026-05-30T18:24:55.000Z",
+     "snippet": "I just do iOS development and my opinion is this: Start with XCode then use an LLM to design and develop it out from there its great. The newer models work great with project files where they used to struggle. Using the Visual Code development tools alongside XCode, claude skills"
+    }
+   ]
+  },
+  "lzt1008/powerflow": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "mft_",
+     "url": "https://news.ycombinator.com/item?id=48339631",
+     "date": "2026-05-30T19:08:09.000Z",
+     "snippet": "From the perspective of this intermediate/hobbyist level Python amateur who never quite got to grips with Swift, it's a paradigm shift. For all manner of simple-ish personal apps, Claude can one-shot an MVP in a few minutes, pulling all of the Swift/UI boilerplate together (which"
+    }
+   ]
+  },
+  "tom1827/powerflow-swift": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "mft_",
+     "url": "https://news.ycombinator.com/item?id=48339631",
+     "date": "2026-05-30T19:08:09.000Z",
+     "snippet": "From the perspective of this intermediate/hobbyist level Python amateur who never quite got to grips with Swift, it's a paradigm shift. For all manner of simple-ish personal apps, Claude can one-shot an MVP in a few minutes, pulling all of the Swift/UI boilerplate together (which"
+    }
+   ]
+  },
+  "bahadiraydin/dotfiles": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "bahadiraydin",
+     "url": "https://news.ycombinator.com/item?id=47960877",
+     "date": "2026-04-30T11:23:52.000Z",
+     "snippet": "Hey, nowadays this setup is very easy to achieve. You can check out my dotfiles at: https://github.com/BahadirAydin/dotfiles/tree/main/private_d... \"Mason\" plugin makes it easy to install LSPs, formatters, debuggers locally and built-in LSP integration is seamlessly working curre"
+    }
+   ]
+  },
+  "lonewolf-im/lonewolf": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "ortuman",
+     "url": "https://news.ycombinator.com/item?id=50484007",
+     "date": "2026-11-13T14:28:40Z",
+     "snippet": "Lonewolf 0.3 – A standalone XMPP server written in Rust (100 points)"
+    }
+   ]
+  },
+  "parcha-ai/agentrun": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "miguelrios",
+     "url": "https://news.ycombinator.com/item?id=50471650",
+     "date": "2026-11-12T18:15:48Z",
+     "snippet": "Show HN: AgentRun – open-source, Self-improving Managed Agents (133 points)"
+    }
+   ]
+  },
+  "saidwho12/hamza": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:alichraghi",
+     "url": "https://lobste.rs/c/wn6ugy",
+     "date": "2026-11-13T10:34:23.145-06:00",
+     "snippet": "> If these are “a few goals”, I feel like an unaccomplished slacker.\r\n\r\nYes, perhaps a bit far from those goals. still figuring out how to replace harfbuzz.\r\nThere are libraries like [Hamza](https://github.com/saidwho12/hamza) that I want to try."
+    }
+   ]
+  },
+  "spocky/miproja1": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.world/u/bigb",
+     "url": "https://lemmy.world/comment/26844683",
+     "date": "2026-11-13T11:49:42.702426Z",
+     "snippet": "I use ProjectIvy but it isn't listed in F-Droid. There have the APK on GitHub: https://github.com/spocky/miproja1/releases Luncher looks promising but I haven't used it yet: https://f-droid.org/packages/com.luncher.launcher"
+    }
+   ]
+  },
+  "teja2495/quick-search": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.zip/u/Eyck_of_denesle",
+     "url": "https://lemmy.zip/comment/30144477",
+     "date": "2026-11-13T10:21:30.460853Z",
+     "snippet": "I've been using [Quick Search](https://github.com/teja2495/quick-search) for a couple months now and it's amazing. Every other launcher feels useless without this. But it seems to be vibe coded so a head's up. It has one search bar for everything. Appa, app shortcuts, browser boo"
+    }
+   ]
+  },
+  "necoz-oss/is-kit": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:nyaomaru@mastodon.social",
+     "url": "https://mastodon.social/@nyaomaru/117610522018977523",
+     "date": "2026-11-13T18:22:27.000Z",
+     "snippet": "is-kit v1.16.5 is out! 😸🎉 I'm especially happy: this release welcomed 7 new contributors! 🙌💚 🐈 painbaba 🐈 lanangptraa 🐈 saimskywalker 🐈 GyulianoDev 🐈 BoteroAlejandro11 🐈 srijavuppala 🐈 tylrcc They helped with runtime fixes, regression coverage, CLI behavior, docs, and "
     }
    ]
   }
@@ -161686,6 +161932,7 @@
   "47895029": 1793608018618,
   "47906253": 1793608006391,
   "47945522": 1793608059439,
+  "47958353": 1794598722403,
   "47975676": 1793655713431,
   "48026211": 1793608059567,
   "48030736": 1793608047183,
@@ -161695,6 +161942,7 @@
   "48193451": 1793608019070,
   "48202486": 1793608029208,
   "48312377": 1793608059973,
+  "48337409": 1794598722359,
   "48342117": 1793623206870,
   "48357725": 1793623207090,
   "48370330": 1793607997705,
@@ -161801,26 +162049,27 @@
   "50271004": 1794294757508,
   "50271808": 1793947032678,
   "50285134": 1794496096463,
-  "50301479": 1794551949973,
-  "50312756": 1794551949913,
+  "50301479": 1794598722602,
+  "50312756": 1794598722468,
   "50313705": 1794088035774,
-  "50318646": 1794551948680,
+  "50318646": 1794598722654,
   "50326727": 1793772782762,
-  "50328896": 1794551952070,
-  "50331001": 1794551951166,
-  "50337431": 1794551948719,
-  "50338726": 1794551948322,
-  "50338728": 1794551947777,
+  "50328896": 1794598723483,
+  "50331001": 1794598723077,
+  "50337431": 1794598722599,
+  "50338726": 1794598722380,
+  "50338728": 1794598722385,
   "50347425": 1794551950816,
-  "50352757": 1794551949353,
-  "50353457": 1794551949473,
-  "50354336": 1794551951324,
-  "50355959": 1794551950509,
-  "50363461": 1794551949760,
-  "50366117": 1794551951601,
+  "50352757": 1794598722893,
+  "50353457": 1794598722278,
+  "50354336": 1794598722857,
+  "50355959": 1794598722805,
+  "50363461": 1794598723046,
+  "50366117": 1794598723173,
   "50393105": 1794551950839,
-  "50403153": 1794551950782,
-  "50405250": 1794551951427,
-  "50444380": 1794551949887
+  "50403153": 1794598722869,
+  "50405250": 1794598723058,
+  "50444380": 1794598722675,
+  "50484421": 1794598722490
  }
 }
