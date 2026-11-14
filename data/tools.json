@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T06:16:23.058Z",
+ "updatedAt": "2026-11-14T13:34:13.186Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7629,7 +7629,7 @@
     "fork": false,
     "pushedAt": "2026-11-12T18:23:55Z"
    },
-   "checkedAt": "2026-11-14T06:16:22.808Z"
+   "checkedAt": "2026-11-14T13:34:13.026Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -161294,6 +161294,39 @@
      "snippet": "Ggml v1.0.0 (138 points)"
     }
    ]
+  },
+  "bateri/textpen": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tdgunes",
+     "url": "https://news.ycombinator.com/item?id=50495725",
+     "date": "2026-11-14T10:13:25Z",
+     "snippet": "Whenever I use dumb terminals, I have the same feeling. I am also actively looking for a way to get a good developer experience while keeping more ownership of what gets generated with the new tools. My specific bottleneck is working in remote environments and not being able to h"
+    }
+   ]
+  },
+  "bateri/dockerpen": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tdgunes",
+     "url": "https://news.ycombinator.com/item?id=50495725",
+     "date": "2026-11-14T10:13:25Z",
+     "snippet": "Whenever I use dumb terminals, I have the same feeling. I am also actively looking for a way to get a good developer experience while keeping more ownership of what gets generated with the new tools. My specific bottleneck is working in remote environments and not being able to h"
+    }
+   ]
+  },
+  "tanpreetjolly/browser-whisper": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tanpreetjolly",
+     "url": "https://news.ycombinator.com/item?id=50495661",
+     "date": "2026-11-14T10:02:08Z",
+     "snippet": "hey HN, i built an npm library - browser-whisper. it's an abstraction over libraries that lets you transcribe audio/videos completely in the browser using local models, with no api key and no server it currently supports two runtimes - transformers.js and parakeet.js. think of it"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -162148,22 +162181,23 @@
   "50313705": 1794088035774,
   "50318646": 1794636938493,
   "50326727": 1793772782762,
-  "50328896": 1794636939196,
-  "50331001": 1794636939347,
+  "50328896": 1794663220201,
+  "50331001": 1794663219985,
   "50337431": 1794636938142,
-  "50338726": 1794636938250,
-  "50338728": 1794636938376,
+  "50338726": 1794663219617,
+  "50338728": 1794663219189,
   "50347425": 1794551950816,
-  "50352757": 1794636938466,
-  "50353457": 1794636938233,
-  "50354336": 1794636939001,
-  "50355959": 1794636938858,
-  "50363461": 1794636938476,
-  "50366117": 1794636939434,
+  "50352757": 1794663219527,
+  "50353457": 1794663219474,
+  "50354336": 1794663219919,
+  "50355959": 1794663219509,
+  "50363461": 1794663219630,
+  "50366117": 1794663220124,
   "50393105": 1794636938922,
-  "50403153": 1794636938812,
-  "50405250": 1794636939169,
-  "50444380": 1794636938877,
-  "50484421": 1794636939009
+  "50403153": 1794663219810,
+  "50405250": 1794663219851,
+  "50444380": 1794663219557,
+  "50484421": 1794663219642,
+  "50494696": 1794663219178
  }
 }
