@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T13:34:13.186Z",
+ "updatedAt": "2026-11-14T22:21:11.720Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -1523,6 +1523,13 @@
   },
   "captaincole/openreturn": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "atcole",
+     "url": "https://news.ycombinator.com/item?id=50500478",
+     "date": "2026-11-14T20:26:30Z",
+     "snippet": "This is great that this is out there. I've been working on making an agent based experience that helps you put together your whole return or make an estimated return based on future assumptions and solving for the federal tax code has been a very token expensive operation! https:"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50298663",
@@ -7627,9 +7634,9 @@
     "license": "GPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-12T18:23:55Z"
+    "pushedAt": "2026-11-14T19:45:00Z"
    },
-   "checkedAt": "2026-11-14T13:34:13.026Z"
+   "checkedAt": "2026-11-14T22:21:11.513Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -22957,6 +22964,13 @@
   },
   "mattpocock/skills": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "0xbadcafebee",
+     "url": "https://news.ycombinator.com/item?id=50499326",
+     "date": "2026-11-14T18:15:44Z",
+     "snippet": "(title is wrong; thankfully they're not pushing Agile. the real title is \"Agent First Development for Enterprise Teams\") > the ability to revise a plan when we learn something This is possibly the largest source of problems for both \"agile\" and AI software development. If you hav"
+    },
     {
      "source": "HN comment",
      "author": "__rito__",
@@ -41987,7 +42001,7 @@
      "author": "nik_ca"
     }
    ],
-   "checkedAt": "2026-11-07T21:47:48.407Z",
+   "checkedAt": "2026-11-14T22:21:09.716Z",
    "meta": {
     "name": "xmpp-web",
     "fullName": "nioc/xmpp-web",
@@ -45530,7 +45544,7 @@
      "snippet": "Location: Munich, Germany Remote: Yes Willing to relocate: Yes Technologies: Rust, Typescript/JavaScript, C#/.NET, MongoDb, PostgresDb, Kafka, MQTT, React, React Native, RabbitMQ, Similarity Search, Vector Databases, CRDT, AWS, Azure, Pulumi, Terraform Résumé/CV: https://github.c"
     }
    ],
-   "checkedAt": "2026-11-07T21:47:48.617Z",
+   "checkedAt": "2026-11-14T22:21:09.988Z",
    "meta": {
     "name": "Resume",
     "fullName": "ahmad2smile/Resume",
@@ -58238,7 +58252,7 @@
      "snippet": "Set up a family chat, with a built-in helper agent? https://github.com/pkulak/barnaby-home"
     }
    ],
-   "checkedAt": "2026-11-07T21:47:48.850Z",
+   "checkedAt": "2026-11-14T22:21:10.252Z",
    "meta": {
     "name": "barnaby-home",
     "fullName": "pkulak/barnaby-home",
@@ -105123,13 +105137,13 @@
      "snippet": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop (226 points)"
     }
    ],
-   "checkedAt": "2026-11-07T21:47:49.093Z",
+   "checkedAt": "2026-11-14T22:21:10.515Z",
    "meta": {
     "name": "clawk",
     "fullName": "clawkwork/clawk",
     "description": "Give coding agents a disposable Linux VM, not your laptop",
     "homepage": null,
-    "stars": 1040,
+    "stars": 1044,
     "language": "Go",
     "topics": [
      "agent-sandbox",
@@ -139054,19 +139068,19 @@
      "snippet": "PC GEOS: the multitasking DOS-based GUI OS that evolved from a C64 desktop (135 points)"
     }
    ],
-   "checkedAt": "2026-11-07T21:47:49.298Z",
+   "checkedAt": "2026-11-14T22:21:10.789Z",
    "meta": {
     "name": "pcgeos",
     "fullName": "bluewaysw/pcgeos",
     "description": "#FreeGEOS source codes. The offical home of the PC/GEOS operating system technology. For personal computing fans. For all developers and assembly lovers. For YOU!",
     "homepage": null,
-    "stars": 936,
+    "stars": 939,
     "language": "Assembly",
     "topics": [],
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-07T20:22:49Z"
+    "pushedAt": "2026-11-14T21:14:05Z"
    },
    "listedAt": "2026-11-07T21:47:49.973Z"
   },
@@ -158483,13 +158497,55 @@
   "synchopate/llama-modchip": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "xrd",
+     "url": "https://news.ycombinator.com/item?id=50497254",
+     "date": "2026-11-14T14:25:05Z",
+     "snippet": "I've been happily using unsloth/Qwen3.6 for a while using llama.cpp on several rtx3090s. Excited to try this update. And, reading through the ggml update on the front page of HN this morning, I realize I might do better than llama.cpp. I've also really fascinated by llama-modchip"
+    },
+    {
      "source": "HN front page",
      "author": "joshcsimmons",
      "url": "https://news.ycombinator.com/item?id=50411961",
      "date": "2026-11-08T10:22:04Z",
      "snippet": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU (315 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-14T22:21:10.995Z",
+   "meta": {
+    "name": "llama-modchip",
+    "fullName": "synchopate/llama-modchip",
+    "description": "Run 284B DeepSeek-V4-Flash (<59GiB RAM: 41.1 cold pp, 9.1 N=1 tg, up to 25.3 spec tok/s) & 30B MoEs (22.4 N=1 / 111.6 spec tok/s) on 64GB CPU (0 GPUs).",
+    "homepage": "https://github.com/synchopate/llama-modchip#readme",
+    "stars": 1235,
+    "language": "Python",
+    "topics": [
+     "ai-agents",
+     "apple-silicon",
+     "avx512",
+     "claude-code",
+     "cpu-inference",
+     "deepseek",
+     "deepseek-v4",
+     "gguf",
+     "hpc",
+     "llama-cpp",
+     "local-llm",
+     "mamba2",
+     "mixture-of-experts",
+     "nemotron",
+     "quantization",
+     "qwen3",
+     "speculative-decoding",
+     "stockfish",
+     "zen5"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-13T07:54:56Z"
+   },
+   "listedAt": "2026-11-14T22:21:11.720Z"
   },
   "ml-explore/mlx-lm": {
    "mentions": [
@@ -161327,6 +161383,138 @@
      "snippet": "hey HN, i built an npm library - browser-whisper. it's an abstraction over libraries that lets you transcribe audio/videos completely in the browser using local models, with no api key and no server it currently supports two runtimes - transformers.js and parakeet.js. think of it"
     }
    ]
+  },
+  "0bserver07/rl-study-site": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Yadi",
+     "url": "https://news.ycombinator.com/item?id=50500699",
+     "date": "2026-11-14T20:53:54Z",
+     "snippet": "I made this. One of the most fun things about using coding agents is making learning more interactive. A note I wrote to myself while back: \"I forgot this\" keeps turning into \"oh, I never actually understood this.\" Using coding agents to work through those gaps has become one of "
+    }
+   ]
+  },
+  "0bserver07/study-reinforcement-learning": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Yadi",
+     "url": "https://news.ycombinator.com/item?id=50500699",
+     "date": "2026-11-14T20:53:54Z",
+     "snippet": "I made this. One of the most fun things about using coding agents is making learning more interactive. A note I wrote to myself while back: \"I forgot this\" keeps turning into \"oh, I never actually understood this.\" Using coding agents to work through those gaps has become one of "
+    }
+   ]
+  },
+  "metacircu1ar/hive": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "metacircu1ar",
+     "url": "https://news.ycombinator.com/item?id=50499298",
+     "date": "2026-11-14T18:11:57Z",
+     "snippet": "Claude and Codex together, on a $100 plan for each. They work as a team in real time: one implements, the others review its work, and nothing moves to the next stage until the findings are resolved. That goes for plans and designs too, not just code. To run it I built Hive, an op"
+    }
+   ]
+  },
+  "metacircu1ar/hive_skills": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "metacircu1ar",
+     "url": "https://news.ycombinator.com/item?id=50499298",
+     "date": "2026-11-14T18:11:57Z",
+     "snippet": "Claude and Codex together, on a $100 plan for each. They work as a team in real time: one implements, the others review its work, and nothing moves to the next stage until the findings are resolved. That goes for plans and designs too, not just code. To run it I built Hive, an op"
+    }
+   ]
+  },
+  "bensyverson/sleepyhollow": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "bensyverson",
+     "url": "https://news.ycombinator.com/item?id=50498296",
+     "date": "2026-11-14T16:29:07Z",
+     "snippet": "I love it! I’m going to give this a try for sessions that need to do a lot of browsing. If anyone is looking for a headless WebKit browser/viewer for agents (more focused on development), check out https://github.com/bensyverson/sleepyhollow"
+    }
+   ]
+  },
+  "vlang/ui": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "shelled",
+     "url": "https://news.ycombinator.com/item?id=50498065",
+     "date": "2026-11-14T16:00:19Z",
+     "snippet": "I was taking some sort of mental notes while reading the article. I really liked this one. There used to be more such articles – written in this style (and no, it's not some highfalutin literary style). It is clearly not AI-written, and that was the least of it, it came across li"
+    }
+   ]
+  },
+  "noonghunna/club-3090": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "xrd",
+     "url": "https://news.ycombinator.com/item?id=50497254",
+     "date": "2026-11-14T14:25:05Z",
+     "snippet": "I've been happily using unsloth/Qwen3.6 for a while using llama.cpp on several rtx3090s. Excited to try this update. And, reading through the ggml update on the front page of HN this morning, I realize I might do better than llama.cpp. I've also really fascinated by llama-modchip"
+    }
+   ]
+  },
+  "irs-public/direct-file": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "accountinhn",
+     "url": "https://news.ycombinator.com/item?id=50499083",
+     "date": "2026-11-14T17:48:20Z",
+     "snippet": "US IRS free online tax filing open source repo (2025) (122 points)"
+    }
+   ]
+  },
+  "vaibhaav-tiwari/deepseek-v3-jax": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "VaibhaavTiwari",
+     "url": "https://news.ycombinator.com/item?id=50497589",
+     "date": "2026-11-14T15:04:15Z",
+     "snippet": "Show HN: DeepSeek V3 in ~200 lines of pure Jax (119 points)"
+    }
+   ]
+  },
+  "kmscon/libtsm": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:gcupc",
+     "url": "https://lobste.rs/c/xrur3f",
+     "date": "2026-11-14T11:31:13.274-06:00",
+     "snippet": "> However, I would love to see more competition. libghostty is useful and good, but I think it's possible to create a better library for the underlying state machine—better from a performance, code quality, and design perspective.\r\n\r\n\r\nI have not worked with it, but there is the "
+    }
+   ]
+  },
+  "liketrek/trek": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.world/u/chaospatterns",
+     "url": "https://lemmy.world/comment/26867292",
+     "date": "2026-11-14T19:28:50.815197Z",
+     "snippet": "For my trips I use [Trek](https://github.com/liketrek/TREK), [AirTrail](https://airtrail.johan.ohly.dk/), and [Dawarich](https://dawarich.app/). I picked Trek because it was most similar to Wanderlog which is what I used to use and it supported SSO. It seems to have a strong comm"
+    }
+   ]
+  },
+  "hanan-bhatti/cobalt": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:hanan_bhatti@mastodon.social",
+     "url": "https://mastodon.social/@hanan_bhatti/117614855232615336",
+     "date": "2026-11-14T12:44:26.000Z",
+     "snippet": "I kept saving links in one app, notes in another, and code snippets wherever I could find space. Then I’d forget where I put them. So I built Cobalt, a free, open-source Android app that keeps notes, links, images, and snippets in one searchable archive. I use it every day, and t"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -162121,6 +162309,7 @@
   "49322107": 1793607999096,
   "49331033": 1793608036247,
   "49332387": 1793608060405,
+  "49332495": 1794694833983,
   "49340013": 1793608048197,
   "49389408": 1793608070942,
   "49429899": 1793608048097,
@@ -162181,23 +162370,24 @@
   "50313705": 1794088035774,
   "50318646": 1794636938493,
   "50326727": 1793772782762,
-  "50328896": 1794663220201,
-  "50331001": 1794663219985,
+  "50328896": 1794694833703,
+  "50331001": 1794694833673,
   "50337431": 1794636938142,
-  "50338726": 1794663219617,
-  "50338728": 1794663219189,
+  "50338726": 1794694832645,
+  "50338728": 1794694832407,
   "50347425": 1794551950816,
-  "50352757": 1794663219527,
-  "50353457": 1794663219474,
-  "50354336": 1794663219919,
-  "50355959": 1794663219509,
-  "50363461": 1794663219630,
-  "50366117": 1794663220124,
+  "50352757": 1794694832582,
+  "50353457": 1794694832506,
+  "50354336": 1794694834379,
+  "50355959": 1794694833290,
+  "50363461": 1794694832711,
+  "50366117": 1794694835081,
   "50393105": 1794636938922,
-  "50403153": 1794663219810,
-  "50405250": 1794663219851,
-  "50444380": 1794663219557,
-  "50484421": 1794663219642,
-  "50494696": 1794663219178
+  "50403153": 1794694833650,
+  "50405250": 1794694833829,
+  "50444380": 1794694833062,
+  "50484421": 1794694833177,
+  "50488230": 1794694832660,
+  "50494696": 1794694833810
  }
 }
