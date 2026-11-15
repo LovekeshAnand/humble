@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T06:23:56.871Z",
+ "updatedAt": "2026-11-15T18:49:26.663Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7636,7 +7636,7 @@
     "fork": false,
     "pushedAt": "2026-11-14T19:45:00Z"
    },
-   "checkedAt": "2026-11-15T06:23:56.334Z"
+   "checkedAt": "2026-11-15T18:49:26.356Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -91587,13 +91587,13 @@
      "snippet": "> Which model(s) are you running (e.g., Ollama, LM Studio, or others) and which open-source coding assistant/integration (for example, a VS Code plugin) you’re using? Open-source coding assistant: VT Code (my own coding agent -- github.com/vinhnx/vtcode) Model: gpt-oss-120b remot"
     }
    ],
-   "checkedAt": "2026-11-08T13:19:52.645Z",
+   "checkedAt": "2026-11-15T18:49:25.295Z",
    "meta": {
     "name": "VTCode",
     "fullName": "vinhnx/VTCode",
-    "description": "A local-first AI coding agent for your terminal and desktop.",
+    "description": " VT Code is a terminal-first coding agent for your repo, in the CLI and native macOS app.",
     "homepage": "https://vinhnx.github.io/VTCode/",
-    "stars": 899,
+    "stars": 911,
     "language": "Rust",
     "topics": [
      "agent",
@@ -91615,7 +91615,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-08T12:50:48Z"
+    "pushedAt": "2026-11-15T11:05:49Z"
    },
    "listedAt": "2026-11-08T13:19:53.608Z"
   },
@@ -102803,13 +102803,45 @@
   "m-abozaid/esp32-c3-adblock": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "LaurensBER",
+     "url": "https://news.ycombinator.com/item?id=50508582",
+     "date": "2026-11-15T17:10:39Z",
+     "snippet": "I spent a few evenings in the past weeks on understanding how different DNS blockers work, why Adguard Home kept crashing on my OpenStick and to see if I could come-up with a good solution for my usecase. I figured the write-up might be interesting for other people, after all DNS"
+    },
+    {
      "source": "HN front page",
      "author": "jayhoon",
      "url": "https://news.ycombinator.com/item?id=49986862",
      "date": "2026-10-07T01:39:21Z",
      "snippet": "ESP32-C3 Adblock (195 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-15T18:49:25.528Z",
+   "meta": {
+    "name": "esp32-c3-adblock",
+    "fullName": "M-Abozaid/esp32-c3-adblock",
+    "description": "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit FNV-1a hashes in flash, binary-searched. UDP DNS sinkhole + web dashboard. https://youtube.com/shorts/RaxszOUMi8E?feature=share",
+    "homepage": null,
+    "stars": 3572,
+    "language": "C++",
+    "topics": [
+     "adblocker",
+     "arduino",
+     "dns",
+     "dns-sinkhole",
+     "esp32",
+     "esp32-c3",
+     "iot",
+     "pi-hole",
+     "platformio"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-06T08:25:01Z"
+   },
+   "listedAt": "2026-11-15T18:49:26.661Z"
   },
   "boykopovar/anyps5": {
    "mentions": [
@@ -157549,7 +157581,7 @@
      "snippet": "1-2) Claude $20/mo (planner) Codex $20/mo (reviewer) Deepseek $1-3/day workhorse. 4) A standard /implement skill creates separate agents for different parts of the workflow. It uses Claude for planning, codex for reviewing, and deepseek for doing and orchestrating. https://github"
     }
    ],
-   "checkedAt": "2026-11-08T13:19:52.848Z",
+   "checkedAt": "2026-11-15T18:49:25.795Z",
    "meta": {
     "name": "pi-quota-dispatcher",
     "fullName": "gregwebs/pi-quota-dispatcher",
@@ -157561,7 +157593,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-04T19:25:17Z"
+    "pushedAt": "2026-11-13T17:02:29Z"
    }
   },
   "ontouchstart/b6a08b068cf863f0523bbd8880c88cf4": {
@@ -161805,6 +161837,105 @@
      "snippet": "Show HN: I have trained 15 blood glucose forecasting models on my own data (109 points)"
     }
    ]
+  },
+  "quad4-software/ren-tui": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "anthk",
+     "url": "https://news.ycombinator.com/item?id=50507525",
+     "date": "2026-11-15T15:19:11Z",
+     "snippet": "Odin needs too recent LLVM versions to work. A pity this Reticulum client it's written on that, because if it were written in Go it would be instantly portable to legacy machines: https://github.com/Quad4-Software/Ren-TUI Reticulum in Go: https://github.com/Quad4-Software/Reticul"
+    }
+   ]
+  },
+  "quad4-software/reticulum-go": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "anthk",
+     "url": "https://news.ycombinator.com/item?id=50507525",
+     "date": "2026-11-15T15:19:11Z",
+     "snippet": "Odin needs too recent LLVM versions to work. A pity this Reticulum client it's written on that, because if it were written in Go it would be instantly portable to legacy machines: https://github.com/Quad4-Software/Ren-TUI Reticulum in Go: https://github.com/Quad4-Software/Reticul"
+    }
+   ]
+  },
+  "imjasonh/playground": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ImJasonH",
+     "url": "https://news.ycombinator.com/item?id=50507126",
+     "date": "2026-11-15T14:20:27Z",
+     "snippet": "I've wanted to get into NES homebrewing for years but found it difficult to get started. Eventually I vibe-coded a language specifically designed to build NES games, but then fell down the rabbithole of designing that language and the compiler, instead of building games. Typical."
+    }
+   ]
+  },
+  "db-branch/db-branch": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "nu_nu11",
+     "url": "https://news.ycombinator.com/item?id=50506944",
+     "date": "2026-11-15T13:51:30Z",
+     "snippet": "Hey HN! I've read HN for years but this is my first post. db-branch uses ZFS copy-on-write to create, destroy, and reset MySQL and PostgreSQL clones in seconds, even for terabyte-scale databases. It's self-hosted and doesn't depend on any cloud vendor. Background Per-PR preview e"
+    }
+   ]
+  },
+  "humanitas-labs/quill": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "indiantinker",
+     "url": "https://news.ycombinator.com/item?id=50506081",
+     "date": "2026-11-15T11:23:20Z",
+     "snippet": "Hey, I have been building an alternative to Granola that is less resource intensive and private. Upon using quill[1], I found i could improve it to suit my use case of multilingual calls, better UX, and a MCP to connect my agents to and fetch ideas. Since then, Me (and friends), "
+    }
+   ]
+  },
+  "x0rro/xara": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tejtm",
+     "url": "https://news.ycombinator.com/item?id=50505764",
+     "date": "2026-11-15T10:30:20Z",
+     "snippet": "Thanks for the second chance on this HN! This is important (to me) because the proprietary windows software \"VARA\" has a de facto death grip on basic emergency amateur radio digital communication. A clean room open source rust implementation called xara was just shut down https:/"
+    }
+   ]
+  },
+  "beriberikix/relaynet": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jonathanberi",
+     "url": "https://news.ycombinator.com/item?id=50340285",
+     "date": "2026-11-02T17:26:46Z",
+     "snippet": "Browsers can't open a TCP socket. That keeps biting anything that brings its own network stack into a tab: emulated VMs, WebAssembly builds of an OS, user-space TCP/IP like smoltcp or lwIP. I kept writing one-off relays for these, so I built a proper one and have now open-sourced"
+    }
+   ]
+  },
+  "kartikver-674/sweep": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Kartikverma674",
+     "url": "https://news.ycombinator.com/item?id=50508105",
+     "date": "2026-11-15T16:19:38.000Z",
+     "snippet": "Location: Chandigarh, India Remote: Yes Willing to relocate: Yes (anywhere; outside India needs visa sponsorship) Technologies: Python, TypeScript, FastAPI, Flask, Node.js, PostgreSQL, MongoDB, Redis, React, Next.js, React Native, LLMs (self-hosted Qwen3-8B, JSON Schema structure"
+    }
+   ]
+  },
+  "paul-nameless/agweb": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "paul_nameless",
+     "url": "https://news.ycombinator.com/item?id=50497147",
+     "date": "2026-11-14T14:08:12Z",
+     "snippet": "Show HN: Agweb – a browser for agents that stays out of your way (107 points)"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -162661,24 +162792,24 @@
   "50313705": 1794088035774,
   "50318646": 1794723801287,
   "50326727": 1793772782762,
-  "50328896": 1794723801842,
-  "50331001": 1794723801678,
-  "50337431": 1794723800898,
-  "50338726": 1794723800971,
-  "50338728": 1794723801005,
-  "50347425": 1794551950816,
-  "50352757": 1794723801212,
-  "50353457": 1794723801100,
-  "50354336": 1794723801654,
-  "50355959": 1794723801551,
-  "50363461": 1794723801373,
-  "50366117": 1794723801805,
+  "50328896": 1794768496866,
+  "50331001": 1794768497180,
+  "50337431": 1794768496249,
+  "50338726": 1794768496167,
+  "50338728": 1794768495643,
+  "50347425": 1794768497144,
+  "50352757": 1794768496230,
+  "50353457": 1794768496841,
+  "50354336": 1794768497151,
+  "50355959": 1794768496247,
+  "50363461": 1794768497328,
+  "50366117": 1794768497505,
   "50393105": 1794636938922,
-  "50403153": 1794723801679,
-  "50405250": 1794723801994,
-  "50444380": 1794723801345,
-  "50484421": 1794723801834,
-  "50488230": 1794723801541,
-  "50494696": 1794723801232
+  "50403153": 1794768497832,
+  "50405250": 1794768497428,
+  "50444380": 1794768496429,
+  "50484421": 1794768497956,
+  "50488230": 1794768496915,
+  "50494696": 1794768497302
  }
 }
