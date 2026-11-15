@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T22:21:11.720Z",
+ "updatedAt": "2026-11-15T06:23:56.871Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7636,7 +7636,7 @@
     "fork": false,
     "pushedAt": "2026-11-14T19:45:00Z"
    },
-   "checkedAt": "2026-11-14T22:21:11.513Z"
+   "checkedAt": "2026-11-15T06:23:56.334Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -9926,6 +9926,13 @@
   },
   "awesome-selfhosted/awesome-selfhosted": {
    "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://programming.dev/u/tremble5218",
+     "url": "https://programming.dev/comment/27184133",
+     "date": "2026-11-14T23:28:16.861256Z",
+     "snippet": "You don't specifically have to use SimpleLogin. I only suggested it because I use it. You could use a number of other services like AnonAddy, Forward Email, Firefox Relay, etc. for aliases. For email hosting, you could choose any provider of your choosing, doesn't have to be a me"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50119005",
@@ -51197,16 +51204,12 @@
   "jon49/soccer": {
    "mentions": [
     {
-     "source": "Ask HN",
+     "source": "HN comment",
      "author": "nymanjon",
-     "url": "https://news.ycombinator.com/item?id=38737934",
-     "date": "2023-12-22T19:55:58.000Z",
-     "snippet": "A soccer tracking app for who is playing and who isn't and what positions.[^1] A weight tracking application.[^2] A time tracker for how many hours my daughter was driving.[^3] An app to help my wife randomly pick meals for the upcoming week.[^4] Logic (CLI) to organize finances "
-    }
-   ]
-  },
-  "jon49/weighttracker": {
-   "mentions": [
+     "url": "https://news.ycombinator.com/item?id=50504122",
+     "date": "2026-11-15T04:55:52Z",
+     "snippet": "I use HTMZ-BE which is super simple. I combine it with _action for any actions. Claude seems to be able to handle all of it just fine. In an app for a company I would default to Datastar core with _<action>. HTMZ-BE https://github.com/jon49/jon49-web/blob/master/lib/htmz-be.t... "
+    },
     {
      "source": "Ask HN",
      "author": "nymanjon",
@@ -51214,7 +51217,53 @@
      "date": "2023-12-22T19:55:58.000Z",
      "snippet": "A soccer tracking app for who is playing and who isn't and what positions.[^1] A weight tracking application.[^2] A time tracker for how many hours my daughter was driving.[^3] An app to help my wife randomly pick meals for the upcoming week.[^4] Logic (CLI) to organize finances "
     }
-   ]
+   ],
+   "checkedAt": "2026-11-15T06:23:55.405Z",
+   "meta": {
+    "name": "Soccer",
+    "fullName": "jon49/Soccer",
+    "description": "Tracker for players play time",
+    "homepage": null,
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-15T05:50:46Z"
+   }
+  },
+  "jon49/weighttracker": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "nymanjon",
+     "url": "https://news.ycombinator.com/item?id=50504122",
+     "date": "2026-11-15T04:55:52Z",
+     "snippet": "I use HTMZ-BE which is super simple. I combine it with _action for any actions. Claude seems to be able to handle all of it just fine. In an app for a company I would default to Datastar core with _<action>. HTMZ-BE https://github.com/jon49/jon49-web/blob/master/lib/htmz-be.t... "
+    },
+    {
+     "source": "Ask HN",
+     "author": "nymanjon",
+     "url": "https://news.ycombinator.com/item?id=38737934",
+     "date": "2023-12-22T19:55:58.000Z",
+     "snippet": "A soccer tracking app for who is playing and who isn't and what positions.[^1] A weight tracking application.[^2] A time tracker for how many hours my daughter was driving.[^3] An app to help my wife randomly pick meals for the upcoming week.[^4] Logic (CLI) to organize finances "
+    }
+   ],
+   "checkedAt": "2026-11-15T06:23:55.642Z",
+   "meta": {
+    "name": "WeightTracker",
+    "fullName": "jon49/WeightTracker",
+    "description": "Back end for saving data for weight tracker.",
+    "homepage": null,
+    "stars": 3,
+    "language": "V",
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-15T06:01:57Z"
+   }
   },
   "jon49/drive-time-tracking": {
    "mentions": [
@@ -145440,13 +145489,45 @@
   "rvaiya/keyd": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "avtar",
+     "url": "https://news.ycombinator.com/item?id=45787611",
+     "date": "2025-11-02T03:17:43.000Z",
+     "snippet": "> as far as I can tell, no operating system does this in a way that really works besides OSX AFAIK this is an easy setting in desktop environments such as Cosmic, Gnome, and KDE. But I've been using keyd on Linux distros for a while: https://github.com/rvaiya/keyd#quickstart Usin"
+    },
+    {
      "source": "HN front page",
      "author": "gigatexal",
      "url": "https://news.ycombinator.com/item?id=36161582",
      "date": "2023-06-02T05:58:18Z",
      "snippet": "Keyd: Linux Key Remapper (143 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-15T06:23:55.887Z",
+   "meta": {
+    "name": "keyd",
+    "fullName": "rvaiya/keyd",
+    "description": "A key remapping daemon for linux.",
+    "homepage": null,
+    "stars": 6109,
+    "language": "C",
+    "topics": [
+     "c",
+     "keyboard",
+     "keyboard-layout",
+     "keyboard-mapping",
+     "keyboard-remap",
+     "keymap",
+     "linux",
+     "sway",
+     "x11"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-06-01T06:52:06Z"
+   },
+   "listedAt": "2026-11-15T06:23:56.871Z"
   },
   "oai/moonwalk": {
    "mentions": [
@@ -156938,13 +157019,13 @@
      "snippet": "1) One 5x Claude sub, one pro lite codex sub 2) Not really, the value proposition on the subs are just so much greater. 3) I'm using Claude Code and Codex, crucially thru Muster[0] which I've been working on. It's a herdr inspired Libghostty-powered terminal which understands age"
     }
    ],
-   "checkedAt": "2026-11-08T05:58:04.360Z",
+   "checkedAt": "2026-11-15T06:23:55.153Z",
    "meta": {
     "name": "muster",
     "fullName": "amterp/muster",
     "description": "Native macOS workspace for AI coding agents: real splits, agent state at a glance, local and SSH agents in one window, on sessions that outlive the app.",
     "homepage": "https://github.com/amterp/muster",
-    "stars": 1,
+    "stars": 2,
     "language": "Rust",
     "topics": [
      "ai-agents",
@@ -156957,7 +157038,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-07T17:51:57Z"
+    "pushedAt": "2026-11-14T22:07:58Z"
    }
   },
   "mas-bandwidth/nova-tools": {
@@ -161515,6 +161596,215 @@
      "snippet": "I kept saving links in one app, notes in another, and code snippets wherever I could find space. Then I’d forget where I put them. So I built Cobalt, a free, open-source Android app that keeps notes, links, images, and snippets in one searchable archive. I use it every day, and t"
     }
    ]
+  },
+  "column-tax/tax-calc-bench": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "michaelrbock",
+     "url": "https://news.ycombinator.com/item?id=50504307",
+     "date": "2026-11-15T05:38:25Z",
+     "snippet": "Someone should try running this against these open source test cases: https://github.com/column-tax/tax-calc-bench"
+    }
+   ]
+  },
+  "mypyc/mypyc": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "analog_daddy",
+     "url": "https://news.ycombinator.com/item?id=50504299",
+     "date": "2026-11-15T05:36:02Z",
+     "snippet": "Maybe mypyc? https://github.com/mypyc/mypyc To be honest, I never tried it personally, but I try to check up on its status every couple of months."
+    }
+   ]
+  },
+  "jon49/jon49-web": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "nymanjon",
+     "url": "https://news.ycombinator.com/item?id=50504122",
+     "date": "2026-11-15T04:55:52Z",
+     "snippet": "I use HTMZ-BE which is super simple. I combine it with _action for any actions. Claude seems to be able to handle all of it just fine. In an app for a company I would default to Datastar core with _<action>. HTMZ-BE https://github.com/jon49/jon49-web/blob/master/lib/htmz-be.t... "
+    }
+   ]
+  },
+  "strawberrymusicplayer/strawberry": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "anotherevan",
+     "url": "https://news.ycombinator.com/item?id=50502532",
+     "date": "2026-11-15T00:18:21Z",
+     "snippet": "I used Clementine for a long while, but then switched to the Strawberry¹ fork. Can't entirely remember why now, but it had seemed development on Clementine had slowed down somewhat at the time and I was having some problems with it. Glad to hear it sounds like it has picked up ag"
+    }
+   ]
+  },
+  "khimaros/nanodrip": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "khimaros",
+     "url": "https://news.ycombinator.com/item?id=50501580",
+     "date": "2026-11-14T22:22:00Z",
+     "snippet": "i would love to integrate your findings into https://github.com/khimaros/nanodrip (ESP32 firmware for Dexcom G7 sensors with primitive forecasting)"
+    }
+   ]
+  },
+  "abo-abo/swiper": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "kevstev",
+     "url": "https://news.ycombinator.com/item?id=45783670",
+     "date": "2025-11-01T17:48:05.000Z",
+     "snippet": "I saw what was possible with emacs via systemcrafters: https://systemcrafters.net/emacs-from-scratch/ And I should note I have been using it for about 25 years, and was mostly in the dark about what it was capable of, though many of those years were in environments where I was us"
+    }
+   ]
+  },
+  "jamescherti/minimal-emacs.d": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Karrot_Kream",
+     "url": "https://news.ycombinator.com/item?id=45784591",
+     "date": "2025-11-01T19:33:35.000Z",
+     "snippet": "If you don't want to use a distribution like Doom (which I don't fwiw and I've been using emacs for 20-something years), then I'm a big fan of minimal-emacs [1] a compact init.el and early-init.el that configures vanilla emacs into a good, default state. From there I would pick a"
+    },
+    {
+     "source": "Ask HN",
+     "author": "uutangohotel",
+     "url": "https://news.ycombinator.com/item?id=45783901",
+     "date": "2025-11-01T18:13:01.000Z",
+     "snippet": "https://github.com/jamescherti/minimal-emacs.d is a great starting point for owning your config. On macOS: Install from emacs-plus in Homebrew On Linux: Install from your distro’s pkg manager."
+    }
+   ],
+   "checkedAt": "2026-11-15T06:23:56.553Z",
+   "meta": {
+    "name": "minimal-emacs.d",
+    "fullName": "jamescherti/minimal-emacs.d",
+    "description": "minimal-emacs.d - Emacs init.el and early-init.el for Better Defaults and Optimized Startup, intended to serve as a solid foundation for your vanilla Emacs configuration | Emacs Starter Kit",
+    "homepage": "https://github.com/jamescherti/minimal-emacs.d",
+    "stars": 928,
+    "language": "Emacs Lisp",
+    "topics": [
+     "emacs",
+     "emacs-base",
+     "emacs-config",
+     "emacs-configuration",
+     "emacs-early-init",
+     "emacs-init",
+     "emacs-initialization",
+     "emacs-starter-kit",
+     "starter-kit",
+     "vanilla-emacs",
+     "vanilla-emacs-base"
+    ],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-09T18:09:11Z"
+   }
+  },
+  "bbatsov/crux": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "stebian_dable",
+     "url": "https://news.ycombinator.com/item?id=45788601",
+     "date": "2025-11-02T07:50:31.000Z",
+     "snippet": "Bedrock is a great starting point. Plays well with https://github.com/bbatsov/crux also."
+    }
+   ]
+  },
+  "wwarner/emacs-native-dockerfiles": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "wwarner",
+     "url": "https://news.ycombinator.com/item?id=45785401",
+     "date": "2025-11-01T21:11:15.000Z",
+     "snippet": "i run a basic emacs configuration within docker, so it has all the underlying executables & binaries installed where emacs looks for them. runs exactly the same on linux & macos. https://hub.docker.com/r/wwarner/emacs-native or https://github.com/wwarner/emacs-native-dockerfiles"
+    }
+   ]
+  },
+  "jaypei/emacs-neotree": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "grg0",
+     "url": "https://news.ycombinator.com/item?id=45786028",
+     "date": "2025-11-01T22:32:41.000Z",
+     "snippet": "My Emacs setup typically involves: - An LSP: https://emacs-lsp.github.io/lsp-mode/tutorials/CPP-guide/ - Neotree to browse the file system: https://github.com/jaypei/emacs-neotree - Awesome-tab for tabs: https://github.com/manateelazycat/awesome-tab If you want more, look at the "
+    }
+   ]
+  },
+  "manateelazycat/awesome-tab": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "grg0",
+     "url": "https://news.ycombinator.com/item?id=45786028",
+     "date": "2025-11-01T22:32:41.000Z",
+     "snippet": "My Emacs setup typically involves: - An LSP: https://emacs-lsp.github.io/lsp-mode/tutorials/CPP-guide/ - Neotree to browse the file system: https://github.com/jaypei/emacs-neotree - Awesome-tab for tabs: https://github.com/manateelazycat/awesome-tab If you want more, look at the "
+    }
+   ]
+  },
+  "ocodo/ocomacs": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "jasonm23",
+     "url": "https://news.ycombinator.com/item?id=45787024",
+     "date": "2025-11-02T01:08:23.000Z",
+     "snippet": "I made ocomacs for this purpose, it's designed as a minimal config layer which is more of a pattern to follow than a \"does everything for you\" framework. https://github.com/ocodo/ocomacs"
+    }
+   ]
+  },
+  "rougier/nano-emacs": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Iwan-Zotow",
+     "url": "https://news.ycombinator.com/item?id=45787663",
+     "date": "2025-11-02T03:30:48.000Z",
+     "snippet": "Emacs nano https://github.com/rougier/nano-emacs"
+    }
+   ]
+  },
+  "bbatsov/prelude": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "facundo_olano",
+     "url": "https://news.ycombinator.com/item?id=45789550",
+     "date": "2025-11-02T11:28:16.000Z",
+     "snippet": "I started with prelude[1], I wanted something batteries included to use as my main editor right away, but not as structurally different from vanilla as Doom or Spacemacs. Then after a couple of years I rewrote my config line by line looking at what prelude did and keeping only wh"
+    }
+   ]
+  },
+  "ergoemacs/ergoemacs-mode": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "az09mugen",
+     "url": "https://news.ycombinator.com/item?id=45803279",
+     "date": "2025-11-03T19:26:10.000Z",
+     "snippet": "Being a sublime power user I really like the philosophy of emacs. The only thing I regret are the keybindings which are not the ones I'm used to. I found ergoemacs [0] to be a really good initiative but unfortunately it felt incomplete when I tried it. I had the project to re-bin"
+    }
+   ]
+  },
+  "0xdeadf1sh/t1dmai": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "0xdeadf1sh",
+     "url": "https://news.ycombinator.com/item?id=50444761",
+     "date": "2026-11-10T19:07:53Z",
+     "snippet": "Show HN: I have trained 15 blood glucose forecasting models on my own data (109 points)"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -162149,6 +162439,7 @@
   "45572130": 1793908523537,
   "45615193": 1793608069951,
   "45771870": 1793608070103,
+  "45783376": 1794723801176,
   "45807775": 1793608029805,
   "45823234": 1793608009656,
   "45850325": 1793608069705,
@@ -162368,26 +162659,26 @@
   "50301479": 1794598722602,
   "50312756": 1794636938382,
   "50313705": 1794088035774,
-  "50318646": 1794636938493,
+  "50318646": 1794723801287,
   "50326727": 1793772782762,
-  "50328896": 1794694833703,
-  "50331001": 1794694833673,
-  "50337431": 1794636938142,
-  "50338726": 1794694832645,
-  "50338728": 1794694832407,
+  "50328896": 1794723801842,
+  "50331001": 1794723801678,
+  "50337431": 1794723800898,
+  "50338726": 1794723800971,
+  "50338728": 1794723801005,
   "50347425": 1794551950816,
-  "50352757": 1794694832582,
-  "50353457": 1794694832506,
-  "50354336": 1794694834379,
-  "50355959": 1794694833290,
-  "50363461": 1794694832711,
-  "50366117": 1794694835081,
+  "50352757": 1794723801212,
+  "50353457": 1794723801100,
+  "50354336": 1794723801654,
+  "50355959": 1794723801551,
+  "50363461": 1794723801373,
+  "50366117": 1794723801805,
   "50393105": 1794636938922,
-  "50403153": 1794694833650,
-  "50405250": 1794694833829,
-  "50444380": 1794694833062,
-  "50484421": 1794694833177,
-  "50488230": 1794694832660,
-  "50494696": 1794694833810
+  "50403153": 1794723801679,
+  "50405250": 1794723801994,
+  "50444380": 1794723801345,
+  "50484421": 1794723801834,
+  "50488230": 1794723801541,
+  "50494696": 1794723801232
  }
 }
