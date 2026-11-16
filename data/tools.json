@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T18:49:26.663Z",
+ "updatedAt": "2026-11-16T06:22:58.993Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7636,7 +7636,7 @@
     "fork": false,
     "pushedAt": "2026-11-14T19:45:00Z"
    },
-   "checkedAt": "2026-11-15T18:49:26.356Z"
+   "checkedAt": "2026-11-16T06:22:58.260Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -44477,13 +44477,13 @@
      "snippet": "ArtCraft | Backend Engineer (Rust, MySQL) | Remote (Global) / Onsite (SF Bay Area and Atlanta, Georgia) | https://github.com/storytold/artcraft | https://getartcraft.com We’re experienced artists and engineers building source available controllable AI for artists, filmmakers, mus"
     }
    ],
-   "checkedAt": "2026-11-08T22:01:14.752Z",
+   "checkedAt": "2026-11-16T06:22:56.825Z",
    "meta": {
     "name": "artcraft",
     "fullName": "storytold/artcraft",
     "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
     "homepage": "https://getartcraft.com",
-    "stars": 39872,
+    "stars": 41162,
     "language": "Rust",
     "topics": [
      "3d-graphics",
@@ -44495,7 +44495,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-07T03:48:03Z"
+    "pushedAt": "2026-11-12T12:22:43Z"
    },
    "listedAt": "2026-11-08T22:01:15.795Z"
   },
@@ -108868,13 +108868,34 @@
   "arman-bd/guppylm": {
    "mentions": [
     {
+     "source": "Ask HN",
+     "author": "benhurmarcel",
+     "url": "https://news.ycombinator.com/item?id=50511000",
+     "date": "2026-11-15T21:30:33.000Z",
+     "snippet": "Relevant: https://github.com/arman-bd/guppylm"
+    },
+    {
      "source": "HN front page",
      "author": "armanified",
      "url": "https://news.ycombinator.com/item?id=47655408",
      "date": "2026-04-06T00:20:12Z",
      "snippet": "Show HN: I built a tiny LLM to demystify how language models work (915 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-16T06:22:57.096Z",
+   "meta": {
+    "name": "guppylm",
+    "fullName": "arman-bd/guppylm",
+    "description": "A ~9M parameter LLM that talks like a small fish.",
+    "homepage": null,
+    "stars": 4078,
+    "language": "Python",
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-04-15T21:23:03Z"
+   }
   },
   "kessler/gemma-gem": {
    "mentions": [
@@ -156880,19 +156901,19 @@
      "snippet": "Claude + Codex, both from work. Just those. https://github.com/oscscull/quarterdeck built my own harness. I had trouble with both claude and codex. In particular, managing multiple tasks in a kanban, syncing between my machines, making sure work is done on the right machine and c"
     }
    ],
-   "checkedAt": "2026-11-09T06:20:15.552Z",
+   "checkedAt": "2026-11-16T06:22:57.354Z",
    "meta": {
     "name": "quarterdeck",
     "fullName": "oscscull/quarterdeck",
     "description": "A day scheduler desktop app (Tauri + Rust)",
     "homepage": null,
-    "stars": 14,
+    "stars": 16,
     "language": "Rust",
     "topics": [],
     "license": "GPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-09T03:32:55Z"
+    "pushedAt": "2026-11-12T07:53:26Z"
    }
   },
   "jonwiggins/optio": {
@@ -157407,7 +157428,7 @@
      "snippet": "The sort of work I pass through this system, it's mostly library work for multiplayer games. For example, my work on schema, my protobufs/flatbuffers language replacement for multiplayer games, parallelizes very nicely across 15 languages on the sprint system. https://github.com/"
     }
    ],
-   "checkedAt": "2026-11-08T22:01:15.032Z",
+   "checkedAt": "2026-11-16T06:22:57.597Z",
    "meta": {
     "name": "schema",
     "fullName": "mas-bandwidth/schema",
@@ -157419,7 +157440,7 @@
     "license": null,
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-08T18:40:04Z"
+    "pushedAt": "2026-11-16T05:35:45Z"
    }
   },
   "mas-bandwidth/fixed3d": {
@@ -161936,6 +161957,152 @@
      "snippet": "Show HN: Agweb – a browser for agents that stays out of your way (107 points)"
     }
    ]
+  },
+  "ivikash/vstack": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ivikash",
+     "url": "https://news.ycombinator.com/item?id=50514621",
+     "date": "2026-11-16T06:20:29Z",
+     "snippet": "Hello, I am developing vstack: a gstack/pstack adaptation for leadership and management. It is very much a work in progress and is far from ready. My favorite thing in the repo is the house rules for writing - https://github.com/ivikash/vstack/blob/main/skills/leadershi... . Chec"
+    }
+   ]
+  },
+  "dennysora/vpn-manager": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "dennysora-main",
+     "url": "https://news.ycombinator.com/item?id=50514222",
+     "date": "2026-11-16T04:58:52Z",
+     "snippet": "Although it's not very good. I still want to recommend something I've recently developed: https://github.com/DennySORA/vpn-manager This allows you to isolate specific apps and specific web pages (you need to install a proxy extension, which I developed myself). At the same time, "
+    },
+    {
+     "source": "HN comment",
+     "author": "dennysora-main",
+     "url": "https://news.ycombinator.com/item?id=50510847",
+     "date": "2026-11-15T21:16:19Z",
+     "snippet": "Mine has Mullvad and AirVPN built in. It's specifically for Port forwarding for P2P downloads. Feel free to try it. You can specify particular APPs so that the entire PC doesn't have to go through the proxy. It also supports multiple layers and traffic splitting. https://github.c"
+    }
+   ],
+   "checkedAt": "2026-11-16T06:22:57.813Z",
+   "meta": {
+    "name": "vpn-manager",
+    "fullName": "DennySORA/vpn-manager",
+    "description": "Run several WireGuard exits side by side on your own computer, and decide which programs use which one.",
+    "homepage": null,
+    "stars": 7,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-14T09:29:39Z"
+   }
+  },
+  "blueblazin/lowpolyearth": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "blueblazin",
+     "url": "https://news.ycombinator.com/item?id=50512892",
+     "date": "2026-11-16T01:22:12Z",
+     "snippet": "I self-host protomaps on CloudFlare for my side project: https://github.com/BlueBlazin/lowpolyearth It costs me something like $2/month iirc, and it made tile querying faster over protomaps' free hosted endpoint."
+    }
+   ]
+  },
+  "protomaps/pmtiles": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jamessb",
+     "url": "https://news.ycombinator.com/item?id=50511637",
+     "date": "2026-11-15T22:40:48Z",
+     "snippet": "> If you are into this stuff, you can view PMTiles from the CLI with \"gloss\", or try to drag-and-drop on its web interface The official PMTiles viewer [1, 2, 3] is also pretty good. [1]: https://pmtiles.io/ [2]: https://github.com/protomaps/PMTiles/tree/main/app [3]: https://prot"
+    }
+   ]
+  },
+  "aiaf/stillcolor": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "windowsrookie",
+     "url": "https://news.ycombinator.com/item?id=50510184",
+     "date": "2026-11-15T20:06:44Z",
+     "snippet": "Luckily I was at the tail-end of CRT monitor times. I remember I would have to set them to 75hz because I could actually see the 60hz flicker and it would give me headaches and make me feel ill. I still have monitor sensitivity today, PWM absolutely gives me headaches and severel"
+    }
+   ]
+  },
+  "artieficr/kindle-annotation-sync": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:Artieficr@pixelfed.social",
+     "url": "https://pixelfed.social/p/Artieficr/1027786156687121840",
+     "date": "2026-11-16T03:35:15.000Z",
+     "snippet": "I use both Kindle to read my e-books and calibre to manage an e-library on my computer. I also actively use highlights and notes to save sections I'd like to return to later, so I needed a good tool to sync them. Couldn't find one and designed my own today. Feel free to use :) ht"
+    },
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:Artieficr@vivaldi.net",
+     "url": "https://social.vivaldi.net/@Artieficr/117624014806617781",
+     "date": "2026-11-16T03:33:50.000Z",
+     "snippet": "I use both Kindle to read my e-books and calibre to manage an e-library on my computer. I also actively use highlights and notes to save sections I'd like to return to later, so I needed a good tool to sync them. Couldn't find one and designed my own today. Feel free to use :) ht"
+    }
+   ],
+   "checkedAt": "2026-11-16T06:22:58.569Z",
+   "meta": {
+    "name": "kindle-annotation-sync",
+    "fullName": "Artieficr/kindle-annotation-sync",
+    "description": "calibre plugin: sync Kindle highlights and notes (My Clippings.txt) into calibre's book annotations",
+    "homepage": "https://artieficr.com/gh/links",
+    "stars": 0,
+    "language": "Python",
+    "topics": [
+     "calibre",
+     "calibre-plugin",
+     "kindle-clippings",
+     "kindle-highlights"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-16T02:54:21Z"
+   }
+  },
+  "artieficr/kindle-an": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:Artieficr@vivaldi.net",
+     "url": "https://social.vivaldi.net/@Artieficr/117624014806617781",
+     "date": "2026-11-16T03:33:50.000Z",
+     "snippet": "I use both Kindle to read my e-books and calibre to manage an e-library on my computer. I also actively use highlights and notes to save sections I'd like to return to later, so I needed a good tool to sync them. Couldn't find one and designed my own today. Feel free to use :) ht"
+    }
+   ]
+  },
+  "getarcaneapp/arcane": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:ryan@social.bnry.lol",
+     "url": "https://social.bnry.lol/@ryan/117623571676446501",
+     "date": "2026-11-16T01:41:08.000Z",
+     "snippet": "The new Arcane 3.0 is hella sweet. Love the upgrade. https:// github.com/getarcaneapp/arcane # selfhosting # homelab"
+    }
+   ]
+  },
+  "baud-terminal/baud": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:logger@infosec.exchange",
+     "url": "https://infosec.exchange/@logger/117623251095690117",
+     "date": "2026-11-16T00:19:37.000Z",
+     "snippet": "just released Baud, a terminal emulator I wrote in Rust. It’s my daily terminal on Linux (Wayland, via my NixOS config) and macOS. • Images, GIFs and video, right in the terminal • Works out of the box: no config, fonts and icons bundled • The core is a separate library other pro"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -162792,24 +162959,25 @@
   "50313705": 1794088035774,
   "50318646": 1794723801287,
   "50326727": 1793772782762,
-  "50328896": 1794768496866,
-  "50331001": 1794768497180,
-  "50337431": 1794768496249,
-  "50338726": 1794768496167,
-  "50338728": 1794768495643,
-  "50347425": 1794768497144,
-  "50352757": 1794768496230,
-  "50353457": 1794768496841,
-  "50354336": 1794768497151,
-  "50355959": 1794768496247,
-  "50363461": 1794768497328,
-  "50366117": 1794768497505,
+  "50328896": 1794810134285,
+  "50331001": 1794810134193,
+  "50337431": 1794810133309,
+  "50338726": 1794810133393,
+  "50338728": 1794810133398,
+  "50347425": 1794810134033,
+  "50352757": 1794810133526,
+  "50353457": 1794810133430,
+  "50354336": 1794810134116,
+  "50355959": 1794810133528,
+  "50363461": 1794810133753,
+  "50366117": 1794810134291,
   "50393105": 1794636938922,
-  "50403153": 1794768497832,
-  "50405250": 1794768497428,
-  "50444380": 1794768496429,
-  "50484421": 1794768497956,
-  "50488230": 1794768496915,
-  "50494696": 1794768497302
+  "50403153": 1794810134031,
+  "50405250": 1794810134281,
+  "50444380": 1794810133775,
+  "50484421": 1794810134080,
+  "50488230": 1794810133710,
+  "50494696": 1794810133741,
+  "50510042": 1794810133792
  }
 }
