@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T06:22:58.993Z",
+ "updatedAt": "2026-11-16T21:58:53.738Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7636,7 +7636,7 @@
     "fork": false,
     "pushedAt": "2026-11-14T19:45:00Z"
    },
-   "checkedAt": "2026-11-16T06:22:58.260Z"
+   "checkedAt": "2026-11-16T21:58:53.533Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -14702,6 +14702,13 @@
   },
   "pullboard-dev/pullboard": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "Olscore",
+     "url": "https://news.ycombinator.com/item?id=50520968",
+     "date": "2026-11-16T18:26:03.000Z",
+     "snippet": "Here you go bro, https://github.com/pullboard-dev/pullboard"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50040211",
@@ -54824,6 +54831,13 @@
    "mentions": [
     {
      "source": "Ask HN",
+     "author": "saulpw",
+     "url": "https://news.ycombinator.com/item?id=50520951",
+     "date": "2026-11-16T18:24:41.000Z",
+     "snippet": "The VisiData backlog is basically empty: https://github.com/saulpw/visidata/issues"
+    },
+    {
+     "source": "Ask HN",
      "author": "Dowwie",
      "url": "https://news.ycombinator.com/item?id=18486192",
      "date": "2018-11-19T13:20:22.000Z",
@@ -64590,6 +64604,13 @@
   },
   "charmbracelet/soft-serve": {
    "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:dch@bsd.network",
+     "url": "https://bsd.network/@dch/117627613303319395",
+     "date": "2026-11-16T18:48:59.000Z",
+     "snippet": "# git # selfHosting I've been using # soft -serve https:// github.com/charmbracelet/soft- serve for ages, and will probably keep doing that, even though its now archived. I'd like to have a simple read-only view though, that others can click and browse through, or link from. Any "
+    },
     {
      "source": "Ask HN",
      "author": "elehack",
@@ -109507,6 +109528,13 @@
   },
   "berriai/litellm": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "jyotirmoy_17",
+     "url": "https://news.ycombinator.com/item?id=50516519",
+     "date": "2026-11-16T11:44:40.000Z",
+     "snippet": "Location: Delhi, India Remote: Yes (comfortable overlapping US hours) Willing to relocate: Yes Technologies: Python, Go, gRPC, C++, LangGraph/LangChain, multi-agent orchestration, LLM evals, document extraction/OCR, GCP/GKE, AWS, Stripe Connect and QuickBooks APIs Résumé/CV: http"
+    },
     {
      "source": "HN front page",
      "author": "theanonymousone",
@@ -162103,6 +162131,225 @@
      "snippet": "just released Baud, a terminal emulator I wrote in Rust. It’s my daily terminal on Linux (Wayland, via my NixOS config) and macOS. • Images, GIFs and video, right in the terminal • Works out of the box: no config, fonts and icons bundled • The core is a separate library other pro"
     }
    ]
+  },
+  "vmware-archive/likewise-open": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "EvanAnderson",
+     "url": "https://news.ycombinator.com/item?id=50523248",
+     "date": "2026-11-16T21:04:41Z",
+     "snippet": "Group Policy is so immensely handy. It was a game-changer feature for provisioning and maintaining Windows clients and servers from its introduction in Windows 2000. When Active Directory (AD) was brand new I became immediately enamored with Group Policy. \"Superpowers\" is definit"
+    }
+   ]
+  },
+  "kshitijl/psychic": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "articulatepang",
+     "url": "https://news.ycombinator.com/item?id=50522493",
+     "date": "2026-11-16T20:12:35Z",
+     "snippet": "Oh interesting, it's hosted on Cloudflare so as far as I can tell it's still up. I'll check the logs. Here's the github repo: https://github.com/kshitijl/psychic . The basic idea is that (quoting from the article): it's a fast terminal-based file browser. It tracks the directorie"
+    }
+   ]
+  },
+  "lazarus-931/swiss": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "alazarmb",
+     "url": "https://news.ycombinator.com/item?id=50520454",
+     "date": "2026-11-16T17:47:11Z",
+     "snippet": "While model-specific inference engine vs general debate is quite prevalent, I asked if the real bottleneck is the primitive, I think the real answer lies in redesigning a new primitive! With agents, a mlx-alternative didn't seem too ambitious even for a weekend project! Carbon is"
+    }
+   ]
+  },
+  "agent-command/agent-command": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "fraywing",
+     "url": "https://news.ycombinator.com/item?id=50520075",
+     "date": "2026-11-16T17:20:27Z",
+     "snippet": "Howdy HN! Inspired by StarSkirmish, I wanted to build a complex RTS that required you to bring your OWN agents and either play with them as allies, against them as enemies, or battle head-to-head with other agent-human pairs in public matches. In AC you operate one or more planes"
+    }
+   ]
+  },
+  "mitdbg/pgvectorfast": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "zxjcarrot",
+     "url": "https://news.ycombinator.com/item?id=50519615",
+     "date": "2026-11-16T16:42:24Z",
+     "snippet": "Hi all, I would like to share an extension that I am building called pgvectorfast. We love pgvector for its simplicity and ease of use, but one complaint we often see is that performance at larger scales can lag behind dedicated vector databases. So I wanted to see how much of th"
+    }
+   ]
+  },
+  "bulwarkmail/legacy-proxy": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "solarkraft",
+     "url": "https://news.ycombinator.com/item?id=50517693",
+     "date": "2026-11-16T14:02:47Z",
+     "snippet": "Wow, that looks great, thanks for the recommendation! It’s a bit “traditional” to fit my definition of “actually good”, but it looks very full-featured and polished for what it is (they even have a mobile app!). What’s really exciting to me is that they built what I considered th"
+    }
+   ]
+  },
+  "dai-studio/ex-baron": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "diverted247",
+     "url": "https://news.ycombinator.com/item?id=50517636",
+     "date": "2026-11-16T13:55:57Z",
+     "snippet": "Here is the design https://dai.studio/ted/ex-baron that was used to generate the \"baron\" flight simulator. Source: https://github.com/dai-studio/ex-baron (BSD 2-Clause) Each typed element in the design describes detailed aspects of the game. This is the primary \"Context\" element."
+    },
+    {
+     "source": "HN comment",
+     "author": "diverted247",
+     "url": "https://news.ycombinator.com/item?id=50516991",
+     "date": "2026-11-16T12:41:10Z",
+     "snippet": "The goal was a light, fun, open, introductory flight sim. My kids wanted to try a loop, so I added flaps and added 25% more power to biplane. Just enough. Great list, I will add these in time. https://github.com/dai-studio/ex-baron License: BSD 2-Clause, feel free to submit PRs."
+    }
+   ],
+   "checkedAt": "2026-11-16T21:58:52.991Z",
+   "meta": {
+    "name": "ex-baron",
+    "fullName": "dai-studio/ex-baron",
+    "description": "",
+    "homepage": null,
+    "stars": 15,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "BSD-2-Clause",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-16T00:09:59Z"
+   }
+  },
+  "blueblazin/blockviz": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "vladsanchez",
+     "url": "https://news.ycombinator.com/item?id=50517502",
+     "date": "2026-11-16T13:40:38Z",
+     "snippet": "This is amazing! I also love your BlockViz https://github.com/BlueBlazin/blockviz project. Keep Blazin!"
+    }
+   ]
+  },
+  "jo-m/cartomancer": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jo-m",
+     "url": "https://news.ycombinator.com/item?id=50517039",
+     "date": "2026-11-16T12:46:44Z",
+     "snippet": "I love protomaps, I have added it to my own hobby project to have a self-hosted fallback for regions (or times) where there are no SwissTopo maps available. The app will periodically download the configured map regions and store the pmap files [1]. The Go backend then directly se"
+    }
+   ]
+  },
+  "wind-c/comqtt": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "zimpenfish",
+     "url": "https://news.ycombinator.com/item?id=50515711",
+     "date": "2026-11-16T09:33:52Z",
+     "snippet": "For my Home Assistant broker, I use comqtt[0]. Previously used hmq[1] but ran into some weird problems that I couldn't debug. [0] https://github.com/wind-c/comqtt/ [1] https://github.com/fhmq/hmq"
+    }
+   ]
+  },
+  "fhmq/hmq": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "zimpenfish",
+     "url": "https://news.ycombinator.com/item?id=50515711",
+     "date": "2026-11-16T09:33:52Z",
+     "snippet": "For my Home Assistant broker, I use comqtt[0]. Previously used hmq[1] but ran into some weird problems that I couldn't debug. [0] https://github.com/wind-c/comqtt/ [1] https://github.com/fhmq/hmq"
+    }
+   ]
+  },
+  "yxoro/readme-studio": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Readmestudio",
+     "url": "https://news.ycombinator.com/item?id=50497018",
+     "date": "2026-11-14T13:49:18Z",
+     "snippet": "Hey everyone! I've always found writing README files a little frustrating. You write Markdown in one place, switch tabs to check how it looks on GitHub, fix the formatting, check everything again... and somehow documentation becomes a chore. So I decided to build README Studio. I"
+    }
+   ]
+  },
+  "fynepdf/fynepdf-grayscale": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "biaz",
+     "url": "https://news.ycombinator.com/item?id=50435413",
+     "date": "2026-11-10T02:38:24Z",
+     "snippet": "Hi HN. I'm building FynePDF, a PDF app for web and desktop. We used Ghostscript for PDF/A conversion on our servers, and when we started checking its output with veraPDF, some files carried the PDF/A label but failed validation. Its AGPL also kept it out of our desktop app. So we"
+    }
+   ]
+  },
+  "jyotirmoy17/system-3-0-mas-os": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "jyotirmoy_17",
+     "url": "https://news.ycombinator.com/item?id=50516519",
+     "date": "2026-11-16T11:44:40.000Z",
+     "snippet": "Location: Delhi, India Remote: Yes (comfortable overlapping US hours) Willing to relocate: Yes Technologies: Python, Go, gRPC, C++, LangGraph/LangChain, multi-agent orchestration, LLM evals, document extraction/OCR, GCP/GKE, AWS, Stripe Connect and QuickBooks APIs Résumé/CV: http"
+    }
+   ]
+  },
+  "scala-js/scala-js": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "sjrd",
+     "url": "https://news.ycombinator.com/item?id=50520919",
+     "date": "2026-11-16T18:22:20.000Z",
+     "snippet": "My bug backlog has been empty [1] at each release for 5 years in a row. We did not need AI to get there. [1] https://github.com/scala-js/scala-js/issues?q=is%3Aissue+sta..."
+    }
+   ]
+  },
+  "eclipse-mosquitto/mosquitto": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "gregsadetsky",
+     "url": "https://news.ycombinator.com/item?id=50509416",
+     "date": "2026-11-15T18:36:40Z",
+     "snippet": "Eclipse Mosquitto – An open source MQTT broker (108 points)"
+    }
+   ]
+  },
+  "x-motemen/gore": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://piefed.zip/u/Sxan",
+     "url": "https://piefed.zip/comment/8060127",
+     "date": "2026-11-16T17:27:47.600153Z",
+     "snippet": "I mention Java a lot below because I spent 15 years as a Java programmer; I started using it just after it was renamed from Oak, so it's probably þe 2nd or 3rd language I'm most familiar wiþ. - It's a relatively simple language, and I agree wiþ most of þe core design philosophies"
+    }
+   ]
+  },
+  "charmbracelet/soft-": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:dch@bsd.network",
+     "url": "https://bsd.network/@dch/117627613303319395",
+     "date": "2026-11-16T18:48:59.000Z",
+     "snippet": "# git # selfHosting I've been using # soft -serve https:// github.com/charmbracelet/soft- serve for ages, and will probably keep doing that, even though its now archived. I'd like to have a simple read-only view though, that others can click and browse through, or link from. Any "
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -162961,23 +163208,25 @@
   "50326727": 1793772782762,
   "50328896": 1794810134285,
   "50331001": 1794810134193,
-  "50337431": 1794810133309,
-  "50338726": 1794810133393,
-  "50338728": 1794810133398,
+  "50337431": 1794866294869,
+  "50338726": 1794866294943,
+  "50338728": 1794866295052,
   "50347425": 1794810134033,
-  "50352757": 1794810133526,
-  "50353457": 1794810133430,
-  "50354336": 1794810134116,
-  "50355959": 1794810133528,
-  "50363461": 1794810133753,
-  "50366117": 1794810134291,
-  "50393105": 1794636938922,
-  "50403153": 1794810134031,
-  "50405250": 1794810134281,
-  "50444380": 1794810133775,
-  "50484421": 1794810134080,
-  "50488230": 1794810133710,
-  "50494696": 1794810133741,
-  "50510042": 1794810133792
+  "50352757": 1794866295111,
+  "50353457": 1794866295025,
+  "50354336": 1794866295778,
+  "50355959": 1794866295085,
+  "50363461": 1794866295336,
+  "50366117": 1794866295966,
+  "50393105": 1794866295569,
+  "50403153": 1794866295644,
+  "50405250": 1794866295920,
+  "50444380": 1794866295355,
+  "50484421": 1794866295906,
+  "50488230": 1794866295348,
+  "50494696": 1794866295357,
+  "50510042": 1794866295487,
+  "50513451": 1794866295485,
+  "50520076": 1794866295754
  }
 }
