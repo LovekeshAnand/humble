@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T07:25:15.253Z",
+ "updatedAt": "2026-11-18T20:28:37.774Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7676,7 +7676,7 @@
     "fork": false,
     "pushedAt": "2026-11-14T19:45:00Z"
    },
-   "checkedAt": "2026-11-18T07:23:35.059Z"
+   "checkedAt": "2026-11-18T20:28:37.548Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -30646,7 +30646,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49237401",
      "date": "2026-08-09T23:35:14Z",
-     "snippet": "for you tennis players out there, I'm working on RallyClip, an app for free tennis match segmentation. It's a free and open source alternative to SwingVision: github: https://github.com/iroblesrazzaq/RallyClip website: rallyclip.app I'm working on model performance and an iOS app"
+     "snippet": "for you tennis players out there, I'm working on RallyClip, an app for free tennis match segmentation. It's a free and open source alternative to SwingVision: github: https://github.com/iroblesrazzaq/RallyClip website: rallyclip.app I'm working on model performance and an iOS app",
+     "author": "ismael_rr"
     }
    ],
    "checkedAt": "2026-11-18T07:24:12.224Z",
@@ -38882,6 +38883,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "yonasb",
+     "url": "https://news.ycombinator.com/item?id=50551543",
+     "date": "2026-11-18T20:15:18Z",
+     "snippet": "Great question! We included some details on agent PR token usage and runner minutes usage in the actual benchmark PRs (example https://github.com/starsling-demo-org/benchmark-chatwoot/pul... ). For that optimization, it cut merges to main time in half which is far more than the i"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=42121563",
      "date": "2024-11-13T00:25:41Z",
      "snippet": "This is one of those tools that do one thing and do it very well. Also the pricing is convenient. Congratulations to the creators. If you want to go the open source + self hosted route, Chatwoot [1] [2] may be for you. It is more feature rich (or bloated, depending what you need)"
@@ -42704,7 +42712,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=47678424",
      "date": "2026-04-07T17:13:18Z",
-     "snippet": "I left this comment a while back https://news.ycombinator.com/item?id=45752905 when someone asked what was up with Elm at the current moment. I left a bunch off. - Evan entered hermit mode to create Acadia, a language for an Elm-like experience querying the database. He's given c"
+     "snippet": "I left this comment a while back https://news.ycombinator.com/item?id=45752905 when someone asked what was up with Elm at the current moment. I left a bunch off. - Evan entered hermit mode to create Acadia, a language for an Elm-like experience querying the database. He's given c",
+     "author": "1-more"
     }
    ],
    "checkedAt": "2026-11-18T07:23:33.773Z",
@@ -102873,13 +102882,13 @@
      "snippet": "Reverse engineer anything with agents, from app behavior down to native binaries (101 points)"
     }
    ],
-   "checkedAt": "2026-11-11T14:15:50.343Z",
+   "checkedAt": "2026-11-18T20:28:35.984Z",
    "meta": {
     "name": "rea",
     "fullName": "morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "homepage": "https://rea.tools",
-    "stars": 451708,
+    "stars": 468066,
     "language": "TypeScript",
     "topics": [
      "agent-skills",
@@ -102906,7 +102915,7 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-11T14:05:24Z"
+    "pushedAt": "2026-11-18T20:27:26Z"
    },
    "listedAt": "2026-11-04T06:13:39.287Z"
   },
@@ -128286,13 +128295,38 @@
   "tummychow/git-absorb": {
    "mentions": [
     {
+     "source": "Lobsters",
+     "author": "lobsters:msfjarvis",
+     "url": "https://lobste.rs/c/kyqumh",
+     "date": "2026-11-18T03:12:39.181-06:00",
+     "snippet": "I've gone up to 10 commits in a stack that were reviewed reasonably quickly and addressing feedback when paired with [git-absorb](https://github.com/tummychow/git-absorb) was pretty painless. I do see the value of self enforcing a cap but I've never had a bandwidth problem in the"
+    },
+    {
      "source": "HN front page",
      "author": "striking",
      "url": "https://news.ycombinator.com/item?id=41653191",
      "date": "2024-09-26T00:12:53Z",
      "snippet": "Git-absorb: Git commit –fixup, but automatic (451 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-18T20:28:36.297Z",
+   "meta": {
+    "name": "git-absorb",
+    "fullName": "tummychow/git-absorb",
+    "description": "git commit --fixup, but automatic",
+    "homepage": "https://crates.io/crates/git-absorb",
+    "stars": 5764,
+    "language": "Rust",
+    "topics": [
+     "git",
+     "rebase"
+    ],
+    "license": "BSD-3-Clause",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-02-14T03:44:46Z"
+   },
+   "listedAt": "2026-11-18T20:28:37.772Z"
   },
   "cle-b/httpdbg": {
    "mentions": [
@@ -145155,13 +145189,13 @@
      "snippet": "Aeon: A unified framework for machine learning with time series (121 points)"
     }
    ],
-   "checkedAt": "2026-11-11T14:15:50.730Z",
+   "checkedAt": "2026-11-18T20:28:36.576Z",
    "meta": {
     "name": "aeon",
     "fullName": "aeon-toolkit/aeon",
     "description": "A toolkit for time series  machine learning and deep learning",
     "homepage": "https://aeon-toolkit.org/",
-    "stars": 1478,
+    "stars": 1481,
     "language": "Python",
     "topics": [
      "aeon",
@@ -145185,7 +145219,7 @@
     "license": "BSD-3-Clause",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-10T14:34:56Z"
+    "pushedAt": "2026-11-17T09:45:48Z"
    },
    "listedAt": "2026-11-04T06:13:39.287Z"
   },
@@ -160944,13 +160978,35 @@
   "gmkurtzer/ginux": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "peter_d_sherman",
+     "url": "https://news.ycombinator.com/item?id=50475643",
+     "date": "2026-11-12T23:00:36Z",
+     "snippet": ">\"What Ginux is not o It is not User-Mode Linux: UML runs a complete Linux kernel as a host process over paravirtual hardware; Ginux implements a deliberately incomplete contract and uses host Linux for native execution services. o It is not a mature gVisor alternative: gVisor ( "
+    },
+    {
      "source": "HN front page",
      "author": "d3Xt3r",
      "url": "https://news.ycombinator.com/item?id=50450007",
      "date": "2026-11-11T05:25:54Z",
      "snippet": "Greg Kurtzer's Ginux is now a userspace kernel (114 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-18T20:28:36.899Z",
+   "meta": {
+    "name": "ginux",
+    "fullName": "gmkurtzer/ginux",
+    "description": "",
+    "homepage": null,
+    "stars": 623,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-18T05:29:43Z"
+   },
+   "listedAt": "2026-11-18T20:28:37.774Z"
   },
   "adrbn/bo2-mac": {
    "mentions": [
@@ -162970,6 +163026,204 @@
      "snippet": "Most RAG demos skip one question: who may read this document? Hyland OpenArch answers it inside the search engine. Every query, full text or vector, runs with the permissions of the caller. Same query, three users, three different results. I built small open source tools to try i"
     }
    ]
+  },
+  "starsling-demo-org/benchmark-chatwoot": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "yonasb",
+     "url": "https://news.ycombinator.com/item?id=50551543",
+     "date": "2026-11-18T20:15:18Z",
+     "snippet": "Great question! We included some details on agent PR token usage and runner minutes usage in the actual benchmark PRs (example https://github.com/starsling-demo-org/benchmark-chatwoot/pul... ). For that optimization, it cut merges to main time in half which is far more than the i"
+    }
+   ]
+  },
+  "defaaron/expressions": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "aaron_dutta",
+     "url": "https://news.ycombinator.com/item?id=50551322",
+     "date": "2026-11-18T19:59:14Z",
+     "snippet": "everyone is adding their faces to their personal websites. i made Expressions so you can generate this component and just copypaste it into your personal website. how it works: your uploaded portrait is cropped into a base image. the server then calls Magic Hour's Face Editor API"
+    }
+   ]
+  },
+  "withnative/native": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "richardcrng",
+     "url": "https://news.ycombinator.com/item?id=50549733",
+     "date": "2026-11-18T18:02:32Z",
+     "snippet": "Very helpful to see a bunch of these together. OP: I'd be curious about your personal stack? A bit of your story / motivation here would be interesting, too! I'm seeing some things pop up where open-source tools are more paradigm-breaking, e.g. - Ink and Switch's Patchwork[1] is "
+    }
+   ]
+  },
+  "imbue-ai/datalib": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "richardcrng",
+     "url": "https://news.ycombinator.com/item?id=50549733",
+     "date": "2026-11-18T18:02:32Z",
+     "snippet": "Very helpful to see a bunch of these together. OP: I'd be curious about your personal stack? A bit of your story / motivation here would be interesting, too! I'm seeing some things pop up where open-source tools are more paradigm-breaking, e.g. - Ink and Switch's Patchwork[1] is "
+    }
+   ]
+  },
+  "onedr0p/home-ops": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jauntywundrkind",
+     "url": "https://news.ycombinator.com/item?id=50548648",
+     "date": "2026-11-18T16:53:09Z",
+     "snippet": "There's always a \"you might not need kubernetes!\" position, whatever you are doing. But there's so many ways Kube is easier and better. As a platform it does so much more than containers, and it does it so consistently. Manage databases, manage rustfs object stores for backups. O"
+    }
+   ]
+  },
+  "cypr0/k8s-home": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jauntywundrkind",
+     "url": "https://news.ycombinator.com/item?id=50548648",
+     "date": "2026-11-18T16:53:09Z",
+     "snippet": "There's always a \"you might not need kubernetes!\" position, whatever you are doing. But there's so many ways Kube is easier and better. As a platform it does so much more than containers, and it does it so consistently. Manage databases, manage rustfs object stores for backups. O"
+    }
+   ]
+  },
+  "project-akri/akri": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jauntywundrkind",
+     "url": "https://news.ycombinator.com/item?id=50548648",
+     "date": "2026-11-18T16:53:09Z",
+     "snippet": "There's always a \"you might not need kubernetes!\" position, whatever you are doing. But there's so many ways Kube is easier and better. As a platform it does so much more than containers, and it does it so consistently. Manage databases, manage rustfs object stores for backups. O"
+    }
+   ]
+  },
+  "gomlx/gomlx": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "coffee_am",
+     "url": "https://news.ycombinator.com/item?id=50547718",
+     "date": "2026-11-18T15:45:23Z",
+     "snippet": "Yet another alternative: convert your `.onnx` file to GoMLX [0] using onnx-gomlx [1]. For CPUs using SIMD it's significantly faster than ONNX. For NVidia GPUs, depending on the model, you can use an XLA backend. On Apple you can use an MLX backend (but it supports Neon/SME as wel"
+    }
+   ]
+  },
+  "gomlx/onnx-gomlx": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "coffee_am",
+     "url": "https://news.ycombinator.com/item?id=50547718",
+     "date": "2026-11-18T15:45:23Z",
+     "snippet": "Yet another alternative: convert your `.onnx` file to GoMLX [0] using onnx-gomlx [1]. For CPUs using SIMD it's significantly faster than ONNX. For NVidia GPUs, depending on the model, you can use an XLA backend. On Apple you can use an MLX backend (but it supports Neon/SME as wel"
+    }
+   ]
+  },
+  "siderolabs/talos": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "cwiggs",
+     "url": "https://news.ycombinator.com/item?id=50546936",
+     "date": "2026-11-18T14:45:11Z",
+     "snippet": "I was lucky enough to run Talos Linux for our k8s cluster for various clusters in AWS at my previous job. I was very excited to work on Talos because I've heard such good things and I love the idea of it being so minimal and secure. Unfortunately I don't have great things to say."
+    }
+   ]
+  },
+  "siderolabs/cluster-api-bootstrap-provider-talos": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "cwiggs",
+     "url": "https://news.ycombinator.com/item?id=50546936",
+     "date": "2026-11-18T14:45:11Z",
+     "snippet": "I was lucky enough to run Talos Linux for our k8s cluster for various clusters in AWS at my previous job. I was very excited to work on Talos because I've heard such good things and I love the idea of it being so minimal and secure. Unfortunately I don't have great things to say."
+    }
+   ]
+  },
+  "siderolabs/cluster-api-bootstrap-provider": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "cwiggs",
+     "url": "https://news.ycombinator.com/item?id=50546936",
+     "date": "2026-11-18T14:45:11Z",
+     "snippet": "I was lucky enough to run Talos Linux for our k8s cluster for various clusters in AWS at my previous job. I was very excited to work on Talos because I've heard such good things and I love the idea of it being so minimal and secure. Unfortunately I don't have great things to say."
+    }
+   ]
+  },
+  "tadhunt/datetime": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tadhunt",
+     "url": "https://news.ycombinator.com/item?id=50544013",
+     "date": "2026-11-18T09:31:59Z",
+     "snippet": "With a chance it'll be helpful to Golang devs https://github.com/tadhunt/datetime makes similar decisions as Jiff, but goes a bit further to also handle times lacking precision (missing year, month and TOD known, DOM not, etc). AI wrote it under my strict design parameters. We us"
+    }
+   ]
+  },
+  "letmeplaysong/retro-95": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "retro95",
+     "url": "https://news.ycombinator.com/item?id=50542754",
+     "date": "2026-11-18T06:54:46Z",
+     "snippet": "Hi everyone! I've been working on Retro-95, an experimental operating system inspired by the classic Windows 95 experience. It features a graphical desktop, Start menu, taskbar, movable windows and built-in applications. I'm sharing it with the community to get more people intere"
+    }
+   ]
+  },
+  "google/gvisor": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "peter_d_sherman",
+     "url": "https://news.ycombinator.com/item?id=50475643",
+     "date": "2026-11-12T23:00:36Z",
+     "snippet": ">\"What Ginux is not o It is not User-Mode Linux: UML runs a complete Linux kernel as a host process over paravirtual hardware; Ginux implements a deliberately incomplete contract and uses host Linux for native execution services. o It is not a mature gVisor alternative: gVisor ( "
+    }
+   ]
+  },
+  "ages2001/winudf": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "Oxodao",
+     "url": "https://news.ycombinator.com/item?id=50515182",
+     "date": "2026-11-16T08:00:13Z",
+     "snippet": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME (100 points)"
+    }
+   ]
+  },
+  "tumashu/cnfonts": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:kana",
+     "url": "https://lobste.rs/c/kbcom5",
+     "date": "2026-11-18T03:48:42.030-06:00",
+     "snippet": "So, a bit more context from a CJK user: I think this series of fonts is mostly used if you have CJK characters in your code/terminals. In popular monospace fonts like Fira Code or Jetbrains Mono, the width of two Latin characters doesn't match the width of a CJK character (displa"
+    }
+   ]
+  },
+  "agama-project/agama": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:pixelate@tweesecake.social",
+     "url": "https://tweesecake.social/@pixelate/117637869190699300",
+     "date": "2026-11-18T14:17:11.000Z",
+     "snippet": "From the Orca mailing list: Hello everyone, openSUSE Tumbleweed is a rolling release Linux distribution, which offers exceptionally high stability while continuously delivering the latest software. By default, the system gets setup with btrfs volumes that create a snapshot with e"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -163814,6 +164068,7 @@
   "50039291": 1793608071527,
   "50067325": 1793608061080,
   "50084969": 1793608048416,
+  "50085114": 1795033677608,
   "50121562": 1793608048501,
   "50151036": 1793623210888,
   "50193416": 1793908524256,
@@ -163837,17 +164092,17 @@
   "50353457": 1794948688784,
   "50354336": 1794948689247,
   "50355959": 1794948688959,
-  "50363461": 1794986562876,
-  "50366117": 1794986563732,
+  "50363461": 1795033677816,
+  "50366117": 1795033677938,
   "50393105": 1794986562842,
-  "50403153": 1794986562892,
-  "50405250": 1794986563282,
-  "50444380": 1794986562529,
-  "50484421": 1794986563356,
-  "50488230": 1794986562591,
-  "50494696": 1794986562642,
-  "50510042": 1794986563027,
-  "50513451": 1794986562845,
-  "50520076": 1794986563734
+  "50403153": 1795033677964,
+  "50405250": 1795033678035,
+  "50444380": 1795033677341,
+  "50484421": 1795033678271,
+  "50488230": 1795033677788,
+  "50494696": 1795033677628,
+  "50510042": 1795033678172,
+  "50513451": 1795033677662,
+  "50520076": 1795033678033
  }
 }
