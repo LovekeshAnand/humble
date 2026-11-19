@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T07:21:04.172Z",
+ "updatedAt": "2026-11-19T20:32:02.565Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -46997,13 +46997,13 @@
      "snippet": "Location: Baku, Azerbaijan (UTC+4) Remote: Yes, remote only Willing to relocate: No Technologies: TypeScript, Node.js, Python, FastAPI, PostgreSQL, Next.js, React, Docker, Linux, OpenAI-compatible LLM APIs Résumé/CV: https://linkedin.com/in/ismail-iusifli Email: ismail.yusifli86@"
     }
    ],
-   "checkedAt": "2026-11-12T15:08:55.581Z",
+   "checkedAt": "2026-11-19T20:32:00.351Z",
    "meta": {
     "name": "edtech-billing-core",
     "fullName": "alt-f6/edtech-billing-core",
     "description": "Concurrency-safe billing on PostgreSQL: append-only ledger, idempotent webhooks, randomized invariant tests",
     "homepage": "https://iusifli.dev",
-    "stars": 1,
+    "stars": 0,
     "language": "TypeScript",
     "topics": [
      "billing",
@@ -70016,6 +70016,13 @@
   "ffmpeg/ffmpeg": {
    "mentions": [
     {
+     "source": "Stack Exchange",
+     "author": "se:Tom Yan",
+     "url": "https://superuser.com/a/1941696",
+     "date": "2026-11-19T19:04:28.000Z",
+     "snippet": "Turns out it's because the MPEG-2 video stream of many DVDs does not have the optional metadata blocks called \"Sequence Display Extension\" (SDE), which are where \"information\" such as \"color primaries\", \"transfer characteristics\" and \"matrix coefficients\" are stored. Most likely "
+    },
+    {
      "source": "HN front page",
      "author": "gyan",
      "url": "https://news.ycombinator.com/item?id=49166202",
@@ -72362,13 +72369,35 @@
   "floooh/sokol-samples": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "flohofwoe",
+     "url": "https://news.ycombinator.com/item?id=50560704",
+     "date": "2026-11-19T14:38:39Z",
+     "snippet": "Tbh I would skip all the preprocessor magic proposed in the article and just go for plain C99 'option bag struct' arguments, the called function only needs to be aware that \"zero means default\". I've been using this style for almost 10 years now in the sokol headers, and it still"
+    },
+    {
      "source": "Ask HN",
      "author": "flohofwoe",
      "url": "https://news.ycombinator.com/item?id=46765594",
      "date": "2026-01-26T13:49:18.000Z",
      "snippet": "I don't know sorry. For debugging GL I usually switch to Windows with RenderDoc (or some current NVIDIA tool - does Nsight still exist?). RenderDoc on Linux appears to work fine for X11 apps via XWayland btw (just testing here via the sokol-samples with the sokol-gfx GL backend: "
     }
-   ]
+   ],
+   "checkedAt": "2026-11-19T20:32:00.614Z",
+   "meta": {
+    "name": "sokol-samples",
+    "fullName": "floooh/sokol-samples",
+    "description": "Sample code for https://github.com/floooh/sokol",
+    "homepage": null,
+    "stars": 810,
+    "language": "C",
+    "topics": [],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-19T18:31:35Z"
+   },
+   "listedAt": "2026-11-19T20:32:02.564Z"
   },
   "minimaxir/hacker-news-undocumented": {
    "mentions": [
@@ -86979,7 +87008,7 @@
      "snippet": "I made Circus Chief: https://github.com/ferrislucas/Circus-Chief Circus Chief is a tool for managing coding agent sessions from a browser. It's specifically optimized for small screens. It supports Claude Code, OpenAI Codex, and Google Gemini CLI agents. Features Agents can opera"
     }
    ],
-   "checkedAt": "2026-11-12T15:08:55.850Z",
+   "checkedAt": "2026-11-19T20:32:00.948Z",
    "meta": {
     "name": "Circus-Chief",
     "fullName": "ferrislucas/Circus-Chief",
@@ -87006,7 +87035,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-08T23:52:16Z"
+    "pushedAt": "2026-11-18T03:03:22Z"
    }
   },
   "fabritorio/fabritorio": {
@@ -104171,19 +104200,19 @@
      "snippet": "Tailcat – Like netcat, but over Tailscale’s data plane (687 points)"
     }
    ],
-   "checkedAt": "2026-11-12T15:08:56.151Z",
+   "checkedAt": "2026-11-19T20:32:01.307Z",
    "meta": {
     "name": "tailcat",
     "fullName": "tailscale/tailcat",
     "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
     "homepage": "https://tailscale.com/tailcat",
-    "stars": 8948,
+    "stars": 10097,
     "language": "Go",
     "topics": [],
     "license": "BSD-3-Clause",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-05T15:10:23Z"
+    "pushedAt": "2026-11-19T04:24:37Z"
    },
    "listedAt": "2026-11-12T15:08:58.135Z"
   },
@@ -104833,6 +104862,13 @@
   },
   "openjdk/jdk": {
    "mentions": [
+    {
+     "source": "HN front page",
+     "author": "notmine1337",
+     "url": "https://news.ycombinator.com/item?id=50558906",
+     "date": "2026-11-19T11:47:03Z",
+     "snippet": "Someone reported java4shell bug in September 2026 (263 points)"
+    },
     {
      "source": "HN comment",
      "author": "fweimer",
@@ -156753,13 +156789,13 @@
      "snippet": "We've noticed this occasionally and its a pretty serious issue since we tell our customers that none of their data is being trained on. It caused us to build this to track all of our agent accounts/subscriptions being used and flag any that have training turned on: https://github"
     }
    ],
-   "checkedAt": "2026-11-12T15:08:55.262Z",
+   "checkedAt": "2026-11-19T20:32:00.006Z",
    "meta": {
     "name": "codealong",
     "fullName": "codealong/codealong",
     "description": "Every coding agent you run, in one window: a free, open-source app for macOS and Linux for Claude Code, Codex, OpenCode, Antigravity and Cursor, across your accounts and machines.",
     "homepage": "https://www.codealong.com",
-    "stars": 44,
+    "stars": 71,
     "language": "Rust",
     "topics": [
      "claude-code",
@@ -156773,7 +156809,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-12T04:44:34Z"
+    "pushedAt": "2026-11-19T20:18:26Z"
    },
    "listedAt": "2026-11-05T06:41:36.224Z"
   },
@@ -156816,13 +156852,13 @@
      "snippet": "- slghtly offtopic but also covers how to run windows 11 super duper optimally - here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]("
     }
    ],
-   "checkedAt": "2026-11-12T15:08:56.408Z",
+   "checkedAt": "2026-11-19T20:32:01.718Z",
    "meta": {
     "name": "fnm",
     "fullName": "Schniz/fnm",
     "description": "🚀 Fast and simple Node.js version manager, built in Rust",
     "homepage": "https://fnm.vercel.app",
-    "stars": 27388,
+    "stars": 27453,
     "language": "Rust",
     "topics": [
      "hacktoberfest",
@@ -156856,13 +156892,13 @@
      "snippet": "- slghtly offtopic but also covers how to run windows 11 super duper optimally - here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]("
     }
    ],
-   "checkedAt": "2026-11-12T15:08:56.720Z",
+   "checkedAt": "2026-11-19T20:32:02.032Z",
    "meta": {
     "name": "jvms",
     "fullName": "ystyle/jvms",
     "description": "JDK Version Manager (JVMS) for Windows",
     "homepage": null,
-    "stars": 1040,
+    "stars": 1039,
     "language": "Go",
     "topics": [],
     "license": "MIT",
@@ -159662,19 +159698,19 @@
      "snippet": "I use https://github.com/emberian/cv all day every day for slicing and dicing agent transcripts. Streaming/in-place when possible, supports all the harnesses, indexing and search as well with tantivy. Custom pruning and compaction saved 40% of tokens in one recent evaluation of a"
     }
    ],
-   "checkedAt": "2026-11-12T15:08:57.059Z",
+   "checkedAt": "2026-11-19T20:32:02.351Z",
    "meta": {
     "name": "cv",
     "fullName": "emberian/cv",
     "description": "agents can read each others minds (session logs)",
     "homepage": "https://emberian.github.io/cv/",
-    "stars": 23,
+    "stars": 25,
     "language": "Rust",
     "topics": [],
     "license": null,
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-12T05:49:19Z"
+    "pushedAt": "2026-11-15T10:57:32Z"
    }
   },
   "renves/b3quant": {
@@ -163335,6 +163371,182 @@
      "snippet": "In theory, scpptool provides another solution with different performance, compatibility and portability trade-offs. Unlike Fil-C, it is not \"fanatically compatible\" with existing C code. But in theory, with maybe some minor adjustments to the code (and maybe less-minor adjustment"
     }
    ]
+  },
+  "gomuks/gomuks": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "JadedBlueEyes",
+     "url": "https://news.ycombinator.com/item?id=50561705",
+     "date": "2026-11-19T15:52:32Z",
+     "snippet": "There is no \"the app\". For my personal usage I don't use any apps published by Element, and as such do not rely on any of their infrastructure. I develop my own server [0], my friends develop their own clients[1][2][3]. When my server went down I switched to one hosted by someone"
+    }
+   ]
+  },
+  "tuya-cloudcutter/tuya-cloudcutter": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "rckoepke",
+     "url": "https://news.ycombinator.com/item?id=50561226",
+     "date": "2026-11-19T15:18:35Z",
+     "snippet": "I use this to jailbreak my Tuya devices and run them locally with HomeAssistant. I also create my own custom firmware for them to enhance their capabilities. https://github.com/tuya-cloudcutter/tuya-cloudcutter"
+    }
+   ]
+  },
+  "floooh/sokol-odin": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "flohofwoe",
+     "url": "https://news.ycombinator.com/item?id=50560704",
+     "date": "2026-11-19T14:38:39Z",
+     "snippet": "Tbh I would skip all the preprocessor magic proposed in the article and just go for plain C99 'option bag struct' arguments, the called function only needs to be aware that \"zero means default\". I've been using this style for almost 10 years now in the sokol headers, and it still"
+    }
+   ]
+  },
+  "dustinhab/reverserosetta": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "frizlab",
+     "url": "https://news.ycombinator.com/item?id=50560499",
+     "date": "2026-11-19T14:22:37Z",
+     "snippet": "From the author on reddit (not me): I built ReverseRosetta, a binary translator that runs Intel (i386) Mac OS X programs on PowerPC (G4/G5) Macs - i. e. the reverse of Rosetta (1)! Depending on the workload, translated code runs at about 60 to 102 % of native PPC speed. Plain int"
+    }
+   ]
+  },
+  "zipnn/zipnn": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "rft",
+     "url": "https://news.ycombinator.com/item?id=50560021",
+     "date": "2026-11-19T13:44:15Z",
+     "snippet": "The library I use for archiving compressed raw LLM weights ([1] , posted in my other comment) afaik at least reorders the weights to more easily compress them. They also have a paper linked, which I admittedly didn't read, that might have more background and tradeoffs. Likely the"
+    }
+   ]
+  },
+  "unlayer-ai/automodel": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "marco_virgolin",
+     "url": "https://news.ycombinator.com/item?id=50559941",
+     "date": "2026-11-19T13:37:58Z",
+     "snippet": "The search for better models, whether expressed as analytical equations or neural architectures, has increasingly shifted from manual design toward data-driven automation. While a multitude of algorithms exist, ranging from exhaustive search to AlphaEvolve, recent advances in gen"
+    }
+   ]
+  },
+  "gkbrk/smolmesh2": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "gkbrk",
+     "url": "https://news.ycombinator.com/item?id=50559825",
+     "date": "2026-11-19T13:29:20Z",
+     "snippet": "A good coincidence for me. I recently improved the performance of my mesh network using the same sendmsg_x / recvmsg_x API they ended up using in the article too. Unlike Linux, it's a private API and not something that has support guarantees, but so many projects use it because t"
+    }
+   ]
+  },
+  "noor-alhussain/luaplusplus": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Noor-AlHussain",
+     "url": "https://news.ycombinator.com/item?id=50559599",
+     "date": "2026-11-19T13:07:25Z",
+     "snippet": "1. What it is: Lua++ transpiles to Lua 5.1 and runs on a statically linked LuaJIT, so it keeps Lua's runtime semantics and adds classes with single inheritance, f-strings, ?. and ??, |>, ternaries, match, enums and continue. It is about 14k lines of C (lua++ has no VM of its own)"
+    }
+   ]
+  },
+  "suitenumerique/drive": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "kergonath",
+     "url": "https://news.ycombinator.com/item?id=50559381",
+     "date": "2026-11-19T12:44:49Z",
+     "snippet": "> The French were allegedly developing a google drive alternative, for French civil servants. That seems a bit unfair. Most of the new tools developed for the civil service and government are open source and can be used by anyone [1]. The servers are not (it’s a combination of se"
+    }
+   ]
+  },
+  "gifford47/hcpbridgemqtt": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "blutack",
+     "url": "https://news.ycombinator.com/item?id=50559313",
+     "date": "2026-11-19T12:37:32Z",
+     "snippet": "If anyone is in the market, the Hörmann basic openers are nice because they have basically a modbus port on them you can plug third party stuff into. You can buy premade PCBs from a few open source projects to then connect the controller to Home Assistant etc. Because they speak "
+    }
+   ]
+  },
+  "jaymzh/concordance": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "wiether",
+     "url": "https://news.ycombinator.com/item?id=50559289",
+     "date": "2026-11-19T12:34:37Z",
+     "snippet": "Interesting! I recently revived my Harmony that had some buttons that were less and less responsive thanks to ButtonWorx[1] And then I started to think about the software side of things now that I had secured the hardware's future. After going through the README and a bit of code"
+    }
+   ]
+  },
+  "krakjoe/parallel": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "beberlei",
+     "url": "https://news.ycombinator.com/item?id=50558004",
+     "date": "2026-11-19T09:45:38Z",
+     "snippet": "Most excited about the ZTS overhead reduction. If you are unfamiliar PHP can run either with or without thread safety (think using pthreads in PHP requests). If the overhead can be further reduced (and people have ideas) then it could be that we only need ZTS mode anymore in the "
+    }
+   ]
+  },
+  "adoptium/adoptium-support": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sundaramohan",
+     "url": "https://news.ycombinator.com/item?id=50557229",
+     "date": "2026-11-19T07:54:47Z",
+     "snippet": "Other option we have been using for few months https://github.com/adoptium/adoptium-support/issues/1480#iss..."
+    }
+   ]
+  },
+  "sphyrna-029/chatter": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sphyrna-029",
+     "url": "https://news.ycombinator.com/item?id=49691008",
+     "date": "2026-09-14T02:07:44Z",
+     "snippet": "Chatter, a self hosted almost feature complete alternative to Discord: https://github.com/Sphyrna-029/Chatter"
+    }
+   ]
+  },
+  "aryamandarda/tamserve": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "aryaman_darda",
+     "url": "https://news.ycombinator.com/item?id=50523377",
+     "date": "2026-11-16T21:14:39Z",
+     "snippet": "Show HN: Open-source, real-time object tracking for live video feeds (117 points)"
+    }
+   ]
+  },
+  "rednoah/capturegraphicswin2d": {
+   "mentions": [
+    {
+     "source": "Stack Exchange",
+     "author": "se:Roke Julian Lockhart Beedell",
+     "url": "https://softwarerecs.stackexchange.com/a/95806",
+     "date": "2026-11-18T13:45:43.000Z",
+     "snippet": "gitHub.com/redNoah/captureGraphicsWin2D solves this on NT: Additionally, it provides a CLI for this: #!/usr/bin/env -S pwsh -File CaptureGraphicsWin2D [System.IO.Path]::GetRandomFileName() '$WindowClass' It even supports context menus, which Spectacle generally does not."
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -164116,6 +164328,7 @@
   "48922717": 1793608019117,
   "48949551": 1793608071036,
   "48972858": 1793608039847,
+  "49019663": 1795120273439,
   "49029345": 1793608019246,
   "49067602": 1793607997198,
   "49084404": 1793608010472,
@@ -164154,6 +164367,7 @@
   "49657850": 1793608071469,
   "49672966": 1793608019894,
   "49674396": 1793607999170,
+  "49738879": 1795120274946,
   "49742976": 1793607999283,
   "49768826": 1793608060875,
   "49786609": 1793607999212,
@@ -164205,15 +164419,15 @@
   "50355959": 1794948688959,
   "50363461": 1795033677816,
   "50366117": 1795033677938,
-  "50393105": 1795072819173,
-  "50403153": 1795072818992,
-  "50405250": 1795072819480,
-  "50444380": 1795072819000,
-  "50484421": 1795072820014,
-  "50488230": 1795072819056,
-  "50494696": 1795072819251,
-  "50510042": 1795072819432,
-  "50513451": 1795072819124,
-  "50520076": 1795072819341
+  "50393105": 1795120273502,
+  "50403153": 1795120274204,
+  "50405250": 1795120274633,
+  "50444380": 1795120273828,
+  "50484421": 1795120274297,
+  "50488230": 1795120273809,
+  "50494696": 1795120274469,
+  "50510042": 1795120274091,
+  "50513451": 1795120273875,
+  "50520076": 1795120274187
  }
 }
