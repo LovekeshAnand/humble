@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T07:09:28.948Z",
+ "updatedAt": "2026-11-20T20:11:09.885Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -16985,6 +16985,13 @@
      "date": "2026-10-08T17:58:06Z",
      "snippet": "For essentially infinite and fast dictation I use https://github.com/cjpais/Handy on Parakeet streaming (cohere is far better, but slower and has a token output limit so you cant ramble for many minutes). And then just do a cleanup pass with a cheap LLM, it will in my experience,",
      "author": "cgbur"
+    },
+    {
+     "source": "Ask HN",
+     "author": "erixM",
+     "url": "https://news.ycombinator.com/item?id=48434585",
+     "date": "2026-06-07T13:23:32.000Z",
+     "snippet": "Try using Handy! It's open source and free: https://handy.computer/ and also on Github https://github.com/cjpais/Handy"
     },
     {
      "source": "HN comment",
@@ -44728,13 +44735,13 @@
      "snippet": "PayPal still works on GrapheneOS. It's because PayPal shipped an update with incorrect anti-tampering code incompatible with secure app spawning. It can be worked around with the per-app secure app spawning toggle until they fix it. Starling Bank app still works on GrapheneOS too"
     }
    ],
-   "checkedAt": "2026-11-13T19:39:20.464Z",
+   "checkedAt": "2026-11-20T20:11:08.033Z",
    "meta": {
     "name": "banking-apps-compat-report",
     "fullName": "PrivSec-dev/banking-apps-compat-report",
     "description": "Report and track banking app compatibility with GrapheneOS, including which workarounds may be required.",
     "homepage": "https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/",
-    "stars": 372,
+    "stars": 373,
     "language": null,
     "topics": [
      "android",
@@ -57268,6 +57275,13 @@
   },
   "obra/superpowers": {
    "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "tkocmathla",
+     "url": "https://news.ycombinator.com/item?id=48432256",
+     "date": "2026-06-07T06:00:10.000Z",
+     "snippet": "I've been using superpowers [1] for this purpose, and have really appreciated how it guides the model to use careful, methodical approaches to answering my prompts. It's great for multi-step planning, design, and implementation, but also has guidance for debugging, accepting a co"
+    },
     {
      "source": "Ask HN",
      "author": "Multiplayer",
@@ -73719,11 +73733,32 @@
     {
      "source": "Ask HN",
      "author": "TylerE",
+     "url": "https://news.ycombinator.com/item?id=48422978",
+     "date": "2026-06-06T09:14:45.000Z",
+     "snippet": "I was formerly quite anti-AI but bought a cheap Claude plan just to play around with it a bit. First thing I built with it was this - https://github.com/tylereaves/onscreen-piano , in about an hour and maybe 10 prompt cycles. It replaced, for my specific use case, the 10% of the "
+    },
+    {
+     "source": "Ask HN",
+     "author": "TylerE",
      "url": "https://news.ycombinator.com/item?id=48422974",
      "date": "2026-06-06T09:13:41.000Z",
      "snippet": "Lemme give another. I was formerly quite anti-AI but bought a cheap Claude plan just to play around with it a bit. First thing I built with it was this - https://github.com/tylereaves/onscreen-piano , in about an hour and maybe 10 prompt cycles. It replaced, for my specific use c"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-20T20:11:08.323Z",
+   "meta": {
+    "name": "onscreen-piano",
+    "fullName": "tylereaves/onscreen-piano",
+    "description": "Live 88-key MIDI keyboard visualizer + virtual MIDI source for macOS and Windows",
+    "homepage": "https://tylereaves.github.io/onscreen-piano/",
+    "stars": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-06-01T17:54:55Z"
+   }
   },
   "benwheatley/piano-trainer": {
    "mentions": [
@@ -87327,11 +87362,32 @@
     {
      "source": "Ask HN",
      "author": "frankieg33",
+     "url": "https://news.ycombinator.com/item?id=48463864",
+     "date": "2026-06-09T17:01:41.000Z",
+     "snippet": "shipping my first piece of software. i was playing the game Mewgenics. i knew why the developers decided to not show all of your cats at once (players will optimize all of the fun out of your game), but i thought that was particularly egregious given you can have upwards 100 cats"
+    },
+    {
+     "source": "Ask HN",
+     "author": "frankieg33",
      "url": "https://news.ycombinator.com/item?id=48463448",
      "date": "2026-06-09T16:39:10.000Z",
      "snippet": "I have always been interested in computers, building my own, playing pc games, etc. However, I never learned to program. LLMs have given me the ability to bring things to life that would have otherwise been impossible. I have a lot of pent-up software I have wanted for a long tim"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-20T20:11:08.528Z",
+   "meta": {
+    "name": "MewgenicsBreedingManager",
+    "fullName": "frankieg33/MewgenicsBreedingManager",
+    "description": "UI to see all your cats to help with breeding in the game Mewgenics",
+    "homepage": null,
+    "stars": 31,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT",
+    "archived": true,
+    "fork": false,
+    "pushedAt": "2026-04-25T02:00:07Z"
+   }
   },
   "skittleson/mqtt_broker_esp": {
    "mentions": [
@@ -103269,13 +103325,13 @@
      "snippet": "Emitting metadata early makes building/checking Rust up to twice as fast (157 points)"
     }
    ],
-   "checkedAt": "2026-11-13T19:39:20.799Z",
+   "checkedAt": "2026-11-20T20:11:08.843Z",
    "meta": {
     "name": "headstart",
     "fullName": "PowderworksCode/headstart",
     "description": "Start dependent crates before their dependencies finish type-checking",
     "homepage": null,
-    "stars": 191,
+    "stars": 196,
     "language": "Rust",
     "topics": [],
     "license": null,
@@ -105359,13 +105415,40 @@
   "minh-ton/reynard-browser": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "captainmuon",
+     "url": "https://news.ycombinator.com/item?id=50577007",
+     "date": "2026-11-20T16:14:57Z",
+     "snippet": "Well I mean there is this port of Gecko to iOS, but you have to sideload it and it seems not as polished as Firefox: https://github.com/minh-ton/reynard-browser . But it's good to at least see somebody try!"
+    },
+    {
      "source": "HN front page",
      "author": "AbuAssar",
      "url": "https://news.ycombinator.com/item?id=48930397",
      "date": "2026-07-16T04:36:07Z",
      "snippet": "Reynard: A real Firefox web browser for iOS 13 or later (170 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-20T20:11:09.096Z",
+   "meta": {
+    "name": "reynard-browser",
+    "fullName": "minh-ton/reynard-browser",
+    "description": "A Gecko-based web browser for iOS 13+. Currently in beta.",
+    "homepage": null,
+    "stars": 1984,
+    "language": "Swift",
+    "topics": [
+     "gecko",
+     "ios",
+     "swift",
+     "web-browser"
+    ],
+    "license": "GPL-3.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-18T16:23:39Z"
+   },
+   "listedAt": "2026-11-20T20:11:09.884Z"
   },
   "xai-org/grok-build": {
    "mentions": [
@@ -108726,13 +108809,13 @@
      "snippet": "Show HN: Agent Vault – Open-source credential proxy and vault for agents (156 points)"
     }
    ],
-   "checkedAt": "2026-11-13T19:39:21.119Z",
+   "checkedAt": "2026-11-20T20:11:07.736Z",
    "meta": {
     "name": "agent-vault",
     "fullName": "Infisical/agent-vault",
     "description": "A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.",
     "homepage": "https://docs.agent-vault.dev",
-    "stars": 2505,
+    "stars": 2519,
     "language": "Go",
     "topics": [
      "agents",
@@ -108742,7 +108825,7 @@
     "license": null,
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-07T03:19:57Z"
+    "pushedAt": "2026-11-15T01:52:31Z"
    }
   },
   "calcom/cal.diy": {
@@ -161647,7 +161730,7 @@
      "snippet": "More info at https://github.com/bsgcl/SmartTubeLocal/blob/master/FAQ.md . One thing to note is, that this is developed and maintained by a single person. And according to the README https://github.com/bsgcl/SmartTubeLocal: > This repository is maintained offline for private use, "
     }
    ],
-   "checkedAt": "2026-11-13T19:39:21.352Z",
+   "checkedAt": "2026-11-20T20:11:09.404Z",
    "meta": {
     "name": "SmartTubeLocal",
     "fullName": "bsgcl/SmartTubeLocal",
@@ -161659,7 +161742,7 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-12T18:20:28Z"
+    "pushedAt": "2026-11-14T20:17:23Z"
    }
   },
   "elnix90/dragon-launcher": {
@@ -163714,6 +163797,258 @@
      "snippet": "uBlock Origin users already filter a large portion of \"AI\" slop sites. Saves a lot of time when searching for something specific. =3 https://github.com/alvi-se/ai-ublock-blacklist https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist https://github.com/Stevoisiak/Stevos-AI-"
     }
    ]
+  },
+  "frameworkcomputer/softwarefirmwareissuetracker": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ploxiln",
+     "url": "https://news.ycombinator.com/item?id=50580678",
+     "date": "2026-11-20T19:38:18Z",
+     "snippet": "I love the Framework mission and product design, I bought a FW13 AMD about 3 years ago and it's been great. It's been great for me because I never want to talk to \"support\", I love that there is an official place to buy replacement parts for fair prices, and fix it myself. Some k"
+    }
+   ]
+  },
+  "frameworkcomputer/softwarefirmwareissuetr": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ploxiln",
+     "url": "https://news.ycombinator.com/item?id=50580678",
+     "date": "2026-11-20T19:38:18Z",
+     "snippet": "I love the Framework mission and product design, I bought a FW13 AMD about 3 years ago and it's been great. It's been great for me because I never want to talk to \"support\", I love that there is an official place to buy replacement parts for fair prices, and fix it myself. Some k"
+    }
+   ]
+  },
+  "cdutsov/hippomaps": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "chandlerswift",
+     "url": "https://news.ycombinator.com/item?id=50580431",
+     "date": "2026-11-20T19:24:27Z",
+     "snippet": "I noticed that there's an android version that I figured I'd check out: https://github.com/cdutsov/hippomaps/blob/main/android/READM... The README suggests that the app is published to F-Droid: > F-Droid builds the app from the tag v<versionName> (recipe metadata/ch.hippomaps.app"
+    }
+   ]
+  },
+  "joinin-ai/clojure-agent-starter": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "bmf",
+     "url": "https://news.ycombinator.com/item?id=50577982",
+     "date": "2026-11-20T17:03:16Z",
+     "snippet": "Hi, everyone--speaker Brendan here. This talk tells the story of my two-person startup with about 120k lines of TypeScript and Python written mostly by Claude where the agent hit a bug that made the size of the code being able to fit into the context window actually drive reconsi"
+    }
+   ]
+  },
+  "carol-lyh/jeveration": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "QiLi",
+     "url": "https://news.ycombinator.com/item?id=50575198",
+     "date": "2026-11-20T14:35:26Z",
+     "snippet": "Welcome to have a look on our new work: \"Jeveration: System One Models Now Generate\" We started with a fundamental question: Can a model generate an entire image as a single decision? Jeveration builds on a frozen VLM backbone and chooses all 128 image codes in parallel. Those ch"
+    }
+   ]
+  },
+  "holoduke/vibe": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "holoduke",
+     "url": "https://news.ycombinator.com/item?id=50575195",
+     "date": "2026-11-20T14:35:20Z",
+     "snippet": "As an experiment I am vibe coding a 3d engine where I try to implement things used in AAA games without ever looking at the code. The goals is to get GTA6 quality graphics. Its amazing what you can get already. But reality is that things are still very hard. For example a displac"
+    }
+   ]
+  },
+  "thejavaguy/tjg-claude-marketplace": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ivanche",
+     "url": "https://news.ycombinator.com/item?id=50573414",
+     "date": "2026-11-20T11:48:28Z",
+     "snippet": "There are skills which try to force Claude Code to use Feynman technique like [1] and many others [1] https://github.com/TheJavaGuy/tjg-claude-marketplace/tree/ma..."
+    }
+   ]
+  },
+  "edawise/deccy-cli": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "nelaggy",
+     "url": "https://news.ycombinator.com/item?id=50572034",
+     "date": "2026-11-20T09:04:10Z",
+     "snippet": "jj is great, we use it a lot and we've hijacked it to make a decision-management/context-management system [0]. it's also generally very useful for keeping commit history clean and the squash workflow is good for progressively iterating with ai-written code, since you can squash "
+    }
+   ]
+  },
+  "pkukielka/gitfold": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "pkuki",
+     "url": "https://news.ycombinator.com/item?id=50571790",
+     "date": "2026-11-20T08:31:42Z",
+     "snippet": "Shameless plug, but a bit related to jj:) I recently created a project which utilizes FUSE to serve git files directly from object store without a checkout. Main motivation was to sepeedup a worktrees creation (I work on a huge monorepo). In my case it helps a lot - now I wait a "
+    }
+   ]
+  },
+  "nomorenicksleft/d3a4a59c7b4de0cdef1e26695606e51c": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "NoMoreNicksLeft",
+     "url": "https://news.ycombinator.com/item?id=48432628",
+     "date": "2026-06-07T07:15:30.000Z",
+     "snippet": "Since I think you'll find the one for Rolling Stone and Playboy, but not The New Yorker (I might be one of the few that has this or something like it)... https://gist.github.com/NoMoreNicksLeft/d3a4a59c7b4de0cdef1e... I'll have a more proper github repo at some point, but there a"
+    }
+   ]
+  },
+  "nomorenicksleft/d3a4a59c7b4de0cdef1e": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "NoMoreNicksLeft",
+     "url": "https://news.ycombinator.com/item?id=48432628",
+     "date": "2026-06-07T07:15:30.000Z",
+     "snippet": "Since I think you'll find the one for Rolling Stone and Playboy, but not The New Yorker (I might be one of the few that has this or something like it)... https://gist.github.com/NoMoreNicksLeft/d3a4a59c7b4de0cdef1e... I'll have a more proper github repo at some point, but there a"
+    }
+   ]
+  },
+  "vishvananda/popeye": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "vishvananda",
+     "url": "https://news.ycombinator.com/item?id=48419305",
+     "date": "2026-06-05T22:44:55.000Z",
+     "snippet": "For me it was earlier this year when I started dusting off some old stalled projects and had an agent work on them. In a few days I: * Built a clone of the Alpha Zero implementation[1] my team built at oracle * Ported my hobby NES emulator from javascript to rust[2] (this actuall"
+    }
+   ]
+  },
+  "espotek/.claude": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "AussieWog93",
+     "url": "https://news.ycombinator.com/item?id=48421406",
+     "date": "2026-06-06T04:32:30.000Z",
+     "snippet": "Full claude.md is here: https://github.com/EspoTek/.claude/blob/master/CLAUDE.md The skills I have installed are: ``` on frontend-design:frontend-design · plugin · ~90 tok · locked by plugin on agents-sdk · user · ~150 tok on cloudflare · user · ~130 tok on cloudflare-email-servi"
+    },
+    {
+     "source": "Ask HN",
+     "author": "AussieWog93",
+     "url": "https://news.ycombinator.com/item?id=48419845",
+     "date": "2026-06-05T23:44:33.000Z",
+     "snippet": "It sat there for about half an hour working out the problem, step by step, before asking me for the preferred solution. At one point, it was trying to decompile the .APK, so I interrupted it and reminded it that Kodi was open source - it was welcome to clone from GitHub. The only"
+    }
+   ],
+   "checkedAt": "2026-11-20T20:11:09.650Z",
+   "meta": {
+    "name": ".claude",
+    "fullName": "EspoTek/.claude",
+    "description": "",
+    "homepage": null,
+    "stars": 3,
+    "language": null,
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-06-05T23:38:27Z"
+   }
+  },
+  "xbmc/xbmc": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "AussieWog93",
+     "url": "https://news.ycombinator.com/item?id=48422629",
+     "date": "2026-06-06T08:15:25.000Z",
+     "snippet": "Here's the draft PR: https://github.com/xbmc/xbmc/pull/28404 And yes, it correctly diagnosed the problem - I confirmed this morning. The cache had been partially deleted (exactly like it said) and the patched version of the software automatically detected this and rebuilt the cac"
+    }
+   ]
+  },
+  "greggman/sedon": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "greggman65",
+     "url": "https://news.ycombinator.com/item?id=48420749",
+     "date": "2026-06-06T02:16:02.000Z",
+     "snippet": "I don't know if this was my \"Oh Shit\" moment but 4 weeks ago I thought'd I'd try vibe coding a WebGPU 3D Node Based Editor. https://github.com/greggman/sedon It was just an experiment and I probably won't work on it more but still, I was blown away with how far we got. There's a "
+    }
+   ]
+  },
+  "tnymlr/soap-go": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "justinclift",
+     "url": "https://news.ycombinator.com/item?id=48421288",
+     "date": "2026-06-06T04:08:20.000Z",
+     "snippet": "Claude Code has been incredibly helpful extending soap-go to better support XML handling in Go: https://github.com/tnymlr/soap-go Specifically WSDL/XSD support, for auto generating code and similar from vendor supplied documentation. The Go ecosystem handles JSON (ie Swagger) fai"
+    }
+   ]
+  },
+  "linsomniac/isnipes": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "linsomniac",
+     "url": "https://news.ycombinator.com/item?id=48422063",
+     "date": "2026-06-06T06:39:33.000Z",
+     "snippet": "I've been playing with making some retro games using Claude. Rally-X inspired retro arcade game in the browser: https://linsomniac.github.io/rally-xy/ A nsnipes networked multiplayer maze shooter game (also browser based but it needs a server for the networked multiplayer part): "
+    }
+   ]
+  },
+  "awentzonline/image-analogies": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "ben_w",
+     "url": "https://news.ycombinator.com/item?id=48421992",
+     "date": "2026-06-06T06:28:32.000Z",
+     "snippet": "I had a lot of such moments, including: • Most recent, I had the option of either buying an app from the app store to train myself on the piano, or vibe coding a web app to connect with an attached MIDI keyboard and accept an uploaded MIDI file and give me an experience like Guit"
+    }
+   ]
+  },
+  "bobinson/aop1": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "bobkb",
+     "url": "https://news.ycombinator.com/item?id=48425459",
+     "date": "2026-06-06T14:26:13.000Z",
+     "snippet": "I tried building a deliberately vague project around managing MCP servers [0]. The purpose was to find what LLMs and agents can do. While the project didn’t reach anywhere I was amazed by how it’s possible to navigate even with no clear direction. The ability of the “glorified au"
+    }
+   ]
+  },
+  "tristanbuckmaster/navier-stokes": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "trotro",
+     "url": "https://news.ycombinator.com/item?id=50576232",
+     "date": "2026-11-20T15:34:31Z",
+     "snippet": "Finite-time blow-up for the Navier–Stokes equations (185 points)"
+    }
+   ]
+  },
+  "bigcrimping/floppy3.5": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "fortran77",
+     "url": "https://news.ycombinator.com/item?id=50560595",
+     "date": "2026-11-19T14:29:49Z",
+     "snippet": "Floppy3.5: A portable 3.5-inch floppy WiFi NAS (114 points)"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -164463,6 +164798,7 @@
   "48357725": 1793623207090,
   "48370330": 1793607997705,
   "48403614": 1793608059916,
+  "48406174": 1795205428914,
   "48413629": 1793608070529,
   "48420827": 1793608060819,
   "48449187": 1793608065776,
@@ -164588,14 +164924,15 @@
   "50363461": 1795033677816,
   "50366117": 1795033677938,
   "50393105": 1795158525160,
-  "50403153": 1795158525319,
-  "50405250": 1795158525487,
-  "50444380": 1795158524998,
+  "50403153": 1795205426968,
+  "50405250": 1795205428658,
+  "50444380": 1795205426547,
   "50484421": 1795158525977,
-  "50488230": 1795158525107,
-  "50494696": 1795158525060,
-  "50510042": 1795158525146,
-  "50513451": 1795158525162,
-  "50520076": 1795158525698
+  "50488230": 1795205428146,
+  "50494696": 1795205426941,
+  "50510042": 1795205428641,
+  "50513451": 1795205426620,
+  "50520076": 1795205428609,
+  "50577613": 1795205428070
  }
 }
