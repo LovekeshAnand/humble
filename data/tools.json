@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T19:11:46.228Z",
+ "updatedAt": "2026-11-22T06:42:20.118Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -42117,13 +42117,13 @@
      "author": "nik_ca"
     }
    ],
-   "checkedAt": "2026-11-14T22:21:09.716Z",
+   "checkedAt": "2026-11-22T06:42:17.406Z",
    "meta": {
     "name": "xmpp-web",
     "fullName": "nioc/xmpp-web",
     "description": "Lightweight web chat client for XMPP server",
     "homepage": null,
-    "stars": 195,
+    "stars": 196,
     "language": "Vue",
     "topics": [
      "muc",
@@ -42135,7 +42135,7 @@
     "license": "AGPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-05-13T16:00:18Z"
+    "pushedAt": "2026-11-20T00:06:36Z"
    },
    "listedAt": "2026-11-07T21:47:49.970Z"
   },
@@ -45706,7 +45706,7 @@
      "snippet": "Location: Munich, Germany Remote: Yes Willing to relocate: Yes Technologies: Rust, Typescript/JavaScript, C#/.NET, MongoDb, PostgresDb, Kafka, MQTT, React, React Native, RabbitMQ, Similarity Search, Vector Databases, CRDT, AWS, Azure, Pulumi, Terraform Résumé/CV: https://github.c"
     }
    ],
-   "checkedAt": "2026-11-14T22:21:09.988Z",
+   "checkedAt": "2026-11-22T06:42:17.624Z",
    "meta": {
     "name": "Resume",
     "fullName": "ahmad2smile/Resume",
@@ -51375,7 +51375,7 @@
      "snippet": "A soccer tracking app for who is playing and who isn't and what positions.[^1] A weight tracking application.[^2] A time tracker for how many hours my daughter was driving.[^3] An app to help my wife randomly pick meals for the upcoming week.[^4] Logic (CLI) to organize finances "
     }
    ],
-   "checkedAt": "2026-11-15T06:23:55.405Z",
+   "checkedAt": "2026-11-22T06:42:17.933Z",
    "meta": {
     "name": "Soccer",
     "fullName": "jon49/Soccer",
@@ -51407,7 +51407,7 @@
      "snippet": "A soccer tracking app for who is playing and who isn't and what positions.[^1] A weight tracking application.[^2] A time tracker for how many hours my daughter was driving.[^3] An app to help my wife randomly pick meals for the upcoming week.[^4] Logic (CLI) to organize finances "
     }
    ],
-   "checkedAt": "2026-11-15T06:23:55.642Z",
+   "checkedAt": "2026-11-22T06:42:18.185Z",
    "meta": {
     "name": "WeightTracker",
     "fullName": "jon49/WeightTracker",
@@ -58479,7 +58479,7 @@
      "snippet": "Set up a family chat, with a built-in helper agent? https://github.com/pkulak/barnaby-home"
     }
    ],
-   "checkedAt": "2026-11-14T22:21:10.252Z",
+   "checkedAt": "2026-11-22T06:42:18.435Z",
    "meta": {
     "name": "barnaby-home",
     "fullName": "pkulak/barnaby-home",
@@ -87253,13 +87253,35 @@
   "linsomniac/apt-cacher-ultra": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "linsomniac",
+     "url": "https://news.ycombinator.com/item?id=50594672",
+     "date": "2026-11-21T23:26:52Z",
+     "snippet": ">I'm not really seeing these mythical results from others either. Ok, I'll bite. Let's take https://github.com/linsomniac/apt-cacher-ultra for example, it is a caching proxy server with some fairly tricky code around snapshotting. It is code entirely written by AI, used by me eve"
+    },
+    {
      "source": "Ask HN",
      "author": "linsomniac",
      "url": "https://news.ycombinator.com/item?id=48461431",
      "date": "2026-06-09T14:12:59.000Z",
      "snippet": "The Ubuntu DDoS drove me to build a new apt-cacher with two goals: be able to supply typical packages when the upstream is unavailable and be more reliable than the existing apt-cacher/apt-cacher-ng. It's looking like I'll be doing a 1.0 release next week (it's been in beta for ~"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-22T06:42:18.671Z",
+   "meta": {
+    "name": "apt-cacher-ultra",
+    "fullName": "linsomniac/apt-cacher-ultra",
+    "description": "An improved apt caching proxy with the goal of surviving upstream outages.",
+    "homepage": null,
+    "stars": 30,
+    "language": "Go",
+    "topics": [],
+    "license": "CC0-1.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-21T20:51:32Z"
+   },
+   "listedAt": "2026-11-22T06:42:20.117Z"
   },
   "jazzido/bvcplay-tizen": {
    "mentions": [
@@ -105709,13 +105731,13 @@
      "snippet": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop (226 points)"
     }
    ],
-   "checkedAt": "2026-11-14T22:21:10.515Z",
+   "checkedAt": "2026-11-22T06:42:19.023Z",
    "meta": {
     "name": "clawk",
     "fullName": "clawkwork/clawk",
     "description": "Give coding agents a disposable Linux VM, not your laptop",
     "homepage": null,
-    "stars": 1044,
+    "stars": 1048,
     "language": "Go",
     "topics": [
      "agent-sandbox",
@@ -139847,19 +139869,19 @@
      "snippet": "PC GEOS: the multitasking DOS-based GUI OS that evolved from a C64 desktop (135 points)"
     }
    ],
-   "checkedAt": "2026-11-14T22:21:10.789Z",
+   "checkedAt": "2026-11-22T06:42:19.255Z",
    "meta": {
     "name": "pcgeos",
     "fullName": "bluewaysw/pcgeos",
     "description": "#FreeGEOS source codes. The offical home of the PC/GEOS operating system technology. For personal computing fans. For all developers and assembly lovers. For YOU!",
     "homepage": null,
-    "stars": 939,
+    "stars": 941,
     "language": "Assembly",
     "topics": [],
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-14T21:14:05Z"
+    "pushedAt": "2026-11-21T22:09:41Z"
    },
    "listedAt": "2026-11-07T21:47:49.973Z"
   },
@@ -146258,13 +146280,13 @@
      "snippet": "Keyd: Linux Key Remapper (143 points)"
     }
    ],
-   "checkedAt": "2026-11-15T06:23:55.887Z",
+   "checkedAt": "2026-11-22T06:42:19.480Z",
    "meta": {
     "name": "keyd",
     "fullName": "rvaiya/keyd",
     "description": "A key remapping daemon for linux.",
     "homepage": null,
-    "stars": 6109,
+    "stars": 6131,
     "language": "C",
     "topics": [
      "c",
@@ -157812,7 +157834,7 @@
      "snippet": "1) One 5x Claude sub, one pro lite codex sub 2) Not really, the value proposition on the subs are just so much greater. 3) I'm using Claude Code and Codex, crucially thru Muster[0] which I've been working on. It's a herdr inspired Libghostty-powered terminal which understands age"
     }
    ],
-   "checkedAt": "2026-11-15T06:23:55.153Z",
+   "checkedAt": "2026-11-22T06:42:17.147Z",
    "meta": {
     "name": "muster",
     "fullName": "amterp/muster",
@@ -157831,7 +157853,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-14T22:07:58Z"
+    "pushedAt": "2026-11-21T23:12:59Z"
    }
   },
   "mas-bandwidth/nova-tools": {
@@ -159385,13 +159407,13 @@
      "snippet": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU (315 points)"
     }
    ],
-   "checkedAt": "2026-11-14T22:21:10.995Z",
+   "checkedAt": "2026-11-22T06:42:19.722Z",
    "meta": {
     "name": "llama-modchip",
     "fullName": "synchopate/llama-modchip",
-    "description": "Run 284B DeepSeek-V4-Flash (<59GiB RAM: 41.1 cold pp, 9.1 N=1 tg, up to 25.3 spec tok/s) & 30B MoEs (22.4 N=1 / 111.6 spec tok/s) on 64GB CPU (0 GPUs).",
-    "homepage": "https://github.com/synchopate/llama-modchip#readme",
-    "stars": 1235,
+    "description": "Zero-GPU CPU inference for 30B-284B MoE models (Qwen3.8 176.5B cold-cache certified in 28.26/48.35 GiB Cgroup v2, DeepSeek-V4 284B, Nemotron-30B) + RouteCrack 2.0.",
+    "homepage": "https://synchopate.github.io/",
+    "stars": 1401,
     "language": "Python",
     "topics": [
      "ai-agents",
@@ -159417,7 +159439,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-13T07:54:56Z"
+    "pushedAt": "2026-11-21T08:22:56Z"
    },
    "listedAt": "2026-11-14T22:21:11.720Z"
   },
@@ -162519,13 +162541,13 @@
      "snippet": "https://github.com/jamescherti/minimal-emacs.d is a great starting point for owning your config. On macOS: Install from emacs-plus in Homebrew On Linux: Install from your distro’s pkg manager."
     }
    ],
-   "checkedAt": "2026-11-15T06:23:56.553Z",
+   "checkedAt": "2026-11-22T06:42:19.929Z",
    "meta": {
     "name": "minimal-emacs.d",
     "fullName": "jamescherti/minimal-emacs.d",
     "description": "minimal-emacs.d - Emacs init.el and early-init.el for Better Defaults and Optimized Startup, intended to serve as a solid foundation for your vanilla Emacs configuration | Emacs Starter Kit",
     "homepage": "https://github.com/jamescherti/minimal-emacs.d",
-    "stars": 928,
+    "stars": 932,
     "language": "Emacs Lisp",
     "topics": [
      "emacs",
@@ -162543,7 +162565,7 @@
     "license": null,
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-09T18:09:11Z"
+    "pushedAt": "2026-11-21T14:41:37Z"
    }
   },
   "bbatsov/crux": {
@@ -164349,6 +164371,116 @@
      "snippet": "If you're not sure about what a Markov Chain is, or if you've never written something from scratch that learns , take a look at this repo I made to try to bridge that gap and make it simple and understandable. You can read it in a few minutes. It starts with nothing but Python, a"
     }
    ]
+  },
+  "harttraveller/riemann": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "literallyanythi",
+     "url": "https://news.ycombinator.com/item?id=50595865",
+     "date": "2026-11-22T03:15:16Z",
+     "snippet": "For those interested in trying to understand the RH a little more now that its been proven harttraveller's full.mp4 [0] is a great resource if starting from zero as well (even if the last two minutes are missing sound) [0] https://github.com/harttraveller/riemann/raw/refs/heads/m"
+    }
+   ]
+  },
+  "longbridge/nsh": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tauchunfall",
+     "url": "https://news.ycombinator.com/item?id=50595553",
+     "date": "2026-11-22T02:14:12Z",
+     "snippet": "The \"2026 Survey of Rust GUI Libraries\" does not include Native Shell (nsh) [1] which is retained-mode and based on gpui-fast. Maybe because the code repository was started on October 11th, just 1.5 months ago. More than 2,000 commits later it already looks great. I think, they d"
+    }
+   ]
+  },
+  "kborer/cells": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "kborer",
+     "url": "https://news.ycombinator.com/item?id=50595274",
+     "date": "2026-11-22T01:16:13Z",
+     "snippet": "Great idea! I'll try it soon if nobody else does: https://github.com/kborer/cells/issues/37"
+    }
+   ]
+  },
+  "sorahn/jaywalk": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "sorahn",
+     "url": "https://news.ycombinator.com/item?id=50594025",
+     "date": "2026-11-21T21:54:22Z",
+     "snippet": "I've been using Jujutsu for my workflow with my agent like such: * Agent and I go through a whole plan for the feature * This includes 'the commits' ahead of time for the story that I think the history should tell for the feature * agent does the entire feature * I review each co"
+    }
+   ]
+  },
+  "andycappdev/postforge": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "viraptor",
+     "url": "https://news.ycombinator.com/item?id=50593726",
+     "date": "2026-11-21T21:16:01Z",
+     "snippet": "> Unfortunately, ghostscript is the only implementation of postscript that's out there. That needs lots of qualifiers. It's the only popular and widely distributed open-source implementation with known good performance and wide compatibility. There were so many other implementati"
+    }
+   ]
+  },
+  "plv8/plv8": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "dapperdrake",
+     "url": "https://news.ycombinator.com/item?id=50593501",
+     "date": "2026-11-21T20:49:49Z",
+     "snippet": "Then you will love plv8. Load an entire Chrome V8 or NodeJS V8 into Postgres to have JS pg modules. JS now runs on phones, on web servers, and inside your postgres relational database. Add Mongo and vibe code JS for redis or memcached for bonus internet points. If Rust is rewritt"
+    }
+   ]
+  },
+  "itsnotrexed/leonida": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "ebrahimh",
+     "url": "https://news.ycombinator.com/item?id=50595168",
+     "date": "2026-11-22T00:57:26Z",
+     "snippet": "Leonida – PC Recompilation of the Xbox Version of GTA 6 (118 points)"
+    }
+   ]
+  },
+  "shinmegamiboson/lookatmyquant": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "k__",
+     "url": "https://news.ycombinator.com/item?id=50591853",
+     "date": "2026-11-21T18:02:19Z",
+     "snippet": "Inkling-2-Mini in 5.4 GB Memory (425 points)"
+    }
+   ]
+  },
+  "cage-kiosk/cage": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.ml/u/dropdrip",
+     "url": "https://lemmy.ml/comment/29199435",
+     "date": "2026-11-22T00:24:01.196114Z",
+     "snippet": "Of course, but you will need a display server. >$ [xinit](https://wiki.archlinux.org/title/Xinit) /usr/bin/libreoffice -- :0 vt1 That command will launch [Xorg](https://wiki.archlinux.org/title/Xorg) and Libreoffice. (Curious if wayland has an equivalent [please message me if you"
+    }
+   ]
+  },
+  "srlegrand/aztek": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:eugenialoli@mastodon.social",
+     "url": "https://mastodon.social/@eugenialoli/117657166240335915",
+     "date": "2026-11-22T00:04:41.000Z",
+     "snippet": "I'm following some Maya 3D tutorials on youtube to learn, but by using the open source clone of it, Aztek, instead. Works well on Linux too, and it has feature parity of about 57% so far compared to Maya. https:// github.com/srlegrand/Aztek # maya # maya3d # animation # 3d # cgi "
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -165230,14 +165362,15 @@
   "50393105": 1795158525160,
   "50403153": 1795288266438,
   "50405250": 1795288266668,
-  "50444380": 1795288265325,
-  "50484421": 1795288266823,
-  "50488230": 1795288265460,
-  "50494696": 1795288265425,
-  "50510042": 1795288265577,
-  "50513451": 1795288265761,
-  "50520076": 1795288266462,
-  "50577613": 1795288265477,
-  "50583761": 1795288266620
+  "50444380": 1795329701735,
+  "50484421": 1795329703221,
+  "50488230": 1795329701767,
+  "50494696": 1795329702011,
+  "50510042": 1795329702390,
+  "50513451": 1795329701867,
+  "50520076": 1795329702507,
+  "50565484": 1795329702128,
+  "50577613": 1795329702175,
+  "50583761": 1795329702221
  }
 }
