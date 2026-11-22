@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T06:42:20.118Z",
+ "updatedAt": "2026-11-22T19:33:54.216Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -6512,6 +6512,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "DonHopkins",
+     "url": "https://news.ycombinator.com/item?id=50598393",
+     "date": "2026-11-22T10:52:56Z",
+     "snippet": "Another way to run whole operating systems in the browser is to put a second JIT on top of the browser's: an instruction set emulator that compiles guest code to JavaScript, which V8 then compiles to native code. Here is the original PDP-7 Unix running that way. Log in as dmr pas"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50191280",
      "date": "2026-10-22T04:46:46Z",
      "snippet": "Here's the whole thread from six days ago, started when I shared the \"Folders\" esolanguage article and hn discussion, which I think is interesting for students and language hackers: On 16 Oct 2026, Don Hopkins wrote to Owen Densmore, David Rosenthal, and Alan Kay: Somebody took y",
@@ -8029,6 +8036,13 @@
   },
   "simhacker/willwrightshowforfood": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "DonHopkins",
+     "url": "https://news.ycombinator.com/item?id=50598393",
+     "date": "2026-11-22T10:52:56Z",
+     "snippet": "Another way to run whole operating systems in the browser is to put a second JIT on top of the browser's: an instruction set emulator that compiles guest code to JavaScript, which V8 then compiles to native code. Here is the original PDP-7 Unix running that way. Log in as dmr pas"
+    },
     {
      "source": "HN comment",
      "author": "DonHopkins",
@@ -42004,11 +42018,33 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "aleda145",
+     "url": "https://news.ycombinator.com/item?id=50598347",
+     "date": "2026-11-22T10:46:14Z",
+     "snippet": "Nice! Love the dependency graph! I have a story how an excel spreadsheet ended up mispricing an asset by $50M, due to the formulas being hard to review. Crazy how much can go wrong in excel. I'll give this a spin and check out the reaktiv framework too! Also really fun to see oth"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49687353",
      "date": "2026-09-13T18:52:18Z",
      "snippet": "I open sourced kavla, the SQL canvas I'm working on: https://github.com/aleda145/kavla README is very bare bones, needs a video or a picture too. The website should tell you some more things: https://kavla.dev (and now the demo does not require a login (also need to remake the de"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-22T19:33:53.052Z",
+   "meta": {
+    "name": "kavla",
+    "fullName": "aleda145/kavla",
+    "description": "Data canvas for exploratory analysis",
+    "homepage": "https://kavla.dev/",
+    "stars": 45,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-22T15:55:09Z"
+   },
+   "listedAt": "2026-11-22T19:33:54.213Z"
   },
   "senoff/self-hosted-ci-runner": {
    "mentions": [
@@ -73327,6 +73363,13 @@
   "en/copilot": {
    "mentions": [
     {
+     "source": "Stack Exchange",
+     "author": "se:Nigel",
+     "url": "https://superuser.com/a/1941741",
+     "date": "2026-11-22T08:48:55.000Z",
+     "snippet": "To quickly jump to a chat with the session ID press ctrl + r then enter ghapp://sessions/<sessionID> . This will open the app in that chat. See the Github docs for other useful commands."
+    },
+    {
      "source": "HN comment",
      "author": "faradaycage314",
      "url": "https://news.ycombinator.com/item?id=50407937",
@@ -91872,35 +91915,21 @@
      "snippet": "> Which model(s) are you running (e.g., Ollama, LM Studio, or others) and which open-source coding assistant/integration (for example, a VS Code plugin) you’re using? Open-source coding assistant: VT Code (my own coding agent -- github.com/vinhnx/vtcode) Model: gpt-oss-120b remot"
     }
    ],
-   "checkedAt": "2026-11-15T18:49:25.295Z",
+   "checkedAt": "2026-11-22T19:33:53.295Z",
    "meta": {
     "name": "VTCode",
     "fullName": "vinhnx/VTCode",
     "description": " VT Code is a terminal-first coding agent for your repo, in the CLI and native macOS app.",
     "homepage": "https://vinhnx.github.io/VTCode/",
-    "stars": 911,
+    "stars": 916,
     "language": "Rust",
     "topics": [
-     "agent",
-     "agentclientprotocol",
-     "agentplugins",
-     "agentskills",
-     "ai",
-     "artificial-intelligence",
-     "cargo",
-     "cli",
-     "codingagent",
-     "crossterm",
-     "mcp",
-     "ratatui",
-     "rust",
-     "terminal",
-     "tui"
+     "rust"
     ],
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-15T11:05:49Z"
+    "pushedAt": "2026-11-21T14:11:12Z"
    },
    "listedAt": "2026-11-08T13:19:53.608Z"
   },
@@ -103289,13 +103318,13 @@
      "snippet": "ESP32-C3 Adblock (195 points)"
     }
    ],
-   "checkedAt": "2026-11-15T18:49:25.528Z",
+   "checkedAt": "2026-11-22T19:33:53.549Z",
    "meta": {
     "name": "esp32-c3-adblock",
     "fullName": "M-Abozaid/esp32-c3-adblock",
     "description": "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit FNV-1a hashes in flash, binary-searched. UDP DNS sinkhole + web dashboard. https://youtube.com/shorts/RaxszOUMi8E?feature=share",
     "homepage": null,
-    "stars": 3572,
+    "stars": 3639,
     "language": "C++",
     "topics": [
      "adblocker",
@@ -104031,13 +104060,35 @@
   "anthropics/fermats-last-theorem": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "fspeech",
+     "url": "https://news.ycombinator.com/item?id=50601777",
+     "date": "2026-11-22T17:27:06Z",
+     "snippet": "Also these AI proofs aren't exactly unreadable. There are many well known results embedded, which account for the bulk of the Lean code that you could ignore if you are comfortable with the well accepted theories. Then there is the high order AI construction. You may not understa"
+    },
+    {
      "source": "HN front page",
      "author": "aaraujo002",
      "url": "https://news.ycombinator.com/item?id=49568697",
      "date": "2026-09-04T18:57:32Z",
      "snippet": "Fermat's Last Theorem in Lean 4 (146 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-22T19:33:53.816Z",
+   "meta": {
+    "name": "fermats-last-theorem",
+    "fullName": "anthropics/fermats-last-theorem",
+    "description": "",
+    "homepage": null,
+    "stars": 1326,
+    "language": "Lean",
+    "topics": [],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-09-24T14:06:42Z"
+   },
+   "listedAt": "2026-11-22T19:33:54.215Z"
   },
   "gioblu/npc-forge": {
    "mentions": [
@@ -158364,13 +158415,13 @@
      "snippet": "1-2) Claude $20/mo (planner) Codex $20/mo (reviewer) Deepseek $1-3/day workhorse. 4) A standard /implement skill creates separate agents for different parts of the workflow. It uses Claude for planning, codex for reviewing, and deepseek for doing and orchestrating. https://github"
     }
    ],
-   "checkedAt": "2026-11-15T18:49:25.795Z",
+   "checkedAt": "2026-11-22T19:33:54.032Z",
    "meta": {
     "name": "pi-quota-dispatcher",
     "fullName": "gregwebs/pi-quota-dispatcher",
     "description": "Dynamically alter agent configuration based on quota",
     "homepage": null,
-    "stars": 1,
+    "stars": 2,
     "language": "TypeScript",
     "topics": [],
     "license": "Apache-2.0",
@@ -164481,6 +164532,127 @@
      "snippet": "I'm following some Maya 3D tutorials on youtube to learn, but by using the open source clone of it, Aztek, instead. Works well on Linux too, and it has feature parity of about 57% so far compared to Maya. https:// github.com/srlegrand/Aztek # maya # maya3d # animation # 3d # cgi "
     }
    ]
+  },
+  "rfjakob/gocryptfs": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jonny2811",
+     "url": "https://news.ycombinator.com/item?id=50602678",
+     "date": "2026-11-22T18:52:08Z",
+     "snippet": "love restic. I used veracrypt for a long time, but the encrypted vault is just one gigantic blob, which makes incremental backups hard, i recently switched to https://github.com/rfjakob/gocryptfs which encrypts the files and the filenames, as a results it's way easier to sync wit"
+    }
+   ]
+  },
+  "michaelongaro/autostrum": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "michael_ongaro",
+     "url": "https://news.ycombinator.com/item?id=50602192",
+     "date": "2026-11-22T18:05:48Z",
+     "snippet": "I’m excited to share a project I’ve been working on for a while. Autostrum helps guitarists learn songs faster by playing back interactive tablature with real guitar audio samples instead of synthetic MIDI. You can slow down and loop difficult passages until you’re comfortable, p"
+    }
+   ]
+  },
+  "opendilab/awesome-rlvr": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "chubot",
+     "url": "https://news.ycombinator.com/item?id=50602102",
+     "date": "2026-11-22T17:57:24Z",
+     "snippet": "I thought that too, but models are trained on observation now, to increase agent performance. This is new data that is separate from Internet crawls. I think it's done with reinforcement learning with verifiable rewards https://github.com/opendilab/awesome-RLVR Examples: - When p"
+    }
+   ]
+  },
+  "agent-field/codeaf": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "youknowme123",
+     "url": "https://news.ycombinator.com/item?id=50601178",
+     "date": "2026-11-22T16:37:15Z",
+     "snippet": "Ah, another fellow local parallelizer! i would highly recommend checking out CodeAF https://github.com/Agent-Field/CodeAF (Im one of the maintainers). The whole premise is having a dynamic system of managers coordinating massively parallel tasks, even with complex dependencies (r"
+    }
+   ]
+  },
+  "pion/offline-browser-communication": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Sean-Der",
+     "url": "https://news.ycombinator.com/item?id=50599109",
+     "date": "2026-11-22T12:37:30Z",
+     "snippet": "It was possible at one point! Browser vendors broke the stuff it depend on. [0] I wish it was an official use case in the W3C. I think its a great feature for air gapped networks. Why do I need to connect to AWS to use the cameras in my network!? [0] https://github.com/pion/offli"
+    }
+   ]
+  },
+  "linsomniac/ganeti": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "linsomniac",
+     "url": "https://news.ycombinator.com/item?id=50601546",
+     "date": "2026-11-22T17:08:35.000Z",
+     "snippet": "... but, I'll take your bait again. This repo is from 9 months ago, well pre-Fable, and it shows the AIs ability to work with an existing code-base and implement something significant. Unfortunately, ganeti is a pretty dead-end project so this never got any traction, even I decid"
+    }
+   ]
+  },
+  "gulivan/worker755": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "ivantgam",
+     "url": "https://news.ycombinator.com/item?id=50599762",
+     "date": "2026-11-22T13:56:58Z",
+     "snippet": "Show HN: I built a game where you are an LLM's subagent (179 points)"
+    }
+   ]
+  },
+  "el4cteo/fast-anything": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "BaselAshraf81",
+     "url": "https://news.ycombinator.com/item?id=50596155",
+     "date": "2026-11-22T04:10:09Z",
+     "snippet": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow (158 points)"
+    }
+   ]
+  },
+  "sebaandrada-cell/pcapanalyzer": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "sebaandrada",
+     "url": "https://news.ycombinator.com/item?id=50594132",
+     "date": "2026-11-21T22:09:58Z",
+     "snippet": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors (157 points)"
+    }
+   ]
+  },
+  "pithings/unkernel": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "DonAtimator",
+     "url": "https://news.ycombinator.com/item?id=50533945",
+     "date": "2026-11-17T16:35:46Z",
+     "snippet": "A real Linux kernel, compiled to WebAssembly (210 points)"
+    }
+   ]
+  },
+  "trina-app/trina-ax": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:dionnam@mastodon.social",
+     "url": "https://mastodon.social/@dionnam/117659890092843282",
+     "date": "2026-11-22T11:37:24.000Z",
+     "snippet": "I help companies roll out AI at work, and getting a whole team to use Claude Code well is really hard. So I built Trina AX. https:// github.com/trina-app/trina-ax - Free to self-host, open source (AGPL-3.0) - Set up files, skills and MCP once for everyone - Nobody else installs C"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -165359,18 +165531,20 @@
   "50355959": 1794948688959,
   "50363461": 1795033677816,
   "50366117": 1795033677938,
-  "50393105": 1795158525160,
+  "50393105": 1795375999960,
   "50403153": 1795288266438,
   "50405250": 1795288266668,
-  "50444380": 1795329701735,
+  "50444380": 1795375999794,
   "50484421": 1795329703221,
   "50488230": 1795329701767,
-  "50494696": 1795329702011,
-  "50510042": 1795329702390,
-  "50513451": 1795329701867,
-  "50520076": 1795329702507,
-  "50565484": 1795329702128,
-  "50577613": 1795329702175,
-  "50583761": 1795329702221
+  "50494696": 1795375999769,
+  "50510042": 1795375999883,
+  "50513451": 1795375999803,
+  "50520076": 1795376000192,
+  "50555002": 1795375999680,
+  "50565484": 1795375999908,
+  "50577613": 1795375999873,
+  "50583761": 1795376000156,
+  "50600771": 1795376000029
  }
 }
