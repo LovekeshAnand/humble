@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T07:32:36.392Z",
+ "updatedAt": "2026-11-23T23:51:36.211Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -8751,6 +8751,13 @@
   },
   "trypando/pando": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "bemeeker",
+     "url": "https://news.ycombinator.com/item?id=50614618",
+     "date": "2026-11-23T16:30:42Z",
+     "snippet": "I work on an open-source project for this: Pando ( https://github.com/trypando/pando ). It’s piloting at some companies and doing really well. Would love to hear some feedback!"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50145690",
@@ -26132,6 +26139,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "benjaopazoc",
+     "url": "https://news.ycombinator.com/item?id=50612364",
+     "date": "2026-11-23T14:35:47Z",
+     "snippet": "I built this little tool that generates a uBlock filter list to hide Reddit posts based on title keywords ( https://github.com/benja-opazo/ublock-politics ). I haven't updated it in a while, though I usually try to keep up with new political figures and specific subreddits (that "
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49804319",
      "date": "2026-09-22T16:51:36Z",
      "snippet": "I did the same thing this year, and I agree it's been one of the best decisions I've made. I'm happier, and my mind feels calmer, with less noise. I've started reading a lot, and even writing (I started a blog, and one of my first posts was about exactly this, if you want you can"
@@ -33957,6 +33971,13 @@
   },
   "breezy-weather/breezy-weather": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "TranquilMarmot",
+     "url": "https://news.ycombinator.com/item?id=50621174",
+     "date": "2026-11-23T23:40:22Z",
+     "snippet": "On Android, I use Breezy Weather which just uses government-supplied data (at least in the USA) https://github.com/breezy-weather/breezy-weather/"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=46565491",
@@ -71288,13 +71309,43 @@
   "glushchenko/fsnotes": {
    "mentions": [
     {
+     "source": "HN front page",
+     "author": "fluder",
+     "url": "https://news.ycombinator.com/item?id=50616933",
+     "date": "2026-11-23T18:48:10Z",
+     "snippet": "Apple removed my open-source app from EU App Stores after 9 years (459 points)"
+    },
+    {
      "source": "Ask HN",
      "author": "omnimus",
      "url": "https://news.ycombinator.com/item?id=17534536",
      "date": "2018-07-15T09:45:34.000Z",
      "snippet": "There is FSNotes. brew cask install fsnotes https://github.com/glushchenko/fsnotes"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-23T23:51:35.073Z",
+   "meta": {
+    "name": "fsnotes",
+    "fullName": "glushchenko/fsnotes",
+    "description": "Fast Markdown note-taking app for Mac and iPhone",
+    "homepage": "https://fsnot.es",
+    "stars": 7596,
+    "language": "Swift",
+    "topics": [
+     "ios",
+     "macos",
+     "markdown",
+     "note-taking",
+     "notebook",
+     "notes-app",
+     "swift"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-15T20:00:13Z"
+   },
+   "listedAt": "2026-11-23T23:51:36.210Z"
   },
   "scrod/nv": {
    "mentions": [
@@ -106784,13 +106835,35 @@
   "tamnd/kage": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "OzzyB",
+     "url": "https://news.ycombinator.com/item?id=50618909",
+     "date": "2026-11-23T20:38:55Z",
+     "snippet": "Try using [Kage]( https://github.com/tamnd/kage ) On Mac: `brew install --cask tamnd/tap/kage` I think it should handle this site pretty easily imo"
+    },
+    {
      "source": "HN front page",
      "author": "tamnd",
      "url": "https://news.ycombinator.com/item?id=48529990",
      "date": "2026-06-14T17:25:38Z",
      "snippet": "Show HN: Kage – Shadow any website to a single binary for offline viewing (712 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-23T23:51:35.329Z",
+   "meta": {
+    "name": "kage",
+    "fullName": "tamnd/kage",
+    "description": "Shadow any website for offline viewing, with the JavaScript stripped out",
+    "homepage": "https://kage.tamnd.com",
+    "stars": 3555,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-08-10T11:59:54Z"
+   },
+   "listedAt": "2026-11-23T23:51:36.210Z"
   },
   "nex-agi/nex-n2": {
    "mentions": [
@@ -161180,11 +161253,32 @@
     {
      "source": "HN comment",
      "author": "RALaBarge",
+     "url": "https://news.ycombinator.com/item?id=50615417",
+     "date": "2026-11-23T17:12:58Z",
+     "snippet": "I always scoff when I see people zoom into HN and say hey check out what I am working on, but I agree with you and I made a 2 computer system -- one that is the core with everything on it and another that is a sandbox. They are both their own physical machines and the sandbox is "
+    },
+    {
+     "source": "HN comment",
+     "author": "RALaBarge",
      "url": "https://news.ycombinator.com/item?id=50453018",
      "date": "2026-11-11T13:13:37Z",
      "snippet": "This is really awesome and the next rabbit hole I want to check out. I'm on the defensive making software for me running AIs in the most secure way possible, and one main lack was the ability to fully guard against kernel attacks should a jailbreak happen. Its another layer I can"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-23T23:51:35.615Z",
+   "meta": {
+    "name": "enclave",
+    "fullName": "RALaBarge/enclave",
+    "description": "Trusted core + gatewayed sandbox VM for AI agents",
+    "homepage": null,
+    "stars": 1,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-15T22:33:08Z"
+   }
   },
   "ddalcu/mlx-serve": {
    "mentions": [
@@ -163112,19 +163206,19 @@
      "snippet": "The goal was a light, fun, open, introductory flight sim. My kids wanted to try a loop, so I added flaps and added 25% more power to biplane. Just enough. Great list, I will add these in time. https://github.com/dai-studio/ex-baron License: BSD 2-Clause, feel free to submit PRs."
     }
    ],
-   "checkedAt": "2026-11-16T21:58:52.991Z",
+   "checkedAt": "2026-11-23T23:51:35.898Z",
    "meta": {
     "name": "ex-baron",
     "fullName": "dai-studio/ex-baron",
     "description": "",
     "homepage": null,
-    "stars": 15,
+    "stars": 16,
     "language": "TypeScript",
     "topics": [],
     "license": "BSD-2-Clause",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-16T00:09:59Z"
+    "pushedAt": "2026-11-22T00:35:20Z"
    }
   },
   "blueblazin/blockviz": {
@@ -164795,6 +164889,314 @@
      "snippet": "A longstanding issue in Principia's level loader making it break on big endian systems has finally been fixed! Thanks to @ krisbug for helping with the brainstorming. The changes are now present in the latest commit in the Git repository. https:// github.com/Bithack/principia/c o"
     }
    ]
+  },
+  "hermit-crm/hermit-crm": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "gijsbos",
+     "url": "https://news.ycombinator.com/item?id=50619362",
+     "date": "2026-11-23T21:11:36Z",
+     "snippet": "A few extra details: Code: https://github.com/Hermit-CRM/hermit-crm Why Markdown in git? So you can grep it, edit it in an editor, and an AI agent can read and update it without an API. I use the MCP server a lot. I ask Claude things like \"who haven't I followed up with in the la"
+    }
+   ]
+  },
+  "zizka-ai-sl/zizkadb": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Arshad-Talpur",
+     "url": "https://news.ycombinator.com/item?id=50616831",
+     "date": "2026-11-23T18:42:07Z",
+     "snippet": "There is a difference between using AI to write something and using it to correct English grammar, research facts, or perform other AI-related tasks. As for the product, it's already open source. Feel free to give it a try with Claude or any other AI you use: https://github.com/Z"
+    }
+   ]
+  },
+  "claimseed/claimseed": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "littlej",
+     "url": "https://news.ycombinator.com/item?id=50615896",
+     "date": "2026-11-23T17:41:34Z",
+     "snippet": "One of the challenges we had when building Barley was finding a corpus of medical billing-related documents to test the platform against (both its AI and deterministic parts). To solve that, we built claimseed, which generates realistic but entirely made-up medical bills and rela"
+    }
+   ]
+  },
+  "roddhjav/apparmor.d": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "nobody42",
+     "url": "https://news.ycombinator.com/item?id=50615323",
+     "date": "2026-11-23T17:08:20Z",
+     "snippet": "Here's an alternative view on the problem: https://github.com/roddhjav/apparmor.d (I'm the contributor) Still, validation without extraction (FIDO2), instead of read to validate is the best solution in OP's situation."
+    }
+   ]
+  },
+  "xhjkl/44446832bca3a2bc854e1176d10301f2": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "xhjkl",
+     "url": "https://news.ycombinator.com/item?id=50615037",
+     "date": "2026-11-23T16:53:30Z",
+     "snippet": "Hey HN, First off, why build yet another CLI LLM tool when there are plenty already? Two reasons, actually. One is that since the LLM wave hit, I've started to actully spend more time sitting in the CLI, not less. It's just so much more convenient to `git diff | rg ...` than to w"
+    }
+   ]
+  },
+  "xhjkl/44446832bca3a2bc854e1176d10301": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "xhjkl",
+     "url": "https://news.ycombinator.com/item?id=50615037",
+     "date": "2026-11-23T16:53:30Z",
+     "snippet": "Hey HN, First off, why build yet another CLI LLM tool when there are plenty already? Two reasons, actually. One is that since the LLM wave hit, I've started to actully spend more time sitting in the CLI, not less. It's just so much more convenient to `git diff | rg ...` than to w"
+    }
+   ]
+  },
+  "andreisuslov/calculingo-app": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "heyholuhluhlay",
+     "url": "https://news.ycombinator.com/item?id=50613517",
+     "date": "2026-11-23T15:32:10Z",
+     "snippet": "Calculingo is a notepad app that takes your input and parses everything in real time with every keystroke. I did my absolute best to make it as fast and feature-rich as possible. This app has become my second brain when it comes to currency conversions and measuring the time betw"
+    }
+   ]
+  },
+  "intelligible/elbi": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "benlengerich",
+     "url": "https://news.ycombinator.com/item?id=50612273",
+     "date": "2026-11-23T14:32:02Z",
+     "snippet": "Hi HN, I’m Ben, founder of Intelligible. We built ELBI to give agents a persistent place to store statistical reasoning. We noticed agents weren’t great at reasoning over tabular data, so we asked “why?”. The answer we came up with was that they didn’t have any great place to sto"
+    }
+   ]
+  },
+  "eleciawhite/making-embedded-systems": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "otekengineering",
+     "url": "https://news.ycombinator.com/item?id=50611924",
+     "date": "2026-11-23T14:18:49Z",
+     "snippet": "Stay under ~48V to be touch-safe. Safety squints are not OSHA approved eye protection, get some cheap safeties (and some cheap readers for the little stuff). Clamp motors securely before driving. AI will help a lot, but make sure you work with it on tasks you couldn't do yourself"
+    }
+   ]
+  },
+  "rzkowskii/pipos": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "kowskirz",
+     "url": "https://news.ycombinator.com/item?id=50611095",
+     "date": "2026-11-23T13:10:54Z",
+     "snippet": "Hello, This is a simple idea I've toyed with for a little while now. I have a bunch of old Macbook Pro's, and thought the idea of 'giving them life' by \"endowing\" them with AI would be cool. Like having little computer friends around. It's a very early development build, and I wa"
+    }
+   ]
+  },
+  "sam-blakeman/retrotv": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "scribblesvurt",
+     "url": "https://news.ycombinator.com/item?id=50610934",
+     "date": "2026-11-23T12:53:53Z",
+     "snippet": "Love retro TV this is a great site. I wanted to watch recent streams and videos on my Android so I made Retro TV player: https://github.com/sam-blakeman/retrotv"
+    }
+   ]
+  },
+  "eliasstravik/herdr-call": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "a-saleh",
+     "url": "https://news.ycombinator.com/item?id=50609231",
+     "date": "2026-11-23T09:12:45Z",
+     "snippet": "Fwiw, wince the advent of coding agents being useful, I am even more in the TUI than before. Because the text is native. But I have been enjoying the mobile apps - claude-code remote sessions are very nice when Claude ca show you designs before you approve and I am currently expe"
+    }
+   ]
+  },
+  "leolivm/vermilion": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tim--",
+     "url": "https://news.ycombinator.com/item?id=50608788",
+     "date": "2026-11-23T08:05:37Z",
+     "snippet": "I'd love to see if these NVidia and AMD drivers can easily be ported to ARM MacOS. The AMD graphics support that is (was) on MacOS Intel is no existant on the ARM builds. Luckily, people have already coded versions for Intel macs, so it shouldn't be exceptionally hard I would ass"
+    }
+   ]
+  },
+  "helemen7/rednavi": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tim--",
+     "url": "https://news.ycombinator.com/item?id=50608788",
+     "date": "2026-11-23T08:05:37Z",
+     "snippet": "I'd love to see if these NVidia and AMD drivers can easily be ported to ARM MacOS. The AMD graphics support that is (was) on MacOS Intel is no existant on the ARM builds. Luckily, people have already coded versions for Intel macs, so it shouldn't be exceptionally hard I would ass"
+    }
+   ]
+  },
+  "nullmoth/nvidia-macos-driver": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tim--",
+     "url": "https://news.ycombinator.com/item?id=50608788",
+     "date": "2026-11-23T08:05:37Z",
+     "snippet": "I'd love to see if these NVidia and AMD drivers can easily be ported to ARM MacOS. The AMD graphics support that is (was) on MacOS Intel is no existant on the ARM builds. Luckily, people have already coded versions for Intel macs, so it shouldn't be exceptionally hard I would ass"
+    }
+   ]
+  },
+  "lemonade-sdk/mac_linuxgpu": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tim--",
+     "url": "https://news.ycombinator.com/item?id=50608788",
+     "date": "2026-11-23T08:05:37Z",
+     "snippet": "I'd love to see if these NVidia and AMD drivers can easily be ported to ARM MacOS. The AMD graphics support that is (was) on MacOS Intel is no existant on the ARM builds. Luckily, people have already coded versions for Intel macs, so it shouldn't be exceptionally hard I would ass"
+    }
+   ]
+  },
+  "anthropics/formal-math": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "mikeryan52",
+     "url": "https://news.ycombinator.com/item?id=50620102",
+     "date": "2026-11-23T22:09:10Z",
+     "snippet": "VP ≠ VNP over Every Field (148 points)"
+    }
+   ]
+  },
+  "mikuta0407/win4wine": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "hard_times",
+     "url": "https://news.ycombinator.com/item?id=50610743",
+     "date": "2026-11-23T12:28:11Z",
+     "snippet": "Win4wine – Run Windows Shell as the Linux Desktop on Wine (208 points)"
+    }
+   ]
+  },
+  "os6/nospeaker": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "yakkomajuri",
+     "url": "https://news.ycombinator.com/item?id=50610318",
+     "date": "2026-11-23T11:31:54Z",
+     "snippet": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor (263 points)"
+    }
+   ]
+  },
+  "elixir-hls/elixir-hls": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "kristianpaul",
+     "url": "https://news.ycombinator.com/item?id=50584526",
+     "date": "2026-11-21T00:47:57Z",
+     "snippet": "Elixir HLS makes FPGA circuits from functions written in Elixir (144 points)"
+    }
+   ]
+  },
+  "android2linux/android2linux": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:alanmeira",
+     "url": "https://lobste.rs/c/1r52gs",
+     "date": "2026-11-23T06:42:22.065-06:00",
+     "snippet": "I'm finally building my own mobile OS/linux distro. Installing it on my phone was easier than I thought (using claude code, ofc). If anyone wants to try, I have been writing the findings here: https://github.com/android2linux/android2linux"
+    }
+   ]
+  },
+  "jgm/djot": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:dzwdz",
+     "url": "https://lobste.rs/c/iihkrq",
+     "date": "2026-11-23T04:15:39.576-06:00",
+     "snippet": "Why base this on Markdown, which is split up into a million dialects, many of which allow embedding HTML (and so they require parsing HTML to view it without losing formatting)?\r\nThe author does strip any HTML (probably creating yet another dialect of Markdown in the process), bu"
+    }
+   ]
+  },
+  "scripting/markdownweb": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:dzwdz",
+     "url": "https://lobste.rs/c/iihkrq",
+     "date": "2026-11-23T04:15:39.576-06:00",
+     "snippet": "Why base this on Markdown, which is split up into a million dialects, many of which allow embedding HTML (and so they require parsing HTML to view it without losing formatting)?\r\nThe author does strip any HTML (probably creating yet another dialect of Markdown in the process), bu"
+    }
+   ]
+  },
+  "tombursch/kitchenowl": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://feddit.org/u/B0rax",
+     "url": "https://feddit.org/comment/16257678",
+     "date": "2026-11-23T18:23:36.498614Z",
+     "snippet": "? I use Kitchenowl and I don’t see it anywhere. I don’t believe they have it. It is also not mentioned in the docs. Where did you get that from? /edit: ah I see, [Here](https://github.com/TomBursch/kitchenowl/pull/1160)"
+    }
+   ]
+  },
+  "pansalut/koffan": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.ml/u/Tiritibambix",
+     "url": "https://lemmy.ml/comment/29244895",
+     "date": "2026-11-23T17:10:42.517034Z",
+     "snippet": "[Koffan](https://github.com/PanSalut/Koffan) needs some love here !"
+    }
+   ]
+  },
+  "meditohq/medito-app": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.ml/u/wiki_me",
+     "url": "https://lemmy.ml/comment/29244339",
+     "date": "2026-11-23T16:36:22.108594Z",
+     "snippet": "[Medito](https://github.com/meditohq/medito-app) (meditation app) with a whopping 5.0 out of 5 [google play rating](https://play.google.com/store/apps/details?id=meditofoundation.medito) . but i havent really worked with it yet, learned about meditation by other means , which is "
+    }
+   ]
+  },
+  "pgedge/ai-dba-workbench": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:pgEdgeDistributedPostgres@mastodon.social",
+     "url": "https://mastodon.social/@pgEdgeDistributedPostgres/117667832483308769",
+     "date": "2026-11-23T21:17:15.000Z",
+     "snippet": "TypeSafe AI's Jev, ten weeks in: ~300 new repos still mention it weekly, per Jun-seo Park at EveryInfra 📖 https:// everyinfra.com/en/blog/jev-eco system-field-report Decision models fit narrow, frequent calls, like whether a # Postgres anomaly deserves an alert. pgEdge's AI DBA "
+    }
+   ]
+  },
+  "pgedge/ai-dba-workb": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:pgEdgeDistributedPostgres@mastodon.social",
+     "url": "https://mastodon.social/@pgEdgeDistributedPostgres/117667832483308769",
+     "date": "2026-11-23T21:17:15.000Z",
+     "snippet": "TypeSafe AI's Jev, ten weeks in: ~300 new repos still mention it weekly, per Jun-seo Park at EveryInfra 📖 https:// everyinfra.com/en/blog/jev-eco system-field-report Decision models fit narrow, frequent calls, like whether a # Postgres anomaly deserves an alert. pgEdge's AI DBA "
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -165676,17 +166078,17 @@
   "50393105": 1795375999960,
   "50403153": 1795288266438,
   "50405250": 1795288266668,
-  "50444380": 1795419065507,
+  "50444380": 1795477850345,
   "50484421": 1795329703221,
-  "50488230": 1795419065332,
-  "50494696": 1795419065294,
-  "50510042": 1795419066131,
-  "50513451": 1795419065756,
-  "50520076": 1795419066684,
-  "50555002": 1795419065027,
-  "50565484": 1795419065987,
-  "50577613": 1795419065387,
-  "50583761": 1795419066097,
-  "50600771": 1795419066623
+  "50488230": 1795477850401,
+  "50494696": 1795477850702,
+  "50510042": 1795477850701,
+  "50513451": 1795477850368,
+  "50520076": 1795477850797,
+  "50555002": 1795477850369,
+  "50565484": 1795477850312,
+  "50577613": 1795477850391,
+  "50583761": 1795477850871,
+  "50600771": 1795477850662
  }
 }
