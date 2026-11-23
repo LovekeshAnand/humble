@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T19:33:54.216Z",
+ "updatedAt": "2026-11-23T07:32:36.392Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -42027,7 +42027,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49687353",
      "date": "2026-09-13T18:52:18Z",
-     "snippet": "I open sourced kavla, the SQL canvas I'm working on: https://github.com/aleda145/kavla README is very bare bones, needs a video or a picture too. The website should tell you some more things: https://kavla.dev (and now the demo does not require a login (also need to remake the de"
+     "snippet": "I open sourced kavla, the SQL canvas I'm working on: https://github.com/aleda145/kavla README is very bare bones, needs a video or a picture too. The website should tell you some more things: https://kavla.dev (and now the demo does not require a login (also need to remake the de",
+     "author": "aleda145"
     }
    ],
    "checkedAt": "2026-11-22T19:33:53.052Z",
@@ -44661,13 +44662,13 @@
      "snippet": "ArtCraft | Backend Engineer (Rust, MySQL) | Remote (Global) / Onsite (SF Bay Area and Atlanta, Georgia) | https://github.com/storytold/artcraft | https://getartcraft.com We’re experienced artists and engineers building source available controllable AI for artists, filmmakers, mus"
     }
    ],
-   "checkedAt": "2026-11-16T06:22:56.825Z",
+   "checkedAt": "2026-11-23T07:32:34.143Z",
    "meta": {
     "name": "artcraft",
     "fullName": "storytold/artcraft",
     "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
     "homepage": "https://getartcraft.com",
-    "stars": 41162,
+    "stars": 42025,
     "language": "Rust",
     "topics": [
      "3d-graphics",
@@ -44679,7 +44680,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-12T12:22:43Z"
+    "pushedAt": "2026-11-20T21:20:38Z"
    },
    "listedAt": "2026-11-08T22:01:15.795Z"
   },
@@ -109453,13 +109454,13 @@
      "snippet": "Show HN: I built a tiny LLM to demystify how language models work (915 points)"
     }
    ],
-   "checkedAt": "2026-11-16T06:22:57.096Z",
+   "checkedAt": "2026-11-23T07:32:34.400Z",
    "meta": {
     "name": "guppylm",
     "fullName": "arman-bd/guppylm",
     "description": "A ~9M parameter LLM that talks like a small fish.",
     "homepage": null,
-    "stars": 4078,
+    "stars": 4107,
     "language": "Python",
     "topics": [],
     "license": null,
@@ -141900,13 +141901,56 @@
   "leantime/leantime": {
    "mentions": [
     {
+     "source": "Fosstodon",
+     "author": "mastodon:Pikapods@mastodon.social",
+     "url": "https://mastodon.social/@Pikapods/117664434026845798",
+     "date": "2026-11-23T06:52:58.000Z",
+     "snippet": "Leantime v3.16.0 is out 🚀 The open-source project manager (an Asana/ClickUp alternative) brings: • /mcp OAuth to connect Claude and ChatGPT without API keys • Redesigned task-grouped notifications and email digests in local time, showing what changed • Lock-screen push privacy \ud83d"
+    },
+    {
      "source": "HN front page",
      "author": "intheleantime",
      "url": "https://news.ycombinator.com/item?id=37819693",
      "date": "2023-10-09T12:25:05Z",
      "snippet": "Leantime: Open-Source Jira Alternative (181 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-23T07:32:34.790Z",
+   "meta": {
+    "name": "leantime",
+    "fullName": "Leantime/leantime",
+    "description": "Leantime is a goals focused project management system for non-project managers. Building with ADHD, Autism, and dyslexia in mind.",
+    "homepage": "https://leantime.io",
+    "stars": 12137,
+    "language": "PHP",
+    "topics": [
+     "agile",
+     "asana",
+     "calendar",
+     "clickup",
+     "gantt",
+     "hacktoberfest",
+     "jira",
+     "kanban",
+     "lean",
+     "leantime",
+     "notion",
+     "php",
+     "project-management",
+     "projects",
+     "retrospective",
+     "scrum",
+     "sql",
+     "strategy",
+     "timesheets",
+     "trello"
+    ],
+    "license": "AGPL-3.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-23T06:26:14Z"
+   },
+   "listedAt": "2026-11-23T07:32:36.392Z"
   },
   "zeromq/libzmq": {
    "mentions": [
@@ -157714,7 +157758,7 @@
      "snippet": "Claude + Codex, both from work. Just those. https://github.com/oscscull/quarterdeck built my own harness. I had trouble with both claude and codex. In particular, managing multiple tasks in a kanban, syncing between my machines, making sure work is done on the right machine and c"
     }
    ],
-   "checkedAt": "2026-11-16T06:22:57.354Z",
+   "checkedAt": "2026-11-23T07:32:35.020Z",
    "meta": {
     "name": "quarterdeck",
     "fullName": "oscscull/quarterdeck",
@@ -157726,7 +157770,7 @@
     "license": "GPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-12T07:53:26Z"
+    "pushedAt": "2026-11-19T15:59:36Z"
    }
   },
   "jonwiggins/optio": {
@@ -158241,20 +158285,42 @@
      "snippet": "The sort of work I pass through this system, it's mostly library work for multiplayer games. For example, my work on schema, my protobufs/flatbuffers language replacement for multiplayer games, parallelizes very nicely across 15 languages on the sprint system. https://github.com/"
     }
    ],
-   "checkedAt": "2026-11-16T06:22:57.597Z",
+   "checkedAt": "2026-11-23T07:32:35.225Z",
    "meta": {
     "name": "schema",
     "fullName": "mas-bandwidth/schema",
-    "description": "Your constants, enums, flags, types and tables generated across multiple languages.",
+    "description": "A schema compiler that generates fast bit-packed serialization code from one definition, for C, C++, C#, Go, Rust, Java, JavaScript, Dart, Elixir, Lua, Luau and more. Game network packets, save files and cooked assets. A better alternative to Protocol Buffers and FlatBuffers.",
     "homepage": null,
-    "stars": 50,
+    "stars": 51,
     "language": "Go",
-    "topics": [],
-    "license": null,
+    "topics": [
+     "binary-serialization",
+     "bitpacking",
+     "code-generation",
+     "cpp",
+     "csharp",
+     "dart",
+     "elixir",
+     "flatbuffers-alternative",
+     "game-development",
+     "game-networking",
+     "golang",
+     "java",
+     "lua",
+     "multiplayer",
+     "netcode",
+     "protobuf-alternative",
+     "rust",
+     "schema-compiler",
+     "serialization",
+     "unity"
+    ],
+    "license": "AGPL-3.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-16T05:35:45Z"
-   }
+    "pushedAt": "2026-11-23T05:42:34Z"
+   },
+   "listedAt": "2026-11-23T07:32:36.392Z"
   },
   "mas-bandwidth/fixed3d": {
    "mentions": [
@@ -162845,19 +162911,19 @@
      "snippet": "Mine has Mullvad and AirVPN built in. It's specifically for Port forwarding for P2P downloads. Feel free to try it. You can specify particular APPs so that the entire PC doesn't have to go through the proxy. It also supports multiple layers and traffic splitting. https://github.c"
     }
    ],
-   "checkedAt": "2026-11-16T06:22:57.813Z",
+   "checkedAt": "2026-11-23T07:32:35.520Z",
    "meta": {
     "name": "vpn-manager",
     "fullName": "DennySORA/vpn-manager",
     "description": "Run several WireGuard exits side by side on your own computer, and decide which programs use which one.",
     "homepage": null,
-    "stars": 7,
+    "stars": 12,
     "language": "Rust",
     "topics": [],
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-14T09:29:39Z"
+    "pushedAt": "2026-11-17T05:24:33Z"
    }
   },
   "blueblazin/lowpolyearth": {
@@ -162910,7 +162976,7 @@
      "snippet": "I use both Kindle to read my e-books and calibre to manage an e-library on my computer. I also actively use highlights and notes to save sections I'd like to return to later, so I needed a good tool to sync them. Couldn't find one and designed my own today. Feel free to use :) ht"
     }
    ],
-   "checkedAt": "2026-11-16T06:22:58.569Z",
+   "checkedAt": "2026-11-23T07:32:35.770Z",
    "meta": {
     "name": "kindle-annotation-sync",
     "fullName": "Artieficr/kindle-annotation-sync",
@@ -164592,12 +164658,33 @@
    "mentions": [
     {
      "source": "Ask HN",
+     "author": "dataflow",
+     "url": "https://news.ycombinator.com/item?id=50605596",
+     "date": "2026-11-23T00:11:16.000Z",
+     "snippet": "If anyone is baiting anyone, I feel like it's the other way around. But anyway... let me take a quick glance at recent commits on my phone while I'm on vacation... oh, here's a nontrivial one. The claim was AI codes better than humans, right? \"Fix bugs, security issues, and dead "
+    },
+    {
+     "source": "Ask HN",
      "author": "linsomniac",
      "url": "https://news.ycombinator.com/item?id=50601546",
      "date": "2026-11-22T17:08:35.000Z",
      "snippet": "... but, I'll take your bait again. This repo is from 9 months ago, well pre-Fable, and it shows the AIs ability to work with an existing code-base and implement something significant. Unfortunately, ganeti is a pretty dead-end project so this never got any traction, even I decid"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-23T07:32:36.088Z",
+   "meta": {
+    "name": "ganeti",
+    "fullName": "linsomniac/ganeti",
+    "description": "Ganeti is a virtual machine cluster management tool built on top of existing virtualization technologies such as Xen or KVM and other open source software.",
+    "homepage": "http://www.ganeti.org",
+    "stars": 3,
+    "language": "Python",
+    "topics": [],
+    "license": "BSD-2-Clause",
+    "archived": false,
+    "fork": true,
+    "pushedAt": "2026-06-20T04:23:57Z"
+   }
   },
   "gulivan/worker755": {
    "mentions": [
@@ -164651,6 +164738,61 @@
      "url": "https://mastodon.social/@dionnam/117659890092843282",
      "date": "2026-11-22T11:37:24.000Z",
      "snippet": "I help companies roll out AI at work, and getting a whole team to use Claude Code well is really hard. So I built Trina AX. https:// github.com/trina-app/trina-ax - Free to self-host, open source (AGPL-3.0) - Set up files, skills and MCP once for everyone - Nobody else installs C"
+    }
+   ]
+  },
+  "mianos/esp32-p4-ethernet-ntp-server": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "mianos",
+     "url": "https://news.ycombinator.com/item?id=50606750",
+     "date": "2026-11-23T02:22:10Z",
+     "snippet": "I wrote my own, it was started as my own code then used a few llms to vibed it up beyond my own ability a bit. Then back to hand fixing stupid vibe coded stuff. The parts are under 50 bucks, an esp32p4 with ethernet (and poe) by Waveshare and an m8T module from ali (or fleabay) f"
+    }
+   ]
+  },
+  "thatnealpatel/grh": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "thatnealpatel",
+     "url": "https://news.ycombinator.com/item?id=50606745",
+     "date": "2026-11-23T02:21:50Z",
+     "snippet": "(also working on the project) I am not a mathematician, but I am one of the upstream projects. If you want a lower-stakes way to pitch in, feel free to point agents at my repo and try to falsify any of the landed Lean source files and how they glue together: https://github.com/th"
+    }
+   ]
+  },
+  "htzh/flt_for_human": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "fspeech",
+     "url": "https://news.ycombinator.com/item?id=50605694",
+     "date": "2026-11-23T00:22:35Z",
+     "snippet": "If you are interested in the details you can read the section 7 here https://github.com/htzh/flt_for_human/blob/main/math/029-ord... I have a few theories: agents might have used a computer algebra system or external solver so they are indifferent; they are not sensitive to how m"
+    }
+   ]
+  },
+  "afk-surf/xnulinux": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "mmastrac",
+     "url": "https://news.ycombinator.com/item?id=50607261",
+     "date": "2026-11-23T03:49:24Z",
+     "snippet": "XNU Linux: Full OS X GUI Userspace on Linux (175 points)"
+    }
+   ]
+  },
+  "bithack/principia": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:Principia@hachyderm.io",
+     "url": "https://hachyderm.io/@Principia/117662552866594149",
+     "date": "2026-11-22T22:54:34.000Z",
+     "snippet": "A longstanding issue in Principia's level loader making it break on big endian systems has finally been fixed! Thanks to @ krisbug for helping with the brainstorming. The changes are now present in the latest commit in the Git repository. https:// github.com/Bithack/principia/c o"
     }
    ]
   }
@@ -165534,17 +165676,17 @@
   "50393105": 1795375999960,
   "50403153": 1795288266438,
   "50405250": 1795288266668,
-  "50444380": 1795375999794,
+  "50444380": 1795419065507,
   "50484421": 1795329703221,
-  "50488230": 1795329701767,
-  "50494696": 1795375999769,
-  "50510042": 1795375999883,
-  "50513451": 1795375999803,
-  "50520076": 1795376000192,
-  "50555002": 1795375999680,
-  "50565484": 1795375999908,
-  "50577613": 1795375999873,
-  "50583761": 1795376000156,
-  "50600771": 1795376000029
+  "50488230": 1795419065332,
+  "50494696": 1795419065294,
+  "50510042": 1795419066131,
+  "50513451": 1795419065756,
+  "50520076": 1795419066684,
+  "50555002": 1795419065027,
+  "50565484": 1795419065987,
+  "50577613": 1795419065387,
+  "50583761": 1795419066097,
+  "50600771": 1795419066623
  }
 }
