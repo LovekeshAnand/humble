@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T08:28:50.900Z",
+ "updatedAt": "2026-11-25T21:39:18.138Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -26719,6 +26719,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "abound",
+     "url": "https://news.ycombinator.com/item?id=50645228",
+     "date": "2026-11-25T17:56:33Z",
+     "snippet": "While there are many options for self-hosted password stores, I've been using Vaultwarden [1] behind Tailscale for years, it's a pretty robust setup and I've been very happy with it. In the past, I haven't worried about attacks just because I'm too small of a fish to make sense f"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49787612",
      "date": "2026-09-21T14:17:17Z",
      "snippet": "Bitwarden, while not quite as polished, works well. If you have your own server at home you can even self-host, which I do. It's an open source server side app called Vaultwarden [ https://github.com/dani-garcia/vaultwarden ] which connects to the Bitwarden app. I think the iClou",
@@ -28130,7 +28137,8 @@
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=49742200",
      "date": "2026-09-17T15:24:22Z",
-     "snippet": "I'd already written a lot of it in ObjC, thinking it would be \"just for me\" before I moved to wanting it running on the FPGA. Three options - Port the ObjC runtime to my little OS on the FPGA ? - Rewrite everything in C so the native FPGA tools could compile it - Make it compile "
+     "snippet": "I'd already written a lot of it in ObjC, thinking it would be \"just for me\" before I moved to wanting it running on the FPGA. Three options - Port the ObjC runtime to my little OS on the FPGA ? - Rewrite everything in C so the native FPGA tools could compile it - Make it compile ",
+     "author": "spacedcowboy"
     }
    ],
    "checkedAt": "2026-11-25T08:27:35.564Z",
@@ -62503,6 +62511,13 @@
   },
   "lobsters/lobsters": {
    "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:pushcx",
+     "url": "https://lobste.rs/c/m6llrd",
+     "date": "2026-11-24T20:44:06.925-06:00",
+     "snippet": "My two big concerns that led to me [prohibiting it](https://lobste.rs/c/d4oruh) are quality and copyright. Quality has taken a significant step up in the 13 months since, though I'm still getting [thoughtless hallucinations](https://github.com/lobsters/lobsters/issues/2272) rough"
+    },
     {
      "source": "Ask HN",
      "author": "davidanekstein",
@@ -103159,13 +103174,13 @@
      "snippet": "Reverse engineer anything with agents, from app behavior down to native binaries (101 points)"
     }
    ],
-   "checkedAt": "2026-11-18T20:28:35.984Z",
+   "checkedAt": "2026-11-25T21:39:16.768Z",
    "meta": {
     "name": "rea",
     "fullName": "morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "homepage": "https://rea.tools",
-    "stars": 468066,
+    "stars": 478342,
     "language": "TypeScript",
     "topics": [
      "agent-skills",
@@ -103192,7 +103207,7 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-18T20:27:26Z"
+    "pushedAt": "2026-11-25T21:24:27Z"
    },
    "listedAt": "2026-11-04T06:13:39.287Z"
   },
@@ -110775,13 +110790,22 @@
   "egmontkob/eb114294efbcd5adb1944c9f3cb5feda": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "goranmoomin",
+     "url": "https://news.ycombinator.com/item?id=50647308",
+     "date": "2026-11-25T20:48:16Z",
+     "snippet": "Before we start abusing the terminal protocols for GUIs, I believe that we need some kind of protocol to allow text selection and copy/paste between blocks of text, so that we don't need tools that trim whitespace that was copied from the terminal[0]. There's some prior work like"
+    },
+    {
      "source": "HN front page",
      "author": "nvahalik",
      "url": "https://news.ycombinator.com/item?id=47360383",
      "date": "2026-03-13T03:32:18Z",
      "snippet": "Hyperlinks in terminal emulators (106 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-25T21:39:16.893Z",
+   "meta": null
   },
   "bretonium/291f4388e2de89a43b25c135b44e41f0": {
    "mentions": [
@@ -128793,13 +128817,13 @@
      "snippet": "Git-absorb: Git commit –fixup, but automatic (451 points)"
     }
    ],
-   "checkedAt": "2026-11-18T20:28:36.297Z",
+   "checkedAt": "2026-11-25T21:39:17.202Z",
    "meta": {
     "name": "git-absorb",
     "fullName": "tummychow/git-absorb",
     "description": "git commit --fixup, but automatic",
     "homepage": "https://crates.io/crates/git-absorb",
-    "stars": 5764,
+    "stars": 5766,
     "language": "Rust",
     "topics": [
      "git",
@@ -145785,13 +145809,13 @@
      "snippet": "Aeon: A unified framework for machine learning with time series (121 points)"
     }
    ],
-   "checkedAt": "2026-11-18T20:28:36.576Z",
+   "checkedAt": "2026-11-25T21:39:17.512Z",
    "meta": {
     "name": "aeon",
     "fullName": "aeon-toolkit/aeon",
     "description": "A toolkit for time series  machine learning and deep learning",
     "homepage": "https://aeon-toolkit.org/",
-    "stars": 1481,
+    "stars": 1484,
     "language": "Python",
     "topics": [
      "aeon",
@@ -145815,7 +145839,7 @@
     "license": "BSD-3-Clause",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-17T09:45:48Z"
+    "pushedAt": "2026-11-25T15:56:30Z"
    },
    "listedAt": "2026-11-04T06:13:39.287Z"
   },
@@ -161672,19 +161696,19 @@
      "snippet": "Greg Kurtzer's Ginux is now a userspace kernel (114 points)"
     }
    ],
-   "checkedAt": "2026-11-18T20:28:36.899Z",
+   "checkedAt": "2026-11-25T21:39:17.808Z",
    "meta": {
     "name": "ginux",
     "fullName": "gmkurtzer/ginux",
     "description": "",
     "homepage": null,
-    "stars": 623,
+    "stars": 637,
     "language": "Rust",
     "topics": [],
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-18T05:29:43Z"
+    "pushedAt": "2026-11-25T19:37:50Z"
    },
    "listedAt": "2026-11-18T20:28:37.774Z"
   },
@@ -165861,6 +165885,193 @@
      "snippet": "Tiny Gardener is getting an update right now. See the change log here: https:// github.com/XanatosX/tiny-garde ner/releases/tag/p0.0.10 To test the game by yourself, go to https:// xanatos.itch.io/tiny-gardener New assets and music tracks for a better atmosphere. Plenty of bug fi"
     }
    ]
+  },
+  "egmontkob/eb114294efbcd5adb1944c9f3c": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "goranmoomin",
+     "url": "https://news.ycombinator.com/item?id=50647308",
+     "date": "2026-11-25T20:48:16Z",
+     "snippet": "Before we start abusing the terminal protocols for GUIs, I believe that we need some kind of protocol to allow text selection and copy/paste between blocks of text, so that we don't need tools that trim whitespace that was copied from the terminal[0]. There's some prior work like"
+    }
+   ]
+  },
+  "samarthputhraya/e2795f9ef6e70fef8ec361e8609ef8f8": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "samarthputhraya",
+     "url": "https://news.ycombinator.com/item?id=50644499",
+     "date": "2026-11-25T16:53:47Z",
+     "snippet": "Hi HN! Im Samartha, a student from Bengaluru and I've been working on Modelpin during my free time mostly in the evenings. The problem that i'm trying to solve: AI providers ultimately retire their old/previous models on a particular date, and the replacement model doesn't always"
+    }
+   ]
+  },
+  "samarthputhraya/e2795f9ef6e70fef8ec3": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "samarthputhraya",
+     "url": "https://news.ycombinator.com/item?id=50644499",
+     "date": "2026-11-25T16:53:47Z",
+     "snippet": "Hi HN! Im Samartha, a student from Bengaluru and I've been working on Modelpin during my free time mostly in the evenings. The problem that i'm trying to solve: AI providers ultimately retire their old/previous models on a particular date, and the replacement model doesn't always"
+    }
+   ]
+  },
+  "zapier/awesome-zaps": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ckor",
+     "url": "https://news.ycombinator.com/item?id=50643837",
+     "date": "2026-11-25T16:07:19Z",
+     "snippet": "Hi HN, I work on Zapier's agent discovery team. Zapier has made Zapier MCP free to use until January 5, 2027. Zapier MCP is the connection between Zapier and AI tools: connect it to Claude, ChatGPT, Cursor or any MCP client, and your agent can take actions in 10,000+ apps through"
+    }
+   ]
+  },
+  "skorotkiewicz/typing-asmr": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "modinfo",
+     "url": "https://news.ycombinator.com/item?id=50642657",
+     "date": "2026-11-25T14:28:03Z",
+     "snippet": "I made a typing asmr with this fantastic package, that user put own text and it types, it's great, because I love sometimes open youtube video with someone just typing on keyboard, now I can just press play: https://github.com/skorotkiewicz/typing-asmr"
+    }
+   ]
+  },
+  "daveflater/drd": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "DaveFlater",
+     "url": "https://news.ycombinator.com/item?id=50642470",
+     "date": "2026-11-25T14:09:07Z",
+     "snippet": "> A composition has a dynamic range for a reason. People get rid of dynamic range for more immediately compelling reasons. Here's my favorite filter. I never had much luck with perceptual loudness normalization, and brick wall limiters are too sensitive to transient pops. https:/"
+    }
+   ]
+  },
+  "digitalone1/easyeffects-presets": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Zinu",
+     "url": "https://news.ycombinator.com/item?id=50642137",
+     "date": "2026-11-25T13:38:16Z",
+     "snippet": "Yeah, I’ve been using some presets, I think this one: https://github.com/Digitalone1/EasyEffects-Presets"
+    }
+   ]
+  },
+  "microsoft/skillopt": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "Bayart",
+     "url": "https://news.ycombinator.com/item?id=50641745",
+     "date": "2026-11-25T12:57:35Z",
+     "snippet": "I don't know if I count as smart - the breadth of what can be done nowadays as opposed to what I'm achieving leads me to think \"maybe not as much as I thought\" - but I certainly give a shit, and most of my dev time is being used to write tools that I can rely on. Perks of having "
+    }
+   ]
+  },
+  "lukeusher/gnubox": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "pmontra",
+     "url": "https://news.ycombinator.com/item?id=50640500",
+     "date": "2026-11-25T09:56:14Z",
+     "snippet": "I've been using a Nokia N70 from 2006 to 2011, then switched to Android with a Samsung Galaxy S2. Previous Android phones were usually just too slow and clumsy, not a clear win over the N70. It's in some drawer at home and maybe it still works, if I still have its charger around."
+    }
+   ]
+  },
+  "comp-markdown/compmd": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "hakanserce",
+     "url": "https://news.ycombinator.com/item?id=50573754",
+     "date": "2026-11-20T12:26:00Z",
+     "snippet": "Hi HN, I'm Hakan. I've been building CompMD, a Markdown flavor with components, layout and data, and I'd love your feedback on it. The constraint I started from: a CompMD file has to read well in any plain Markdown renderer, on GitHub, in your editor, in a diff. Components are li"
+    }
+   ]
+  },
+  "google-research/google-research": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "rgwohlbold",
+     "url": "https://news.ycombinator.com/item?id=50642086",
+     "date": "2026-11-25T13:33:07Z",
+     "snippet": "Google releases Cogentic papers on integer factorization, discrete logs and more (396 points)"
+    }
+   ]
+  },
+  "xoxorwr/pw-loudness-eq": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "ThrowNotAway",
+     "url": "https://news.ycombinator.com/item?id=50641171",
+     "date": "2026-11-25T11:34:25Z",
+     "snippet": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire (294 points)"
+    }
+   ]
+  },
+  "pervognsen/bd1d32da58b2ebd4c446a9e039dc5a6a": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:pervognsen",
+     "url": "https://lobste.rs/c/s7mfie",
+     "date": "2026-11-25T04:37:52.411-06:00",
+     "snippet": "I replied to the sibling thread with a list of some top-level issues. Maybe that's enough to satisfy your curiosity, but there's a bunch of other things I could say; it would probably demand a long article which I don't have the fortitude to write. If you're curious about anythin"
+    }
+   ]
+  },
+  "wiedehopf/adsb-wiki": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://c.im/users/meltedcheese",
+     "url": "https://c.im/users/meltedcheese/statuses/117678533643984746",
+     "date": "2026-11-25T18:38:42Z",
+     "snippet": "[@neo2478](https://sh.itjust.works/u/neo2478) ADSB radio receiver to track nearby flights. Works great with pi zero but you need to but the receiver and antenna. Very inexpensive and fun. [https://github.com/wiedehopf/adsb-wiki/wiki/Raspbian-Lite:-ADS-B-receiver#10-feed-fr24-opti"
+    }
+   ]
+  },
+  "rustrak/rustrak": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:camilleroux@mastodon.social",
+     "url": "https://mastodon.social/@camilleroux/117676732008572822",
+     "date": "2026-11-25T11:00:31.000Z",
+     "snippet": "Rustrak : une alternative open source à Sentry, développée en Rust, qui centralise vos erreurs, logs et traces d'agents IA. Il reprend le protocole Sentry, donc vos SDK existants basculent en changeant seulement le DSN. ⬇️ https:// github.com/rustrak/rustrak # Rust # PostgreSQL #"
+    }
+   ]
+  },
+  "loopwerk/oxen": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:kevinrenskers@hachyderm.io",
+     "url": "https://hachyderm.io/@kevinrenskers/117676658585609210",
+     "date": "2026-11-25T10:41:50.000Z",
+     "snippet": "I was getting fed up with Harvest, which I've used for ten years to track my hours and create invoices. I wanted something simple without the feature bloat. Open source and self-hosted. Couldn't find anything good, so I've created Oxen, and it's released today! It’s hand-built wi"
+    }
+   ]
+  },
+  "akinomyoga/ble.sh": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:sashin@veganism.social",
+     "url": "https://veganism.social/@sashin/117678818644162609",
+     "date": "2026-11-25T19:51:10.000Z",
+     "snippet": "# techsupport # linux # bash # terminal # blesh # antiai # slopfree I just found that that ble.sh which I feel really used to and quite dependant on uses LLMs. It stands for Bash Line Editor. It adds a whole bunch of niceties to bash including colours, and better autocomplete. It"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -166744,18 +166955,18 @@
   "50403153": 1795288266438,
   "50405250": 1795288266668,
   "50444380": 1795558965326,
-  "50484421": 1795595208820,
-  "50488230": 1795595208200,
-  "50494696": 1795595208210,
-  "50510042": 1795595208317,
-  "50513451": 1795595208557,
-  "50520076": 1795595209078,
-  "50555002": 1795595208291,
-  "50565484": 1795595208657,
-  "50577613": 1795595208515,
-  "50583761": 1795595209545,
-  "50600771": 1795595208949,
-  "50622809": 1795595208212,
-  "50630809": 1795595208533
+  "50484421": 1795642725537,
+  "50488230": 1795642724994,
+  "50494696": 1795642724958,
+  "50510042": 1795642725198,
+  "50513451": 1795642726430,
+  "50520076": 1795642726555,
+  "50555002": 1795642725020,
+  "50565484": 1795642725439,
+  "50577613": 1795642724955,
+  "50583761": 1795642725576,
+  "50600771": 1795642725353,
+  "50622809": 1795642724863,
+  "50630809": 1795642725002
  }
 }
