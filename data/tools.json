@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T21:39:18.138Z",
+ "updatedAt": "2026-11-26T08:11:25.625Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -7706,7 +7706,7 @@
     "fullName": "Chatter-Org/Chatter",
     "description": "Chat with your friends on your own terms. ",
     "homepage": null,
-    "stars": 7,
+    "stars": 8,
     "language": "TypeScript",
     "topics": [],
     "license": "GPL-3.0",
@@ -7714,7 +7714,7 @@
     "fork": false,
     "pushedAt": "2026-11-14T19:45:00Z"
    },
-   "checkedAt": "2026-11-19T07:21:03.927Z"
+   "checkedAt": "2026-11-26T08:11:23.454Z"
   },
   "cowmix/xscreensaver": {
    "mentions": [
@@ -17763,6 +17763,13 @@
    "mentions": [
     {
      "source": "HN front page",
+     "author": "acossta",
+     "url": "https://news.ycombinator.com/item?id=50644980",
+     "date": "2026-11-25T17:34:34Z",
+     "snippet": "The polynomial Hirsch conjecture is false [pdf] (152 points)"
+    },
+    {
+     "source": "HN front page",
      "author": "E-Reverance",
      "url": "https://news.ycombinator.com/item?id=50637220",
      "date": "2026-11-25T01:19:26Z",
@@ -26717,6 +26724,13 @@
   },
   "dani-garcia/vaultwarden": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "phase_9",
+     "url": "https://news.ycombinator.com/item?id=50652598",
+     "date": "2026-11-26T07:42:54Z",
+     "snippet": "Adding to the chorus of alternatives; I was a long-time user of keepass with my kdbx files stored on google drive for x-device access. I started looking for alternatives after yet another messy conflict. I recently switched to self-hosted [VaultWarden]( https://github.com/dani-ga"
+    },
     {
      "source": "HN comment",
      "author": "abound",
@@ -41397,7 +41411,7 @@
      "snippet": "Thanks for the shout out and links! That timeline you linked to goes along with this article I wrote a few years ago: Pie Menus: A 30 Year Retrospective. By Don Hopkins, Ground Up Software, May 15, 2018. https://donhopkins.medium.com/pie-menus-936fed383ff1#8546 The earliest known"
     }
    ],
-   "checkedAt": "2026-11-19T07:21:01.514Z",
+   "checkedAt": "2026-11-26T08:11:23.761Z",
    "meta": {
     "name": "jquery-pie",
     "fullName": "SimHacker/jquery-pie",
@@ -47437,7 +47451,7 @@
      "snippet": "Location: Nairobi, Kenya (UTC+3) Work preference: Prefer fully remote roles, comfortable with EMEA hours and asynchronous teams. Open to relocation for the right opportunity. Willing to relocate: Yes Technologies: Python, FastAPI, PostgreSQL, AWS, Terraform, Kubernetes, Kafka, Do"
     }
    ],
-   "checkedAt": "2026-11-19T07:21:01.758Z",
+   "checkedAt": "2026-11-26T08:11:23.918Z",
    "meta": null
   },
   "wycliffrotich-dev/aethergrid": {
@@ -47457,13 +47471,13 @@
      "snippet": "Location: Nairobi, Kenya (UTC+3) Work preference: Prefer fully remote roles, comfortable with EMEA hours and asynchronous teams. Open to relocation for the right opportunity. Willing to relocate: Yes Technologies: Python, FastAPI, PostgreSQL, AWS, Terraform, Kubernetes, Kafka, Do"
     }
    ],
-   "checkedAt": "2026-11-19T07:21:02.197Z",
+   "checkedAt": "2026-11-26T08:11:24.209Z",
    "meta": {
     "name": "aethergrid",
     "fullName": "wycliffRotich-dev/aethergrid",
     "description": "Open-source distributed AI workload orchestration. Schedule jobs across distributed workers, coordinate execution through time-bound leases, enforce tenant isolation, and recover reliably from worker failures and stale state.",
     "homepage": "https://aethergrid.co.ke/",
-    "stars": 16,
+    "stars": 31,
     "language": "Python",
     "topics": [
      "ai",
@@ -47490,8 +47504,9 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-19T05:17:57Z"
-   }
+    "pushedAt": "2026-11-26T07:25:55Z"
+   },
+   "listedAt": "2026-11-26T08:11:25.621Z"
   },
   "devanshuneu/overhear": {
    "mentions": [
@@ -54898,7 +54913,7 @@
      "snippet": "up - https://github.com/akavel/up Ultimate Plumber is a tool for writing Linux pipes with instant live preview It's a new CLI tool I've recently written, and it reached a Top 1 position on HN just after the public release. It works with other classic CLI tools by boosting the spe"
     }
    ],
-   "checkedAt": "2026-11-19T07:21:02.470Z",
+   "checkedAt": "2026-11-26T08:11:24.538Z",
    "meta": {
     "name": "up",
     "fullName": "akavel/up",
@@ -94999,7 +95014,7 @@
      "snippet": "Rest API fuzzing with minimal configuration: https://github.com/Endava/cats"
     }
    ],
-   "checkedAt": "2026-11-19T07:21:02.733Z",
+   "checkedAt": "2026-11-26T08:11:24.814Z",
    "meta": {
     "name": "cats",
     "fullName": "Endava/cats",
@@ -95020,7 +95035,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-18T06:52:13Z"
+    "pushedAt": "2026-11-25T21:39:29Z"
    },
    "listedAt": "2026-11-19T07:21:04.169Z"
   },
@@ -132154,13 +132169,13 @@
      "snippet": "Show HN: Posting v1 – The modern HTTP client that lives in your terminal (184 points)"
     }
    ],
-   "checkedAt": "2026-11-19T07:21:03.004Z",
+   "checkedAt": "2026-11-26T08:11:25.073Z",
    "meta": {
     "name": "posting",
     "fullName": "darrenburns/posting",
     "description": "The modern API client that lives in your terminal.",
     "homepage": null,
-    "stars": 12642,
+    "stars": 12662,
     "language": "Go",
     "topics": [
      "automation",
@@ -159819,13 +159834,13 @@
      "snippet": "Too many things. - See my GitHub [0] - A terminal workflow tool [1] You can always see my current projects on my GitHub profile README, I’m pretty proud of it and get great feedback on it regularly. I like to think I don’t build standard crap. I’m also working on an interactive t"
     }
    ],
-   "checkedAt": "2026-11-19T07:21:03.303Z",
+   "checkedAt": "2026-11-26T08:11:25.400Z",
    "meta": {
     "name": "clingon",
     "fullName": "con-dog/clingon",
     "description": "Stop googling commands. A menu of them beside your real shell, with an AI that can drive it. macOS.",
     "homepage": "https://github.com/con-dog/clingon",
-    "stars": 19,
+    "stars": 23,
     "language": "Go",
     "topics": [
      "ai",
@@ -159851,8 +159866,9 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-14T22:47:57Z"
-   }
+    "pushedAt": "2026-11-21T00:44:04Z"
+   },
+   "listedAt": "2026-11-26T08:11:25.625Z"
   },
   "hew3d/hew": {
    "mentions": [
@@ -166072,6 +166088,116 @@
      "snippet": "# techsupport # linux # bash # terminal # blesh # antiai # slopfree I just found that that ble.sh which I feel really used to and quite dependant on uses LLMs. It stands for Bash Line Editor. It adds a whole bunch of niceties to bash including colours, and better autocomplete. It"
     }
    ]
+  },
+  "ephpm/litewire": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "anilgulecha",
+     "url": "https://news.ycombinator.com/item?id=50651294",
+     "date": "2026-11-26T04:08:46Z",
+     "snippet": "For folks working in this area, may I request a MySQL/mariadb-lite? pglite is great for browser / testing emulation for PG. MySQL in browser does not have an equally good story. Closest is https://github.com/ephpm/litewire , but it isnt really MySQL fully."
+    }
+   ]
+  },
+  "saro-saravanan/ai-workforce-sim": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "cyberviso",
+     "url": "https://news.ycombinator.com/item?id=50648972",
+     "date": "2026-11-25T23:09:41Z",
+     "snippet": "I didn't realize this was blowing up on Hacker News, and I didn't get any notification of the comments, so I apologize for my tardy response here. I have struggled with all the ethical issues around the use of AI and what we owe authors and artists for a while. I have also ponder"
+    }
+   ]
+  },
+  "leanprover-community/riemann-hypothesis": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jychang",
+     "url": "https://news.ycombinator.com/item?id=50648936",
+     "date": "2026-11-25T23:06:10Z",
+     "snippet": "1. That chinese website might be the wrong dashboard, I think there's a chinese group that's doing the same thing. The main Lean community work is at https://github.com/leanprover-community/riemann-hypothesis 2. I disagree with the methods used by the Lean community repo, which i"
+    }
+   ]
+  },
+  "jamesyc/riemann-hypothesis": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jychang",
+     "url": "https://news.ycombinator.com/item?id=50648936",
+     "date": "2026-11-25T23:06:10Z",
+     "snippet": "1. That chinese website might be the wrong dashboard, I think there's a chinese group that's doing the same thing. The main Lean community work is at https://github.com/leanprover-community/riemann-hypothesis 2. I disagree with the methods used by the Lean community repo, which i"
+    }
+   ]
+  },
+  "jamesyc/busybeaver": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "jychang",
+     "url": "https://news.ycombinator.com/item?id=50648936",
+     "date": "2026-11-25T23:06:10Z",
+     "snippet": "1. That chinese website might be the wrong dashboard, I think there's a chinese group that's doing the same thing. The main Lean community work is at https://github.com/leanprover-community/riemann-hypothesis 2. I disagree with the methods used by the Lean community repo, which i"
+    }
+   ]
+  },
+  "decepulis/portfolio-svelte-site": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ridafkih",
+     "url": "https://news.ycombinator.com/item?id=50648871",
+     "date": "2026-11-25T23:00:19Z",
+     "snippet": "That's fair if you evaluate this demo as a single holistic \"solution,\" but I think it should be seen as a set of learnings that enable different behaviour. As for whether refresh rate matters, the community seems to think so. The WebKit bug forum alone is filled with framework au"
+    }
+   ]
+  },
+  "anhofmann/icdu": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "ahofmann",
+     "url": "https://news.ycombinator.com/item?id=50648610",
+     "date": "2026-11-25T22:35:31Z",
+     "snippet": "Shameless plug: I (well, fable) added a search function to ncdu and call the result icdu (interactive ncdu, you can search the tree while icdu is scanning). It's my solution for the question \"where the f.. is this file?\" and it also works for unattached/unmounted storage because "
+    }
+   ]
+  },
+  "infernode-os/infernode": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "pdfinn",
+     "url": "https://news.ycombinator.com/item?id=50644668",
+     "date": "2026-11-25T17:07:05Z",
+     "snippet": "I'm the developer. Thanks to lproven for the write-up. InferNode is a 64-bit port of Inferno, with agent containment as the main use case; but a general purpose updated Inferno nonetheless. Each agent gets a namespace that holds only the files and services you grant it. There's n"
+    }
+   ]
+  },
+  "alesha-pro/llm.asm": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "miohtama",
+     "url": "https://news.ycombinator.com/item?id=50648365",
+     "date": "2026-11-25T22:15:34Z",
+     "snippet": "Bare Metal Qwen (136 points)"
+    }
+   ]
+  },
+  "lsernau/grh-lean": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "nb-t",
+     "url": "https://news.ycombinator.com/item?id=50648050",
+     "date": "2026-11-25T21:48:10Z",
+     "snippet": "Much shorter version of GRH Lean verification from Anthropic (428 points)"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -166955,18 +167081,19 @@
   "50403153": 1795288266438,
   "50405250": 1795288266668,
   "50444380": 1795558965326,
-  "50484421": 1795642725537,
-  "50488230": 1795642724994,
-  "50494696": 1795642724958,
-  "50510042": 1795642725198,
-  "50513451": 1795642726430,
-  "50520076": 1795642726555,
-  "50555002": 1795642725020,
-  "50565484": 1795642725439,
-  "50577613": 1795642724955,
-  "50583761": 1795642725576,
-  "50600771": 1795642725353,
-  "50622809": 1795642724863,
-  "50630809": 1795642725002
+  "50484421": 1795680652538,
+  "50488230": 1795680651756,
+  "50494696": 1795680651706,
+  "50510042": 1795680652070,
+  "50513451": 1795680651824,
+  "50520076": 1795680652346,
+  "50555002": 1795680651662,
+  "50565484": 1795680652110,
+  "50577613": 1795680651870,
+  "50583761": 1795680652595,
+  "50600771": 1795680652127,
+  "50622809": 1795680651495,
+  "50630809": 1795680651915,
+  "50649864": 1795680651569
  }
 }
