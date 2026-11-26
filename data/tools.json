@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T08:11:25.625Z",
+ "updatedAt": "2026-11-26T21:28:44.086Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -556,6 +556,13 @@
   },
   "andunieee/cathode": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "goodmythical",
+     "url": "https://news.ycombinator.com/item?id=50658465",
+     "date": "2026-11-26T19:02:35Z",
+     "snippet": "The extra you're doing on top of uBlock/sBlock must be responsible for youtube.com not loading videos given that mayn use firefox/ub/sb/linux (such as myself and others in the comments) with no issues. You're probably appearing as a bot, and the web front-end does a lot to preven"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50321691",
@@ -11820,6 +11827,13 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "_spduchamp",
+     "url": "https://news.ycombinator.com/item?id=50656668",
+     "date": "2026-11-26T16:07:28Z",
+     "snippet": "Love that font, but I'm cheap so I use this one instead. https://github.com/ahatem/IoskeleyMono"
+    },
+    {
+     "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50093343",
      "date": "2026-10-14T19:13:55Z",
      "snippet": "Iosevka and its family are a true masterpiece. I used it as my main primary monospaced font since it's so clean and pleasing to the eye. I now switched to Ioskeley Mono, which is an Iosevka configuration made to look similar to Berkeley Mono: https://github.com/ahatem/IoskeleyMon",
@@ -12122,6 +12136,13 @@
   },
   "be5invis/iosevka": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "rpozarickij",
+     "url": "https://news.ycombinator.com/item?id=50654057",
+     "date": "2026-11-26T11:19:55Z",
+     "snippet": "I liked the way this font looks in the preview image in this repository, but after discovering Iosevka [0] I can't go back to \"regular\" monospaced fonts. At first I was only able to use the 548-width version and it already improved code reading ergonomics/comfort, but after ~1 mo"
+    },
     {
      "source": "HN comment",
      "url": "https://news.ycombinator.com/item?id=50084940",
@@ -47059,7 +47080,7 @@
      "snippet": "Location: Baku, Azerbaijan (UTC+4) Remote: Yes, remote only Willing to relocate: No Technologies: TypeScript, Node.js, Python, FastAPI, PostgreSQL, Next.js, React, Docker, Linux, OpenAI-compatible LLM APIs Résumé/CV: https://linkedin.com/in/ismail-iusifli Email: ismail.yusifli86@"
     }
    ],
-   "checkedAt": "2026-11-19T20:32:00.351Z",
+   "checkedAt": "2026-11-26T21:28:41.535Z",
    "meta": {
     "name": "edtech-billing-core",
     "fullName": "alt-f6/edtech-billing-core",
@@ -72529,19 +72550,19 @@
      "snippet": "I don't know sorry. For debugging GL I usually switch to Windows with RenderDoc (or some current NVIDIA tool - does Nsight still exist?). RenderDoc on Linux appears to work fine for X11 apps via XWayland btw (just testing here via the sokol-samples with the sokol-gfx GL backend: "
     }
    ],
-   "checkedAt": "2026-11-19T20:32:00.614Z",
+   "checkedAt": "2026-11-26T21:28:41.795Z",
    "meta": {
     "name": "sokol-samples",
     "fullName": "floooh/sokol-samples",
     "description": "Sample code for https://github.com/floooh/sokol",
     "homepage": null,
-    "stars": 810,
+    "stars": 809,
     "language": "C",
     "topics": [],
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-19T18:31:35Z"
+    "pushedAt": "2026-11-23T15:41:05Z"
    },
    "listedAt": "2026-11-19T20:32:02.564Z"
   },
@@ -87182,7 +87203,7 @@
      "snippet": "I made Circus Chief: https://github.com/ferrislucas/Circus-Chief Circus Chief is a tool for managing coding agent sessions from a browser. It's specifically optimized for small screens. It supports Claude Code, OpenAI Codex, and Google Gemini CLI agents. Features Agents can opera"
     }
    ],
-   "checkedAt": "2026-11-19T20:32:00.948Z",
+   "checkedAt": "2026-11-26T21:28:42.024Z",
    "meta": {
     "name": "Circus-Chief",
     "fullName": "ferrislucas/Circus-Chief",
@@ -87209,7 +87230,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-18T03:03:22Z"
+    "pushedAt": "2026-11-26T19:35:31Z"
    }
   },
   "fabritorio/fabritorio": {
@@ -91002,13 +91023,34 @@
   "mit-pdos/xv6-riscv": {
    "mentions": [
     {
+     "source": "HN comment",
+     "author": "kragen",
+     "url": "https://news.ycombinator.com/item?id=50657482",
+     "date": "2026-11-26T17:32:59Z",
+     "snippet": "The Lions book wasn't useful as a guide to the kernel of your operating system anymore in 01996, but it was very useful in understanding why C and Unix were the way they were. A lot of Unix's Chesterton's Gates are justified in it, which is what you need to tear them down. And it"
+    },
+    {
      "source": "Ask HN",
      "author": "notorandit",
      "url": "https://news.ycombinator.com/item?id=43479518",
      "date": "2025-03-26T06:56:25.000Z",
      "snippet": "Exactly like xv6, Xinu is rather unix-ish. Still very very interesting to study. https://github.com/mit-pdos/xv6-riscv https://pdos.csail.mit.edu/6.828/2024/"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-26T21:28:42.244Z",
+   "meta": {
+    "name": "xv6-riscv",
+    "fullName": "mit-pdos/xv6-riscv",
+    "description": "Xv6 for RISC-V",
+    "homepage": "https://pdos.csail.mit.edu/6.1810",
+    "stars": 10874,
+    "language": "C",
+    "topics": [],
+    "license": null,
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-05T16:38:32Z"
+   }
   },
   "klange/toaruos": {
    "mentions": [
@@ -104469,19 +104511,19 @@
      "snippet": "Tailcat – Like netcat, but over Tailscale’s data plane (687 points)"
     }
    ],
-   "checkedAt": "2026-11-19T20:32:01.307Z",
+   "checkedAt": "2026-11-26T21:28:42.479Z",
    "meta": {
     "name": "tailcat",
     "fullName": "tailscale/tailcat",
     "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
     "homepage": "https://tailscale.com/tailcat",
-    "stars": 10097,
+    "stars": 10213,
     "language": "Go",
     "topics": [],
     "license": "BSD-3-Clause",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-19T04:24:37Z"
+    "pushedAt": "2026-11-23T05:37:07Z"
    },
    "listedAt": "2026-11-12T15:08:58.135Z"
   },
@@ -147280,12 +147322,34 @@
    "mentions": [
     {
      "source": "HN front page",
+     "author": "saikatsg",
+     "url": "https://news.ycombinator.com/item?id=50653667",
+     "date": "2026-11-26T10:11:01Z",
+     "snippet": "Intel One Mono font (2023) (415 points)"
+    },
+    {
+     "source": "HN front page",
      "author": "tehnub",
      "url": "https://news.ycombinator.com/item?id=35925124",
      "date": "2023-05-13T03:15:59Z",
      "snippet": "Intel One Mono Typeface (295 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-26T21:28:42.688Z",
+   "meta": {
+    "name": "intel-one-mono",
+    "fullName": "intel/intel-one-mono",
+    "description": "Intel One Mono font repository",
+    "homepage": null,
+    "stars": 10727,
+    "language": null,
+    "topics": [],
+    "license": "OFL-1.1",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-04T18:03:43Z"
+   },
+   "listedAt": "2026-11-26T21:28:44.086Z"
   },
   "evadne/c9aeca424d30f024ba048158bcad385f": {
    "mentions": [
@@ -157395,13 +157459,13 @@
      "snippet": "We've noticed this occasionally and its a pretty serious issue since we tell our customers that none of their data is being trained on. It caused us to build this to track all of our agent accounts/subscriptions being used and flag any that have training turned on: https://github"
     }
    ],
-   "checkedAt": "2026-11-19T20:32:00.006Z",
+   "checkedAt": "2026-11-26T21:28:41.257Z",
    "meta": {
     "name": "codealong",
     "fullName": "codealong/codealong",
     "description": "Every coding agent you run, in one window: a free, open-source app for macOS and Linux for Claude Code, Codex, OpenCode, Antigravity and Cursor, across your accounts and machines.",
     "homepage": "https://www.codealong.com",
-    "stars": 71,
+    "stars": 74,
     "language": "Rust",
     "topics": [
      "claude-code",
@@ -157415,7 +157479,7 @@
     "license": "Apache-2.0",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-19T20:18:26Z"
+    "pushedAt": "2026-11-26T20:43:42Z"
    },
    "listedAt": "2026-11-05T06:41:36.224Z"
   },
@@ -157458,13 +157522,13 @@
      "snippet": "- slghtly offtopic but also covers how to run windows 11 super duper optimally - here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]("
     }
    ],
-   "checkedAt": "2026-11-19T20:32:01.718Z",
+   "checkedAt": "2026-11-26T21:28:42.894Z",
    "meta": {
     "name": "fnm",
     "fullName": "Schniz/fnm",
     "description": "🚀 Fast and simple Node.js version manager, built in Rust",
     "homepage": "https://fnm.vercel.app",
-    "stars": 27453,
+    "stars": 27520,
     "language": "Rust",
     "topics": [
      "hacktoberfest",
@@ -157498,13 +157562,13 @@
      "snippet": "- slghtly offtopic but also covers how to run windows 11 super duper optimally - here is my production grade setup for agentic ai on windows 11 - setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/ - [download window 11 x64 iso from here ]("
     }
    ],
-   "checkedAt": "2026-11-19T20:32:02.032Z",
+   "checkedAt": "2026-11-26T21:28:43.105Z",
    "meta": {
     "name": "jvms",
     "fullName": "ystyle/jvms",
     "description": "JDK Version Manager (JVMS) for Windows",
     "homepage": null,
-    "stars": 1039,
+    "stars": 1040,
     "language": "Go",
     "topics": [],
     "license": "MIT",
@@ -160327,19 +160391,19 @@
      "snippet": "I use https://github.com/emberian/cv all day every day for slicing and dicing agent transcripts. Streaming/in-place when possible, supports all the harnesses, indexing and search as well with tantivy. Custom pruning and compaction saved 40% of tokens in one recent evaluation of a"
     }
    ],
-   "checkedAt": "2026-11-19T20:32:02.351Z",
+   "checkedAt": "2026-11-26T21:28:43.343Z",
    "meta": {
     "name": "cv",
     "fullName": "emberian/cv",
     "description": "agents can read each others minds (session logs)",
     "homepage": "https://emberian.github.io/cv/",
-    "stars": 25,
+    "stars": 26,
     "language": "Rust",
     "topics": [],
     "license": null,
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-15T10:57:32Z"
+    "pushedAt": "2026-11-25T17:14:29Z"
    }
   },
   "renves/b3quant": {
@@ -160951,12 +161015,55 @@
    "mentions": [
     {
      "source": "HN comment",
+     "author": "jakswa",
+     "url": "https://news.ycombinator.com/item?id=50658314",
+     "date": "2026-11-26T18:48:56Z",
+     "snippet": "Oh it's ruben! Thank you for publishing your work. I was randomly running \"ruben llama\" for a couple days :D And the article does a great job describing my situation lately -- I think I was earlier in your speed curves, and ended up finding a little more speed from Maya https://g"
+    },
+    {
+     "source": "HN comment",
      "author": "renwujun",
      "url": "https://news.ycombinator.com/item?id=50435182",
      "date": "2026-11-10T02:05:11Z",
      "snippet": "I have seen potential in combining Strix Halo's iGPU with RTX 5090 for LLM inferencing. Initially I found no inference engine that can run LLM inference on both these GPUs at the same time, inference engine such as vLLM support inference on all CUDA GPUs, or all AMD GPUs. llama.c"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-26T21:28:43.548Z",
+   "meta": {
+    "name": "project-maya",
+    "fullName": "mw00/project-maya",
+    "description": "Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B), Hy4-Flash (220B) and Inkling 2 Mini (26B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.",
+    "homepage": "https://huggingface.co/peasantsmith",
+    "stars": 3396,
+    "language": "Cuda",
+    "topics": [
+     "anthropic-api",
+     "cuda",
+     "deepseek",
+     "gguf",
+     "glm",
+     "hy4-flash",
+     "inkling",
+     "llm",
+     "llm-inference",
+     "local-llm",
+     "minimax",
+     "mixture-of-experts",
+     "moe",
+     "openai-api",
+     "quantization",
+     "rocm",
+     "self-hosted",
+     "strix-halo",
+     "tencent",
+     "windows"
+    ],
+    "license": "MIT",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-25T21:45:29Z"
+   },
+   "listedAt": "2026-11-26T21:28:44.086Z"
   },
   "0xerwin1/dbflux": {
    "mentions": [
@@ -166016,12 +166123,38 @@
    "mentions": [
     {
      "source": "HN front page",
+     "author": "_alternator_",
+     "url": "https://news.ycombinator.com/item?id=50651627",
+     "date": "2026-11-26T04:59:56Z",
+     "snippet": "Unconditional Integer Factorization in Subexponential Time (136 points)"
+    },
+    {
+     "source": "HN front page",
      "author": "rgwohlbold",
      "url": "https://news.ycombinator.com/item?id=50642086",
      "date": "2026-11-25T13:33:07Z",
      "snippet": "Google releases Cogentic papers on integer factorization, discrete logs and more (396 points)"
     }
-   ]
+   ],
+   "checkedAt": "2026-11-26T21:28:43.783Z",
+   "meta": {
+    "name": "google-research",
+    "fullName": "google-research/google-research",
+    "description": "Google Research",
+    "homepage": "https://research.google",
+    "stars": 39519,
+    "language": "Jupyter Notebook",
+    "topics": [
+     "ai",
+     "machine-learning",
+     "research"
+    ],
+    "license": "Apache-2.0",
+    "archived": false,
+    "fork": false,
+    "pushedAt": "2026-11-26T08:37:24Z"
+   },
+   "listedAt": "2026-11-26T21:28:44.086Z"
   },
   "xoxorwr/pw-loudness-eq": {
    "mentions": [
@@ -166196,6 +166329,138 @@
      "url": "https://news.ycombinator.com/item?id=50648050",
      "date": "2026-11-25T21:48:10Z",
      "snippet": "Much shorter version of GRH Lean verification from Anthropic (428 points)"
+    }
+   ]
+  },
+  "osahum/llama.cpp-rdna3": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "noir_lord",
+     "url": "https://news.ycombinator.com/item?id=50659978",
+     "date": "2026-11-26T21:24:07Z",
+     "snippet": "https://github.com/osahum/llama.cpp-rdna3 is great if you have a 7900XTX (or rdna3 card) - more than doubled vs stock llama what I got with my 7900XTX"
+    }
+   ]
+  },
+  "canonical/ubuntu-sans-mono-fonts": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "eahm",
+     "url": "https://news.ycombinator.com/item?id=50658084",
+     "date": "2026-11-26T18:27:44Z",
+     "snippet": "You should try Ubuntu Sans Mono next. https://github.com/canonical/Ubuntu-Sans-Mono-fonts https://fonts.google.com/specimen/Ubuntu+Sans+Mono?preview.t... I think Hack, Ubuntu Mono and Ubuntu Sans Mono are the best FOSS ones after Consolas. I also use Google Sans Code for some oth"
+    }
+   ]
+  },
+  "fzakaria/tabc": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "setheron",
+     "url": "https://news.ycombinator.com/item?id=50657025",
+     "date": "2026-11-26T16:48:02Z",
+     "snippet": "so funny, I just published https://github.com/fzakaria/tabc and wrote about it https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-... *edit: love seeing the stuff unkernel and trynix can demonstrate. Let me know what you think of tabc :)"
+    }
+   ]
+  },
+  "shyim/lite4mariadb": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "t3ntxcles",
+     "url": "https://news.ycombinator.com/item?id=50655586",
+     "date": "2026-11-26T14:20:24Z",
+     "snippet": "There are a couple of very early attempts. lite4mariadb ( https://github.com/shyim/lite4mariadb ) compiles MariaDB's embedded server (InnoDB) to WASM with a PGlite-style API and IndexedDB persistence, and mysql-wasm ( https://github.com/benmerckx/mysql-wasm ) does the same for My"
+    }
+   ]
+  },
+  "benmerckx/mysql-wasm": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "t3ntxcles",
+     "url": "https://news.ycombinator.com/item?id=50655586",
+     "date": "2026-11-26T14:20:24Z",
+     "snippet": "There are a couple of very early attempts. lite4mariadb ( https://github.com/shyim/lite4mariadb ) compiles MariaDB's embedded server (InnoDB) to WASM with a PGlite-style API and IndexedDB persistence, and mysql-wasm ( https://github.com/benmerckx/mysql-wasm ) does the same for My"
+    }
+   ]
+  },
+  "radiosilence/fastmail-cli": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "antihero",
+     "url": "https://news.ycombinator.com/item?id=50654612",
+     "date": "2026-11-26T12:33:42Z",
+     "snippet": "Thanks for making an official MCP server! I do also maintain an OSS one that you can self-host which does more :) I may need to update the feature matrix if you've added more things to the official one. https://github.com/radiosilence/fastmail-cli"
+    }
+   ]
+  },
+  "systemaccounting/gradienterp": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "mxfactorial",
+     "url": "https://news.ycombinator.com/item?id=50658108",
+     "date": "2026-11-26T18:30:05.000Z",
+     "snippet": "> What are people my age doing these days? preparing a handoff to the next generation theyll sink if handed a political economy theyll stay afloat with plenty of room to swim if handed a data economy https://github.com/systemaccounting/gradienterp"
+    }
+   ]
+  },
+  "chenglou/freerange": {
+   "mentions": [
+    {
+     "source": "Ask HN",
+     "author": "iamwil",
+     "url": "https://news.ycombinator.com/item?id=50649986",
+     "date": "2026-11-26T00:58:47.000Z",
+     "snippet": "I suspect much of it is not visible and private for the time being. Cheng Lou has a couple that I think isn't just a regurgitation of what's come before. Handwired is especially awesome the deeper you go. - Handwired: https://chenglou.me/handwired/ - Freerange: https://github.com"
+    }
+   ]
+  },
+  "gary23w/f-ck_data_brokers": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "gary23w",
+     "url": "https://news.ycombinator.com/item?id=50658191",
+     "date": "2026-11-26T18:37:21Z",
+     "snippet": "Show HN: Fuck_data_brokers.py (121 points)"
+    }
+   ]
+  },
+  "antonpictures/youtube-punisher": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "iantongeorge",
+     "url": "https://news.ycombinator.com/item?id=50657530",
+     "date": "2026-11-26T17:36:47Z",
+     "snippet": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays (136 points)"
+    }
+   ]
+  },
+  "samueleverett01/bss-permanent-separations": {
+   "mentions": [
+    {
+     "source": "HN front page",
+     "author": "sameverett",
+     "url": "https://news.ycombinator.com/item?id=50657059",
+     "date": "2026-11-26T16:50:55Z",
+     "snippet": "NP_R ≠ PAR_R (122 points)"
+    }
+   ]
+  },
+  "alpaq92/chmate": {
+   "mentions": [
+    {
+     "source": "Lobsters",
+     "author": "lobsters:ssokolow",
+     "url": "https://lobste.rs/c/jgwpsg",
+     "date": "2026-11-26T03:05:51.287-06:00",
+     "snippet": "Nice!\r\n\r\nI'll have to try compiling it to WebAssembly and hooking it up alongside [CHMate](https://github.com/Alpaq92/CHMate) the next time I'm working on my experiments to build a more workflow-appropriate frontend for [Recoll](https://recoll.org/) to see how close I can get to "
     }
    ]
   }
@@ -167083,17 +167348,20 @@
   "50444380": 1795558965326,
   "50484421": 1795680652538,
   "50488230": 1795680651756,
-  "50494696": 1795680651706,
-  "50510042": 1795680652070,
-  "50513451": 1795680651824,
-  "50520076": 1795680652346,
-  "50555002": 1795680651662,
-  "50565484": 1795680652110,
-  "50577613": 1795680651870,
-  "50583761": 1795680652595,
-  "50600771": 1795680652127,
-  "50622809": 1795680651495,
-  "50630809": 1795680651915,
-  "50649864": 1795680651569
+  "50494696": 1795728476457,
+  "50510042": 1795728476806,
+  "50513451": 1795728476690,
+  "50520076": 1795728477154,
+  "50555002": 1795728476598,
+  "50565484": 1795728476710,
+  "50577613": 1795728476771,
+  "50583761": 1795728477455,
+  "50600771": 1795728476955,
+  "50622809": 1795728476389,
+  "50630809": 1795728476520,
+  "50643767": 1795728477098,
+  "50649864": 1795728476566,
+  "50655664": 1795728476303,
+  "50657957": 1795728477031
  }
 }
