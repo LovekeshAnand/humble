@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T21:13:58.089Z",
+ "updatedAt": "2026-11-28T07:42:51.365Z",
  "tools": {
   "livinglist/hacki": {
    "mentions": [
@@ -57623,13 +57623,13 @@
      "snippet": "Pop OS, combined with \"Toshy\" for using Mac keyboard shortcuts. I find this is a really comprehensive translation of Mac shortcuts, even cmd+shift+{} works for moving between tabs. I use my Keychron keyboard in Mac mode retaining all the same muscle memory. https://github.com/Red"
     }
    ],
-   "checkedAt": "2026-11-21T07:02:31.646Z",
+   "checkedAt": "2026-11-28T07:42:50.053Z",
    "meta": {
     "name": "Toshy",
     "fullName": "RedBearAK/Toshy",
     "description": "Keymapper config to make Linux keyboard shortcuts work like a 'Tosh! And more. (A Kinto alternative.)",
     "homepage": "https://toshy.app",
-    "stars": 1332,
+    "stars": 1339,
     "language": "Python",
     "topics": [],
     "license": "GPL-3.0",
@@ -100430,7 +100430,7 @@
      "snippet": "You might find this interesting: https://github.com/donnemartin/haxor-news"
     }
    ],
-   "checkedAt": "2026-11-21T07:02:31.878Z",
+   "checkedAt": "2026-11-28T07:42:50.309Z",
    "meta": {
     "name": "haxor-news",
     "fullName": "donnemartin/haxor-news",
@@ -118537,13 +118537,13 @@
      "snippet": "Harmony: OpenAI's response format for its open-weight model series (374 points)"
     }
    ],
-   "checkedAt": "2026-11-21T07:02:32.102Z",
+   "checkedAt": "2026-11-28T07:42:50.568Z",
    "meta": {
     "name": "harmony",
     "fullName": "openai/harmony",
     "description": "Renderer for the harmony response format to be used with gpt-oss",
     "homepage": null,
-    "stars": 4548,
+    "stars": 4547,
     "language": "Rust",
     "topics": [],
     "license": "Apache-2.0",
@@ -154494,19 +154494,19 @@
      "snippet": "Babun I'm surprised nobody mentioned Babun, \"a windows shell you will love\". It's a preconfigured Cygwin that \"just works\", generally quite awesome out of the box. For a long time I used Git Bash (prettified with Console2), but I felt it quite lacking. I wanted more, but I was qu"
     }
    ],
-   "checkedAt": "2026-11-21T07:02:32.311Z",
+   "checkedAt": "2026-11-28T07:42:50.783Z",
    "meta": {
     "name": "mintty",
     "fullName": "mintty/mintty",
     "description": "The Cygwin Terminal – terminal emulator for Cygwin, MSYS, and WSL",
     "homepage": "http://mintty.github.io/",
-    "stars": 1801,
+    "stars": 1803,
     "language": "C",
     "topics": [],
     "license": null,
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-14T09:05:03Z"
+    "pushedAt": "2026-11-28T00:30:47Z"
    }
   },
   "babun/babun": {
@@ -158289,13 +158289,13 @@
      "snippet": "I'm juggling multiple claude ultra subs, multiple codex $500 a month subs, antigravity for argon, plus API rate deepseek 4.1 flash, mercury 3, and abliterated large v2 for red teaming. I work across multiple models and harnesses using a really simple redis-backed message bus call"
     }
    ],
-   "checkedAt": "2026-11-21T07:02:32.835Z",
+   "checkedAt": "2026-11-28T07:42:51.044Z",
    "meta": {
     "name": "nova-sprint",
     "fullName": "mas-bandwidth/nova-sprint",
     "description": "Coordinate AI sprints across different models, harnesses and machines.",
     "homepage": "https://github.com/mas-bandwidth/nova-sprint/blob/main/docs/README.md",
-    "stars": 22,
+    "stars": 23,
     "language": "Go",
     "topics": [
      "ai-coding",
@@ -158321,7 +158321,7 @@
     "license": "MIT",
     "archived": false,
     "fork": false,
-    "pushedAt": "2026-11-17T14:34:10Z"
+    "pushedAt": "2026-11-27T20:17:26Z"
    },
    "listedAt": "2026-11-07T05:55:10.002Z"
   },
@@ -160434,6 +160434,13 @@
     {
      "source": "HN comment",
      "author": "yababa_y",
+     "url": "https://news.ycombinator.com/item?id=50672568",
+     "date": "2026-11-27T23:07:05Z",
+     "snippet": "(but beyond what siblings said, that's what motivated me to build https://github.com/emberian/cv . it's also great for making custom trajectories that splice the best out of several sessions. rewind&regenerate-with-oracle-advice is a more reliable workflow than refactor-and-conti"
+    },
+    {
+     "source": "HN comment",
+     "author": "yababa_y",
      "url": "https://news.ycombinator.com/item?id=50461834",
      "date": "2026-11-12T01:32:29Z",
      "snippet": "I've been maintaining a tool that does similar: https://github.com/emberian/cv . High performance parsers of the major harness formats at several versions. Not as much autosyncing. Great results using custom prunings compared to compaction summarization."
@@ -161750,6 +161757,13 @@
   },
   "gentraxyz/scoutcode": {
    "mentions": [
+    {
+     "source": "HN comment",
+     "author": "gentra",
+     "url": "https://news.ycombinator.com/item?id=50673054",
+     "date": "2026-11-28T00:21:18Z",
+     "snippet": "Scout is a free open source Grok Bot alternative It does everything Grok Bot does but free with it's own free VM provider It replaces paid APIs with alternatives. Like replacing X with Bluesky, Mastadon, and Dev.to Check it out! https://scoutcode.dev https://github.com/gentraxyz/"
+    },
     {
      "source": "HN comment",
      "author": "gentra",
@@ -166935,6 +166949,83 @@
      "snippet": "📢 Woohoo! Version v6.7.12 of Firefly III has just been released! 🎉 Firefly III is a free and open source personal finance manager with great budgeting options. This release fixes several (security) issues and introduces a sankey chart. Check it out over at GitHub, Docker, or do"
     }
    ]
+  },
+  "pojntfx/webnetes": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "d_philla",
+     "url": "https://news.ycombinator.com/item?id=50674760",
+     "date": "2026-11-28T04:41:45Z",
+     "snippet": "Check out the pre-ai version, webnetes https://github.com/pojntfx/webnetes , when things like this were actually difficult to bring to the world, through sheer will and creativity :)"
+    }
+   ]
+  },
+  "milos-agathon/forge3d": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "tylermw",
+     "url": "https://news.ycombinator.com/item?id=50672400",
+     "date": "2026-11-27T22:39:51Z",
+     "snippet": "LLMs are great at data ingestion, but far less reliable at creating beautiful output. Tools like rayshader cut down the model’s creative degrees of freedom, which is exactly what it needs to get good artistic results consistently. And you don’t have to bundle those libraries with"
+    }
+   ]
+  },
+  "cyamba/yamba-ai-math": {
+   "mentions": [
+    {
+     "source": "HN comment",
+     "author": "cyamba",
+     "url": "https://news.ycombinator.com/item?id=50671994",
+     "date": "2026-11-27T21:46:24Z",
+     "snippet": "Also check out https://github.com/cyamba/yamba-ai-math for some Goldbach Conjecture fun! :)"
+    }
+   ]
+  },
+  "adefossez/demucs": {
+   "mentions": [
+    {
+     "source": "Stack Exchange",
+     "author": "se:William",
+     "url": "https://superuser.com/a/1941875",
+     "date": "2026-11-28T07:28:06.000Z",
+     "snippet": "The SoX oops effect (left minus right) removes what is centred, but you can't reverse it to keep only the centred part: the vocal shares the centre with kick, bass and snare, so mixing the \"oops\" output back with the original just gives you a louder or quieter version of the mix."
+    }
+   ]
+  },
+  "deezer/spleeter": {
+   "mentions": [
+    {
+     "source": "Stack Exchange",
+     "author": "se:William",
+     "url": "https://superuser.com/a/1941875",
+     "date": "2026-11-28T07:28:06.000Z",
+     "snippet": "The SoX oops effect (left minus right) removes what is centred, but you can't reverse it to keep only the centred part: the vocal shares the centre with kick, bass and snare, so mixing the \"oops\" output back with the original just gives you a louder or quieter version of the mix."
+    }
+   ]
+  },
+  "wgtunnel/android": {
+   "mentions": [
+    {
+     "source": "Lemmy",
+     "author": "lemmy:https://lemmy.blahaj.zone/u/chattre",
+     "url": "https://lemmy.blahaj.zone/comment/23442295",
+     "date": "2026-11-28T02:08:08.327308Z",
+     "snippet": "I use [this Wireguard image](https://docs.linuxserver.io/images/docker-wireguard/#docker-compose-recommended-click-here-for-more-info). it's easy to set up and you can set unlimited peers (devices). I have most of my services on my reverse proxy so I can access them without a VPN"
+    }
+   ]
+  },
+  "ovh/canary-ng": {
+   "mentions": [
+    {
+     "source": "Fosstodon",
+     "author": "mastodon:jriou@hachyderm.io",
+     "url": "https://hachyderm.io/@jriou/117692655736545299",
+     "date": "2026-11-28T06:30:08.000Z",
+     "snippet": "Yesterday, I plugged our open source tool called Canary NG to measure the availability and latency of our database endpoints on one of our etcd clusters. Naively, I thought it would be a good option to use password authentication, like any database management system out there. Th"
+    }
+   ]
   }
  },
  "hnThreads": {
@@ -167822,22 +167913,22 @@
   "50444380": 1795558965326,
   "50484421": 1795680652538,
   "50488230": 1795813991585,
-  "50494696": 1795813991594,
-  "50510042": 1795813991598,
-  "50513451": 1795813991911,
-  "50520076": 1795813992403,
-  "50555002": 1795813991595,
-  "50565484": 1795813991970,
-  "50577613": 1795813992085,
-  "50583761": 1795813992641,
-  "50600771": 1795813992439,
-  "50622809": 1795813991550,
-  "50630809": 1795813992029,
-  "50643310": 1795813991687,
-  "50643767": 1795813992431,
-  "50649864": 1795813991982,
-  "50655664": 1795813991411,
-  "50656763": 1795813992097,
-  "50657957": 1795813992312
+  "50494696": 1795851739923,
+  "50510042": 1795851740414,
+  "50513451": 1795851740515,
+  "50520076": 1795851740848,
+  "50555002": 1795851740286,
+  "50565484": 1795851740742,
+  "50577613": 1795851740277,
+  "50583761": 1795851740783,
+  "50600771": 1795851740838,
+  "50622809": 1795851740215,
+  "50630809": 1795851740291,
+  "50643310": 1795851740198,
+  "50643767": 1795851740849,
+  "50649864": 1795851740248,
+  "50655664": 1795851739686,
+  "50656763": 1795851740152,
+  "50657957": 1795851740716
  }
 }
